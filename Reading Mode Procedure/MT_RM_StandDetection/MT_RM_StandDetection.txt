@@ -1,0 +1,28 @@
+EnterSP
+Send $CSMSD00
+Send $CSMFL01
+Send $CSNRM00
+Send $CDDBE01
+ExitSP
+ReadLP PutHHOnBase
+Send D 
+ReadLP SendD
+Send F 
+ReadLP SendF
+Send E
+ReadLP SendE
+Read $P
+ReadLP Read$P
+ReadLP GetHHOutBase
+ReadLP PutHHOnBase1
+Read UPCA
+Read $P
+ReadLP GetHHOutBase1
+Send R 
+ReadLP SendR
+ReadLP PutHHOnBase
+Send $S,AE,s
+ReadLP check
+EnterSP
+Send $El
+ExitSP

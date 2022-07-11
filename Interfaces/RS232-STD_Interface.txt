@@ -1,0 +1,6 @@
+Name: RS232-STD
+Tag config: 05
+Baud rate: 115200
+Parity: None
+Data bit: 8
+Stop bit: 1

@@ -1,0 +1,26 @@
+EnterSP
+Send $HA4D
+Send $Ar
+ChangeInterfaceTo USB-Composite
+EnterSP
+Send $hA
+ExitSP
+Read UPCA_123456789012
+Read $S
+Send $cEBEN
+Send $AR
+Send $Er
+ExitSP
+Read RevA
+Read Datamatrix_100characters
+EnterSP
+CheckReset
+Send $CR2IC63
+Send $CR2HC01
+Send $CR2AE01
+Send $Ar
+Read UPCA_123456789012
+EnterSP
+Send $HA47
+Send $Ar
+ChangeInterfaceTo USB-COM

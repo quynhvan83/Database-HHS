@@ -1,0 +1,3 @@
+OpenFromDesktop Scanalyzer
+FocusAppWindow  Scanalyzer
+ClickElement Connect to Scanner...

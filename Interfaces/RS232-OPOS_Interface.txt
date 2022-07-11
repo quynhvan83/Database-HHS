@@ -1,0 +1,6 @@
+Name: RS232-OPOS
+Tag config: 13
+Baud rate: 115200
+Parity: None
+Data bit: 8
+Stop bit: 1

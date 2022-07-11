@@ -1,0 +1,18 @@
+Expected Result
+$>
+$>
+$>
+$>
+$>[GUN]
+$>[GUN]
+$>[GUN]
+$>[GUN]
+$>[GUN]
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK

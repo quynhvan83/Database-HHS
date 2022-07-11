@@ -1,0 +1,15 @@
+
+
+
+Verify that illuminator has very HIGH intensity.
+
+
+
+Verify that illuminator OFF.
+
+
+
+Verify that illuminator has very LOW intensity.
+
+
+

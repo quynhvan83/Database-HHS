@@ -1,0 +1,2 @@
+Name: USB-HID-POS
+Tag config: 44

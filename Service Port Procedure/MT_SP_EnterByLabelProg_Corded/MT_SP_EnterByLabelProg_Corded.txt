@@ -1,0 +1,8 @@
+ReadLP $S
+ChangeBaud 115200
+Send $HA29,Ar
+ReadLP $S
+ChangeBaud 115200
+Send $hA
+SetInterface
+ExitSP

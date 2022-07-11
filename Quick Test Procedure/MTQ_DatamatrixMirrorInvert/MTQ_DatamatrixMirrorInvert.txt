@@ -1,0 +1,36 @@
+Read $P,CDMEN01,P
+Read $P,CDMDM3FFFFFFF,P
+Read $P,CIPNR02,P
+Read $P,CARMR00,P
+Read Invert Normal Datamatrix SQUARE
+Read Invert Normal Datamatrix RECTANGLULAR
+Read Mirror Datamatrix flipped vertical SQUARE
+Read Invert Mirror Datamatrix flipped vertical SQUARE
+Read Mirror Datamatrix flipped vertical RECTANGULAR
+Read Invert Mirror Datamatrix flipped vertical RECTANGULAR
+Read Mirror Datamatrix flipped horizontal SQUARE
+Read Invert Mirror Datamatrix flipped horizontal  SQUARE
+Read Mirror Datamatrix flipped horizontal RECTANGULAR
+Read Invert Mirror Datamatrix flipped horizontal RECTANGULAR
+Read $P,CARMR01,P_INVERSE
+Read Invert Normal Datamatrix SQUARE
+Read Invert Normal Datamatrix RECTANGLULAR
+Read Mirror Datamatrix flipped vertical SQUARE
+Read Invert Mirror Datamatrix flipped vertical SQUARE
+Read Mirror Datamatrix flipped vertical RECTANGULAR
+Read Invert Mirror Datamatrix flipped vertical RECTANGULAR
+Read Mirror Datamatrix flipped horizontal SQUARE
+Read Invert Mirror Datamatrix flipped horizontal  SQUARE
+Read Mirror Datamatrix flipped horizontal RECTANGULAR
+Read Invert Mirror Datamatrix flipped horizontal RECTANGULAR
+Read $P,CARMR02,P_INVERSE
+Read Invert Normal Datamatrix SQUARE
+Read Invert Normal Datamatrix RECTANGLULAR
+Read Mirror Datamatrix flipped vertical SQUARE
+Read Invert Mirror Datamatrix flipped vertical SQUARE
+Read Mirror Datamatrix flipped vertical RECTANGULAR
+Read Invert Mirror Datamatrix flipped vertical RECTANGULAR
+Read Mirror Datamatrix flipped horizontal SQUARE
+Read Invert Mirror Datamatrix flipped horizontal  SQUARE
+Read Mirror Datamatrix flipped horizontal RECTANGULAR
+Read Invert Mirror Datamatrix flipped horizontal RECTANGULAR

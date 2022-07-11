@@ -1,0 +1,35 @@
+EnterSP
+Send $cBTDB
+ExitSP
+Read RemovePowerSupplyOfBase
+WaitSecond 5000
+Read ApplyPowerSupplyOfBase
+WaitSecond 5000
+Send $S,CBTDB01,Ar
+Send R
+Read $P,CABEN00,P
+Read UPCA_123456789012
+Send $S,CEBEN00,Ar
+Read UPCE_123456789012
+Read RemovePowerSupplyOfBase
+WaitSecond 5000
+Read ApplyPowerSupplyOfBase
+WaitSecond 5000
+Read MoveHHOutRange
+WaitSecond 10000
+Read MoveHHInRange
+WaitSecond 10000
+Send $S,CBTDB00,Ar
+Send R
+Read $P,CABEN00,P
+Read UPCA_123456789012
+Send $S,CEBEN00,Ar
+Read UPCE_123456789012
+Read RemovePowerSupplyOfBase
+WaitSecond 5000
+Read ApplyPowerSupplyOfBase
+WaitSecond 5000
+Read MoveHHOutRange
+WaitSecond 10000
+Read MoveHHInRange
+WaitSecond 10000

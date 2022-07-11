@@ -1,0 +1,8 @@
+OpenByPath C:\Users\vtvu\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools\Command Prompt.exe
+FocusAppWindow Command Prompt - 1 running window
+Version_Java ddd
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $Ar
+Read Code128_AbCdEfUvWxYz

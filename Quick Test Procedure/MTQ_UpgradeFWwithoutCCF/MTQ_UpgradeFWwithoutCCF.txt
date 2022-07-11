@@ -1,0 +1,12 @@
+Read $P,HA05,P
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\task\build\BETA_BLR_PEGASUS_STAR_CRADLE_MERGE_25\pegasus_app_star\610159025.dfw
+ChangeToWindow Serviceport - 1 running window
+Read $P,HA47,P
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+ExitSP

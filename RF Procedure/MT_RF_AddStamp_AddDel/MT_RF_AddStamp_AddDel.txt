@@ -1,0 +1,6 @@
+ScanLP $P,CBTAS01,P
+Read UPCA
+ScanLP $P,CBTAD3F,P
+Read UPCA
+ScanLP $P,CBTAS00,P
+Read UPCA

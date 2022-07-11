@@ -1,0 +1,4 @@
+
+
+- Beep: No emit any beep. - Lamp: blink continuously in a random pattern. Stays on while FLASH device is programmed.
+- Upgrade firmware for HH via Radio. Verify that HH will indicate enter Boot loader: -	Beep:•	Count: 4•	Frequency: highest•	Volume: current•	Duration 200ms on/200ms off. - Lamp: is set to continuously blink in a random pattern. Stays on while FLASH device is being programmed.

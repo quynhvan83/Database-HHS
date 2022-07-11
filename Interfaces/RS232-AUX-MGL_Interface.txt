@@ -1,0 +1,2 @@
+Name: RS232-AUX-MGL
+Tag config: 43

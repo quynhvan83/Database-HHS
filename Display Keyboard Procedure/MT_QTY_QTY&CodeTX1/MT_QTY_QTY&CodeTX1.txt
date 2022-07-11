@@ -1,0 +1,24 @@
+EnterSP
+Send $CKF1102
+Send $CPWEP53310000000000000000000000000000
+Send $CDISM01
+Send $CPWFW02
+Send $Ar
+Read Check QTY Transmission 1
+Read Check QTY Transmission 2
+Read Check QTY Transmission 3
+Read Check QTY Transmission 4
+Send $S,CPWEK01,Ar
+Read Check QTY Transmission 5
+Send $S,CDICM00,Ar
+Read Check QTY Transmission 6
+Read Check QTY Transmission 7
+Read Check QTY Transmission 8
+Send $S,CPWEK02,Ar
+Read Check QTY Transmission 9
+Read Check QTY Transmission 10
+Read Check QTY Transmission 11
+Read Check QTY Transmission 12
+Read Check QTY Transmission 13
+Read Check QTY Transmission 14
+Read Check QTY Transmission 15

@@ -1,0 +1,15 @@
+EnterSP
+Send $cIPWL 
+ExitSP
+Read TriggerHH
+Wait_second 300
+Read UPCA_123456789012
+Send $S,CIPWL00,Ar
+Read TriggerHH
+Wait_second 300
+Read UPCA_123456789012
+Send $S,CIPWL05,Ar
+Read TriggerHH
+Wait_second 300
+Read UPCA_123456789012
+Send $S,CIPWL65,Ar

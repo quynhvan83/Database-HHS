@@ -1,0 +1,810 @@
+$>
+$>
+$>
+$>
+$>
+$>
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+
+2 LSHIFT LCTRL 
+OK
+
+A LCTRL
+OK
+
+B LCTRL
+OK
+
+C LCTRL
+OK
+
+D LCTRL
+OK
+
+E LCTRL
+OK
+
+F LCTRL
+OK
+
+G LCTRL
+OK
+
+BS
+OK
+
+TAB
+OK
+
+J LCTRL
+OK
+
+K LCTRL
+OK
+
+L LCTRL
+OK
+
+Enter
+OK
+
+N LCTRL
+OK
+
+O LCTRL
+OK
+
+P LCTRL
+OK
+
+Q LCTRL
+OK
+
+R LCTRL
+OK
+
+S LCTRL
+OK
+
+T LCTRL
+OK
+
+U LCTRL
+OK
+
+V LCTRL
+OK
+
+W LCTRL
+OK
+
+X LCTRL
+OK
+
+Y LCTRL
+OK
+
+Z LCTRL
+OK
+
+Esc
+OK
+
+\\ LCTRL
+OK
+
+] LCTRL
+OK
+
+6 LSHIFT LCTRL 
+OK
+
+- LSHIFT LCTRL
+OK
+OK
+ !”#$%&’()*+,-./
+0123456789:;<=>?
+@ABCDEFGHIJKLMNO
+PQRSTUVWXYZ[\]^_
+`abcdefghijklmno
+pqrstuvwxyz{|}~<Del>
+€
+OK
+OK
+
+Shift Press(Ignore defect 110052)
+OK
+
+Shift Release(Ignore defect 110052)
+OK
+
+Ins
+OK
+
+EnterN
+OK
+
+F1
+OK
+
+F2
+OK
+
+F3
+OK
+
+F4
+OK
+
+F5
+OK
+
+F6
+OK
+
+F7
+OK
+
+F8
+OK
+
+F9
+OK
+
+F10
+OK
+
+F11
+OK
+
+F12
+OK
+
+Home
+OK
+
+End
+OK
+
+PgUp
+OK
+
+PgDn
+OK
+
+Up
+OK
+
+Down
+OK
+
+Left
+OK
+
+Right
+OK
+
+Alt Right Press(Ignore defect 110052)
+OK
+
+Alt Right Release(Ignore defect 110052)
+OK
+
+Alt Left Press(Ignore defect 110052)
+OK
+
+Alt Left Release(Ignore defect 110052)
+OK
+
+Ctrl Left Press(Ignore defect 110052)
+OK
+
+Ctrl Right Press(Ignore defect 110052)
+OK
+
+Ctrl Right Press(Ignore defect 110052)
+OK
+
+Ctrl Right Release(Ignore defect 110052)
+OK
+
+1n 6n 1n 0n LALT
+OK
+
+2n 6n 1n 0n LALT
+OK
+
+3n 6n 1n 0n LALT
+OK
+
+4n 6n 1n 0n LALT
+OK
+
+5n 6n 1n 0n LALT
+OK
+
+6n 6n 1n 0n LALT
+OK
+
+7n 6n 1n 0n LALT
+OK
+
+8n 6n 1n 0n LALT
+OK
+
+9n 6n 1n 0n LALT
+OK
+
+0n 7n 1n 0n LALT
+OK
+
+1n 7n 1n 0n LALT
+OK
+
+2n 7n 1n 0n LALT
+OK
+
+3n 7n 1n 0n LALT
+OK
+
+4n 7n 1n 0n LALT
+OK
+
+5n 7n 1n 0n LALT
+OK
+
+9n 0n 2n 0n LALT
+OK
+OK
+°±²³´µ¶·
+¸¹º»¼½¾¿
+ÀÁÂÃÄÅÆÇ
+ÈÉÊËÌÍÎÏ
+ÐÑÒÓÔÕÖ×
+ØÙÚÛÜÝÞß
+àáâãäåæç
+èéêëìíîï
+ðñòóôõö÷
+øùúûüýþÿ
+$>
+$>
+$>
+OK
+OK
+
+2 LSHIFT LCTRL 
+OK
+
+A LSHIFT LCTRL
+OK
+
+B LSHIFT LCTRL
+OK
+
+C LSHIFT LCTRL
+OK
+
+D LSHIFT LCTRL
+OK
+
+E LSHIFT LCTRL
+OK
+
+F LSHIFT LCTRL
+OK
+
+G LSHIFT LCTRL
+OK
+
+BS
+OK
+
+TAB
+OK
+
+J LSHIFT LCTRL
+OK
+
+K LSHIFT LCTRL
+OK
+
+L LSHIFT LCTRL
+OK
+
+Enter
+OK
+
+N LSHIFT LCTRL
+OK
+
+O LSHIFT LCTRL
+OK
+
+P LSHIFT LCTRL
+OK
+
+Q LSHIFT LCTRL
+OK
+
+R LSHIFT LCTRL
+OK
+
+S LSHIFT LCTRL
+OK
+
+T LSHIFT LCTRL
+OK
+
+U LSHIFT LCTRL
+OK
+
+V LSHIFT LCTRL
+OK
+
+W LSHIFT LCTRL
+OK
+
+X LSHIFT LCTRL
+OK
+
+Y LSHIFT LCTRL
+OK
+
+Z LSHIFT LCTRL
+OK
+
+Esc
+OK
+
+\\ LCTRL
+OK
+
+] LCTRL
+OK
+
+6 LSHIFT LCTRL 
+OK
+
+- LSHIFT LCTRL
+OK
+OK
+ !”#$%&’()*+,-./
+0123456789:;<=>?
+@ABCDEFGHIJKLMNO
+PQRSTUVWXYZ[\]^_
+`abcdefghijklmno
+pqrstuvwxyz{|}~<Del>
+€
+OK
+OK
+
+Shift Press(Ignore defect 110052)
+OK
+
+Shift Release(Ignore defect 110052)
+OK
+
+Ins
+OK
+
+EnterN
+OK
+
+F1
+OK
+
+F2
+OK
+
+F3
+OK
+
+F4
+OK
+
+F5
+OK
+
+F6
+OK
+
+F7
+OK
+
+F8
+OK
+
+F9
+OK
+
+F10
+OK
+
+F11
+OK
+
+F12
+OK
+
+Home
+OK
+
+End
+OK
+
+PgUp
+OK
+
+PgDn
+OK
+
+Up
+OK
+
+Down
+OK
+
+Left
+OK
+
+Right
+OK
+
+Alt Right Press(Ignore defect 110052)
+OK
+
+Alt Right Release(Ignore defect 110052)
+OK
+
+Alt Left Press(Ignore defect 110052)
+OK
+
+Alt Left Release(Ignore defect 110052)
+OK
+
+Ctrl Left Press(Ignore defect 110052)
+OK
+
+Ctrl Right Press(Ignore defect 110052)
+OK
+
+Ctrl Right Press(Ignore defect 110052)
+OK
+
+Ctrl Right Release(Ignore defect 110052)
+OK
+
+1n 6n 1n 0n LALT
+OK
+
+2n 6n 1n 0n LALT
+OK
+
+3n 6n 1n 0n LALT
+OK
+
+4n 6n 1n 0n LALT
+OK
+
+5n 6n 1n 0n LALT
+OK
+
+6n 6n 1n 0n LALT
+OK
+
+7n 6n 1n 0n LALT
+OK
+
+8n 6n 1n 0n LALT
+OK
+
+9n 6n 1n 0n LALT
+OK
+
+0n 7n 1n 0n LALT
+OK
+
+1n 7n 1n 0n LALT
+OK
+
+2n 7n 1n 0n LALT
+OK
+
+3n 7n 1n 0n LALT
+OK
+
+4n 7n 1n 0n LALT
+OK
+
+5n 7n 1n 0n LALT
+OK
+
+9n 0n 2n 0n LALT
+OK
+OK
+°±²³´µ¶·
+¸¹º»¼½¾¿
+ÀÁÂÃÄÅÆÇ
+ÈÉÊËÌÍÎÏ
+ÐÑÒÓÔÕÖ×
+ØÙÚÛÜÝÞß
+àáâãäåæç
+èéêëìíîï
+ðñòóôõö÷
+øùúûüýþÿ
+$>
+$>
+$>
+OK
+OK
+
+Alt Right Press(Ignore defect 110052)
+OK
+
+Alt Right Release(Ignore defect 110052)
+OK
+
+Alt Left Press(Ignore defect 110052)
+OK
+
+Alt Left Release(Ignore defect 110052)
+OK
+
+Ctrl Left Press(Ignore defect 110052)
+OK
+
+Ctrl Right Press(Ignore defect 110052)
+OK
+
+Ctrl Right Press(Ignore defect 110052)
+OK
+
+Ctrl Right Release(Ignore defect 110052)
+OK
+
+BS
+OK
+
+TAB
+OK
+
+Right
+OK
+
+TAB LSHIFT
+OK
+
+EnterN
+OK
+
+Enter
+OK
+
+Ins
+OK
+
+PgUp
+OK
+
+PgDn
+OK
+
+Home
+OK
+
+Left
+OK
+
+Down
+OK
+
+Up
+OK
+
+F6
+OK
+
+F1
+OK
+
+F2
+OK
+
+F3
+OK
+
+F4
+OK
+
+F5
+OK
+
+Esc
+OK
+
+F7
+OK
+
+F8
+OK
+
+F9
+OK
+
+F10
+OK
+OK
+ !”#$%&’()*+,-./
+0123456789:;<=>?
+@ABCDEFGHIJKLMNO
+PQRSTUVWXYZ[\]^_
+`abcdefghijklmno
+pqrstuvwxyz{|}~<Del>
+OK
+OK
+8n 2n 1n 0n LALT
+
+9n 2n 1n 0n LALT
+OK
+
+0n 3n 1n 0n LALT
+OK
+
+1n 3n 1n 0n LALT
+OK
+
+2n 3n 1n 0n LALT
+OK
+
+3n 3n 1n 0n LALT
+OK
+
+4n 3n 1n 0n LALT
+OK
+
+5n 3n 1n 0n LALT
+OK
+
+6n 3n 1n 0n LALT
+OK
+
+7n 3n 1n 0n LALT
+OK
+
+8n 3n 1n 0n LALT
+OK
+
+9n 3n 1n 0n LALT
+OK
+
+0n 4n 1n 0n LALT
+OK
+
+1n 4n 1n 0n LALT
+OK
+
+2n 4n 1n 0n LALT
+OK
+
+3n 4n 1n 0n LALT
+OK
+
+4n 4n 1n 0n LALT
+OK
+
+5n 4n 1n 0n LALT
+OK
+
+6n 4n 1n 0n LALT
+OK
+
+7n 4n 1n 0n LALT
+OK
+
+8n 4n 1n 0n LALT
+OK
+
+9n 4n 1n 0n LALT
+OK
+
+0n 5n 1n 0n LALT
+OK
+
+1n 5n 1n 0n LALT
+OK
+
+2n 5n 1n 0n LALT
+OK
+
+3n 5n 1n 0n LALT
+OK
+
+4n 5n 1n 0n LALT
+OK
+
+5n 5n 1n 0n LALT
+OK
+
+6n 5n 1n 0n LALT
+OK
+
+7n 5n 1n 0n LALT
+OK
+
+8n 5n 1n 0n LALT
+OK
+
+9n 5n 1n 0n LALT
+OK
+
+0n 6n 1n 0n LALT
+OK
+
+1n 6n 1n 0n LALT
+OK
+
+2n 6n 1n 0n LALT
+OK
+
+3n 6n 1n 0n LALT
+OK
+
+4n 6n 1n 0n LALT
+OK
+
+5n 6n 1n 0n LALT
+OK
+
+6n 6n 1n 0n LALT
+OK
+
+7n 6n 1n 0n LALT
+OK
+
+8n 6n 1n 0n LALT
+OK
+
+9n 6n 1n 0n LALT
+OK
+
+0n 7n 1n 0n LALT
+OK
+
+1n 7n 1n 0n LALT
+OK
+
+2n 7n 1n 0n LALT
+OK
+
+3n 7n 1n 0n LALT
+OK
+
+4n 7n 1n 0n LALT
+OK
+
+5n 7n 1n 0n LALT
+OK
+
+9n 0n 2n 0n LALT
+OK
+OK
+°±²³´µ¶·
+¸¹º»¼½¾¿
+ÀÁÂÃÄÅÆÇ
+ÈÉÊËÌÍÎÏ
+ÐÑÒÓÔÕÖ×
+ØÙÚÛÜÝÞß
+àáâãäåæç
+èéêëìíîï
+ðñòóôõö÷
+øùúûüýþÿ
+$>
+$>
+$>
+OK

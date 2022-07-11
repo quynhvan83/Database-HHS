@@ -1,0 +1,16 @@
+
+Verify that Green Spot is OFF.
+
+Verify that Green Spot is turned on in 300ms.
+
+
+Verify that Green Spot is turned on in 500ms.
+
+
+Verify that Green Spot is turned on in 800ms.
+
+
+Verify that Green Spot is turned on in 800ms.
+
+Verify that Green Spot is turned on in 800ms.
+

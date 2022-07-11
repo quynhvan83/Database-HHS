@@ -1,0 +1,27 @@
+Send $S,COCEN00000000,Ar
+Read OCRB_Passport_Label1
+Read OCRB_Passport_Original Label
+Read OCRB_Postal_451_9_1
+Read OCRB_Postal_451_9_2
+Send $S,COCEN00000002,Ar
+Read OCRB_Passport_Label1
+Read OCRB_Passport_Original Label
+Read OCRB_Passport_Label2
+Read OCRB_Passport_Label3
+Read OCRB_Passport_Label4
+Read OCRB_Passport_Label5
+Read OCRB_Passport_Label6
+Read OCRB_Passport_VN
+Read OCRB_Passport_Italian
+Read OCRB_Passport_Greek
+Read OCRB_Postal_451_9_1
+Read OCRB_Postal_451_9_2
+Send $S,COCEN00000004,Ar
+Read OCRB_Passport_Label1
+Read OCRB_Passport_Original Label
+Read OCRB_Postal_451_9_1
+Read OCRB_Postal_451_9_2
+Read OCRB_Postal_451_9_3
+Read OCRB_Postal_451_9_4
+Read OCRB_Postal_674_1.1.9.1_1
+Read OCRB_Postal_674_1.1.9.2_2

@@ -1,0 +1,23 @@
+EnterSP
+Send $CIDCO01
+Send $CDMEN01
+Send $CQREN01
+Send $CDESA01
+Send $CARMR00
+Send $Ar
+Read QT_DATAMATRIX
+Read QT_QR CODE
+Read Mirror_No Invert_Datamatrix_Horizontal
+Read Mirror_No Invert_QR Code_Horizontal
+Read Mirror_Invert_Datamatrix_Horizontal
+Read Mirror_Invert_QR Code_Horizontal
+Send $S,CARMR01,Ar
+Read QT_DATAMATRIX
+Read QT_QR CODE
+Read Mirror_No Invert_Datamatrix_Horizontal
+Read Mirror_No Invert_QR Code_Horizontal
+Send $S,CARMR02,Ar
+Read QT_DATAMATRIX
+Read QT_QR CODE
+Read Mirror_No Invert_Datamatrix_Horizontal
+Read Mirror_No Invert_QR Code_Horizontal

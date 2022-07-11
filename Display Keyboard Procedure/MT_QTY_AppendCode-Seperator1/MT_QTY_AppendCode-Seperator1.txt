@@ -1,0 +1,25 @@
+EnterSP
+Send $CKF1102
+Send $CPWEP53310000000000000000000000000000
+Send $CDISM01
+Send $Ar
+Read Check Display 1
+Read Check Display 2
+EnterSP
+Send $CPWFW02
+Send $CPWQP2131246D267E4B21
+Send $Ar
+Read Check Display 3
+Read Check Display 4
+EnterSP
+Send $CPWFW01
+Send $CPWQP20203A2000000000
+Send $Ar
+Read Check Display 5
+Read Check Display 6
+EnterSP
+Send $CPWFW00
+Send $CPWQP0000000000000000
+Send $Ar
+Read Check Display 7
+Read Check Display 8

@@ -1,0 +1,48 @@
+EnterSP
+Send $HA4D
+Send $Ar
+ChangeInterfaceTo USB-Composite
+SetSoftTrigger yes
+Read $P
+Read $HA4D
+Read $CLFSU7375666669780D
+Read $CAIEN01
+Read $CBPVO00
+Read $CBTAB00
+Read $AS
+Read $P
+ChangeInterfaceTo USB-Composite
+Read $P
+Read $HA45
+Read $CBTAB00
+Read $CBPLE30
+Read $CSNRM04
+Read $AS
+Read $P
+ChangeInterfaceTo USB-OEM
+OpenFromDesktop DualTest
+OpenAppWindow DualTest  1.14.197 
+ConnectDualTest USBHHScanner
+ChangeToWindow Serviceport - 1 running window
+ChangeInterfaceTo USB-OEM
+Wait_second 55000
+Read $P,HA4D,P
+ChangeInterfaceTo USB-Composite
+Wait_second 5000
+Read EAN13_3045214834123
+Read $P,HA45,P
+ChangeInterfaceTo USB-OEM
+Wait_second 5000
+Read EAN13_3045214834123
+Wait_second 5000
+ChangeToWindow DualTest - 1 running window
+CheckElementValue Raw Data:
+ChangeToWindow Serviceport - 1 running window
+Read $P,HA4D,P
+ChangeInterfaceTo USB-Composite
+ChangeToWindow DualTest - 1 running window
+OpenAppWindow DualTest  1.14.197 
+CloseAppWindow Close
+ChangeToWindow Serviceport - 1 running window
+Read $P,HA47,P
+ChangeInterfaceTo USB-COM

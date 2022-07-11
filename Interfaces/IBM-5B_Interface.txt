@@ -1,0 +1,2 @@
+Name: USB-9B
+Tag config: 08

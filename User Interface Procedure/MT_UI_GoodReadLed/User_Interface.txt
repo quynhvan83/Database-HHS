@@ -1,0 +1,7 @@
+- Illumination is ON. - On Base: green host led turn off for 100ms, then ON again. - On HH: 3GL led turn on 300ms
+
+- Illumination is ON. - On Base: green host led turn off for 100ms, then ON again. - On HH: 3GL led turn on 25,5s
+
+- Illumination is ON. - On Base: green host led turn off for 100ms, then ON again. - On HH: 3GL led turn on 10s
+
+- Illumination is ON. - On Base: green host led turn off for 100ms, then ON again. - On HH: 3GL led turn OFF

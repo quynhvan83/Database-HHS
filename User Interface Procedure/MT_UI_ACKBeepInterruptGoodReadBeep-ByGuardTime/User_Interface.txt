@@ -1,0 +1,94 @@
+Verify that the Good Read Beep emits and after CI_GOOD_READ_BEEP_GUARD_TIME, ACK beep emits following
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+
+
+
+
+Verify that the Good Read Beep emits and after CI_GOOD_READ_BEEP_GUARD_TIME, ACK beep emits following
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+
+
+
+
+Verify that the Good Read Beep emits and after CI_GOOD_READ_BEEP_GUARD_TIME, ACK beep emits following
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+
+
+
+
+Verify that the Good Read Beep emits and after CI_GOOD_READ_BEEP_GUARD_TIME, ACK beep emits following
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+
+
+
+
+Verify that the Good Read Beep emits and after CI_GOOD_READ_BEEP_GUARD_TIME, ACK beep emits following
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+
+
+
+
+Verify that the Good Read Beep emits and after CI_GOOD_READ_BEEP_GUARD_TIME, ACK beep emits following
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+
+
+
+
+Verify that the Good Read Beep emits and after CI_GOOD_READ_BEEP_GUARD_TIME, ACK beep emits following
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+
+
+
+
+Verify that the Good Read Beep emits and after CI_GOOD_READ_BEEP_GUARD_TIME, ACK beep emits following
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+
+
+
+
+Verify that the Good Read Beep emits and after CI_GOOD_READ_BEEP_GUARD_TIME, ACK beep emits following
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+
+
+
+
+Verify that the Good Read Beep emits and after CI_GOOD_READ_BEEP_GUARD_TIME, ACK beep emits following
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+
+
+
+
+Verify that the Good Read Beep emits and after CI_GOOD_READ_BEEP_GUARD_TIME, ACK beep emits following
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+
+
+
+
+Verify that the Good Read Beep emits and after CI_GOOD_READ_BEEP_GUARD_TIME, ACK beep emits following
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+
+
+
+
+Verify that the Good Read Beep emits and after CI_GOOD_READ_BEEP_GUARD_TIME, ACK beep emits following
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+
+
+
+
+Verify that the Good Read Beep emits and after CI_GOOD_READ_BEEP_GUARD_TIME, ACK beep emits following
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME
+Verify that the first Good Read Beep is truncated by the second one, the first ACK Beep is overridden by the second Good Read Beep, and the second ACK Beep overrides the second Good Read Beep after CI_GOOD_READ_BEEP_GUARD_TIME

@@ -1,0 +1,56 @@
+EnterSP
+$>
+Send $AR
+$>
+ExitSP
+$>
+EnterSP
+$>
+Send $L00,L01,L02,L03,L04,L05,L06,L07,L08,L09
+$>00 00 00 00000000 00000000 0000 00,>,>,>,>,>,>,>,>,>
+ReadLP PutHHOnBase
+Send $ER
+$>
+Send $S
+$>
+Send $L00,L01,L02,L03,L04,L05,L06,L07,L08,L09
+$>00 00 00 00000000 00000000 0000 00,>,>,>,>,>,>,>,>,>
+Send $s
+$>
+Send $ER0
+$>
+ExitSP
+$>
+ScanLP $P,CABEN01,P
+$>,>,>
+EnterSP
+$>
+Send $L00,L01,L02,L03,L04,L05,L06,L07,L08,L09
+$>00 00 00 00000000 00000000 0000 00,>00 0A 03 000000 000000 0000 01,>,>,>,>,>,>,>,>
+Send $ER2
+$>
+Send $S
+$>
+Send $L00,L01,L02,L03,L04,L05,L06,L07,L08,L09
+$>00 00 00 00000000 00000000 0000 00,>,>,>,>,>,>,>,>,>
+Send $s
+$>
+Send $ER0
+$>
+ExitSP
+$>
+ReadLP PullTrigger
+EnterSP
+$>
+Send $ER2
+$>
+Send $S
+$>
+Send $t00,t01,t02,t03
+$>
+Send $L00,L01,L02,L03,L04,L05,L06,L07,L08,L09
+$>
+Send $cIDCO
+$>01
+ExitSP
+$>

@@ -1,0 +1,60 @@
+EnterSP
+Send $CDMEN01
+Send $CAIEN01
+Send $CDMAI00
+Send $CGDAI00
+Send $CIDCO01
+Send $CDESA01
+Send $CSNRM00
+Send $Ar
+SetSoftTrigger yes
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2
+Send $S,CGDAI01,Ar
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2
+Send $S,CDMAI01,CGDAI00,Ar
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2
+Send $S,CGDAI01,Ar
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2
+Send $S,CAIEN00,Ar
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2
+Send $S,CGDAI00,Ar
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2
+Send $S,CDMAI00,CGDAI01,Ar
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2
+Send $S,CGDAI00,Ar
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2
+Send $S,CGDID475331,Ar
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2
+Send $S,CDMEN00,Ar
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2
+SetSoftTrigger no

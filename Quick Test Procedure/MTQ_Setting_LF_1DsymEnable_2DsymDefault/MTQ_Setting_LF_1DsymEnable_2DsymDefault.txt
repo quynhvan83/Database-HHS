@@ -1,0 +1,181 @@
+EnterSP
+Send $CIDCO02
+Send $CAIEN01
+Send $CLFPR61415F0000000000000000000000000000000000
+Send $CLFSU5F5A7A0D00000000000000000000000000000000
+Send $CLFCA02
+Send $CLFCH3141324200000000
+Send $CABEN01
+Send $CEBEN01
+Send $C8BEN01
+Send $C3BEN01
+Send $C3BIN01
+Send $C3BIS01
+Send $C4BEN01
+Send $CLBEN01
+Send $CXBEN01
+Send $CC3EN01
+Send $CCCEN01
+Send $CC3CT01
+Send $CC3FA01
+Send $CCTEN01
+Send $CI8CE01
+Send $CI8L00102
+Send $CC9EN01
+Send $CC8EN01
+Send $CU8EN01
+Send $CI2EN01
+Send $CU2EN01
+Send $CS2EN01
+Send $CIAEN01
+Send $CF2EN01
+Send $CM2EN01
+Send $CCHEN01
+Send $CD2EN01
+Send $CPLEN01
+Send $CMSEN01
+Send $CCBEN01
+Send $CCBAB01
+Send $CC1EN01
+Send $CP3EN01
+Send $CCMEN01
+Send $C4B2D01
+Send $CLB2D01
+Send $CXB2D01
+Send $CU82D01
+Send $CEB2D01
+Send $CAB2D01
+Send $C8B2D01
+Send $C3B2D01
+Send $CADO201
+Send $CADO501
+Send $CCPCL00
+Send $C4CID630000
+Send $CXCID640000
+Send $CLCID690000
+Send $CABID430000
+Send $CEBID440000
+Send $C8BID410000
+Send $C3BID420000
+Send $CISID400000
+Send $CINID406E00
+Send $CC3ID560000
+Send $CCCID565900
+Send $CCTID562454
+Send $CP3ID580000
+Send $CI2ID4E0000
+Send $CS2ID500000
+Send $CIAID260000
+Send $CF2ID4F3200
+Send $CM2ID673200
+Send $CU2ID573200
+Send $CCBID520000
+Send $CACID534100
+Send $CC9ID550000
+Send $CC1ID620000
+Send $CPLID614200
+Send $CC8ID540000
+Send $CU8ID6B0000
+Send $CI8ID663800
+Send $CMSID5A0000
+Send $CA2ID460000
+Send $CA5ID470000
+Send $CE2ID480000
+Send $CE5ID490000
+Send $C82ID4A0000
+Send $C85ID4B0000
+Send $C32ID4C0000
+Send $C35ID4D0000
+Send $C3MID244600
+Send $C8MID244700
+Send $CAMID244800
+Send $CEMID244900
+Send $CUMID244A00
+Send $C4BID750000
+Send $CXBID740000
+Send $CLBID760000
+Send $CAZID210000
+Send $CDMID770000
+Send $CQRID790000
+Send $CMQID4D7900
+Send $CMXID780000
+Send $CP4ID720000
+Send $CMIID380000
+Send $CCSID245343
+Send $Ar
+Read QT_UPCA
+Read QT_UPCA_Addon 2
+Read QT_UPCA_Addon 5
+Read QT_UPCA_Coupon
+Read QT_UPCE
+Read QT_UPCE_Addon 2
+Read QT_UPCE_Addon 5
+Read QT_EAN8
+Read QT_EAN8_Addon 2
+Read QT_EAN8_Addon 5
+Read QT_EAN13
+Read QT_EAN13_Addon 2
+Read QT_EAN13_Addon 5
+Read QT_ISBN_Prefix 978
+Read QT_ISBN_Prefix 979
+Read QT_ISBN13 5 Digit
+Read QT_ISSN
+Read QT_ISSN 2 Digit
+Read QT_Code 39-No CheckDefault
+Read QT_Code 39-Full ASCII-No CheckDefault
+Read QT_Code 39 CIP (French Pharmacode 39)
+Read QT_Code 39 Tri_Optic
+Read QT_DataBar 14
+Read QT_DataBar Trunc
+Read QT_DataBar Stacked
+Read QT_DataBar Stacked Omni
+Read QT_DataBar Limited
+Read QT_DataBar Expanded
+Read QT_DataBar Expanded Stacked
+Read QT_Code 128
+Read QT_EANUCC 128
+Read QT_ISBT 128
+Read QT_Code 93
+Read QT_Code 93 Full ASCII
+Read QT_Code 11 (2 Characters + 2 Check Digit)
+Read QT_Code 32 (Italian Pharmacode 39)
+Read QT_MSI_No Check Digit
+Read QT_MSI_1 Check Digit
+Read QT_MSI_2 Check Digit
+Read QT_Codabar_No Check
+Read QT_ABC Codabar (2 Labels)
+Read QT_Interleaved2of5_No Check
+Read QT_Standard 2of5 (Barcode Studio Code 2 of 5 Industry)
+Read QT_Discrete 2of5
+Read QT_IATA 2 of 5 (IAEN)
+Read QT_Follett 2 of 5
+Read QT_Matrix 2 of 5
+Read QT_Interleaved 2 of 5 CIP HR
+Read QT_Datalogic 2 of 5
+Read QT_Industrial 2 of 5(U2EN)
+Read QT_Plessey Bidirectional
+Read QT_DataBar-14_Composite
+Read QT_DataBar-Trunc_Composite
+Read QT_DataBar-Stacked_Composite
+Read QT_Stacked-Omni_Composite
+Read QT_Limited_Composite
+Read QT_Expanded_Composite
+Read QT_Expanded-Stacked_Composite
+Read QT_EAN128_CC-A_Composite
+Read QT_EAN8_Composite
+Read QT_EAN13_Composite
+Read QT_UPCA_Composite
+Read QT_UPCE_Composite
+Read QT_CODE EAN128 CC-A
+Read QT_Telepen
+Read QT_Binary_PDF417
+Read QT_Binary_Micro PDF417
+Read QT_Macro PDF417
+Read QT_AZTEC CODE
+Read QT_DATAMATRIX
+Read QT_Chinese Ver 1
+Read QT_Chinese Ver 4
+Read QT_Chinese Ver 24
+Read QT_MAXICODE
+Read QT_QR CODE
+Read QT_MICRO QR CODE

@@ -1,0 +1,48 @@
+Read $P,CPOEN05,P
+Read Australian Routing Post
+Read Australian Post
+Read $P,CPOEN04,P
+Read Postal_Kix
+Read $P,CPOEN06,P
+Read Postal_Japanese
+Read Japanese 1 Post
+Read $P,CPOEN08,P
+Read Postal_Swedish
+Read $P,CPOEN02,P
+Read Postal_Planet
+Read $P,CPOEN03,P
+Read Postal RM
+Read $P,CPOEN07,P
+Read Postal_IBM
+Read $P,CPOEN01,P
+Read Postal Postnet
+Read $P,CPOEN09,P
+Read Postal_Portugal
+EnterSP
+Send $CIDCO02
+Send $CAIEN01
+Send $CLFPR61415F0000000000000000000000000000000000
+Send $CLFSU5F5A7A0D00000000000000000000000000000000
+Send $CLFCA02
+Send $CLFCH3141324200000000
+Send $Ar
+Read $P,CPOEN05,P
+Read Australian Routing Post
+Read Australian Post
+Read $P,CPOEN04,P
+Read Postal_Kix
+Read $P,CPOEN06,P
+Read Postal_Japanese
+Read Japanese 1 Post
+Read $P,CPOEN08,P
+Read Postal_Swedish
+Read $P,CPOEN02,P
+Read Postal_Planet
+Read $P,CPOEN03,P
+Read Postal RM
+Read $P,CPOEN07,P
+Read Postal_IBM
+Read $P,CPOEN01,P
+Read Postal Postnet
+Read $P,CPOEN09,P
+Read Postal_Portugal

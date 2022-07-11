@@ -1,0 +1,24 @@
+Send E
+EnterSP
+Send $CR2HC04
+Send $CIFIH00
+Send $CR2AE01
+Send $CR2AR05
+Send $CR2AT32
+Send $Ar
+Read UPCA_123456789012
+Read UPCA_123456789012
+Read UPCA_123456789012
+CloseComPort
+OpenByPath C:\Program Files (x86)\MicroRidge Systems\Communications Test\ComTestSerial.exe
+OpenAppWindow MicroRidge ComTestSerial (COM3 @ 115.2K-N-8-1)
+ClickElement Close
+DoubleClickElement NAK	21	\x15
+Read UPCA_123456789012
+DoubleClickElement NAK	21	\x15
+DoubleClickElement NAK	21	\x15
+DoubleClickElement NAK	21	\x15
+DoubleClickElement NAK	21	\x15
+DoubleClickElement NAK	21	\x15
+ClickElement RTS (Output H/S)
+Read UPCA_123456789012

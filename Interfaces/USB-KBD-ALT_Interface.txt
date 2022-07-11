@@ -1,0 +1,2 @@
+Name: USB-KBD-ALT
+Tag config: 2B

@@ -1,0 +1,7 @@
+EnterSP
+Send $AE
+Send Interface
+Send $Er
+Send $AR
+Send $CSNRM03
+Send $Ar

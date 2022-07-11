@@ -1,0 +1,26 @@
+EnterSP
+Send $HA4D
+ExitSP
+ChangeInterfaceTo USB-Composite
+OpenByPath D:\GIT\Automation_tool\bin\Debug\KeyboardTest-Portable.exe
+OpenAppWindow PassMark KeyboardTest
+Read Code128_0123456789
+CheckPortableKeyboard
+ClickElement Clear
+EnterSP
+Send $CKBKP01
+ExitSP
+Read Code128_0123456789
+CheckPortableKeyboard
+ClickElement Clear
+EnterSP
+Send $CKBKP01
+ExitSP
+Read Code128_0123456789
+CheckPortableKeyboard
+ClickElement Clear
+CloseAppWindow PassMark KeyboardTest
+EnterSP
+Send $HA47
+ExitSP
+ChangeInterfaceTo USB-COM

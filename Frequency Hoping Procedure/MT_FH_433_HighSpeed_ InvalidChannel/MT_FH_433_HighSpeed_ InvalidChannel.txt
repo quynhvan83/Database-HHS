@@ -1,0 +1,14 @@
+EnterSP
+Send $AE
+Send $CSTCP03
+Send $Ar
+ReadLP $P,AE,P
+ReadLP $P,CSTCP03,P
+EnterSP
+Send $CSTFA00
+Send $Ar
+ReadLP $P,CSTFA01,P
+ReadLP check
+EnterSP
+Send $CSTFA03
+Send $Ar

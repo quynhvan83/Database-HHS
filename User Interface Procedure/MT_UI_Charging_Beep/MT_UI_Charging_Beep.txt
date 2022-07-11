@@ -1,0 +1,5 @@
+Send $S,CBPCE01,Ar
+Read PutHHOnBase
+Wait_second 2000
+Send $S,CBPCE00,Ar
+Read PutHHOnBase

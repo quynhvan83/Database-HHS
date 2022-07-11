@@ -1,0 +1,6 @@
+Name: RS232-WN
+Tag config: 12
+Baud rate: 9600
+Parity: Odd
+Data bit: 8
+Stop bit: 1

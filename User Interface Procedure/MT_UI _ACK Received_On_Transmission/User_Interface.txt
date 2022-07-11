@@ -1,0 +1,70 @@
+
+Verify only ACK beep emits. Mono Beep, High Volume, Low Frequency and Beep Length = 80ms
+
+
+
+
+
+
+Beep emits Low volume + Low frequency + Max length (2,55s)
+
+
+
+
+
+
+Beep emits Low volume + Medium frequency + Default length (80ms)
+
+
+
+
+
+
+Beep emits Low volume + High frequency + Min length (10ms)
+
+
+
+
+
+
+Beep emits Medium volume + low frequency + Min length (10ms)
+
+
+
+
+
+
+Beep emits Medium volume + Medium frequency + Max length (2,55s)
+
+
+
+
+
+
+Beep emits Medium volume + High frequency + Default length (80ms)
+
+
+
+
+
+
+Beep emits High volume + low frequency + Default length (80ms)
+
+
+
+
+
+
+Beep emits High volume + Medium frequency + Min length (10ms)
+
+
+
+
+
+
+Beep emits High volume + High frequency + Max length (2,55s)
+
+
+No Beep Emits
+
+ACK beep emits

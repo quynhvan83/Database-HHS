@@ -1,0 +1,5 @@
+Read PutHHONBase
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+WriteConfiguration G:\R&D\HH_VN_SWTestTeam\Projects\PEGASUS\Test Plans\Pegasus Wireless\04_Standard CCF\DR9611415_STD CCF.TXT
+ChangeToWindow Serviceport - 1 running window

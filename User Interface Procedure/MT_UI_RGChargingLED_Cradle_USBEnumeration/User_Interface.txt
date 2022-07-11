@@ -1,0 +1,3 @@
+
+
+Verify that in during Enumeration, RG Charging LED on Base is OFF.

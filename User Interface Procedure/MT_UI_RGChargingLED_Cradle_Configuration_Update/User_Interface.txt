@@ -1,0 +1,5 @@
+Remenber RG Charging LED color on Base
+
+
+RG Charging LED on Base still keeps the same color at step 1
+

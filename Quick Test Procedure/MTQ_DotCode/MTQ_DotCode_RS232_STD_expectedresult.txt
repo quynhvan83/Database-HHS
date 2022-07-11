@@ -1,0 +1,24 @@
+
+
+
+Label Dot Code Standard
+00112233445566778899
+Label Dot Code Rotation 90
+Label Dot Code Rectangle
+Label Dot Code Rotation 180
+Label Dot Code Circles
+Label Dot Code Rotation 270
+Label Dot Code Rounded Rectangle
+
+]J0Datalogic
+]J3\000001Datalogic
+]J1123456
+]J3\000001123456
+]J119Datalogic
+]J419\000001Datalogic
+]J220Datalogic
+]J520\000001Datalogic
+]J2A123456
+]J5A\000001123456
+
+

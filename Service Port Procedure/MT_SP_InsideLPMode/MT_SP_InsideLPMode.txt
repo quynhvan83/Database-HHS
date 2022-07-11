@@ -1,0 +1,7 @@
+ClearLog
+Read $P
+EnterSP
+Read UPCA
+ExitSP
+Read $P
+CheckReset

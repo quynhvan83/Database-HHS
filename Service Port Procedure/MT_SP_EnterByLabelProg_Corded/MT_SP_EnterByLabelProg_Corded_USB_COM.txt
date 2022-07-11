@@ -1,0 +1,12 @@
+ReadLP $S
+Send $HA45,Ar
+ExitSP
+DisableHost
+Open DualTestTool
+Read $S
+Close DualTestTool
+Connect AladdinTool
+CheckInterface
+Send $HA35,AS
+ExitSP
+

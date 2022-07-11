@@ -1,0 +1,35 @@
+EnterSP
+Send $AE
+Send $CSTCP01
+Send $Ar
+ReadLP $P,AE,P
+ReadLP $P,CSTCP01,P
+EnterSP
+Send $CSTFA80
+Send $Ar
+ReadLP $P,CSTFA04,P
+ReadLP PutHHOnBase
+Read UPCA
+ReadLP PutHHOnBase
+EnterSP
+Send $cSTFA
+Send $ER3
+Send $S
+Send $cSTFA
+Send $s
+Send $ER0
+ExitSP
+ReadLP $P,CSTFA02,P
+ReadLP PutHHOnBase
+Read UPCA
+ReadLP PutHHOnBase
+EnterSP
+Send $cSTFA
+Send $ER3
+Send $S
+Send $cSTFA
+Send $s
+Send $ER0
+ExitSP
+ReadLP $P,CSTFA02,P
+Read UPCA

@@ -1,0 +1,810 @@
+EnterSP
+Send $HA4D
+Send $CIDCO00
+Send $CLFPR0000000000000000000000000000000000000000
+Send $CLFSU0000000000000000000000000000000000000000
+Send $CAIEN00
+Send $CKBSC00
+Send $CSNDR50
+Send $CSNRM04
+Send $Ar
+ChangeInterfaceTo USB-Composite
+OpenByPath D:\GIT\Automation_tool\bin\Debug\KeyboardTest-Portable.exe
+OpenAppWindow PassMark KeyboardTest
+Read NULL.png
+CheckPortableKeyboard
+ClickElement Clear
+Read SOH.png
+CheckPortableKeyboard
+ClickElement Clear
+Read STX.png
+CheckPortableKeyboard
+ClickElement Clear
+Read ETX.png
+CheckPortableKeyboard
+ClickElement Clear
+Read EOT.png
+CheckPortableKeyboard
+ClickElement Clear
+Read ENQ.png
+CheckPortableKeyboard
+ClickElement Clear
+Read ACK.png
+CheckPortableKeyboard
+ClickElement Clear
+Read BEL.png
+CheckPortableKeyboard
+ClickElement Clear
+Read Backspace.png
+CheckPortableKeyboard
+ClickElement Clear
+Read HT TAB.png
+CheckPortableKeyboard
+ClickElement Clear
+Read LF.png
+CheckPortableKeyboard
+ClickElement Clear
+Read VT.png
+CheckPortableKeyboard
+ClickElement Clear
+Read FF.png
+CheckPortableKeyboard
+ClickElement Clear
+Read Enter.png
+CheckPortableKeyboard
+ClickElement Clear
+Read SO.png
+CheckPortableKeyboard
+ClickElement Clear
+Read SI.png
+CheckPortableKeyboard
+ClickElement Clear
+Read DLE.png
+CheckPortableKeyboard
+ClickElement Clear
+Read DC1.png
+CheckPortableKeyboard
+ClickElement Clear
+Read DC2.png
+CheckPortableKeyboard
+ClickElement Clear
+Read DC3.png
+CheckPortableKeyboard
+ClickElement Clear
+Read DC4.png
+CheckPortableKeyboard
+ClickElement Clear
+Read NAK.png
+CheckPortableKeyboard
+ClickElement Clear
+Read SYN.png
+CheckPortableKeyboard
+ClickElement Clear
+Read ETB.png
+CheckPortableKeyboard
+ClickElement Clear
+Read CAN.png
+CheckPortableKeyboard
+ClickElement Clear
+Read EM.png
+CheckPortableKeyboard
+ClickElement Clear
+Read SUB.png
+CheckPortableKeyboard
+ClickElement Clear
+Read ESC.png
+CheckPortableKeyboard
+ClickElement Clear
+Read FS.png
+CheckPortableKeyboard
+ClickElement Clear
+Read GS.png
+CheckPortableKeyboard
+ClickElement Clear
+Read RS.png
+CheckPortableKeyboard
+ClickElement Clear
+Read US.png
+CheckPortableKeyboard
+ClickElement Clear
+CloseAppWindow PassMark KeyboardTest
+Read Hex_value_202F
+Read Hex_value_303F
+Read Hex_value_404F
+Read Hex_value_505F
+Read Hex_value_606F
+Read Hex_value_707F
+Read 80.png
+OpenByPath D:\GIT\Automation_tool\bin\Debug\KeyboardTest-Portable.exe
+OpenAppWindow PassMark KeyboardTest
+Read 81.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 82.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 83.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 84.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 85.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 86.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 87.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 88.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 89.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 8A.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 8B.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 8C.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 8D.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 8E.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 8F.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 90.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 91.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 92.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 93.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 94.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 95.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 96.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 97.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 98.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 99.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 9A.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 9B.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 9C.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 9D.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 9E.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 9F.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A0.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A1.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A2.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A3.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A4.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A5.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A6.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A7.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A8.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A9.png
+CheckPortableKeyboard
+ClickElement Clear
+Read AA.png
+CheckPortableKeyboard
+ClickElement Clear
+Read AB.png
+CheckPortableKeyboard
+ClickElement Clear
+Read AC.png
+CheckPortableKeyboard
+ClickElement Clear
+Read AD.png
+CheckPortableKeyboard
+ClickElement Clear
+Read AE.png
+CheckPortableKeyboard
+ClickElement Clear
+Read AF.png
+CheckPortableKeyboard
+ClickElement Clear
+Read Hex_value_D0D7_1.png
+CheckPortableKeyboard
+ClickElement Clear
+CloseAppWindow PassMark KeyboardTest
+Read Hex_value_B0B7.png
+Read Hex_value_B8BF.png
+Read Hex_value_C0C7
+Read Hex_value_C8CF
+Read Hex_value_D0D7
+Read Hex_value_D8DF
+Read Hex_value_E0E7
+Read Hex_value_E8EF
+Read Hex_value_F0F7
+Read Hex_value_F8FF
+EnterSP
+Send $CKBSC01
+ExitSP
+OpenByPath D:\GIT\Automation_tool\bin\Debug\KeyboardTest-Portable.exe
+OpenAppWindow PassMark KeyboardTest
+Read NULL.png
+CheckPortableKeyboard
+ClickElement Clear
+Read SOH.png
+CheckPortableKeyboard
+ClickElement Clear
+Read STX.png
+CheckPortableKeyboard
+ClickElement Clear
+Read ETX.png
+CheckPortableKeyboard
+ClickElement Clear
+Read EOT.png
+CheckPortableKeyboard
+ClickElement Clear
+Read ENQ.png
+CheckPortableKeyboard
+ClickElement Clear
+Read ACK.png
+CheckPortableKeyboard
+ClickElement Clear
+Read BEL.png
+CheckPortableKeyboard
+ClickElement Clear
+Read Backspace.png
+CheckPortableKeyboard
+ClickElement Clear
+Read HT TAB.png
+CheckPortableKeyboard
+ClickElement Clear
+Read LF.png
+CheckPortableKeyboard
+ClickElement Clear
+Read VT.png
+CheckPortableKeyboard
+ClickElement Clear
+Read FF.png
+CheckPortableKeyboard
+ClickElement Clear
+Read Enter.png
+CheckPortableKeyboard
+ClickElement Clear
+Read SO.png
+CheckPortableKeyboard
+ClickElement Clear
+Read SI.png
+CheckPortableKeyboard
+ClickElement Clear
+Read DLE.png
+CheckPortableKeyboard
+ClickElement Clear
+Read DC1.png
+CheckPortableKeyboard
+ClickElement Clear
+Read DC2.png
+CheckPortableKeyboard
+ClickElement Clear
+Read DC3.png
+CheckPortableKeyboard
+ClickElement Clear
+Read DC4.png
+CheckPortableKeyboard
+ClickElement Clear
+Read NAK.png
+CheckPortableKeyboard
+ClickElement Clear
+Read SYN.png
+CheckPortableKeyboard
+ClickElement Clear
+Read ETB.png
+CheckPortableKeyboard
+ClickElement Clear
+Read CAN.png
+CheckPortableKeyboard
+ClickElement Clear
+Read EM.png
+CheckPortableKeyboard
+ClickElement Clear
+Read SUB.png
+CheckPortableKeyboard
+ClickElement Clear
+Read ESC.png
+CheckPortableKeyboard
+ClickElement Clear
+Read FS.png
+CheckPortableKeyboard
+ClickElement Clear
+Read GS.png
+CheckPortableKeyboard
+ClickElement Clear
+Read RS.png
+CheckPortableKeyboard
+ClickElement Clear
+Read US.png
+CheckPortableKeyboard
+ClickElement Clear
+CloseAppWindow PassMark KeyboardTest
+Read Hex_value_202F
+Read Hex_value_303F
+Read Hex_value_404F
+Read Hex_value_505F
+Read Hex_value_606F
+Read Hex_value_707F
+Read 80.png
+OpenByPath D:\GIT\Automation_tool\bin\Debug\KeyboardTest-Portable.exe
+OpenAppWindow PassMark KeyboardTest
+Read 81.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 82.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 83.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 84.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 85.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 86.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 87.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 88.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 89.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 8A.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 8B.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 8C.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 8D.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 8E.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 8F.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 90.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 91.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 92.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 93.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 94.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 95.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 96.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 97.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 98.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 99.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 9A.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 9B.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 9C.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 9D.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 9E.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 9F.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A0.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A1.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A2.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A3.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A4.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A5.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A6.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A7.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A8.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A9.png
+CheckPortableKeyboard
+ClickElement Clear
+Read AA.png
+CheckPortableKeyboard
+ClickElement Clear
+Read AB.png
+CheckPortableKeyboard
+ClickElement Clear
+Read AC.png
+CheckPortableKeyboard
+ClickElement Clear
+Read AD.png
+CheckPortableKeyboard
+ClickElement Clear
+Read AE.png
+CheckPortableKeyboard
+ClickElement Clear
+Read AF.png
+CheckPortableKeyboard
+ClickElement Clear
+Read Hex_value_D0D7_1.png
+CheckPortableKeyboard
+ClickElement Clear
+CloseAppWindow PassMark KeyboardTest
+Read Hex_value_B0B7.png
+Read Hex_value_B8BF.png
+Read Hex_value_C0C7
+Read Hex_value_C8CF
+Read Hex_value_D0D7
+Read Hex_value_D8DF
+Read Hex_value_E0E7
+Read Hex_value_E8EF
+Read Hex_value_F0F7
+Read Hex_value_F8FF
+EnterSP
+Send $CKBSC02
+ExitSP
+OpenByPath D:\GIT\Automation_tool\bin\Debug\KeyboardTest-Portable.exe
+OpenAppWindow PassMark KeyboardTest
+Read NULL.png
+CheckPortableKeyboard
+ClickElement Clear
+Read SOH.png
+CheckPortableKeyboard
+ClickElement Clear
+Read STX.png
+CheckPortableKeyboard
+ClickElement Clear
+Read ETX.png
+CheckPortableKeyboard
+ClickElement Clear
+Read EOT.png
+CheckPortableKeyboard
+ClickElement Clear
+Read ENQ.png
+CheckPortableKeyboard
+ClickElement Clear
+Read ACK.png
+CheckPortableKeyboard
+ClickElement Clear
+Read BEL.png
+CheckPortableKeyboard
+ClickElement Clear
+Read Backspace.png
+CheckPortableKeyboard
+ClickElement Clear
+Read HT TAB.png
+CheckPortableKeyboard
+ClickElement Clear
+Read LF.png
+CheckPortableKeyboard
+ClickElement Clear
+Read VT.png
+CheckPortableKeyboard
+ClickElement Clear
+Read FF.png
+CheckPortableKeyboard
+ClickElement Clear
+Read Enter.png
+CheckPortableKeyboard
+ClickElement Clear
+Read SO.png
+CheckPortableKeyboard
+ClickElement Clear
+Read SI.png
+CheckPortableKeyboard
+ClickElement Clear
+Read DLE.png
+CheckPortableKeyboard
+ClickElement Clear
+Read DC1.png
+CheckPortableKeyboard
+ClickElement Clear
+Read DC2.png
+CheckPortableKeyboard
+ClickElement Clear
+Read DC3.png
+CheckPortableKeyboard
+ClickElement Clear
+Read DC4.png
+CheckPortableKeyboard
+ClickElement Clear
+Read NAK.png
+CheckPortableKeyboard
+ClickElement Clear
+Read SYN.png
+CheckPortableKeyboard
+ClickElement Clear
+Read ETB.png
+CheckPortableKeyboard
+ClickElement Clear
+Read CAN.png
+CheckPortableKeyboard
+ClickElement Clear
+Read EM.png
+CheckPortableKeyboard
+ClickElement Clear
+Read SUB.png
+CheckPortableKeyboard
+ClickElement Clear
+Read ESC.png
+CheckPortableKeyboard
+ClickElement Clear
+Read FS.png
+CheckPortableKeyboard
+ClickElement Clear
+Read GS.png
+CheckPortableKeyboard
+ClickElement Clear
+Read RS.png
+CheckPortableKeyboard
+ClickElement Clear
+Read US.png
+CheckPortableKeyboard
+ClickElement Clear
+CloseAppWindow PassMark KeyboardTest
+Read Hex_value_202F
+Read Hex_value_303F
+Read Hex_value_404F
+Read Hex_value_505F
+Read Hex_value_606F
+Read Hex_value_707F
+OpenByPath D:\GIT\Automation_tool\bin\Debug\KeyboardTest-Portable.exe
+OpenAppWindow PassMark KeyboardTest
+Read 80.png
+Read 81.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 82.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 83.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 84.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 85.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 86.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 87.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 88.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 89.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 8A.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 8B.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 8C.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 8D.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 8E.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 8F.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 90.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 91.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 92.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 93.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 94.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 95.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 96.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 97.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 98.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 99.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 9A.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 9B.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 9C.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 9D.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 9E.png
+CheckPortableKeyboard
+ClickElement Clear
+Read 9F.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A0.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A1.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A2.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A3.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A4.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A5.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A6.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A7.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A8.png
+CheckPortableKeyboard
+ClickElement Clear
+Read A9.png
+CheckPortableKeyboard
+ClickElement Clear
+Read AA.png
+CheckPortableKeyboard
+ClickElement Clear
+Read AB.png
+CheckPortableKeyboard
+ClickElement Clear
+Read AC.png
+CheckPortableKeyboard
+ClickElement Clear
+Read AD.png
+CheckPortableKeyboard
+ClickElement Clear
+Read AE.png
+CheckPortableKeyboard
+ClickElement Clear
+Read AF.png
+CheckPortableKeyboard
+ClickElement Clear
+Read Hex_value_D0D7_1.png
+CheckPortableKeyboard
+ClickElement Clear
+CloseAppWindow PassMark KeyboardTest
+Read Hex_value_B0B7.png
+Read Hex_value_B8BF.png
+Read Hex_value_C0C7
+Read Hex_value_C8CF
+Read Hex_value_D0D7
+Read Hex_value_D8DF
+Read Hex_value_E0E7
+Read Hex_value_E8EF
+Read Hex_value_F0F7
+Read Hex_value_F8FF
+EnterSP
+Send $HA47
+Send $Ar
+ChangeInterfaceTo USB-COM

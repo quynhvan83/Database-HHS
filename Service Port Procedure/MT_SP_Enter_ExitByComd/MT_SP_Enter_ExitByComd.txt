@@ -1,0 +1,6 @@
+EnterSP
+Read RevA
+Send $cABEN
+Read UPCA
+ExitSP
+Read RevA

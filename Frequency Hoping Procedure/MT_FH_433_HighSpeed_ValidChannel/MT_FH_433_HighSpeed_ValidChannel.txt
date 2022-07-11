@@ -1,0 +1,18 @@
+EnterSP
+Send $AE
+Send $CSTCP03
+Send $Ar
+ReadLP $P,AE,P
+ReadLP $P,CSTCP03,P
+EnterSP
+Send $CSTFA00
+Send $Ar
+ReadLP $P,CSTFA00,P
+EnterSP
+Send $EU092
+ExitSP
+ReadLP LnkS
+Read UPCA
+ReadLP Unlnk
+ReadLP PutHHOnBase
+Read UPCA

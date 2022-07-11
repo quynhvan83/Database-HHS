@@ -1,0 +1,8 @@
+OpenFromDesktop o
+FocusAppWindow Notepad - 1 running window
+Version_Java ddd
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $Ar
+Read Code128_AbCdEfUvWxYz

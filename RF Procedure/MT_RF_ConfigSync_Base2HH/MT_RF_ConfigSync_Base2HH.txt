@@ -1,0 +1,75 @@
+EnterSP
+Send $CLFSU5375666669780000000000000000000000000000
+Send $Ar
+Read UPCA
+EnterSP
+Send $ER3B
+Send $S
+Send $cLFSU
+Send $s
+Send $ER0
+ExitSP
+EnterSP
+Send $CABEN00
+Send $CSNRM03
+Send $Ar
+Read UPCA
+ReadLP CheckHHFlashing
+EnterSP
+Send $ER3B
+Send $S
+Send $cABEN
+Sedn $cSNRM
+Send $s
+Send $ER0
+ExitSP
+EnterSP
+Send $CSNRM00
+Send $CSNET01
+Send $Ar
+ReadLP CheckHHIllumination
+EnterSP
+Send $ER3B
+Send $S
+Send $cSNRM
+Sedn $cSNET
+Send $s
+Send $ER0
+ExitSP
+EnterSP
+Send $CSNET10
+Send $Ar
+ReadLP CheckHHIllumination16s
+EnterSP
+Send $ER3B
+Send $S
+Sedn $cSNET
+Send $s
+Send $ER0
+ExitSP
+ScanLP $P,CABEN01,CADO501,P
+EnterSP
+Send $CADC41232
+Send $Ar
+Read UPCA
+Read UPCAAddOn5
+Read UPCAAddOn5_1
+EnterSP
+Send $ER3B
+Send $S
+Sedn $cADC4
+Send $s
+Send $ER0
+ExitSP
+ScanLP $P,CIDCO01,CC3EN01,P
+EnterSP
+Send $CC3ID544553
+Send $Ar
+Read Code39
+EnterSP
+Send $ER3B
+Send $S
+Sedn $cC3ID
+Send $s
+Send $ER0
+ExitSP

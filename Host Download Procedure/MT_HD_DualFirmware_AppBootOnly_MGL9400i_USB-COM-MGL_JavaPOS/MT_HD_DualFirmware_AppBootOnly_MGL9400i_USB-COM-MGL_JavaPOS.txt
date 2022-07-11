@@ -1,0 +1,16 @@
+EnterSP
+Send $dE
+Send $Er
+Send $AR
+Send $ER3B
+Send $S
+Send $Er
+Send $AR
+Send $s
+Send $ER0
+Send $HA45
+Send $CSNRM03
+Send $Ar
+OpenFromDesktop DualTest
+OpenAppWindow DualTest  1.14.197 
+HostDownloadDuelTest \\vnmsrv305\grpfiles\R&D\HH_VN_SWTestTeam\Projects\PEGASUS\FirmWares\ALPHA_BLR_PEGASUS_STAR_MERGE_044_DEA30AF\610149644.dat

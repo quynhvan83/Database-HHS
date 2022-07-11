@@ -1,0 +1,38 @@
+EnterSP
+Send $CI2EN01
+Send $CI2CC01
+Send $Ar
+Read Interleaved 2 of 5_Check Digit Standard.png
+Send $S,CI2CC02,Ar
+Read Interleaved 2 of 5_Check Digit German Parcel.png
+Send $S,CI2CC04,Ar
+Read Interleaved 2 of 5_Check Digit DHL.png
+Send $S,CI2CC08,Ar
+Read Interleaved 2 of 5_Check Digit Daimer Chrysler.png
+Send $S,CI2CC10,Ar
+Read Interleaved 2 of 5_Check Digit Bosch.png
+Send $S,CI2CC20,Ar
+Read Interleaved 2 of 5_Check Digit ItalianPost.png
+EnterSP
+Send $CIDCO02
+Send $CAIEN01
+Send $CLFPR61415F0000000000000000000000000000000000
+Send $CLFSU5F5A7A0D00000000000000000000000000000000
+Send $CLFCA02
+Send $CLFCH31413242FFFFFFFF
+Send $Ar
+EnterSP
+Send $CI2EN01
+Send $CI2CC01
+Send $Ar
+Read Interleaved 2 of 5_Check Digit Standard.png
+Send $S,CI2CC02,Ar
+Read Interleaved 2 of 5_Check Digit German Parcel.png
+Send $S,CI2CC04,Ar
+Read Interleaved 2 of 5_Check Digit DHL.png
+Send $S,CI2CC08,Ar
+Read Interleaved 2 of 5_Check Digit Daimer Chrysler.png
+Send $S,CI2CC10,Ar
+Read Interleaved 2 of 5_Check Digit Bosch.png
+Send $S,CI2CC20,Ar
+Read Interleaved 2 of 5_Check Digit ItalianPost.png

@@ -1,0 +1,3 @@
+Read PutHHOnBase
+Wait_second 300
+Read PlugUSBcableToBase

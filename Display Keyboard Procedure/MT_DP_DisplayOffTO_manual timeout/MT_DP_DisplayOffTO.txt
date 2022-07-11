@@ -1,0 +1,6 @@
+EnterSP
+Send $CPWEI00
+Send $Ar
+Read Check Sound Emit 1
+Send $S,CPWEI01,Ar
+Read Check Sound Emit 2

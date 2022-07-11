@@ -1,0 +1,17 @@
+EnterSP
+Send $CPOEN03
+Send $CPRPC00
+Send $CPRCT00
+Send $Ar
+Read Royal Mail Post has postal code format.png
+Read Royal Mail Post hasn’t postal code format.png
+Read $P,CPRCT01,P.png
+Read Royal Mail Post has postal code format.png
+Read Royal Mail Post hasn’t postal code format.png
+Read $P,CPRPC01,P.png
+Read $P,CPRCT00,P.png
+Read Royal Mail Post has postal code format.png
+Read Royal Mail Post hasn’t postal code format.png
+Read $P,CPRCT01,P.png
+Read Royal Mail Post has postal code format.png
+Read Royal Mail Post hasn’t postal code format.png

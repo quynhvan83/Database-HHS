@@ -1,0 +1,20 @@
+EnterSP
+Send $HA4D
+Send $CIFIH00
+Send $CIFST01
+Send $CRFSF01
+Send $CRFAG01
+Send $Ar
+EnterSP
+ChangeInterfaceTo USB-Composite
+Send $ER3B
+Send $S
+Send $nS
+Send $s
+Send $ER0
+Send $s
+Send s
+EnterSP
+Send $HA47
+Send $Ar
+ChangeInterfaceTo USB-COM

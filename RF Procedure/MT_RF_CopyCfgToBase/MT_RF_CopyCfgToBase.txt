@@ -1,0 +1,45 @@
+ReadLP $P,CBTCU00,P
+ReadLP Unlnk
+EnterSP
+Send $CBPLEFF
+Send $cBPLE
+Send $As
+ExitSP
+Send R
+ReadLP PutHHOnBase
+Read LabelHH11111
+ReadLP CheckGoodReadBeep80mS
+ReadLP CpyCfg2Ba
+ReadLP $P,CBTAB00,P
+Read LabelHH11111
+ReadLP CheckGoodReadBeep80mS
+EnterSP
+Send $cBPLE
+ExitSP
+Send R
+ReadLP $P,AE,P
+SetInterface
+ReadLP CpyCfg2Ba
+ReadLP 2D
+ReadLP $P,CBTCU00,P
+ReadLP Unlnk2D
+EnterSP
+Send $CBPLEFF
+Send $cBPLE
+Send $As
+ExitSP
+Send R
+ReadLP PutHHOnBase
+Read LabelHH11111
+ReadLP CheckGoodReadBeep80mS
+ReadLP CpyCfg2Ba2D
+ReadLP $P,CBTAB00,P
+Read LabelHH11111
+ReadLP CheckGoodReadBeep80mS
+EnterSP
+Send $cBPLE
+ExitSP
+Send R
+ReadLP $P,AE,P
+SetInterface
+ReadLP CpyCfg2Ba2D

@@ -1,0 +1,5 @@
+
+HH emits charging beep
+
+
+HH NO emits charging beep

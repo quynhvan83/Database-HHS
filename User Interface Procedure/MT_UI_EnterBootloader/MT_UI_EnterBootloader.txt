@@ -1,0 +1,4 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\task\build\BETA_BLR_PEGASUS_STAR_CRADLE_MERGE_25\pegasus_app_star\610159025.dfw
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\task\build\BETA_BLR_PEGASUS_STAR_CRADLE_MERGE_25\pegasus_app_star\610159025.dfw

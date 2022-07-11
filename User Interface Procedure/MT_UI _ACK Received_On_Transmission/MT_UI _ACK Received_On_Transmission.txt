@@ -1,0 +1,70 @@
+Send $S,CBPVO00,Ar
+Read UPCA_123456789012
+Wait_second 300
+EnterSP
+Send $CBTBV00
+Send $CBTBF00
+Send $CBTBDFF
+Send $Ar
+Read UPCA_123456789012
+Wait_second 300
+EnterSP
+Send $CBTBV00
+Send $CBTBF01
+Send $CBTBD08
+Send $Ar
+Read UPCA_123456789012
+Wait_second 300
+EnterSP
+Send $CBTBV00
+Send $CBTBF02
+Send $CBTBD01
+Send $Ar
+Read UPCA_123456789012
+Wait_second 300
+EnterSP
+Send $CBTBV01
+Send $CBTBF00
+Send $CBTBD01
+Send $Ar
+Read UPCA_123456789012
+Wait_second 300
+EnterSP
+Send $CBTBV01
+Send $CBTBF01
+Send $CBTBDFF
+Send $Ar
+Read UPCA_123456789012
+Wait_second 300
+EnterSP
+Send $CBTBV01
+Send $CBTBF02
+Send $CBTBD08
+Send $Ar
+Read UPCA_123456789012
+Wait_second 300
+EnterSP
+Send $CBTBV02
+Send $CBTBF00
+Send $CBTBD08
+Send $Ar
+Read UPCA_123456789012
+Wait_second 300
+EnterSP
+Send $CBTBV02
+Send $CBTBF01
+Send $CBTBD01
+Send $Ar
+Read UPCA_123456789012
+Wait_second 300
+EnterSP
+Send $CBTBV02
+Send $CBTBF02
+Send $CBTBDFF
+Send $Ar
+Read UPCA_123456789012
+Wait_second 300
+Send $S,CBTAB00,Ar
+Read UPCA_123456789012
+Send $S,CBTAB01,Ar
+Read UPCA_123456789012

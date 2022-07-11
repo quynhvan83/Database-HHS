@@ -1,0 +1,11 @@
+Read LabelHH11111
+Read LabelHH22222
+Read LabelHH33333
+ScanLP $P,CBTDB01,P
+ReadLP UnPlugPower
+Read LabelHH11111
+ReadLP TXError
+ReadLP PlugInPower
+Read LabelHH33333
+ReadLP CheckACKBeep
+ReadLP MoveOutRange

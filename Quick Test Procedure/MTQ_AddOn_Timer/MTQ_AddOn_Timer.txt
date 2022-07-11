@@ -1,0 +1,21 @@
+EnterSP
+Send $CABEN01
+Send $CEBEN01
+Send $C8BEN01
+Send $C3BEN01
+Send $C3BIN01
+Send $C3BIS01
+Send $CADO201
+Send $CADO501
+Send $CADOT00
+Send $Ar
+Read QT_UPCA_Addon 2
+Read QT_UPCA_Addon 5
+Read QT_UPCE_Addon 2
+Read QT_UPCE_Addon 5
+Read QT_EAN8_Addon 2
+Read QT_EAN8_Addon 5
+Read QT_EAN13_Addon 2
+Read QT_EAN13_Addon 5
+Read QT_ISBN13 5 Digit
+Read QT_ISSN 2 Digit
