@@ -1,0 +1,83 @@
+EnterSP
+Send $CDESA01
+Send $CAZEN01
+Send $CDMEN01
+Send $CQREN01
+Send $CMQEN01
+Send $CMXEN01
+Send $CP4EN01
+Send $CMIEN01
+Send $Ar
+Read Aztec Structure Append_123.png
+Read Aztec Structure Append_456.png
+Read Aztec Structure Append_789.png
+Read Datamatrix Structure Append_000.png
+Read Datamatrix Structure Append_123.png
+Read Datamatrix Structure Append_456.png
+Read Datamatrix Structure Append_789.png
+Read Macro PDF417 Structure Append_123.png
+Read Macro PDF417 Structure Append_456.png
+Read Macro PDF417 Structure Append_789.png
+Read Macro PDF417 Structure Append_abc.png
+Read Micro PDF417 Structure Append_abc.jpg
+Read Micro PDF417 Structure Append_def.jpg
+Read Micro PDF417 Structure Append_ghi.jpg
+Read Micro PDF417 Structure Append_klm.jpg
+Read QR Code Structure Append_123.png
+Read QR Code Structure Append_456.png
+Read QR Code Structure Append_abc.png
+Read QR Code Structure Append_def.png
+Read Aztec Structure Append_123.png
+Read Datamatrix Structure Append_000.png
+Read Datamatrix Structure Append_123.png
+Read Datamatrix Structure Append_456.png
+Read Datamatrix Structure Append_789.png
+Read Datamatrix Structure Append_000.png
+Read Datamatrix Structure Append_123.png
+Read Micro PDF417 Structure Append_abc.jpg
+Read Micro PDF417 Structure Append_def.jpg
+Read Micro PDF417 Structure Append_ghi.jpg
+Read Micro PDF417 Structure Append_klm.jpg
+Read Datamatrix Structure Append_456.png
+Read Datamatrix Structure Append_789.png
+Read Macro PDF417 Structure Append_123.png
+Read Macro PDF417 Structure Append_456.png
+Read QR Code Structure Append_123.png
+Read QR Code Structure Append_456.png
+Read Macro PDF417 Structure Append_789.png
+Read Macro PDF417 Structure Append_abc.png
+Read QR Code Structure Append_abc.png
+Read QR Code Structure Append_def.png
+Read Aztec Structure Append_123.png
+Read Aztec Structure Append_456.png
+Read $CMIEN01.jpg
+Read Aztec Structure Append_789.png
+Read Datamatrix Structure Append_123.png
+Read Datamatrix Structure Append_456.png
+Read Datamatrix Structure Append_789.png
+Read abcabc.png
+Read Datamatrix Structure Append_000.png
+Read Macro PDF417 Structure Append_123.png
+Read QR_abcabc.png
+Read Macro PDF417 Structure Append_456.png
+Read Macro PDF417 Structure Append_789.png
+Read Macro PDF417 Structure Append_abc.png
+Read Micro PDF417 Structure Append_abc.jpg
+Read Micro PDF417 Structure Append_def.jpg
+Read Micro PDF417 Structure Append_ghi.jpg
+Read Datamatrix_abcabc.jpg
+Read Micro PDF417 Structure Append_klm.jpg
+Read QR Code Structure Append_123.png
+Read QR Code Structure Append_456.png
+Read QR_abcdef.jpg
+Read QR Code Structure Append_abc.png
+Read QR Code Structure Append_def.png
+Read Aztec Structure Append_123.png
+Read Aztec Structure Append_456.png
+Read $P,CQREN01,P
+Read Aztec Structure Append_789.png
+Read Protein Multi-Calibrator ODR3021_1
+Read Protein Multi-Calibrator ODR3021_2
+Read Protein Multi-Calibrator ODR3021_3
+Read Protein Multi-Calibrator ODR3021_4
+Read Protein Multi-Calibrator ODR3021_5

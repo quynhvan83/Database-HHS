@@ -1,0 +1,117 @@
+;START OF HEADER
+;Datalogic Scanner Configuration File
+;Config File Format: 0001
+;Master Config File: none;Copyright 2014 by Datalogic Scanning Inc.
+;Creation Date: 2 18 2014 21:7
+;File created by Datalogic Aladdin 1.6.2.0.0 [build:120214.0913]
+;
+;   SPR 002805 Marks and Spencers  2/18/14
+;   Base App. 610001021
+;
+;START OF COMMANDS
+;-------< Initialize >-----------------------------
+$AE                 ; Erase Config Flash
+;
+;-------< System Configuration >-------------------------------
+$YF44523936313034363820; CONFIGURATION ID   DR9610468
+;
+;------<RS232-WN>------
+$M12               ; Load Master defaults and set to RS232-WN
+$CSNOG02  ;	Object Gone Time (1-20 x 500 msec.): 02
+$CAB3B01  ;	Expand UPC-A to EAN-13: Enable
+$CEBCT00  ;	UPC-E Check Character Transmission: Disable
+$CR2PA02  ;	Parity: Odd Parity
+$CR2HC01  ;	Handshaking Control: RTS/CTS
+$CIDCO01  ;	Transmission Label ID Code: Prefix
+$CLEEN01  ;	Advanced Formatting/ Label Edit Script Enable: Enabled
+$CU8AI00  ;	GS1-128 AIM ID: Disable
+$CLAGL03  ;	Good Read LED Duration (0-255 x 100 msec.): 03
+$CEBID430000  ;	Set UPCE Label ID Character(s): C
+$C8BID420000  ;	Set EAN 8 Label ID Character(s): B
+$C3BID410000  ;	Set EAN 13 Label ID Character(s): A
+$CISID410000  ;	Set ISBN Label ID Character(s): A
+$CC3ID4D0000  ;	Set Code 39 Label ID Character(s): M
+$CDPID4D0000  ;	Set Danish PPT Label ID Character(s): M
+$CLPID4D0000  ;	Set La Poste 39 Label ID Character(s): M
+$CPZID4D0000  ;	Set PZN Label ID Character(s): M
+$CI2ID490000  ;	Set Interelaved 2of5 Label ID Character(s): I
+$CS2ID480000  ;	Set Code Standard 2/5 Label ID Character(s): H
+$CIAID490000  ;	Set Code IATA Label ID Character(s): I
+$CCBID4E0000  ;	Set Codabar Label ID Character(s): N
+$CC7ID4E0000  ;	Set NW7 Label ID Character(s): N
+$CACID4E0000  ;	Set ABC Codabar Label ID Character(s): N
+$CHRID490000  ;	Set I2of5 CIP HR label ID character(s): I
+$CC9ID4C0000  ;	Set Code 93 Label ID Character(s): L
+$CP4ID510000  ;	Set PDF 417 Label ID Character(s): Q
+$CMIID530000  ;	Set Micro PDF 417 Label ID Character(s): S
+$CC8ID4C0000  ;	Set Code 128 Label ID Character(s): L
+$CU8ID500000  ;	Set GS1-128 Label ID Character(s): P
+$CMSID4F0000  ;	Set MSI Label ID Character(s): O
+$CI8ID4B0000  ;	Set Concatenated ISBT 128 Label ID Character(s)): K
+$CM2ID480000  ;	Set Matrix 2 of 5  Label ID Character(s): H
+$CCCID4D0000  ;	Set Code 39 CIP Label ID Character(s): M
+$CPLID4F0000  ;	Set Plessey Label ID Character(s): O
+$CE2ID430000  ;	Set UPCE P2 Label ID Character(s): C
+$CE5ID430000  ;	Set UPCE/P5 Label ID Character(s): C
+$C82ID420000  ;	Set EAN 8/P2 Label ID Character(s): B
+$C85ID420000  ;	Set EAN 8/P5 Label ID Character(s): B
+$C32ID410000  ;	Set EAN 13/P2 Label ID Character(s): A
+$C35ID410000  ;	Set EAN 13/P5 Label ID Character(s): A
+$CUMID500000  ;	Set GS1-128 Composite Label ID Character(s): P
+$C3MID410000  ;	Set EAN 13 Composite Label ID Character(s): A
+$C8MID420000  ;	Set EAN8 Composite Label ID Character(s): B
+$CEMID430000  ;	Set UPC-E Composite Label ID Character(s): C
+$C4BID450000  ;	Set GS1 DataBar 14 (Omnidirectional) Label ID Character(s): E
+$CXBID450000  ;	Set GS1 DataBar Expanded Label ID Character(s): E
+$CLBID450000  ;	Set GS1 DataBar Limited Label ID Character(s): E
+$C4CID450000  ;	Set GS1 DataBar Omnidirectional Composite Label ID Character(s): E
+$CXCID450000  ;	Set GS1 DataBar Expanded Composite Label ID Character(s): E
+$CLCID450000  ;	Set GS1 DataBar Limited Composite Label ID Character(s): E
+$CDMID520000  ;	Set Datamatrix label ID character(s): R
+$CQRID550000  ;	Set QR code label ID Character(s): U
+$CAZID560000  ;	Set Aztec label ID character(s): V
+$CMXID540000  ;	Set Maxicode Label ID Character(s): T
+$CLFCH0D60FFFFFFFFFFFF  ;	Character Conversion: [0D Carriage Return] `
+$As                 ; Commit Interface Class to user
+$AS                 ; Commit Interface Class to factory
+;
+;------<USB-OEM>------
+$M45               ; Load Master defaults and set to USB-OEM
+$CSNOG02  ;	Object Gone Time (1-20 x 500 msec.): 02
+$CIFO102  ;	Interface Options 1: Ignore Scanner Configuration Host Commands
+$CLAGL03  ;	Good Read LED Duration (0-255 x 100 msec.): 03
+$CLFSU0000000000000000000000000000000000000000  ;	Global Suffix: 
+$AS                 ; Commit Interface Class to factory
+;
+;------<USB-KBD>------
+$M35               ; Load Master defaults and set to USB-KBD
+$CSNOG02  ;	Object Gone Time (1-20 x 500 msec.): 02
+$CLAGL03  ;	Good Read LED Duration (0-255 x 100 msec.): 03
+$As                 ; Commit Interface Class to user
+$AS                 ; Commit Interface Class to factory
+;
+;------<RS232-STD>------
+$M05               ; Load Master defaults and set to RS232-STD
+$CSNOG02  ;	Object Gone Time (1-20 x 500 msec.): 02
+$CLAGL03  ;	Good Read LED Duration (0-255 x 100 msec.): 03
+$AS                 ; Commit Interface Class to factory
+;
+;-------< Set Default Host Interface >----
+$HA35               ; Set not active default intreface to USB-KBD
+$HA12               ; Set active default intreface to RS232-WN
+;-------< User Label Edit Script >----
+$U00000008554C453200D20A0A
+$U000800100A7B0A6966284F5554312E4461746154
+$U001800107970653D3D22436F646531323822290A
+$U002800107B0A0A6966284F5554312E446174614C
+$U00380010656E3C3130290A7B0A4F5554312E4461
+$U0048001074613D2230222B496E74546F53747228
+$U005800104F5554312E446174614C656E292B4F55
+$U0068001054312E446174610A7D0A656C73650A7B
+$U007800100A4F5554312E446174613D496E74546F
+$U00880010537472284F5554312E446174614C656E
+$U00980010292B4F5554312E446174610A7D0A446F
+$U00A80010534C46284F555431290A0A467265654D
+$U00B80010656D6F727928290A44657374726F7953
+$U00C8001074727563747328290A7D0A7D0A0A0A0A
+;------< End >-----------------------

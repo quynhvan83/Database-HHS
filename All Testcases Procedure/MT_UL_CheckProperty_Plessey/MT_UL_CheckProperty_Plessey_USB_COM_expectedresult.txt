@@ -1,0 +1,44 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+aLabelID = aData = 123456E000 Type = Plessey
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+NO PERFORM CHECK CHAR - 123456E000
+
+PERFORM CHECK CHAR - 123456E000
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+NO TRANSMIT CHECK CHAR - 123456E0
+
+TRANSMIT CHECK CHAR - 123456E000

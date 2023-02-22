@@ -1,0 +1,23 @@
+# Nach Position "[GS]P" im Code suchen und bis Position "[GS]" ausschneiden! 
+# ":." Header & ".;" Terminator hinzufügen
+
+
+{
+	if (OUT1.DataType == "PDF417")  						#only when PDF417
+	{	
+		la = OUT1.Data 								# save the scanned data in the la variable
+		nPosStart = FindSubStr ( la , "\x1D" + "P" , 1 )			# find the occurance of GS + P in the la variable and save the position in nPosStart
+		if ( nPosStart > 0 ) 							# test if GS + P was found
+		{
+			nPosEnd = FindSubStr ( la , "\x1D" , nPosStart + 1 )		#find the next GS in the la variable. Start searching from 1 position futher than the first found GS
+			if ( nPosEnd > 0 )						# test if a second gs was found
+			{
+				nLen = nPosEnd - nPosStart – 2				# calculate the length of the string between the both GS positions
+				OUT1.Data = ":." + Mid(la,nPosStart + 2 ,nLen) + ".;"	# take the string from la and put it in OUT1 and add a prefix and suffix
+				OUT1.DataLen=StrLen(OUT1.Data)				# never new why this command. I suppose to clean memory
+				OUT1.BaseLen=OUT1.DataLen				# never new why this command. I suppose to clean memory
+				DoSLF(OUT1)						# no addition suffix
+			}
+		}
+	}
+}

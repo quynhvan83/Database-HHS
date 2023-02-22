@@ -1,0 +1,6 @@
+Read $P,CSNRM04,P
+Read QT_UPCA_123456789012
+GetData
+GetData
+GetData
+GetData

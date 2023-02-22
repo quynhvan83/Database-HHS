@@ -1,0 +1,13 @@
+{	
+	if (IsInMemory("STR1") == 0)
+	{
+		SaveStr(OUT1.Data, "STR1")
+		SetNextLabel()
+	}
+	else
+	{
+		str = RestoreStr("STR1")
+		OUT1.Data = OUT1.Data + str + "\n"
+		FreeMemory()
+	}
+}

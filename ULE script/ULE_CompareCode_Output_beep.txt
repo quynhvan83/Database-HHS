@@ -1,0 +1,40 @@
+# Vergleicht 2 Codes. Ergebnis ist ein Error Beep oder ein green Spot + Output.
+
+
+
+	{
+
+		if(IsInMemory("LabelData")==0)
+		{
+
+			SaveStr(OUT1.Data,"LabelData")
+			SpecialBeep(1,1,1,10,10)
+			SetNextLabel()
+		}
+		else
+		{
+
+			LabelD=RestoreStr("LabelData")
+
+
+			if(LabelD==OUT1.Data)
+			{
+
+
+				OUT1.Data=OUT1.Data
+				OUT1.DataLen=StrLen(OUT1.Data)
+				OUT1.BaseLen=OUT1.DataLen
+				DoSLF(OUT1)
+			}
+			else
+			{
+				SetNextLabel()
+				SpecialBeep(4,2,1,10,10)
+			}
+
+			FreeMemory()
+		}
+	}
+
+
+

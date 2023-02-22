@@ -1,0 +1,43 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+LABEL ID 9ABCabc
+$>,>,>
+NO LABEL ID ABCabc
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+NO PERFORM CHECK CHAR - ABCabc
+$>,>,>
+PERFORM CHECK CHAR - ABCabc
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+NO TRANSMIT CHECK CHAR - ABCabc
+$>,>,>
+TRANSMIT CHECK CHAR - ABCabc

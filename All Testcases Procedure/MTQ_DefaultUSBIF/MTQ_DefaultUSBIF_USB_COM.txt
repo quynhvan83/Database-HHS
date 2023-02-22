@@ -1,0 +1,7 @@
+EnterSP
+Send $AE
+Send $hA
+Send $Ae
+Send $hA
+Send $HA47
+Send $Ar

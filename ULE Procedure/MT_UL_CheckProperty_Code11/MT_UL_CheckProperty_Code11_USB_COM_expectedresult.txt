@@ -1,0 +1,55 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+CELabelID = CE Data = 1240 Type = Code11
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+NO TRANSMIT CHECK CHAR - 123456
+$>
+$>,>
+TRANSMIT CHECK CHAR - 12345611
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+NO CHECK CHARACTER - ABCabc
+$>
+$>
+$>
+ONE CHECK CHARACTER - ABCabc
+$>
+$>
+$>
+ONE CHECK CHARACTER - ABCabc
+$>
+$>
+$>
+TWO CHECK CHARACTERS - ABCabc

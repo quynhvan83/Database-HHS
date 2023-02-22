@@ -1,0 +1,45 @@
+# start of script
+{
+	# check if we got a timer expired "label"
+	if (OUT1.DataType == "TimerExpired")
+	{
+		# Timer Expired so clear the old barcode from memory
+		FreeMemory()
+	}
+	else
+	{
+		if (IsInMemory("LS1") == 1)
+		{
+			# check if there is a barcode structure stored in persistent memory
+			# create OUT2 to hold the restored barcode structure from persistent memory
+			OUT2 = OUT1
+			# get the structure in persistent memory and put it into OUT2
+			RestoreIOStruct(OUT2, "LS1")
+			# check if the last label is the same as the current one
+			if ((OUT1.DataType == OUT2.DataType) && (OUT1.Data == OUT2.Data))
+			{
+				SetNextLabel()
+			} # end of if OUT1 and OUT2 have the same label
+			else
+			{
+				# come here if OUT1 and OUT2 have different labels
+				# Clear the old barcode structure from persistent memory
+				FreeMemory()
+				# save the new "different" barcode structure to persistent memory
+				# for the next scan to check against
+				SaveIOStruct(OUT1,"LS1")
+			}
+			# destroy OUT2, done with it
+			DestroyStructs()
+		} 
+		else
+		{
+			# there isn't a barcode structure in memory so this must be the first time 
+			# through so save the new barcode structure to persistent memory
+			SaveIOStruct(OUT1,"LS1")
+		}
+		# start a 50 minute timer (30000 * 100ms = 50 mins) 
+		StartTimer(OUT1, 30000)
+		DoSLF(OUT1)
+	}
+} # end of script

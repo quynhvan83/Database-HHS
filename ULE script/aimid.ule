@@ -1,0 +1,51 @@
+# This script converts UPCA, UPCE and EAN8 labels to EAN13 labels.
+# The EAN13 Code 128 addons get the AIM Id for the main label as well as AIM Id the Code 128 addon
+# portion of the label and appends them to the label data.  The main label AIM Id precedes the
+# label data.  The Code 128 addon AIM Id follows the main label data and precedes the Code 128
+# addon portion of the label data.
+# All other EAN13 label types get the AIM Id and append it to the beginning of the label data.
+{
+	# check for UPCA labels
+	if (OUT1.DataType == "UPCA" || OUT1.DataType == "UPCAP2" || OUT1.DataType == "UPCAP5" || OUT1.DataType == "UPCAP8")
+	{
+		# convert label to an EAN13
+		FMTUPCAToEAN13(OUT1)
+	}
+	# check for UPCE labels
+	if (OUT1.DataType == "UPCE" || OUT1.DataType == "UPCEP2" || OUT1.DataType == "UPCEP5" || OUT1.DataType == "UPCEP8")
+	{
+		# convert label to an EAN13
+		FMTUPCEToEAN13(OUT1)
+	}
+	# check for EAN8 labels
+	if (OUT1.DataType == "EAN8" || OUT1.DataType == "EAN8P2" || OUT1.DataType == "EAN8P5" || OUT1.DataType == "EAN8P8")
+	{
+		# convert label to an EAN13
+		FMTEAN8ToEAN13(OUT1)
+	}
+	# get the AIM Id
+	aimid = GetAIMId(OUT1)
+	# check if EAN13 addon label, need to get the aim id for the main body and the p8 addon portion
+	if (OUT1.DataType == "EAN13P8")
+	{
+		# get the AIM Id for the addon portion
+		addonaimid = GetAIMAddonId(OUT1)
+		# get the base label
+		base = Left(OUT1.Data, OUT1.BaseLen)
+		# get the addon portion of the label
+		addon = Right(OUT1.Data, OUT1.AddonLen)
+		# save the base length		
+		base_len = OUT1.BaseLen
+		# concatenate them all together, the data length and the base length both get updated here
+		OUT1.Data = aimid + base + addonaimid + addon + "\n"
+		# recalcuate the base length, include length of AIM Id and line feed added above 
+		OUT1.BaseLen = base_len + 3
+		OUT1.AddonLen = OUT1.AddonLen + 3 + 1
+		OUT1.DataLen = OUT1.BaseLen + OUT1.AddonLen 
+	}
+	else
+	{
+		# append AIM Id to beginning of label data (add a line feed at the end)
+		OUT1.Data = aimid + OUT1.Data + "\n"
+	}
+}

@@ -1,0 +1,36 @@
+;START OF HEADER
+;Datalogic Scanner Configuration File
+;Config File Format: 0001
+;Master Config File: none;Copyright 2014 by Datalogic Scanning Inc.
+;Creation Date: 12 9 2014 2:30
+;File created by Datalogic Aladdin 1.6.4.0.0 VN [build:141114.1341]
+;
+;START OF COMMANDS
+;-------< Initialize >-----------------------------
+$AE                 ; Erase Config Flash
+;
+;-------< System Configuration >-------------------------------
+$YF00000000000000000000; CONFIGURATION ID
+;
+;------<RS232-STD>------
+$HA12               ; Load Master defaults and set to RS232-WN
+$CLEEN01            ; Advanced Formatting/ Label Edit Script Enable: Enabled
+$As                 ; Commit Interface Class to user
+$AS                 ; Commit Interface Class to factory
+;
+
+;-------< User Label Edit Script >----
+$U00000008554C453200BE0A0A
+$U000800100A7B0A746D703D47657450726F706572
+$U001800107479284C465F52535331345F45414E31
+$U0028001032385F454D554C415445290A0A0A0A69
+$U003800106628746D703D3D30290A7B0A4F555431
+$U004800102E446174613D224E4F20434F56455254
+$U0058001020544F2045414E3132382D20222B4F55
+$U0068001054312E446174612B225C725C6E220A7D
+$U007800100A0A0A0A656C7365696628746D703D3D
+$U0088001031290A7B0A4F5554312E446174613D22
+$U00980010434F5645525420544F2045414E313238
+$U00A80010202D20222B4F5554312E446174612B22
+$U00B8000C5C725C6E220A7D0A7D0A0A0A
+;------< End >-----------------------

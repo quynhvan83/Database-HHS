@@ -1,0 +1,18 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE CountReadData.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CBTAB00
+Send $CSNDR1C
+Send $Ar
+Read Code39_ABC
+Read Code39_ABC
+Read Code39_ABC
+Read Code39_ABC
+Read Code39_ABC
+Read Code39_ABC
+Read Code39_ABC
+Read Code39_ABC
+Read Code39_ABC

@@ -1,0 +1,43 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+sLabelID = s Data = 12345678 Type = S2of5
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+NO S2OF5 CHECK CHAR CALCULATION - 123456784
+
+S2OF5 CHECK CHAR CALCULATION - 123456784
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+S2OF5 CHECK CHAR TRANSMISSION - 123456784
+
+NO S2OF5 CHECK CHAR TRANSMISSION - 12345678

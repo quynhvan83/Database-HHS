@@ -1,0 +1,91 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_LABEL_ID_Code39.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CC3EN01
+Send $CIDCO01
+Send $CC3SS01
+Send $Ar
+Read Code39_SW7472
+EnterSP
+Send $CCCEN01
+Send $CCTEN01
+Send $CDPEN01
+Send $CPZEN01
+Send $Ar
+Read Code 39 CIP_Tuan’s example.png
+Read Code 39 Trioptics_ Tuan’s example.jpg
+Read Code 39 Danish PPT_ Tuan’s example.png
+Read Code 39 PZN_Tuan’s example.png
+Send $S,CLPEN01,Ar
+Read Code 39 Laposte_Tuan’s example.png
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_C39_CHK_CHAR_CALC.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CC3SS01
+Send $CC3EN01
+Send $CIDCO00
+Send $Ar
+Read Code39_Module43_ABCDEFW
+Send $S,CC3CC01,Ar
+Read Code39_Module43_ABCDEFW
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_C39_CHK_CHAR_TXMIT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CC3EN01
+Send $CC3SS01
+Send $CC3CC01
+Send $CIDCO00
+Send $Ar
+Read Code39_Module43_ABCDEFW
+Send $S,CC3CT00,Ar
+Read Code39_Module43_ABCDEFW
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_C39_STARTSTOP_CHAR_TXMIT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $CC3EN01
+Send $Ar
+Read Code39_ABCDEF
+Send $S,CC3SS01,Ar
+Read Code39_ABCDEF
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_C39_FULL_ASCII_CONVERT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $CC3EN01
+Send $CC3SS01
+Send $Ar
+Read Code39_FullASCII_ABCabc
+Send $S,CC3FA01,Ar
+Read Code39_FullASCII_ABCabc

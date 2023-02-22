@@ -1,0 +1,11 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_AIM_ID_ENABLE.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $Ar
+Read Code128_ABCabc
+Send $S,CAIEN01,Ar
+Read Code128_ABCabc

@@ -1,0 +1,11 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+ILabelID = I Data = 123456789X Type = ISBN
+ILabelID = I Data = 4567890124 Type = ISBN

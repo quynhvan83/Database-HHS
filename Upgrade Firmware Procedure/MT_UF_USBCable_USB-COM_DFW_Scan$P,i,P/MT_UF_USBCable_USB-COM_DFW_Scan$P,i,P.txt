@@ -1,0 +1,12 @@
+Read $P,HA47,P
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, \\vnmsrv305\grpfiles\R&D\HH_VN_SWTestTeam\Projects\PEGASUS\FirmWares\ALPHA_BLR_PEGASUS_STAR_MERGE_044_DEA30AF
+ChangeToWindow Serviceport - 1 running window
+Read $P,HA47,P
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+ExitSP

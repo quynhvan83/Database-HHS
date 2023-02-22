@@ -1,0 +1,43 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+gLabelID = g Data = 08312865 Type = M2of5
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+NO M2OF5 CHECK CHAR CALCULATION - 1234565
+$>,>,>
+M2OF5 CHECK CHAR CALCULATION - 1234565
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+M2OF5 CHECK CHAR TRANSMISSION - 1234565
+$>,>,>
+NO M2OF5 CHECK CHAR TRANSMISSION - 123456

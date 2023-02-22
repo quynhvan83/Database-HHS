@@ -1,0 +1,26 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+
+$KLabelID = $K Data = 11,12345678 Type = Postal_Australian
+
+$ULabelID = $U Data = 1230AA12345XHUIS Type = Postal_Kix
+
+$RLabelID = $R Data = 15400233-16-4 Type = Postal_Japanese
+
+$MLabelID = $M Data = LU178XE2B Type = Postal_RM
+
+$LLabelID = $L Data = 098295123452 Type = Postal_Postnet
+
+$WLabelID = $W Data = 401234567891 Type = Postal_Planet
+
+$VLabelID = $V Data = 1070012345612345678912345678901 Type = Postal_IM
+
+$XLabelID = $X Data = 2,0,2,10000002,2 Type = Postal_Swedish
+
+$PLabelID = $P Data = 44303210088 Type = Postal_Portugal

@@ -1,0 +1,31 @@
+#<Start the script>
+{
+
+	# <If Data Type = UPCA: Start>
+	if (OUT1.DataType == "UPCA")
+	{
+	
+	# Get Property of UPCA to EAN13 Conversion:
+	upca_ean13 = GetProperty(LF_UPCA_TO_EAN13_EXPND)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO UPCA TO EAN13 CONVERSION – Label Data
+		if (upca_ean13 == 0)
+		{
+			# Data will displays with no UPCA to EAN13 Conversion:
+			OUT1.Data = "NO UPCA TO EAN13 CONVERSION - " + OUT1.Data + "\r"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# UPCA TO EAN13 CONVERSION – Label Data
+		else if (upca_ean13 == 1)
+		{
+			# Convert UPCE to EAN13:
+			FMTUPCAToEAN13(OUT1)
+			# Data will displays: UPCA TO EAN13 CONVERSION – Label Data
+			OUT1.Data = "UPCA TO EAN13 CONVERSION - " + OUT1.Data + "\r"
+		}
+	}
+	# <If Data Type = UPCA: End>
+}
+#<End the script>

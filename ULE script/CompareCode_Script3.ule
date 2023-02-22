@@ -1,0 +1,33 @@
+{
+
+	if(IsInMemory("LabelData")==0)
+	{
+
+		SaveStr(OUT1.Data,"LabelData")
+
+		SetNextLabel()
+	}
+	else
+	{
+
+		LabelD=RestoreStr("LabelData")
+
+
+		if(LabelD==OUT1.Data)
+		{
+
+
+			OUT1.Data="\x00"
+			OUT1.DataLen=StrLen(OUT1.Data)
+			OUT1.BaseLen=OUT1.DataLen
+			NoSLF(OUT1)
+		}
+		else
+		{
+			SetNextLabel()
+			SpecialBeep(4,2,1,10,10)
+		}
+
+		FreeMemory()
+	}
+}

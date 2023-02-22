@@ -1,0 +1,24 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE Museo2D_ULE_Codecheck-v1.1e.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CMSEN01
+Send $CC1EN01
+Send $CADO201
+Send $CQREN01
+Send $CMXEN01
+Send $CPOEN04
+Send $CDCEN01
+Send $Ar
+Read Code128_ABCabc
+Read UPCA_123456789012
+Read UPCE_P2_0234560412
+Read MSI_0234560126
+Read Code11_1240
+Read QR_Code_023456012
+Read MaxiCode_023456012
+Read Datamatrix_023456012
+Read Postal_Kix
+Read Dotcode_Label Dot Code Standard

@@ -1,0 +1,30 @@
+#<Start the script>
+{
+
+	# <If Data Type = UPCE: Start>
+	if (OUT1.DataType == "UPCE")
+	{
+	
+	# Get Property of UPCE Check Character Transmission:
+	upce_CT = GetProperty(LF_UPCE_CHK_CHAR_XMIT)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO UPCE CHECK CHARACTER TRANSMISSION – Label Data
+		if (upce_CT == 0)
+		{
+			# Strip Check Character
+			StripBeginEndChars(OUT1,0,1)
+			# Data will displays with no Check Characters Transmission
+			OUT1.Data = "NO CHECK CHARACTER TRANSMISSION - " + OUT1.Data + "\r"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# UPCE CHECK CHARACTER TRANSMISSION – Label Data
+		else if (upce_CT == 1)
+		{
+			OUT1.Data = "UPCE CHECK CHARACTER TRANSMISSION - " + OUT1.Data + "\r"
+		}
+	}
+	# <If Data Type = UPCE: End>
+}
+#<End the script>

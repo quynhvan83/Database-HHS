@@ -1,0 +1,9 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE CaseConversion.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $Ar
+Read Code128_AbCdEfUvWxYz
+Read Label2_Code128_aBcDeFuVwXyZ

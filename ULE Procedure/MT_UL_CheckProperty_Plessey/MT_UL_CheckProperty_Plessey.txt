@@ -1,0 +1,44 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_LABEL_ID_PLESSEY.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CPLEN01
+Send $CIDCO01
+Send $Ar
+Read Code Plessey Bidirectional_123456E0
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_PLESSEY_CHK_CHAR_CALC.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $CPLCC00
+Send $CPLEN01
+Send $Ar
+Read Code Plessey Bidirectional_123456E0
+Read $P,CPLCC01,P
+Read Code Plessey Bidirectional_123456E0
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_PLESSEY_CHK_CHAR_TXMIT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $CPLCT00
+Send $CPLEN01
+Send $Ar
+Read Code Plessey Bidirectional_123456E0
+Read $P,CPLCT01,P
+Read Code Plessey Bidirectional_123456E0

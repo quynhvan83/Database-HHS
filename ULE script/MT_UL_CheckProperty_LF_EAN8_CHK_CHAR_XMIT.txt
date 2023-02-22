@@ -1,0 +1,31 @@
+#<Start the script>
+{
+
+	# <If Data Type = EAN8: Start>
+	if (OUT1.DataType == "EAN8")
+	{
+	
+	# Get Property of EAN8 Check Character Transmission:
+	ean8_CT = GetProperty(LF_EAN8_CHK_CHAR_XMIT)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO EAN8 CHECK CHARACTER TRANSMISSION – Label Data
+		if (ean8_CT == 0)
+		{
+			# Strip Check Character
+			StripBeginEndChars(OUT1,0,1)
+			# Data will displays with no Check Characters Transmission
+			OUT1.Data = "NO CHECK CHARACTER TRANSMISSION - " + OUT1.Data + "\r\n"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# EAN8 CHECK CHARACTER TRANSMISSION – Label Data
+		else if (ean8_CT == 1)
+		{
+			OUT1.Data = "EAN8 CHECK CHARACTER TRANSMISSION - " + OUT1.Data + "\r\n"
+		}
+	DoSLF(OUT1)
+	}
+	# <If Data Type = EAN8: End>
+}
+#<End the script>

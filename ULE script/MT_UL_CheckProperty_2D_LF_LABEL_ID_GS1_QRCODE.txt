@@ -1,0 +1,9 @@
+#<Start the script>
+{
+	if(OUT1.DataType == "GS1_QRCode")
+	{
+		labelID=GetProperty(LF_LABEL_ID_GS1_QRCODE)
+		OUT1.Data= "LabelID = " + labelID + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+}#<End the script>

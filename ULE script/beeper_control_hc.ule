@@ -1,0 +1,51 @@
+# This script will give the configured good read beep when the current label is different
+# from the last label decoded.  If the current label is the same as the last label decoded,
+# then the good read beep is changed to a special beep and the configured good read beep is
+# saved to persistent memory.
+{
+       # check if there is a structure stored in persistent memory
+        if (IsInMemory("LS1") == 1)
+        {                
+                # create OUT2 to hold the restored structure from persistent memory
+                OUT2 = OUT1
+                # get the structure in persistent memory and put it into OUT2
+                RestoreIOStruct(OUT2, "LS1")
+                # check if the original good read beep has been stored in persistent memory
+                # check if the last label is the same as the current one
+                if ((OUT1.DataType == OUT2.DataType) && (OUT1.Data == OUT2.Data))
+                {
+                        if (IsInMemory("GRB") == 0)
+                        {
+                                # current label and last label are the same, give a special beep
+                                # and get the current settings before changing the settings
+                                beep = ULEBeep(1,2,1,1,10,5)
+                                # save good read beep settings in persistent memory
+                                SaveStr(beep, "GRB")
+                        }
+                }
+                else
+                {
+                        if (IsInMemory("GRB") == 1)
+                        {
+                                # get original good read beep settings from persistent memory
+                                beep = RestoreStr("GRB")                
+                                # restore the good read beep settings
+                                RestoreBeep(beep)              
+                        }
+                        # free up persistent memory
+                        FreeMemory()
+                        # save the new "different" IO structure to persistent memory
+                        SaveIOStruct(OUT1,"LS1")
+                }
+                # destroy OUT2, done with it
+                DestroyStructs()
+
+        }
+        else
+        {
+                # save the new IO structure to persistent memory
+                SaveIOStruct(OUT1,"LS1")
+        }
+        # send OUT1 though standard label formatting
+        DoSLF(OUT1)
+}

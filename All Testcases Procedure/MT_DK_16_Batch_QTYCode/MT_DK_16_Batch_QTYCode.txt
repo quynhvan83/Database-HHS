@@ -1,0 +1,23 @@
+EnterSP
+Send $CKF1102
+Send $CPWEP53310000000000000000000000000000
+Send $CDISM01
+Send $CKF210A
+Send $Ar
+Read Step2_A
+Read Step2_B
+Read Step2_C
+Send $S,CBTBM01,Ar
+Read MoveOutRange
+Read Step3_A
+Read Step3_B
+Read Step3_C
+Read MoveHHInRange
+Wait_second 5000
+GetData
+Send $S,CBTBM02,Ar
+Read Step3_A
+Read Step3_B
+Read Step3_C
+Wait_second 5000
+GetData

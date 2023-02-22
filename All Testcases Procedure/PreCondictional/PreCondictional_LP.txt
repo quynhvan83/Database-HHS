@@ -1,0 +1,2 @@
+Read $P,AE,CSNRM03,P
+SetInterface

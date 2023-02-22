@@ -1,0 +1,18 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE LabelID_UPCEAN_Composite.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CU82D01
+Send $CEB2D01
+Send $CAB2D01
+Send $C8B2D01
+Send $C3B2D01
+Send $CIDCO01
+Send $Ar
+Read UPCE_Composite_01234565HelloAB CC-A compo
+Read UPCA_Composite_12345678901212345678901231234567890123
+Read EAN8_Composite_07894565789456
+Read EAN13_Composite_123456789012812345678901231234567890123
+Read EAN128_Composite_012092011901233789456

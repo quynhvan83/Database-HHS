@@ -1,0 +1,20 @@
+#<Start the script>
+{
+	tmp = GetProperty(LF_MICROPDF_128_EMULATE)
+
+	# If the scanner property of Convert MicroPDF to EAN128 = No conversion , the returned value will be:
+	# NO COVERT TO EAN128 – Label Data
+	if (tmp == 0)
+	{
+		OUT1.Data = "NO COVERT TO EAN128 - " + OUT1.Data + "\r\n"
+	}
+
+	# If the scanner property of Convert MicroPDF to EAN128 = Do conversion, the returned value will be:
+	# COVERT TO EAN128- Label Data
+	else if (tmp == 1)
+	{
+		OUT1.Data = "COVERT TO EAN128 - " + OUT1.Data + "\r\n"
+	}
+DoSLF(OUT1)
+}
+#<End the script>

@@ -1,0 +1,43 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty LF_LABEL_ID_EAN8.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CADO201
+Send $CADO501
+Send $CIDCO01
+Send $Ar
+Read EAN8_12345670
+Read EAN8_1234567012
+Read EAN8_1234567012345
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_EAN8_CHK_CHAR_XMIT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $Ar
+Read EAN8_12345670
+Read $P,C8BCT00,P
+Read EAN8_12345670
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_EAN8_TO_EAN13_EXPND.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $Ar
+Read EAN8_12345670
+Read $P,C8B3B01,P
+Read EAN8_12345670

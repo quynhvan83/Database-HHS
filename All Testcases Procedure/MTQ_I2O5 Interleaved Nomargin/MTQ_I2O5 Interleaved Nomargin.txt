@@ -1,0 +1,40 @@
+Read $P,CI2EN01,P.png
+Read $P,CI2SM00,P.png
+Read $P,CI2FM00,P.png
+Read $P,CI2LM00,P.png
+Read I2of5 normal margins (1°).png
+Read $P,CI2SM01,P.png
+Read $P,CI2FM00,P.png
+Read $P,CI2LM00,P.png
+Read I2of5 normal margins (1°).png
+Read I2of5 First Short margins (2a).png
+Read I2of5 Both Short margins (2b).png
+Read I2of5 Last Short margins (2c).png
+Read $P,CI2SM00,P.png
+Read $P,CI2FM00,P.png
+Read $P,CI2LM01,P.png
+Read I2of5 normal margins (1°).png
+Read I2of5 First Short margins (2a).png
+Read I2of5 Last Short margins (2c).png
+Read I2of5 No last margin (3a).png
+Read I2of5 No first margin (3b).png
+Read $P,CI2SM00,P.png
+Read $P,CI2FM01,P.png
+Read $P,CI2LM01,P.png
+Read I2of5 normal margins (1°).png
+Read I2of5 First Short margins (2a).png
+Read I2of5 Both Short margins (2b).png
+Read I2of5 Last Short margins (2c).png
+Read I2of5 No last margin (3a).png
+Read I2of5 No first margin (3b).png
+Read I2of5 No first no short margins (3c).png
+Read $P,CI2SM01,P.png
+Read $P,CI2FM01,P.png
+Read $P,CI2LM01,P.png
+Read I2of5 normal margins (1°).png
+Read I2of5 First Short margins (2a).png
+Read I2of5 Both Short margins (2b).png
+Read I2of5 Last Short margins (2c).png
+Read I2of5 No last margin (3a).png
+Read I2of5 No first margin (3b).png
+Read I2of5 No first no short margins (3c).png

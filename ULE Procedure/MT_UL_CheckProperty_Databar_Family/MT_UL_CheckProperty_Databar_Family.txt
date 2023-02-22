@@ -1,0 +1,62 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_LABEL_ID_RSS_14.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO01
+Send $C4BEN01
+Send $CLBEN01
+Send $CXBEN01
+Send $Ar
+Read GS1 Databar (RSS-14)_12345678901231
+Read GS1 Databar Expanded (RSS)_0123456789012313
+Read GS1 Databar Limited (RSS)_12345678901231
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_RSS14_EAN128_EMULATE.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO01
+Send $C4BEN01
+Send $Ar
+Read GS1 Databar (RSS-14)_12345678901231
+Read $P,C4BU801,P
+Read GS1 Databar (RSS-14)_12345678901231
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_RSSLIM_EAN128_EMULATE.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO01
+Send $CLBEN01
+Send $Ar
+Read GS1 Databar Limited (RSS)_12345678901231
+Read $P,CLBU801,P
+Read GS1 Databar Limited (RSS)_12345678901231
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_RSSEXP_EAN128_EMULATE.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO01
+Send $CXBEN01
+Send $Ar
+Read GS1 Databar Expanded (RSS)_0123456789012313
+Read $P,CXBU801,P
+Read GS1 Databar Expanded (RSS)_0123456789012313

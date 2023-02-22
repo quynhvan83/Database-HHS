@@ -1,0 +1,10 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty LF_LABEL_ID_ISSN.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO01
+Send $C3BIN01
+Send $Ar
+Read EAN13_9771234567898

@@ -1,0 +1,119 @@
+
+{
+
+
+	match=0
+
+	origData=OUT1.Data
+
+
+	if((OUT1.DataLen==18)&&(Left(OUT1.Data,1)!="7"))
+	{
+		match=1
+
+		Fstart=1
+
+
+		F1str=Mid(OUT1.Data,Fstart,(StrLen(OUT1.Data)-Fstart)+1)
+		Fstart=StrLen(OUT1.Data)+1
+
+
+		OUT1.Data=""+F1str
+		OUT1.DataLen=StrLen(OUT1.Data)
+		OUT1.BaseLen=OUT1.DataLen
+
+		DoSLF(OUT1)
+                #SpecialBeep use for old products, ULEBeep use for LEGO products
+		#SpecialBeep(1,2,2,10,10)
+		ULEBeep(1,1,2,2,10,10)
+	}
+
+
+	if((OUT1.DataLen==22)&&(Left(OUT1.Data,1)!="7"))
+	{
+		match=1
+
+		Fstart=1
+
+
+		F1str=Mid(OUT1.Data,Fstart,7)
+		Fstart=Fstart+StrLen(F1str)
+
+
+		F2str=Mid(OUT1.Data,Fstart,(StrLen(OUT1.Data)-Fstart)+1)
+		Fstart=StrLen(OUT1.Data)+1
+
+
+		OUT1.Data=""+F2str
+		OUT1.DataLen=StrLen(OUT1.Data)
+		OUT1.BaseLen=OUT1.DataLen
+
+		DoSLF(OUT1)
+                #SpecialBeep use for old products, ULEBeep use for LEGO products
+		#SpecialBeep(1,2,2,10,10)
+		ULEBeep(1,1,2,2,10,10)
+	}
+
+
+	if((OUT1.DataLen==24)&&(Left(OUT1.Data,1)!="7"))
+	{
+		match=1
+
+		Fstart=1
+
+
+		F1str=Mid(OUT1.Data,Fstart,9)
+		Fstart=Fstart+StrLen(F1str)
+
+
+		F2str=Mid(OUT1.Data,Fstart,(StrLen(OUT1.Data)-Fstart)+1)
+		Fstart=StrLen(OUT1.Data)+1
+
+
+		OUT1.Data=""+F2str
+		OUT1.DataLen=StrLen(OUT1.Data)
+		OUT1.BaseLen=OUT1.DataLen
+
+		DoSLF(OUT1)
+                #SpecialBeep use for old products, ULEBeep use for LEGO products
+		#SpecialBeep(1,2,2,10,10)
+		ULEBeep(1,1,2,2,10,10)
+	}
+
+
+	if((OUT1.DataLen==32)&&(Left(OUT1.Data,1)!="7"))
+	{
+		match=1
+
+		Fstart=1
+
+
+		F1str=Mid(OUT1.Data,Fstart,16)
+		Fstart=Fstart+StrLen(F1str)
+
+
+		F2str=Mid(OUT1.Data,Fstart,12)
+		Fstart=Fstart+StrLen(F2str)
+
+
+		F3str=Mid(OUT1.Data,Fstart,(StrLen(OUT1.Data)-Fstart)+1)
+		Fstart=StrLen(OUT1.Data)+1
+
+
+		OUT1.Data=""+F2str
+		OUT1.DataLen=StrLen(OUT1.Data)
+		OUT1.BaseLen=OUT1.DataLen
+
+		DoSLF(OUT1)
+                #SpecialBeep use for old products, ULEBeep use for LEGO products
+		#SpecialBeep(1,2,2,10,10)
+		ULEBeep(1,1,2,2,10,10)
+	}
+
+
+	if(match==0)
+	{
+		SetNextLabel()
+	}
+}
+

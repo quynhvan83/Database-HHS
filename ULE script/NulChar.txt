@@ -1,0 +1,11 @@
+{
+	if(OUT1.DataType=="EAN13")
+	{
+		OUT1.Data="\x00"
+		OUT1.DataLen=StrLen(OUT1.Data)
+		OUT1.BaseLen=OUT1.DataLen
+		NoSLF(OUT1)
+	}
+}
+
+

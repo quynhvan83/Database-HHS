@@ -1,0 +1,22 @@
+{
+	start = Left(OUT1.Data, 3)
+	if(OUT1.DataType == "Code39" && start == "*35")
+	{
+		ULEBeep(1,3,1,1,10,10)
+		DoSLF(OUT1)
+	}
+	elseif(OUT1.DataType == "Code39" && start == "*01")
+	{
+		ULEBeep(3,2,1,1,20,20)
+		DoSLF(OUT1)
+	}
+	elseif(OUT1.DataType == "Code39" && start == "*98")
+	{
+		DoSLF(OUT1)
+	}
+	else
+	{
+		ULEBeep(2,2,2,2,10,10)
+		SetNextLabel()
+	}
+}

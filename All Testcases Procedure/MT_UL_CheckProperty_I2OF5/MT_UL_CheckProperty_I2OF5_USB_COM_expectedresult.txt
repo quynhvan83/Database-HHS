@@ -1,0 +1,57 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+iLabelID = i Data = 123457 Type = I2of5
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+eLabelID = e Data = 9876544 Type = I2OF5_CIP
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+NO I2OF5 CHECK CHAR CALCULATION - 01234565
+$>,>,>
+I2OF5 CHECK CHAR CALCULATION - 01234565
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>,>
+$>
+I2OF5 CHECK CHAR STRIPPED BY ULE - 0123456
+$>,>,>
+I2OF5 CHECK CHAR STRIPPED BY DECLIB - 01234565

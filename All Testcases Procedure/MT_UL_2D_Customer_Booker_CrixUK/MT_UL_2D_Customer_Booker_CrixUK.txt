@@ -1,0 +1,27 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE BookerQS5.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CLEGC0032
+Send $Ar
+Read Label1_Label DM and EAN 13 closed together
+Read EAN13_5000143921267
+Wait_second 5000
+Get_data
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+Read $P,HA00,P
+Read $P
+Read ULE_scrip_Datamatrix_1
+Read ULE_scrip_Datamatrix_2
+Read $P
+Read $P,CLEEN01,P
+Read $P,CLEGC0032,P
+Read Label1_Label DM and EAN 13 closed together
+Read EAN13_5000143921267
+Wait_second 5000
+Get_data

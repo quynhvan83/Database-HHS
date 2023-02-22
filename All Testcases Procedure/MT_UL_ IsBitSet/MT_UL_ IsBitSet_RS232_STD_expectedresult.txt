@@ -1,0 +1,9 @@
+OK
+OK
+OK
+OK
+
+Test for built-in function IsBitSet.The following bits are set:Bit0
+Test for built-in function IsBitSet.The following bits are set:Bit1
+Test for built-in function IsBitSet.The following bits are set:Bit0 Bit1
+Test for built-in function IsBitSet.The following bits are set:Bit0 Bit1 Bit2 Bit3 Bit4 Bit5 Bit6 Bit7 Bit8 Bit9 Bit10 Bit11 Bit12 Bit13 Bit14 Bit15

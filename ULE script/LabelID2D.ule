@@ -1,0 +1,149 @@
+{
+	if(OUT1.DataType == "PDF417")
+	{
+		labelID=GetProperty(LF_LABEL_ID_PDF417)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "MicroPDF")
+	{
+		labelID=GetProperty(LF_LABEL_ID_MICRO_PDF)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "RSS14Comp")
+	{
+		labelID=GetProperty(LF_LABEL_ID_RSS_14_COMPOSITE)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "RSSExpComp")
+	{
+		labelID=GetProperty(LF_LABEL_ID_RSS_EXPANDED_COMPOSITE)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "RSSLimComp")
+	{
+		labelID=GetProperty(LF_LABEL_ID_RSS_LIMITED_COMPOSITE)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Datamatrix")
+	{
+		labelID=GetProperty(LF_LABEL_ID_DATAMATRIX)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Maxicode")
+	{
+		labelID=GetProperty(LF_LABEL_ID_MAXICODE)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "QRCode")
+	{
+		labelID=GetProperty(LF_LABEL_ID_QRCODE)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Aztec")
+	{
+		labelID=GetProperty(LF_LABEL_ID_AZTEC)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCE_COMP")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCE_COMP)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCA_COMP")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCA_COMP)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN8_COMP")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN8_COMP)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN13_COMP")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN13_COMP)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN128_COMP")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN128_COMP)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+     if(OUT1.DataType == "China_Sensible")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CHINA_SENSIBLE)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Postal_Australian")
+	{
+		labelID=GetProperty(LF_LABEL_ID_POSTAL_AUSTRALIAN)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Postal_Kix")
+	{
+		labelID=GetProperty(LF_LABEL_ID_POSTAL_KIX)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Postal_Japanese")
+	{
+		labelID=GetProperty(LF_LABEL_ID_POSTAL_JAPANESE)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Postal_RM")
+	{
+		labelID=GetProperty(LF_LABEL_ID_POSTAL_RM)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Postal_Postnet")
+	{
+		labelID=GetProperty(LF_LABEL_ID_POSTAL_POSTNET)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Postal_Planet")
+	{
+		labelID=GetProperty(LF_LABEL_ID_POSTAL_PLANET)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Postal_IM")
+	{
+		labelID=GetProperty(LF_LABEL_ID_POSTAL_IM)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Postal_Swedish")
+	{
+		labelID=GetProperty(LF_LABEL_ID_POSTAL_SWEDISH)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Postal_Portugal")
+	{
+		labelID=GetProperty(LF_LABEL_ID_POSTAL_PORTUGAL)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+}
+	
+
+

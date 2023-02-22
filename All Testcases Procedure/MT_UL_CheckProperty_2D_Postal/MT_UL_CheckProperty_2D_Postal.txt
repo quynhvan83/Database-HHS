@@ -1,0 +1,26 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE LabelID_Postal.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO01
+Send $Ar
+Read $P,CPOEN05,P
+Read Postal_Australian
+Read $P,CPOEN04,P
+Read Postal_Kix
+Read $P,CPOEN06,P
+Read Postal_Japanese
+Read $P,CPOEN03,P
+Read Postal RM
+Read $P,CPOEN01,P
+Read Postal Postnet
+Read $P,CPOEN02,P
+Read Postal_Planet
+Read $P,CPOEN07,P
+Read Postal_IBM
+Read $P,CPOEN08,P
+Read Postal_Swedish
+Read $P,CPOEN09,P
+Read Postal_Portugal

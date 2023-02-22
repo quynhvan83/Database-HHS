@@ -1,0 +1,13 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_PharmaC39.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CP3EN01
+Send $CP3SS01
+Send $CP3CT01
+Send $CIDCO01
+Send $Ar
+Read Code 32 (345678902)
+Read Code 32 (345678902)

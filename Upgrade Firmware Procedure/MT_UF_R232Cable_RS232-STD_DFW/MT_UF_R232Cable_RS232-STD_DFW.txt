@@ -1,0 +1,39 @@
+Read $P,HA05,P
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, \\vnmsrv305\grpfiles\R&D\HH_VN_SWTestTeam\Projects\PEGASUS\FirmWares\BETA_BLR_PEGASUS_STAR_CRADLE_MERGE_32_DA9A3B9\610159032.dfw
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cR2AT
+Send $cC3EN
+ExitSP
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, \\vnmsrv305\grpfiles\R&D\HH_VN_SWTestTeam\Projects\PEGASUS\FirmWares\BETA_BLR_PEGASUS_STAR_CRADLE_MERGE_33_3E1B42E\610159033.dfw
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cR2AT
+Send $cC3EN
+ExitSP
+Read UPCA
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No,\\vnmsrv305\grpfiles\R&D\HH_VN_SWTestTeam\Projects\PEGASUS\FirmWares\BETA_BLR_PEGASUS_STAR_CRADLE_MERGE_33_3E1B42E\test\fake\610159099.dfw
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cR2AT
+Send $cC3EN
+ExitSP
+Read UPCA

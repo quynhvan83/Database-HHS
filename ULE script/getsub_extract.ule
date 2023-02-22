@@ -1,0 +1,27 @@
+{
+	# check if label is a Code 128 label
+	if (OUT1.DataType == "Code128")
+	{
+		# look for birthday starting delimiter string
+		sub_str = GetSubStr(OUT1.Data, "DBB")	
+		# check if found birthday starting delimiter string 
+		if (StrLen(sub_str) != 0)
+		{
+			# extract the birthday between the starting and ending delimiter strings 
+			birthday = ExtractStr(sub_str, "DBB", "@")
+			# look for name starting delimiter string	
+			sub_str = GetSubStr(OUT1.Data, "DAA")
+			# check if found name starting delimiter string 
+			if (StrLen(sub_str) != 0)
+			{
+				# extract the name between the starting and ending delimiter strings 
+				name = ExtractStr(sub_str, "DAA", "@")
+				# put extracted name and birthday into OUT1 data
+				OUT1.Data = "Name\x20=\x20" + name + "\n" + "Birthday\x20=\x20" + birthday + "\n"
+				# update lengths
+				OUT1.DataLen = StrLen(OUT1.Data)
+				OUT1.BaseLen = OUT1.DataLen
+			}
+		}
+	}
+}

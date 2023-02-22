@@ -1,0 +1,20 @@
+#<Start the script>
+{
+	tmp = GetProperty(LF_ULE_ENABLE)
+
+	# If the scanner property of Enable for ULE script interpretation = No script interpretation , the returned value will be:
+	# NO ENABLE ULE – Label Data
+	if (tmp == 0)
+	{
+		OUT1.Data = "NO ENABLE ULE - " + OUT1.Data + "\r\n"
+	}
+
+	# If the scanner property of Enable for ULE script interpretation = Do script interpretation, the returned value will be:
+	# ENABLE ULE- Label Data
+	else if (tmp == 1)
+	{
+		OUT1.Data = "ENABLE ULE - "+ OUT1.Data + "\r\n"
+	}
+DoSLF(OUT1)
+}
+#<End the script>

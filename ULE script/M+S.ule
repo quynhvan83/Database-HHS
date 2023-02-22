@@ -1,0 +1,20 @@
+#startofscript
+{
+	if(OUT1.DataType=="Code128")
+	{
+
+		if(OUT1.DataLen<10)
+		{
+			OUT1.Data="0"+IntToStr(OUT1.DataLen)+OUT1.Data
+		}
+		else
+		{
+			OUT1.Data=IntToStr(OUT1.DataLen)+OUT1.Data
+		}
+		DoSLF(OUT1)
+		#Justtobesafe...
+		FreeMemory()
+		DestroyStructs()
+	}
+}
+#endofscript

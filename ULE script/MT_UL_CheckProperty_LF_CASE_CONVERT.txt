@@ -1,0 +1,26 @@
+#<Start the script>
+{
+	tmp = GetProperty(LF_CASE_CONVERT)
+
+	# If the scanner property of Conversion of alpha characters to upper and lower case= No conversion, the returned value will be:
+	# NO CONVERSION – Label Data
+	if (tmp == 0)
+	{
+		OUT1.Data = "NO CONVERSION - " + OUT1.Data + "\r\n"
+	}
+
+	# If the scanner property of Conversion of alpha characters to upper and lower case=Convert lower case to upper case, the returned value will be:
+	#ONE CHECK CHARACTER- Label Data
+	else if (tmp == 1)
+	{
+		OUT1.Data = "ONE CHECK CHARACTER - " + OUT1.Data + "\r\n"
+	}
+      #if the scanner property Conversion of alpha characters to upper and lower case= Convert upper case to lower case, the returned value will be:
+     #TWO CHECK CHARACTERS – Label Data
+      else if (tmp == 2)
+	{
+		OUT1.Data = "TWO CHECK CHARACTERS - " + OUT1.Data + "\r\n"
+	}
+DoSLF(OUT1)
+}
+#<End the script>

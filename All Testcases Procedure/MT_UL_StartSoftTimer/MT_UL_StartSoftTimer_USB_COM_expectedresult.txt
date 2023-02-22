@@ -1,0 +1,15 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+ABCabc
+Start Timer 5s
+2000
+
+2200
+5s Expired
+3000

@@ -1,0 +1,34 @@
+EnterSP
+Send $HA45
+Send $CSNRM03
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, \\vnmsrv305\grpfiles\R&D\HH_VN_SWTestTeam\Projects\PEGASUS\FirmWares\ALPHA_BLR_PEGASUS_STAR_MERGE_045_FA89ACE\610149645.dfw
+ChangeToWindow Serviceport - 1 running window
+OpenCOMPort
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $s
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, \\vnmsrv305\grpfiles\R&D\HH_VN_SWTestTeam\Projects\PEGASUS\FirmWares\ALPHA_BLR_PEGASUS_STAR_MERGE_045_FA89ACE\610149645.dfw
+ChangeToWindow Serviceport - 1 running window
+OpenCOMPort
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $s
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, \\vnmsrv305\grpfiles\R&D\HH_VN_SWTestTeam\Projects\PEGASUS\FirmWares\ALPHA_BLR_PEGASUS_STAR_MERGE_045_FA89ACE\610149645.dfw
+ChangeToWindow Serviceport - 1 running window
+OpenCOMPort
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $s

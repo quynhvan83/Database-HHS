@@ -1,0 +1,26 @@
+#<Start the script>
+{
+	tmp = GetProperty(LF_C11_NUM_CHK_CHARS)
+
+	# If the scanner property of Number of Code 11 check characters= No check character, the returned value will be:
+	# NO CHECK CHARACTER – Label Data
+	if (tmp == 0)
+	{
+		OUT1.Data = "NO CHECK CHARACTER - " + OUT1.Data + "\r\n"
+	}
+
+	# If the scanner property of Number of Code 11 check characters=One check character, the returned value will be:
+	#ONE CHECK CHARACTER- Label Data
+	else if (tmp == 1)
+	{
+		OUT1.Data = "ONE CHECK CHARACTER - " + OUT1.Data + "\r\n"
+	}
+      #if the scanner property Number of Code 11 check characters= Two check characters, the returned value will be:
+     #TWO CHECK CHARACTERS – Label Data
+      else if (tmp == 2)
+	{
+		OUT1.Data = "TWO CHECK CHARACTERS - " + OUT1.Data + "\r\n"
+	}
+DoSLF(OUT1)
+}
+#<End the script>

@@ -1,0 +1,396 @@
+EnterSP
+Send $cOCEN
+ExitSP
+Read OCRB_Passport_Original Label
+Read OCRB_Postal_451_9_1
+Read OCRB_Postal_674_1.1.9.1_1
+Send $S,COCEN10000000,G0141414141414141414141414141410D0D,Ar
+EnterSP
+Send $g01
+ExitSP
+Send $S,COCEN20000000,G0241414141414141414141414141410D0D,Ar
+EnterSP
+Send $g02
+ExitSP
+Send $S,COCEN40000000,G0341414141414141414141414141410D0D,Ar
+EnterSP
+Send $g03
+ExitSP
+Send $S,COCEN80000000,G0441414141414141414141414141410D0D,Ar
+EnterSP
+Send $g04
+ExitSP
+Send $S,COCEN00000001,Ar
+Read EUIdentifyCard_MADRID
+Read EU Identify card_TESTV
+Read EU Identify card_LiestalBL
+Read EU Identify card_BaselStadtBS
+Read EU Identify card_LiestalBL_2
+Read EU Identify card_Organce
+Send $S,COCEN00000002,Ar
+Read OCRB_Passport_Label1
+Read OCRB_Passport_Original Label
+Read OCRB_Passport_Label2
+Read OCRB_Passport_Label3
+Read OCRB_Passport_Label4
+Read OCRB_Passport_Label5
+Read OCRB_Passport_Label6
+Read OCRB_Passport_VN
+Read OCRB_Passport_Italian
+Read OCRB_Passport_Greek
+Read Passport_OCR_NGUYENTHIHONGHANH
+Read Passport_OCR_NGUYENGIANGSUONG
+Read Passport_OCR_KAMHEININ
+Read Passport_OCR_ZHENGJIANYANGBEN
+Read Passport_OCR_Singapore
+Read Passport_OCR_Portuguesa
+Read Passport_OCR_Malaysia
+Read Passport_OCR_Canada
+Read Passport_OCR_Thailan
+Read Passport_OCR_HongKong
+Read Passport_OCR_ThailandTHATHONGPLEW
+Read Passport_OCR_SERBIA
+Read Passport_OCR_CZECH
+Read Passport_OCR_USA
+Read Passport_OCR_Bangladesh
+Read Passport_OCR_Vietnam
+Read Passport_OCR_Indonesia
+Read Passport_OCR_Portuguesa_GARCAODEMAGA
+Send $S,COCEN00000004,Ar
+Read OCRB_Postal_451_9_1
+Read OCRB_Postal_451_9_2
+Read OCRB_Postal_451_9_3
+Read OCRB_Postal_451_9_4
+Read OCRB_Postal_451_10_1
+Read OCRB_Postal_451_10_2
+Read OCRB_Postal_451_10_3
+Read OCRB_Postal_451_10_4
+Read OCRB_Postal_451_11_1
+Read OCRB_Postal_451_11_2
+Read OCRB_Postal_451_11_3
+Read OCRB_Postal_451_11_4
+Read OCRB_Postal_451_12_1
+Read OCRB_Postal_451_12_2
+Read OCRB_Postal_451_12_3
+Read OCRB_Postal_451_12_4
+Read OCRB_Postal_674_1.1.9.1_1
+Read OCRB_Postal_674_1.1.9.2_2
+Read OCRB_Postal_674_1.2.9.3_3
+Read OCRB_Postal_674_1.2.9.4_4
+Read OCRB_Postal_674_2.1.10.1_1
+Read OCRB_Postal_674_2.1.10.2_2
+Read OCRB_Postal_674_2.2.10.3_3
+Read OCRB_Postal_674_2.2.10.4_4
+Read OCRB_Postal_674_3.1.11.1_1
+Read OCRB_Postal_674_3.1.11.2_2
+Read OCRB_Postal_674_3.2.11.3_3
+Read OCRB_Postal_674_4.1.12.1_1
+Read OCRB_Postal_674_4.1.12.2_2
+Read OCRB_Postal_674_4.2.12.3_3
+Read OCRB_Postal_674_4.2.12.4_4
+Read OCRB_Postal_896_1.1.5.1.9.1_1
+Read OCRB_Postal_896_1.1.5.1.9.2_2
+Read OCRB_Postal_896_1.2.5.2.9.3_3
+Read OCRB_Postal_896_1.2.5.2.9.4_4
+Read OCRB_Postal_896_2.1.6.1.10.1_1
+Read OCRB_Postal_896_2.1.6.1.10.2_2
+Read OCRB_Postal_896_2.2.6.2.10.3_3
+Read OCRB_Postal_896_2.2.6.2.10.4_4
+Read OCRB_Postal_896_3.1.7.1.11.1_1
+Read OCRB_Postal_896_3.1.7.1.11.2_2
+Read OCRB_Postal_896_3.2.7.2.11.3_3
+Read OCRB_Postal_896_3.2.7.2.11.4_4
+Read OCRB_Postal_896_4.1.8.1.12.1_1
+Read OCRB_Postal_896_4.1.8.1.12.2_2
+Read OCRB_Postal_896_4.2.8.2.12.3_3
+Read OCRB_Postal_896_4.2.8.2.12.4_4
+Read OCRB_Postal_247_1.1.5.1.9.1_1
+Read OCRB_Postal_247_1.1.5.1.9.2_2
+Read OCRB_Postal_247_1.2.5.2.9.3_3
+Read OCRB_Postal_247_1.2.5.2.9.4_4
+Read OCRB_Postal_247_2.1.6.1.10.1_1
+Read OCRB_Postal_247_2.1.6.1.10.2_2
+Read OCRB_Postal_247_2.2.6.2.10.3_3
+Read OCRB_Postal_247_3.1.7.1.11.1_1
+Read OCRB_Postal_247_3.1.7.1.11.2_2
+Read OCRB_Postal_247_3.2.7.2.11.3_3
+Read OCRB_Postal_247_3.2.7.2.11.4_4
+Read OCRB_Postal_247_4.1.8.1.12.1_1
+Read OCRB_Postal_247_4.1.8.1.12.2_2
+Read OCRB_Postal_247_4.2.8.2.12.3_3
+Read OCRB_Postal_247_4.2.8.2.12.4_4
+Send $S,COCEN00000008,Ar
+Read Italian ITB Bank OCR_1
+Read Italian ITB Bank OCR_2
+Send $S,COCEN00000010,Ar
+Read SwissDriverLisence
+Send $S,COCEN00000007,Ar
+Read EUIdentifyCard_MADRID
+Read EU Identify card_TESTV
+Read EU Identify card_LiestalBL
+Read EU Identify card_BaselStadtBS
+Read EU Identify card_LiestalBL_2
+Read EU Identify card_Organce
+Read OCRB_Passport_Label1
+Read OCRB_Passport_Original Label
+Read OCRB_Passport_Label2
+Read OCRB_Passport_Label3
+Read OCRB_Passport_Label4
+Read OCRB_Passport_Label5
+Read OCRB_Passport_Label6
+Read OCRB_Passport_VN
+Read OCRB_Passport_Italian
+Read OCRB_Passport_Greek
+Read Passport_OCR_NGUYENTHIHONGHANH
+Read Passport_OCR_NGUYENGIANGSUONG
+Read Passport_OCR_KAMHEININ
+Read Passport_OCR_ZHENGJIANYANGBEN
+Read Passport_OCR_Singapore
+Read Passport_OCR_Portuguesa
+Read Passport_OCR_Malaysia
+Read Passport_OCR_Canada
+Read Passport_OCR_Thailan
+Read Passport_OCR_HongKong
+Read Passport_OCR_ThailandTHATHONGPLEW
+Read Passport_OCR_SERBIA
+Read Passport_OCR_CZECH
+Read Passport_OCR_USA
+Read Passport_OCR_Bangladesh
+Read Passport_OCR_Vietnam
+Read Passport_OCR_Indonesia
+Read Passport_OCR_Portuguesa_GARCAODEMAGA
+Read Italian ITB Bank OCR_1
+Read Italian ITB Bank OCR_2
+Send $S,COCEN0000000E,Ar
+Read OCRB_Passport_Label1
+Read OCRB_Passport_Original Label
+Read OCRB_Passport_Label2
+Read OCRB_Passport_Label3
+Read OCRB_Passport_Label4
+Read OCRB_Passport_Label5
+Read OCRB_Passport_Label6
+Read OCRB_Passport_VN
+Read OCRB_Passport_Italian
+Read OCRB_Passport_Greek
+Read Passport_OCR_NGUYENTHIHONGHANH
+Read Passport_OCR_NGUYENGIANGSUONG
+Read Passport_OCR_KAMHEININ
+Read Passport_OCR_ZHENGJIANYANGBEN
+Read Passport_OCR_Singapore
+Read Passport_OCR_Portuguesa
+Read Passport_OCR_Malaysia
+Read Passport_OCR_Canada
+Read Passport_OCR_Thailan
+Read Passport_OCR_HongKong
+Read Passport_OCR_ThailandTHATHONGPLEW
+Read Passport_OCR_SERBIA
+Read Passport_OCR_CZECH
+Read Passport_OCR_USA
+Read Passport_OCR_Bangladesh
+Read Passport_OCR_Vietnam
+Read Passport_OCR_Indonesia
+Read Passport_OCR_Portuguesa_GARCAODEMAGA
+Read OCRB_Postal_451_9_1
+Read OCRB_Postal_451_9_2
+Read OCRB_Postal_451_9_3
+Read OCRB_Postal_451_9_4
+Read OCRB_Postal_451_10_1
+Read OCRB_Postal_451_10_2
+Read OCRB_Postal_451_10_3
+Read OCRB_Postal_451_10_4
+Read OCRB_Postal_451_11_1
+Read OCRB_Postal_451_11_2
+Read OCRB_Postal_451_11_3
+Read OCRB_Postal_451_11_4
+Read OCRB_Postal_451_12_1
+Read OCRB_Postal_451_12_2
+Read OCRB_Postal_451_12_3
+Read OCRB_Postal_451_12_4
+Read OCRB_Postal_674_1.1.9.1_1
+Read OCRB_Postal_674_1.1.9.2_2
+Read OCRB_Postal_674_1.2.9.3_3
+Read OCRB_Postal_674_1.2.9.4_4
+Read OCRB_Postal_674_2.1.10.1_1
+Read OCRB_Postal_674_2.1.10.2_2
+Read OCRB_Postal_674_2.2.10.3_3
+Read OCRB_Postal_674_2.2.10.4_4
+Read OCRB_Postal_674_3.1.11.1_1
+Read OCRB_Postal_674_3.1.11.2_2
+Read OCRB_Postal_674_3.2.11.3_3
+Read OCRB_Postal_674_4.1.12.1_1
+Read OCRB_Postal_674_4.1.12.2_2
+Read OCRB_Postal_674_4.2.12.3_3
+Read OCRB_Postal_674_4.2.12.4_4
+Read OCRB_Postal_896_1.1.5.1.9.1_1
+Read OCRB_Postal_896_1.1.5.1.9.2_2
+Read OCRB_Postal_896_1.2.5.2.9.3_3
+Read OCRB_Postal_896_1.2.5.2.9.4_4
+Read OCRB_Postal_896_2.1.6.1.10.1_1
+Read OCRB_Postal_896_2.1.6.1.10.2_2
+Read OCRB_Postal_896_2.2.6.2.10.3_3
+Read OCRB_Postal_896_2.2.6.2.10.4_4
+Read OCRB_Postal_896_3.1.7.1.11.1_1
+Read OCRB_Postal_896_3.1.7.1.11.2_2
+Read OCRB_Postal_896_3.2.7.2.11.3_3
+Read OCRB_Postal_896_3.2.7.2.11.4_4
+Read OCRB_Postal_896_4.1.8.1.12.1_1
+Read OCRB_Postal_896_4.1.8.1.12.2_2
+Read OCRB_Postal_896_4.2.8.2.12.3_3
+Read OCRB_Postal_896_4.2.8.2.12.4_4
+Read OCRB_Postal_247_1.1.5.1.9.1_1
+Read OCRB_Postal_247_1.1.5.1.9.2_2
+Read OCRB_Postal_247_1.2.5.2.9.3_3
+Read OCRB_Postal_247_1.2.5.2.9.4_4
+Read OCRB_Postal_247_2.1.6.1.10.1_1
+Read OCRB_Postal_247_2.1.6.1.10.2_2
+Read OCRB_Postal_247_2.2.6.2.10.3_3
+Read OCRB_Postal_247_3.1.7.1.11.1_1
+Read OCRB_Postal_247_3.1.7.1.11.2_2
+Read OCRB_Postal_247_3.2.7.2.11.3_3
+Read OCRB_Postal_247_3.2.7.2.11.4_4
+Read OCRB_Postal_247_4.1.8.1.12.1_1
+Read OCRB_Postal_247_4.1.8.1.12.2_2
+Read OCRB_Postal_247_4.2.8.2.12.3_3
+Read OCRB_Postal_247_4.2.8.2.12.4_4
+Read Italian ITB Bank OCR_1
+Read Italian ITB Bank OCR_2
+Send $S,COCEN0000001C,Ar
+Read SwissDriverLisence
+Read Italian ITB Bank OCR_1
+Read Italian ITB Bank OCR_2
+Read OCRB_Postal_451_9_1
+Read OCRB_Postal_451_9_2
+Read OCRB_Postal_451_9_3
+Read OCRB_Postal_451_9_4
+Read OCRB_Postal_451_10_1
+Read OCRB_Postal_451_10_2
+Read OCRB_Postal_451_10_3
+Read OCRB_Postal_451_10_4
+Read OCRB_Postal_451_11_1
+Read OCRB_Postal_451_11_2
+Read OCRB_Postal_451_11_3
+Read OCRB_Postal_451_11_4
+Read OCRB_Postal_451_12_1
+Read OCRB_Postal_451_12_2
+Read OCRB_Postal_451_12_3
+Read OCRB_Postal_451_12_4
+Read OCRB_Postal_674_1.1.9.1_1
+Read OCRB_Postal_674_1.1.9.2_2
+Read OCRB_Postal_674_1.2.9.3_3
+Read OCRB_Postal_674_1.2.9.4_4
+Read OCRB_Postal_674_2.1.10.1_1
+Read OCRB_Postal_674_2.1.10.2_2
+Read OCRB_Postal_674_2.2.10.3_3
+Read OCRB_Postal_674_2.2.10.4_4
+Read OCRB_Postal_674_3.1.11.1_1
+Read OCRB_Postal_674_3.1.11.2_2
+Read OCRB_Postal_674_3.2.11.3_3
+Read OCRB_Postal_674_4.1.12.1_1
+Read OCRB_Postal_674_4.1.12.2_2
+Read OCRB_Postal_674_4.2.12.3_3
+Read OCRB_Postal_674_4.2.12.4_4
+Read OCRB_Postal_896_1.1.5.1.9.1_1
+Read OCRB_Postal_896_1.1.5.1.9.2_2
+Read OCRB_Postal_896_1.2.5.2.9.3_3
+Read OCRB_Postal_896_1.2.5.2.9.4_4
+Read OCRB_Postal_896_2.1.6.1.10.1_1
+Read OCRB_Postal_896_2.1.6.1.10.2_2
+Read OCRB_Postal_896_2.2.6.2.10.3_3
+Read OCRB_Postal_896_2.2.6.2.10.4_4
+Read OCRB_Postal_896_3.1.7.1.11.1_1
+Read OCRB_Postal_896_3.1.7.1.11.2_2
+Read OCRB_Postal_896_3.2.7.2.11.3_3
+Read OCRB_Postal_896_3.2.7.2.11.4_4
+Read OCRB_Postal_896_4.1.8.1.12.1_1
+Read OCRB_Postal_896_4.1.8.1.12.2_2
+Read OCRB_Postal_896_4.2.8.2.12.3_3
+Read OCRB_Postal_896_4.2.8.2.12.4_4
+Read OCRB_Postal_247_1.1.5.1.9.1_1
+Read OCRB_Postal_247_1.1.5.1.9.2_2
+Read OCRB_Postal_247_1.2.5.2.9.3_3
+Read OCRB_Postal_247_1.2.5.2.9.4_4
+Read OCRB_Postal_247_2.1.6.1.10.1_1
+Read OCRB_Postal_247_2.1.6.1.10.2_2
+Read OCRB_Postal_247_2.2.6.2.10.3_3
+Read OCRB_Postal_247_3.1.7.1.11.1_1
+Read OCRB_Postal_247_3.1.7.1.11.2_2
+Read OCRB_Postal_247_3.2.7.2.11.3_3
+Read OCRB_Postal_247_3.2.7.2.11.4_4
+Read OCRB_Postal_247_4.1.8.1.12.1_1
+Read OCRB_Postal_247_4.1.8.1.12.2_2
+Read OCRB_Postal_247_4.2.8.2.12.3_3
+Read OCRB_Postal_247_4.2.8.2.12.4_4
+Send $S,COCEN00000015,Ar
+Read SwissDriverLisence
+Read Italian ITB Bank OCR_1
+Read Italian ITB Bank OCR_2
+Read EUIdentifyCard_MADRID
+Send $S,COCEN0000001A,Ar
+Read SwissDriverLisence
+Read Italian ITB Bank OCR_1
+Read Italian ITB Bank OCR_2
+Read OCRB_Passport_Label1
+Read OCRB_Passport_Original Label
+Read OCRB_Passport_Label2
+Read OCRB_Passport_Label3
+Read OCRB_Passport_Label4
+Read OCRB_Passport_Label5
+Read OCRB_Passport_Label6
+Read OCRB_Passport_VN
+Read OCRB_Passport_Italian
+Read OCRB_Passport_Greek
+Read Passport_OCR_NGUYENTHIHONGHANH
+Read Passport_OCR_NGUYENGIANGSUONG
+Read Passport_OCR_KAMHEININ
+Read Passport_OCR_ZHENGJIANYANGBEN
+Read Passport_OCR_Singapore
+Read Passport_OCR_Portuguesa
+Read Passport_OCR_Malaysia
+Read Passport_OCR_Canada
+Read Passport_OCR_Thailan
+Read Passport_OCR_HongKong
+Read Passport_OCR_ThailandTHATHONGPLEW
+Read Passport_OCR_SERBIA
+Read Passport_OCR_CZECH
+Read Passport_OCR_USA
+Read Passport_OCR_Bangladesh
+Read Passport_OCR_Vietnam
+Read Passport_OCR_Indonesia
+Read Passport_OCR_Portuguesa_GARCAODEMAGA
+Send $S,COCEN0000001B,Ar
+Read EUIdentifyCard_MADRID
+Read EU Identify card_TESTV
+Read EU Identify card_LiestalBL
+Read EU Identify card_BaselStadtBS
+Read EU Identify card_LiestalBL_2
+Read EU Identify card_Organce
+Read Italian ITB Bank OCR_1
+Read Italian ITB Bank OCR_2
+Read OCRB_Passport_Label1
+Read OCRB_Passport_Original Label
+Read OCRB_Passport_Label2
+Read OCRB_Passport_Label3
+Read OCRB_Passport_Label4
+Read OCRB_Passport_Label5
+Read OCRB_Passport_Label6
+Read OCRB_Passport_VN
+Read OCRB_Passport_Italian
+Read OCRB_Passport_Greek
+Read Passport_OCR_NGUYENTHIHONGHANH
+Read Passport_OCR_NGUYENGIANGSUONG
+Read Passport_OCR_KAMHEININ
+Read Passport_OCR_ZHENGJIANYANGBEN
+Read Passport_OCR_Singapore
+Read Passport_OCR_Portuguesa
+Read Passport_OCR_Malaysia
+Read Passport_OCR_Canada
+Read Passport_OCR_Thailan
+Read Passport_OCR_HongKong
+Read Passport_OCR_ThailandTHATHONGPLEW
+Read Passport_OCR_SERBIA
+Read Passport_OCR_CZECH
+Read Passport_OCR_USA
+Read Passport_OCR_Bangladesh
+Read Passport_OCR_Vietnam
+Read Passport_OCR_Indonesia
+Read Passport_OCR_Portuguesa_GARCAODEMAGA

@@ -1,0 +1,20 @@
+$>
+$>
+$>
+
+anyValue
+$>,>,>
+
+anyValue
+anyValue
+$>,>,>
+{NUL}{SOH}{STX}{ETX}{EOT}{ENQ}{ACK}{BEL}{BkSp}{Tab}{DLE}{XON}{DC2}{XOFF}{DC4}{NAK}
+{SYN}{ETB}{CAN}{EM} !#$%&'()01"
+$>,>,>
+{SYN}{ETB}{CAN}{EM} !#$%&'()01"
+{NUL}{SOH}{STX}{ETX}{EOT}{ENQ}{ACK}{BEL}{BkSp}{Tab}{DLE}{XON}{DC2}{XOFF}{DC4}{NAK}
+$>,>,>,>,>,>,>,>
+$>,>,>
+anyValue
+
+

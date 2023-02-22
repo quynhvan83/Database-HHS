@@ -1,0 +1,36 @@
+#<Start the script>
+{
+
+	# <If Data Type = Code128: Start>
+	if (OUT1.DataType == "Code128" || OUT1.DataType == "Code39")
+	{
+
+	# Get Property of Code128 to Code39 Conversion:
+	c128_c39 = GetProperty(LF_C128_TO_C39_CONVERT)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO CODE128 TO CODE39 CONVERSION – Data of Code128
+		if (c128_c39 == 0)
+		{
+			# Data will displays with NO CODE128 TO CODE39 CONVERSION – Data of Code128:
+			OUT1.Data = "NO CODE128 TO CODE39 CONVERSION - " + OUT1.Data + "\r\n"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# CODE128 TO CODE39 CONVERSION – Label Data with Code39 Formatting
+		else if (c128_c39 == 1)
+		{
+			# Convert Code128 to Code39:
+			FMTC128ToC39(OUT1)
+			# Get Label ID of Code39:
+			c39_id = GetProperty(LF_LABEL_ID_CODE39)
+                                 OUT1.Data = OUT1.Data + c39_id
+			# Get AIM ID of Code39:
+			c39_aim = GetAIMId(OUT1)				
+			# Data will displays: CODE128 TO CODE39 CONVERSION – Label Data with Code39 Formatting
+			OUT1.Data = "CODE128 TO CODE39 CONVERSION - " + c39_aim + OUT1.Data + "\r\n"
+		}
+	}
+	# <If Data Type = Code128: End>
+
+}

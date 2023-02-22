@@ -1,0 +1,9 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+Name = JAMES\r\nBirthday = 20021984
+Name = JAMES\r\nBirthday = 20021984

@@ -1,0 +1,33 @@
+#<Start the script>
+{
+
+	# <If Data Type = Code39: Start>
+	if (OUT1.DataType == "Code39")
+	{
+
+	# Get Property of Code39 Full ASCII Conversion:
+	c39_fa = GetProperty(LF_C39_FULL_ASCII_CONVERT)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO CODE39 FULL ASCII CONVERSION – Label Data
+		if (c39_fa == 0)
+		{
+			# Data will displays with NO CODE39 FULL ASCII CONVERSION:
+			OUT1.Data = "NO CODE39 FULL ASCII CONVERSION - " + OUT1.Data + "\r\n"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# CODE39 FULL ASCII CONVERSION – Label Data
+		else if (c39_fa == 1)
+		{
+			# Convert Code39 to Code39 Full ASCII:
+			FMTC39ToFullASCIIC39(OUT1)		
+			# Data will displays: CODE39 FULL ASCII CONVERSION
+			OUT1.Data = "CODE39 FULL ASCII CONVERSION - " + OUT1.Data + "\r\n"
+		}
+      DoSLF(OUT1)
+	}
+	# <If Data Type = Code39: End>
+	
+}
+#<End the script>

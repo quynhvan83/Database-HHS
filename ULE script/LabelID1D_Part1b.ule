@@ -1,0 +1,98 @@
+{
+	if(OUT1.DataType == "GTIN")
+	{
+		labelID=GetProperty(LF_LABEL_ID_GTIN)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "GTINP2")
+	{
+		labelID=GetProperty(LF_LABEL_ID_GTIN_P2)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "GTINP5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_GTIN_P5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "GTINP8")
+	{
+		labelID=GetProperty(LF_LABEL_ID_GTIN_P8)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}	
+	if(OUT1.DataType == "Code39")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE39)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Code39_CIP")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE39_CIP)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}	
+	if(OUT1.DataType == "Trioptics")
+	{
+		labelID=GetProperty(LF_LABEL_ID_TRIOPTICS)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Code 39 Danish PPT")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE39_DANISH_PPT)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Code 39 La Poste")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE39_LAPOSTE)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Code 39 PZN")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE39_PZN)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "I2of5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_I2OF5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "I2OF5_CIP")
+	{
+		labelID=GetProperty(LF_LABEL_ID_I2OF5_CIP)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}		
+	if(OUT1.DataType == "Codabar")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODABAR)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "ABC_Codabar")
+	{
+		labelID=GetProperty(LF_LABEL_ID_ABC_CODABAR)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}	
+	if(OUT1.DataType == "Code93")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE93)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Code128")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE128)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+}

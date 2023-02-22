@@ -1,0 +1,28 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE Meijer.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CI2EN01
+Send $C4BEN01
+Send $CXBEN01
+Send $CAZEN01
+Send $CC3SS00
+Send $CBTAB00
+Send $CU8AI01
+Send $Ar
+Read Code39_ABCDEFGHI
+Read Code128_ABCDEFGHIJKL
+Read EAN13_1234567890128
+Read UPCA_123456789012
+Read UPCE_0234567
+Read EAN8_1234567
+Read EAN128_ABCabc
+Read Interleaved_2of5_123456
+Read Databar_RSS14_00614141999996
+Read DatabarExpanded_RSS_00614141999996
+Read PDF417_ABCabc
+Read QRCode_ABCabc
+Read Datamatrix_ABCabc
+Read Aztec_ABCabc

@@ -1,0 +1,10 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty LF_LABEL_ID_FOLLETT_2OF5.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CF2EN01
+Send $CIDCO01
+Send $Ar
+Read F25

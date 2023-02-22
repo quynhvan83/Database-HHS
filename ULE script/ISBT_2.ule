@@ -1,0 +1,166 @@
+# SPR  002780
+# ISBT and concatenation events happen before the formatter
+# Setting required for ule to work is ISBT = Ena, Force Concat = Dis, ISBT = Dynamic
+# When two labels are actually concatenated, DataType = ISBT
+# if a concatenated label is sent with no concatenation, DataType = Code128
+#
+
+{
+	true = 0
+	
+	
+	OUT2 = OUT1 
+	if( "=" == Left(OUT1.Data,1))
+	{
+		lead = Mid(OUT1.Data,2,1)
+		if (( (( lead >= "0") && ( lead <= "9"))  || (( lead >= "A") && ( lead <= "Z")) )  && (OUT1.DataLen ==16) )  
+		{
+			true = 1
+		}
+
+	}
+	else
+	{
+	}
+	if( ((OUT1.DataType == "ISBT") && (true == 0)) || (OUT1.DataType == "TimerExpired") )
+	{
+		
+		if((IsInMemory("Label1") !=0 ) && (OUT1.DataType == "ISBT"))
+		{
+			RestoreIOStruct(OUT2,"Label1")
+			if(OUT2.DataType == "ISBT")
+			{
+				OUT1.Data =  OUT2.Data + GetProperty(LF_GLOBAL_SUFFIX) + GetProperty(LF_GLOBAL_PREFIX) + OUT1.Data 			
+			}
+			else
+			{
+			}
+			FreeMemory()
+		}
+		else
+		{
+			SaveInt(true,"Bypass")
+		
+		}
+		if(OUT1.DataType == "TimerExpired" )
+		{
+			RestoreIOStruct(OUT1,"Label1")
+			FreeMemory()
+		}
+		
+		DoSLF(OUT1)
+		DestroyStructs()
+		exit
+	}
+	else
+	{	
+		if((OUT1.DataType !="Datamatrix") && (OUT1.DataType !="ISBT"))    #   (OUT1.DataType !="Code128") && 
+		{
+			FreeMemory()
+			DoSLF(OUT1)
+			DestroyStructs()
+			exit
+		}
+		else
+		{
+		}
+		if(IsInMemory("Label1") !=0)
+		{
+			input_label = OUT1.Data
+			RestoreIOStruct(OUT1,"Label1")
+			if(OUT1.Data != OUT2.Data)
+			{
+				
+			
+				if(OUT1.DataType == "Datamatrix")
+				{
+					baseDatamatrix = OUT1.Data
+					baseCode128 = OUT2.Data
+					Label = 1
+				}
+				else                         #if(OUT1.DataType == "Code128")
+				{
+					baseDatamatrix = OUT2.Data
+					baseCode128 = OUT1.Data	
+					Label = 0
+				}
+				
+			
+				c128_Pref1 = Left(baseCode128,1)
+				c128_Pref2 = Mid(baseCode128,2,1)
+				c128_DNIN = Mid(baseCode128,3,14)
+				datamatrix_Pref1 = Mid(baseDatamatrix,8,1)
+				datamatrix_Pref2 = Mid(baseDatamatrix,9,1)
+				datamatrix_struct = Mid(baseDatamatrix,3,2)
+				datamatrix_cm = Mid(baseDatamatrix,5,3)				# Extracting compoun Message for some look up table
+				datamatrix_DNIN = Mid(baseDatamatrix,10,14)								
+				
+				if(( (( c128_Pref2 >= "0") && ( c128_Pref2 <= "9") && ( c128_Pref2 <= "Z"))  || (( c128_Pref2 >= "A")) ) && (c128_Pref1 == "="))
+				{
+					lbl1 = 1
+				}
+				else
+				{
+					lbl1 = 0
+														
+				}
+				if(( (( datamatrix_Pref2 >= "0") && ( datamatrix_Pref2 <= "9"))  || (( datamatrix_Pref2 >= "A") && ( datamatrix_Pref2 <= "Z")) ) && (datamatrix_Pref1 == "=") )
+				{
+					lbl2 = 1 
+				}
+				else
+				{
+					lbl2 = 0
+				}
+				
+				# next, verify the ISBT ID match
+				if(lbl1 == lbl2)
+				{
+					if(datamatrix_DNIN == c128_DNIN)
+					{
+						OUT1.Data = baseCode128
+						OUT2.Data = baseDatamatrix 
+
+						OUT1.Data =  OUT1.Data + GetProperty(LF_GLOBAL_SUFFIX) + GetProperty(LF_GLOBAL_PREFIX) + OUT2.Data 						
+						FreeMemory()
+						DoSLF(OUT1)
+#						DestroyStructs()	
+					}
+				}
+				else
+				{
+																			####	Error #####Beep????##
+				}
+			}
+			else
+			{ 
+				SetNextLabel()
+				StartTimer(OUT1,50)
+#				DestroyStructs()
+			}
+		}
+		else
+		{
+			SaveIOStruct(OUT1, "Label1")  
+			ULEBeep(2,2,1,1,2,2)	
+			if(IsInMemory("Bypass") == 1)
+			{
+				StartTimer(OUT1,8)
+			}
+			else
+			{
+				StartTimer(OUT1,50)
+			}
+			SetNextLabel()
+#			DestroyStructs()
+			
+		
+		}
+	}
+	DestroyStructs()
+}
+
+
+
+
+

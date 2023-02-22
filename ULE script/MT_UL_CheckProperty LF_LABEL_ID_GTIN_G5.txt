@@ -1,0 +1,6 @@
+#<Start the script>
+{
+		labelID=GetProperty(LF_LABEL_ID_GTIN_P5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType + "\r"
+}
+#<End the script>

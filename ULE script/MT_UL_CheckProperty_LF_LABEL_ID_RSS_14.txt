@@ -1,0 +1,21 @@
+#<Start the script>
+{
+             if(OUT1.DataType == "RSS14")
+	{
+		labelID=GetProperty(LF_LABEL_ID_RSS_14)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "RSSExp")
+	{
+		labelID=GetProperty(LF_LABEL_ID_RSS_EXPANDED)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "RSSLim")
+	{
+		labelID=GetProperty(LF_LABEL_ID_RSS_LIMITED)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+}#<End the script>

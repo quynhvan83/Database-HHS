@@ -1,0 +1,13 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE beeper_control_hc.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CBTAB00
+Send $Ar
+Read UPCA_123456789012
+Read UPCA_123456789012
+Read Code128_ABCabc
+Read Code128_ABCabc
+Read Code128_ABCabc

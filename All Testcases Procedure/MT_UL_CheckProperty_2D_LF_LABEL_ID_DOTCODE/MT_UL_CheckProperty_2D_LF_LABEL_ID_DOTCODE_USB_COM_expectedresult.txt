@@ -1,0 +1,10 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$dLabelID = $d data = Label Dot Code Standard type = DotCode

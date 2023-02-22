@@ -1,0 +1,12 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+NO COVERT TO EAN128 - ABCabc
+
+COVERT TO EAN128 - ABCabc

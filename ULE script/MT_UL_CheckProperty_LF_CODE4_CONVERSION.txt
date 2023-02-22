@@ -1,0 +1,20 @@
+#<Start the script>
+{
+	tmp = GetProperty(LF_CODE4_CONVERSION)
+
+	# If the scanner property of Perform Code 4 conversion = Don’t perform Code 4 conversion , the returned value will be:
+	# NO PERFORM CODE4 CONVERSION – Label Data
+	if (tmp == 0)
+	{
+		OUT1.Data = "NO PERFORM CODE4 CONVERSION - " + OUT1.Data + "\r\n"
+	}
+
+	# If the scanner property of Perform Code 4 conversion = perform Code 4 conversion, the returned value will be:
+	# PERFORM CODE4 CONVERSION- Label Data
+	else if (tmp == 1)
+	{
+		OUT1.Data = "PERFORM CODE4 CONVERSION - " + OUT1.Data + "\r\n"
+	}
+DoSLF(OUT1)
+}
+#<End the script>

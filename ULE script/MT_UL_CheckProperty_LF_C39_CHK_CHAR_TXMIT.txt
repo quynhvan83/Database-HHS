@@ -1,0 +1,19 @@
+#<Start the script>
+{
+	if(OUT1.DataType=="Code39")
+	{
+		c39_ct=GetProperty(LF_C39_CHK_CHAR_TXMIT)
+
+		if(c39_ct==0)
+		{
+			OUT1.Data="CODE39 CHECK CHAR STRIPPED BY DECLIB - "+OUT1.Data+"\r\n"
+		}
+		elseif(c39_ct==1)
+		{
+			StripBeginEndChars(OUT1,0,1)
+
+			OUT1.Data="CODE39 CHECK CHAR STRIPPED BY ULE - "+OUT1.Data+"\r\n"
+		}
+	}
+}
+#<End the script>

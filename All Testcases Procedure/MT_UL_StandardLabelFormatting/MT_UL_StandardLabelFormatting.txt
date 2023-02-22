@@ -1,0 +1,18 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE aimid.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CADO201
+Send $CADO501
+Send $Ar
+Read [UPCA]78901234567
+Read [UPCA-P2]01234567890596
+Read [UPCA-P5]34567890123686420
+Read [UPCE]3456781
+Read [UPCE-P2]0901234551
+Read [UPCE-P5]0234567320437
+Read [EAN8]23456785
+Read [EAN8-P2]5769814430
+Read [EAN8-P5]0123456519104

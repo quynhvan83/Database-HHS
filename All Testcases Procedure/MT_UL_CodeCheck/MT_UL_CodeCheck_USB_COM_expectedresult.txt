@@ -1,0 +1,24 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+$>
+$>
+$>
+$>
+Length = 6\r\nType = Code128\r\nData = ABCabc
+Length = 12\r\nType = UPCA\r\nData = 123456789012
+Length = 10\r\nType = UPCEP2\r\nData = 0234560412
+Length = 10\r\nType = MSIPlessey\r\nData = 0234560126
+Length = 4\r\nType = Code11\r\nData = 1240
+Length = 9\r\nType = QRCode\r\nData = 023456012
+Length = 9\r\nType = Maxicode\r\nData = 023456012
+Length = 9\r\nType = Datamatrix\r\nData = 023456012
+Length = 16\r\nType = Postal_Kix\r\nData = 1230AA12345XHUIS
+Length = 23\r\nType = DotCode\r\nData = Label Dot Code Standard

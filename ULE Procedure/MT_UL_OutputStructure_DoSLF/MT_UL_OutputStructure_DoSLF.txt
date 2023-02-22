@@ -1,0 +1,9 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE OutputStructure_DoSLF.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CAIEN01
+Send $Ar
+Read Code128_ABCabc

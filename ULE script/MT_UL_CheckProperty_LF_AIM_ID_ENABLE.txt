@@ -1,0 +1,19 @@
+#<Start the script>
+{
+	aim_id_property = GetProperty(LF_AIM_ID_ENABLE)
+
+	# If the scanner property of AIM ID Control = No AIM ID , the returned value will be:
+	# NO AIM ID – Label Data
+	if (aim_id_property == 0)
+	{
+		OUT1.Data = "NO AIM ID - " + OUT1.Data + "\r\n"
+	}
+
+	# If the scanner property of AIM ID Control = AIM ID ENABLE, the returned value will be:
+	# AIM ID ENABLE – Label Data
+	else if (aim_id_property == 1)
+	{
+		OUT1.Data = "AIM ID ENABLE - " + OUT1.Data + "\r\n"
+	}
+}
+#<End the script>

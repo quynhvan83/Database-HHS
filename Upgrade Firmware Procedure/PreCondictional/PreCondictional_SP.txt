@@ -1,0 +1,7 @@
+EnterSP
+Send Interface
+Send $Er
+Send $AR
+Send $CSNRM03
+Send $CBCHP00
+Send $Ar

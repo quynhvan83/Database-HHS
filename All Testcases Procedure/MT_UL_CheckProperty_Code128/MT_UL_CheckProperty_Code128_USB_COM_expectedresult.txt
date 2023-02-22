@@ -1,0 +1,58 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+#LabelID = # Data = SEGH#%SG23h Type = Code128
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+NO CODE128 TO CODE39 CONVERSION - ABCabc
+
+CODE128 TO CODE39 CONVERSION - ]A0*ABCabc**
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+NO TRANSMIT CHECK  CHAR - ABCabc
+
+TRANSMIT CHECK CHAR - ABCabcB
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+NO TRANSMIT FUNC CHAR - ABCabc
+
+TRANSMIT FUNC CHAR - ABCabc

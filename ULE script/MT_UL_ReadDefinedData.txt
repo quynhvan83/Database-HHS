@@ -1,0 +1,9 @@
+{
+    match=0
+    origData=OUT1.Data
+    if((OUT1.DataType=="EAN128")&&(OUT1.DataLen!=20)) 
+    {
+        match=1
+        SetNextLabel()
+    }
+}

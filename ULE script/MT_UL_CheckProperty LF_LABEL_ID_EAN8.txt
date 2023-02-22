@@ -1,0 +1,27 @@
+#<Start the script>
+{
+if(OUT1.DataType == "EAN8")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN8)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType + "\r"
+		
+	}
+	if(OUT1.DataType == "EAN8P2")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN8_P2)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType + "\r" 
+		
+	}
+	if(OUT1.DataType == "EAN8P5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN8_P5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType + "\r"
+		
+      }
+	if(OUT1.DataType == "EAN8P8")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN8_P8)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType + "\r"
+		
+      }
+}#<End the script>

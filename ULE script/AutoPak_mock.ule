@@ -1,0 +1,33 @@
+#  
+#  05_SLR_31030_U_Autopak_GD4400_Editing with delays
+#
+#  		Interface USB Keybaord and RS232
+#		Criteria: 1. code 39 format    2. barcode length 10 characters.   3. first character is a "1".
+#
+{
+	# extract the leading character from Data for criteria
+	lead = Left(OUT1.Data,2)
+	
+	# confirm if code 39, length 12 including S/S and first two characters start with 1
+	if(( OUT1.DataType =="Code39")&& (OUT1.DataLen == 12)&&(lead =="*1"))
+	{
+		
+		# Strip the Code 39 S/S
+		StripBeginEndChars(OUT1,1,1)
+		
+		#Generate additional structure for added key seqences
+		OUT2 = OUT1
+		OUT3 = OUT2
+		OUT4 = OUT3
+		OUT5 = OUT4
+		
+		
+		#Do not add any standard formatting to any output structures.
+		NoSLF(OUT1)
+		NoSLF(OUT2)
+		NoSLF(OUT3)
+		NoSLF(OUT4)	
+		NoSLF(OUT5)
+	}
+
+}

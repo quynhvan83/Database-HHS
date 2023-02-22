@@ -1,0 +1,16 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE CompareCode_Script2.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CLFSU0D00000000000000000000000000000000000000
+Send $CD2EN01
+Send $Ar
+Read Erase Data Code to set a New Reference Code
+Read Erase Data Code to set a New Reference Code
+Read Code 128_0123456789
+Read Label 2_Datamatrix_0123456789
+Read Label 3_PDF417_123456789
+Read Code 128_0123456789
+Read Code 128_0123456789

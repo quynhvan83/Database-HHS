@@ -1,0 +1,196 @@
+{
+	if(OUT1.DataType == "UPCA")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCA)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCAP2")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCA_P2)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCAP5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCA_P5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCAP8")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCA_P8)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCE")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCE)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCEP2")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCE_P2)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCEP5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCE_P5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCEP8")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCE_P8)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}	
+	if(OUT1.DataType == "EAN8")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN8)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN8P2")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN8_P2)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN8P5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN8_P5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN8P8")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN8_P8)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}	
+	if(OUT1.DataType == "EAN13")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN13)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN13P2")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN13_P2)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN13P5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN13_P5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN13P8")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN13_P8)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}	
+	if(OUT1.DataType == "GTIN")
+	{
+		labelID=GetProperty(LF_LABEL_ID_GTIN)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "GTINP2")
+	{
+		labelID=GetProperty(LF_LABEL_ID_GTIN_P2)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "GTINP5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_GTIN_P5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "GTINP8")
+	{
+		labelID=GetProperty(LF_LABEL_ID_GTIN_P8)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}	
+	if(OUT1.DataType == "Code39")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE39)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Code39_CIP")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE39_CIP)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}	
+	if(OUT1.DataType == "Trioptics")
+	{
+		labelID=GetProperty(LF_LABEL_ID_TRIOPTICS)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Code 39 Danish PPT")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE39_DANISH_PPT)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Code 39 La Poste")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE39_LAPOSTE)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Code 39 PZN")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE39_PZN)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "I2of5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_I2OF5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "I2OF5_CIP")
+	{
+		labelID=GetProperty(LF_LABEL_ID_I2OF5_CIP)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}		
+	if(OUT1.DataType == "Codabar")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODABAR)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "ABC_Codabar")
+	{
+		labelID=GetProperty(LF_LABEL_ID_ABC_CODABAR)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}	
+	if(OUT1.DataType == "CODE93")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE93)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "CODE128")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE128)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+}
+
+

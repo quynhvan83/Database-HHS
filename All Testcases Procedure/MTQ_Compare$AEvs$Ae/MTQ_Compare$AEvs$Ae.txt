@@ -1,0 +1,8 @@
+Send $S
+Send $AE
+Send $a
+Send $Ae
+Send $a
+Send Interface
+Send $Ar
+CompareStepResultAEAe step_2,step_4

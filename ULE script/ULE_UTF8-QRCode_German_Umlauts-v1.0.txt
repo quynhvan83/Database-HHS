@@ -1,0 +1,59 @@
+{
+if (OUT1.DataType == "QRCode") 
+{
+# ü
+	O = OUT1.Data
+        D = O
+        while (D != "")
+        {                
+		O = D
+		D = StrSubstitute(D, "\xFC", "\xC3\xBC")
+        }
+# ö
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\xF6", "\xC3\xB6")
+        }
+# ä
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\xE4", "\xC3\xA4")
+        }
+# Ä
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\xC4", "\xC3\x84")
+        }
+# Ö
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\xD6", "\xC3\x96")
+        }
+# Ü
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\xDC", "\xC3\x9C")
+        }
+# ß
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\xDF", "\xC3\x9F")
+        }
+	OUT1.Data = O
+	OUT1.DataLen = StrLen(OUT1.Data)
+	OUT1.BaseLen = OUT1.DataLen		
+	DoSLF(OUT1)
+}
+}

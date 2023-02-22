@@ -1,0 +1,95 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+LabelID = % Data = C23049$B Type = Codabar
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+$>
+LabelID = S Data = C12344333C Type = ABC_Codabar
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+NO CODABAR CHECK CHAR CALCULATION - A123456$A
+
+CODABAR CHECK CHAR CALCULATION - A123456$A
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>,>
+$>
+CODABAR CHECK CHAR TRANSMISSION - A123456$A
+
+NO CODABAR CHECK CHAR TRANSMISSION - A123456A
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+CODABAR START STOP CHAR TRANSMISSION - A123456$A
+
+NO CODABAR START STOP CHAR TRANSMISSION - 123456$
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+CODABAR START STOP CHAR CONVERT = abcd/abcd - a123456a
+
+CODABAR START STOP CHAR CONVERT = ABCD/TN*E - A123456T
+
+CODABAR START STOP CHAR CONVERT = ABCD/ABCD - A123456A
+
+CODABAR START STOP CHAR CONVERT = abcd/tn*e - a123456t

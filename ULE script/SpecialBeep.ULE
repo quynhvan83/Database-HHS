@@ -1,0 +1,7 @@
+{
+	if(OUT1.DataType=="Code39")
+	{
+		OUT1.Data="Test\n"
+		SpecialBeep(3,2,0,50,50)
+	}
+}

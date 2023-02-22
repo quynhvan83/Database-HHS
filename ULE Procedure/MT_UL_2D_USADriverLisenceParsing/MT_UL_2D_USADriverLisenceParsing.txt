@@ -1,0 +1,39 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE PDF417_NoFields.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $Ar
+Read Label1.png
+Read Label2.png
+Read Label3.png
+Read Label4.png
+Read Label5.png
+Read Label6.png
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE PDF417_SomeFields.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $Ar
+Read Label1.png
+Read Label2.png
+Read Label3.png
+Read Label4.png
+Read Label5.png
+Read Label6.png
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE PDF417_200FieldsMax.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $Ar
+Read Label1.png
+Read Label2.png
+Read Label3.png
+Read Label4.png
+Read Label5.png
+Read Label6.png

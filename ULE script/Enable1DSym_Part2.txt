@@ -1,0 +1,56 @@
+;START OF HEADER
+;DataLogic Scanner Configuration File
+;Config File Format: 0001
+;Master Config File: none
+;Copyright 2010 by Datalogic Scanning Inc.
+;Creation Date: 01 21 2011
+;File created by Hoa Nguyen (11-May-2015)
+;This file is prepared for MTQ_LF_1DSyms in QuickTest procedure.
+;
+;START OF COMMANDS
+;-------< Initialize >-----------------------------
+$AE                 ; Erase Config Flash
+;
+;-------< System Configuration >-------------------------------
+;$YF4B425431313031323100; CONFIGURATION ID - KBT110121
+;
+;------<RS232-STD>------
+$M47						;		Load Master defaults and set to RS232
+$CIDCO01					;		Enable label ID as prefix
+$CABEN01					;     	Enable UPCA
+$CEBEN01					;     	Enable UPCE
+$C8BEN01					;     	Enable EAN/JAN8
+$C3BEN01					;     	Enable EAN/JAN13
+$CGBEN01                      ;		Enable GTIN
+$C3BIN01					; 		Enable ISSN 
+$C3BIS01					;		Enable ISBN
+$CU8EN01					;		Enable GS1/EAN 128
+$CI2EN01					;     	Enable Interleaved 2/5
+$CU2EN01					;		Enable Industry 2 of 5 
+$CS2EN01					;     	Enable Standard 2/5
+$CIAEN01					;		Enable IATA 2 of 5
+$CF2EN01					;     	Enable Follet 2/5
+$CM2EN01					;		Enable Matrix 2/5
+$CCHEN01					;		Enable CIP 2 of 5
+;CD2EN01					;		Datalogic 2 of 5
+$CPLEN01					; 		Enable Plessey
+$CMSEN01					;     	Enable MSI
+$CCBEN01					;     	Enable Codabar
+$CCBAB01					;     	Enable ABC Codabar
+$CC1EN01					;		Enable Code 11
+$CP3EN01					;		Enable Code 32
+;$CCFEN01					;		Enable Codablock-F
+$C4BEN01					;     	Enable Databar 14
+$CLBEN01					;     	Enable Databar Limited
+$CXBEN01					;     	Enable Databar Expanded
+$CADO201					;		Enable P2 Add ons
+$CADO501					;		Enable P5 Add ons
+;$CADO801					;		Enable P8 Add ons
+$CCPCL00					;     	Enable UPCA, Databar Coupon
+$As
+$AS               			; 		Commit Interface Class to factory
+;
+;------<Set Default Host Interface>------
+$HA05						;     Set Interface = RS232-STD
+$HA47						;     Set Interface = USB COM
+;------< End >-----------------------

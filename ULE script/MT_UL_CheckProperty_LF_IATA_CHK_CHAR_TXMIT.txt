@@ -1,0 +1,16 @@
+{
+	if(OUT1.DataType=="IATA")
+	{
+		IATA_ct=GetProperty(LF_IATA_CHK_CHAR_TXMIT)
+		if(IATA_ct==0)
+		{
+			StripBeginEndChars(OUT1,0,1)
+			OUT1.Data="NO IATA CHECK CHAR TRANSMISSION - "+OUT1.Data+"\r\n"
+		}
+		elseif(IATA_ct==1)
+		{
+			OUT1.Data="IATA CHECK CHAR TRANSMISSION - "+OUT1.Data+"\r\n"
+		}
+		DoSLF(OUT1)
+	}
+}

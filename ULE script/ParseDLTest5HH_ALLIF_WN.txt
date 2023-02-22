@@ -1,0 +1,5 @@
+Q``Ethn:BLU`VClassS:##`VDescr:##`RCodeS:##`RDescr:##`{CR}
+Q``Ethn:##`VClassS:##`VDescr:##`RCodeS:12345`RDescr:##`{CR}
+Q``Ethn:##`VClassS:##`VDescr:##`RCodeS:##`RDescr:CAPITOL CITY`{CR}
+Q``Ethn:##`VClassS:E`VDescr:##`RCodeS:##`RDescr:##`{CR}
+Q``Ethn:##`VClassS:##`VDescr:HAZ`RCodeS:##`RDescr:##`{CR}

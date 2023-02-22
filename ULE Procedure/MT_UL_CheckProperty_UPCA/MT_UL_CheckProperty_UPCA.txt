@@ -1,0 +1,58 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty LF_LABEL_ID_UPCA.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CADO201
+Send $CADO501
+Send $CIDCO01
+Send $Ar
+Read UPCA_123456789012
+Read UPCAP2_12345678901212
+Read UPCAP5_12345678901212345
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_UPCA_CHK_CHAR_XMIT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $Ar
+Read UPCA_123456789012
+Read $P,CABCT00,P
+Read UPCA_123456789012
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_UPCA_SYS_NUM_XMIT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $Ar
+Read UPCA_123456789012
+Read $P,CABNS00,P
+Read UPCA_123456789012
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_UPCA_TO_EAN13_EXPND.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $Ar
+Read UPCA_123456789012
+Read $P,CAB3B01,P
+Read UPCA_123456789012

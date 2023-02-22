@@ -1,0 +1,12 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty LF_LABEL_ID_EAN128.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO01
+Send $CU8EN01
+Send $CU8ID410000
+Send $Ar
+Read EAN128_ABCabc
+Read EAN128_ABCabc

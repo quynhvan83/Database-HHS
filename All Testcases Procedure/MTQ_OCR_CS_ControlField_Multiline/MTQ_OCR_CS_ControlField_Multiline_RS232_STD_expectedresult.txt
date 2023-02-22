@@ -1,0 +1,23 @@
+$>,>,>,>
+1234\r\nAB3D FG9
+5678\r\nARIT O1L
+0124\r\nRESX 5XO
+$>,>,>,>
+M01I\r\n1234\r\nABCD
+1A2T\r\n<014\r\nEFGH
+GO56\r\n316<\r\nIJKL
+A>8=\r\n9<78\r\nF>G<
+$>,>,>,>
+1234\r\nAB3D FG9
+5678\r\nARIT O1L
+0124\r\nRESX 5XO
+$>,>,>,>
+M01I\r\n1234\r\nABCD
+1A2T\r\n<014\r\nEFGH
+GO56\r\n316<\r\nIJKL
+$>,>,>,>
+123\r\n45 6B789
+1C3\r\n78 9A045
+$>,>,>,>
+12A34\r\n56B78\r\n90C12
+98D76\r\n54C32\r\n10B98

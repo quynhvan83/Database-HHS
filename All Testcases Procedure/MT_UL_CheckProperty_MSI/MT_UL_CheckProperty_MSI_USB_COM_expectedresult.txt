@@ -1,0 +1,65 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+@LabelID = @Data = 453621 Type = MSIPlessey
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+NO PERFORM CHECK CHAR - 453621
+
+PERFORM CHECK CHAR - 453621
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+NO TRANSMIT CHECK CHAR - 45362
+
+TRANSMIT CHECK CHAR - 453621
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+NO CHECK CHARACTER - ABCabc
+
+ONE CHECK CHARACTER - ABCabc
+
+TWO CHECK CHARACTERS - ABCabc
+
+TWO CHECK CHARACTERS - ABCabc

@@ -1,0 +1,21 @@
+{	
+	if (IsInMemory("INT1") == 0)
+	{
+		SaveInt(1, "INT1")
+		exit
+	}
+	else
+	{
+		count = RestoreInt("INT1")
+		count = count + 1
+		if (count == 5)
+		{
+			OUT1.Data = "count == 5\n"
+			FreeMemory()	
+		}
+		else
+		{
+			ReplaceInt(count, "INT1")
+		}
+	}	
+}

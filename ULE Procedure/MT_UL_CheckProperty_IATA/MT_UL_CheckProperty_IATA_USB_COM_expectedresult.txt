@@ -1,0 +1,27 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+IALabelID = IA Data = 123412345678903 Type = IATA
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+IATA CHECK CHAR TRANSMISSION - 123412345678903
+
+NO IATA CHECK CHAR TRANSMISSION - 12341234567890

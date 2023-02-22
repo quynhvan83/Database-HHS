@@ -1,0 +1,20 @@
+
+{
+	aim_id_property=GetProperty(LF_AIM_ID_ENABLE)
+
+
+
+	if(aim_id_property==0)
+	{
+		OUT1.Data="NO AIM ID - "+OUT1.Data+"\r\n"
+	}
+
+
+
+	elseif(aim_id_property==1)
+	{
+		OUT1.Data="AIM ID ENABLE - "+OUT1.Data+"\r\n"
+	}
+	DoSLF(OUT1)
+}
+

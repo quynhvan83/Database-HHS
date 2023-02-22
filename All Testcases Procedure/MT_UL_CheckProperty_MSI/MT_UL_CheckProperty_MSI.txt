@@ -1,0 +1,65 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_LABEL_ID_MSI_PLESSEY.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CMSEN01
+Send $CIDCO01
+Send $Ar
+Read MSI_453621
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_MSI_CHK_CHAR_CALC.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CMSEN01
+Send $CMSCC00
+Send $CIDCO00
+Send $Ar
+Read MSI_453621
+Read $P,CMSCC01,P
+Read MSI_453621
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_MSI_CHK_CHAR_TXMIT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CMSEN01
+Send $CMSCT00
+Send $CIDCO00
+Send $Ar
+Read MSI_453621
+Read $P,CMSCT01,P
+Read MSI_453621
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_MSI_NUM_CHK_CHARS.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $CMSEN01
+Send $CMSCC00
+Send $Ar
+Read Code128_ABCabc
+Read $P,CMSCC01,P
+Read Code128_ABCabc
+Read $P,CMSCC02,P
+Read Code128_ABCabc
+Read $P,CMSCC03,P
+Read Code128_ABCabc

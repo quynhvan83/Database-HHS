@@ -1,0 +1,24 @@
+Read UPCA_123456789012
+Read $P,HA45,CSNRM03,P
+ChangeInterfaceTo USB-OEM
+OpenFromDesktop DualTest
+OpenAppWindow DualTest
+ConnectDualTest USBHHScanner
+Read UPCA_123456789012
+CheckElementValue ScannerData
+Read $P,HA35,CSNRM03,P
+CloseDualTestTool
+ChangeInterfaceTo USB-KBD
+Read UPCA_123456789012
+Read $P,HA4D,CSNRM03,P
+ChangeInterfaceTo USB-Composite
+Read UPCA_123456789012
+Read $P,HA44,CSNRM03,P
+OpenByPath D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Tools\ShowHidCom.exe
+OpenAppWindow ShowHidCom
+ClickElement 1032
+ClickElement 1010
+Read UPCA_123456789012
+CheckShowHidCOMValue
+CloseAppWindow ShowHidCom
+Read $P,HA47,CSNRM03,P

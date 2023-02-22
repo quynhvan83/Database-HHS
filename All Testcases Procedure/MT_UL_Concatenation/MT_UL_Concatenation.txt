@@ -1,0 +1,134 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_Concatenation yes, Datamatrix, 15, Aztec, 20, Aztec, 0, 2nd code
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CDMEN01
+Send $CAZEN01
+Send $Ar
+Read Datamatrix_123456789012345
+Read Datamatrix_123456789012345
+Read Aztec_12345678901234567890
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_Concatenation yes, UPC A, 12, EAN 13, 13, UPC A, 1, 2nd code
+ChangeToWindow Serviceport - 1 running window
+Send $S,CABEN01,C3BEN01,Ar
+Read UPCA_123456789012
+Read EAN13_1234567890128
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_Concatenation yes, Code 128, 1, Code 39, 3, Code 39, 62, No code transmission  - (Default)
+ChangeToWindow Serviceport - 1 running window
+Send $S,CC8EN01,CC3EN01,CDMEN01,Ar
+Read Code128_1
+Read Code39_ABC
+Read Datamatrix_123456789012345
+Read Code39_ABC
+Wait_second 62000
+Read Code128_1
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_Concatenation yes, UPC E, 8, EAN 8, 8, Code 39, 63, No code transmission  - (Default)
+ChangeToWindow Serviceport - 1 running window
+Send $S,CEBEN01,C8BEN01,Ar
+Read UPCE_12345670
+Read EAN 8_8901234
+Read UPCE_12345670
+Wait_second 63000
+Read EAN 8_8901234
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_Concatenation yes, Datamatrix, 1, Aztec, 1, PDF 417, 5, Either 1st or 2nd codes
+ChangeToWindow Serviceport - 1 running window
+Send $S,CDMEN01,CAZEN01,Ar
+Read Datamatrix_1
+Read Aztec_2
+Read Datamatrix_1
+Wait_second 5500
+Read Aztec_2
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_Concatenation yes, EAN 8, 8, Code 11, 6, EAN 8, 0, Either 1st or 2nd codes
+ChangeToWindow Serviceport - 1 running window
+Send $S,C8BEN01,CC1EN01,Ar
+Read EAN 8_12345670
+Read Code 11_123456
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_Concatenation yes, Maxicode, 1, UPC A, 12, UPC A, 0, 1st code
+ChangeToWindow Serviceport - 1 running window
+Send $S,CMXEN01,CABEN01,Ar
+Read Maxicode_1
+Wait_second 1000
+Read UPCA_123456789012
+Read Maxicode_1
+Read UPCA_123456789012
+Read UPCA_123456789012
+Read Maxicode_1
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_Concatenation yes, Datamatrix, 15, Maxicode, 1, Datamatrix, 62, No code transmission  - (Default)
+ChangeToWindow Serviceport - 1 running window
+Send $S,CMXEN01,CDMEN01,Ar
+Read Datamatrix_123456789012345
+Read Maxicode_1
+Read Maxicode_1
+Wait_second 62500
+Read Datamatrix_123456789012345
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_Concatenation yes, ISBN, 13, UPC E, 8, Datamatrix, 63, 1st code
+ChangeToWindow Serviceport - 1 running window
+Send $S, C3BIS01,CEBEN01,Ar
+Read ISBN13_978-1-23456-789-7
+Read UPCE_12345670
+Read ISBN13_978-1-23456-789-7
+Wait_second 62500
+Read UPCE_12345670
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_Concatenation yes, EAN 8, 8, UPC E, 8, EAN 8, 2, 1st code
+ChangeToWindow Serviceport - 1 running window
+Send $S,C8BEN01,CEBEN01,Ar
+Read EAN 8_12345670
+Read UPCE_12345670
+Read EAN 8_12345670
+Wait_second 2500
+Read UPCE_12345670

@@ -1,0 +1,6 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE NulChar.txt
+ChangeToWindow Serviceport - 1 running window
+Read $P,CLEEN01,P
+Read UPCA

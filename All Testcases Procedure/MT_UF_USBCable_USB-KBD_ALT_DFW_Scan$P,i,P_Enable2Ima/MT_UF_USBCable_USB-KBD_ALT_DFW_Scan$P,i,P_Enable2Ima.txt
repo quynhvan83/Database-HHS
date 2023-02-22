@@ -1,0 +1,67 @@
+EnterSP
+Send $HA2B
+Send $CSNRM03
+Send $Ar
+ChangeInterfaceTo USB-KBD-ALT
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\OLD_Gun.dfw
+ChangeToWindow Serviceport - 1 running window
+Read $P,HA47,P
+Wait_second 10000
+ChangeInterfaceTo USB-COM
+EnterSP
+Send $ER3B
+Send $S
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cSNRM
+Send $s
+Send $ER0
+Send $HA2B
+Send $CSNRM03
+Send $Ar
+ChangeInterfaceTo USB-KBD-ALT
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\NEW_Gun.dfw
+ChangeToWindow Serviceport - 1 running window
+Read $P,HA47,P
+Wait_second 10000
+ChangeInterfaceTo USB-COM
+EnterSP
+Send $ER3B
+Send $S
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cSNRM
+Send $s
+Send $ER0
+Send $HA2B
+Send $CSNRM03
+Send $Ar
+ChangeInterfaceTo USB-KBD-ALT
+Read UPCA
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\FAKE_Gun.dfw
+ChangeToWindow Serviceport - 1 running window
+Read $P,HA47,P
+Wait_second 10000
+ChangeInterfaceTo USB-COM
+EnterSP
+Send $ER3B
+Send $S
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cSNRM
+Send $s
+Send $ER0
+Send $HA47
+Send $Ar

@@ -1,0 +1,30 @@
+#<Start the script>
+{
+
+	# <If Data Type = Codabar: Start>
+	if (OUT1.DataType == "Codabar")
+	{
+
+	# Get Property of Codabar Check Character Calculation:
+	cdb_cc = GetProperty(LF_CBAR_CHK_CHAR_CALC)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO CODABAR CHECK CHAR CALCULATION – Label Data
+		if (cdb_cc == 0)
+		{
+			# Data will displays with NO CODABAR CHECK CHAR CALCULATION:
+			OUT1.Data = "NO CODABAR CHECK CHAR CALCULATION - " + OUT1.Data + "\r\n"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# CODABAR CHECK CHAR CALCULATION – Label Data
+		else if (cdb_cc == 1)
+		{
+			# Data will displays: CODABAR CHECK CHAR CALCULATION
+			OUT1.Data = "CODABAR CHECK CHAR CALCULATION - " + OUT1.Data + "\r\n"
+		}
+	}
+	# <If Data Type = Codabar: End>
+
+}
+#<End the script>

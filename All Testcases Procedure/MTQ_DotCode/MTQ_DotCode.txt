@@ -1,0 +1,36 @@
+Read Label1_Dotcode.png
+Read $P,CDCEN01,P
+Read Dotcode_Label_Dot_Code_100_Character_Create_By_HHSTest_Team_Datalogic_VietNam_Company_At_218PM_19-July_2018.png
+Read Label Dot Code Standard.jpg
+Read Dotcode_00112233445566778899.png
+Read Dotcode_Label Dot Code Rotation 90.png
+Read Dotcode_Label Dot Code Rectangle.png
+Read Dotcode_Dot Code Rotation 180.png
+Read Dotcode_Label Dot Code Circles.png
+Read Dotcode_Label Dot Code Rotation 270.png
+Read Dotcode_Label Dot Code Rounded Rectangle.png
+Read $P,CDCAI01,P
+Read Dot Code Standard no ECI_Datalogic.png
+Read Dot Code Standard with ECI_Datalogic.png
+Read Dot Code Standard no ECI_123456.png
+Read Dot Code Standard with ECI_123456.png
+Read Dot Code GS1 no ECI_19Datalogic.png
+Read Dot Code GS1 with ECI_19Datalogic.png
+Read Dot Code Industry no ECI_Datalogic.png
+Read Dot Code Industry with ECI_Datalogic.png
+Read Dot Code Industry no ECI_123456.png
+Read Dot Code Industry with ECI_123456.png
+Read $P,CIDCO01,P
+Read $P,CAIEN01,P
+Read $P,CDCL10001,P
+Read $P,CDCL2087A,P
+Read $P,CDCAI00,P
+Read $P,CDCID405000,P
+Read Dot Code 2 character_Ab
+Read Label_Dot_Code_100_Character
+Read Dot code 2170 characters
+Read $P,CDCLC01,P
+Read $P,CDCL20064,P
+Read Dot Code 2 character_Ab
+Read Label_Dot_Code_100_Character
+Read Dot code 2170 characters

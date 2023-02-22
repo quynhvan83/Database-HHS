@@ -1,0 +1,18 @@
+EnterSP
+Send $AE
+Send Interface
+Send $CSNRM03
+Send $Ar
+EnterSP
+Send $ER3B
+Send $S
+Send $CIDCO01,As
+Read UPCA_123456789012
+Send $r02
+Read UPCA_123456789012
+Send $CC8EN00,As
+Send $r01
+Read Code128_ABCabc
+Send R
+Read UPCA_123456789012
+Read Code128_ABCabc

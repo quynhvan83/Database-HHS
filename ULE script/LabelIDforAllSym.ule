@@ -1,0 +1,532 @@
+{
+	if(OUT1.DataType == "UPCA")
+	{
+		data=GetProperty(LF_LABEL_ID_UPCA)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCAP2")
+	{
+		data=GetProperty(LF_LABEL_ID_UPCA_P2)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCAP5")
+	{
+		data=GetProperty(LF_LABEL_ID_UPCA_P5)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCAP8")
+	{
+		data=GetProperty(LF_LABEL_ID_UPCA_P8)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCE")
+	{
+		data=GetProperty(LF_LABEL_ID_UPCE)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCEP2")
+	{
+		data=GetProperty(LF_LABEL_ID_UPCE_P2)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCEP5")
+	{
+		data=GetProperty(LF_LABEL_ID_UPCE_P5)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCEP8")
+	{
+		data=GetProperty(LF_LABEL_ID_UPCE_P8)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}	
+	if(OUT1.DataType == "EAN8")
+	{
+		data=GetProperty(LF_LABEL_ID_EAN8)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN8P2")
+	{
+		data=GetProperty(LF_LABEL_ID_EAN8_P2)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN8P5")
+	{
+		data=GetProperty(LF_LABEL_ID_EAN8_P5)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN8P8")
+	{
+		data=GetProperty(LF_LABEL_ID_EAN8_P8)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}	
+	if(OUT1.DataType == "EAN13")
+	{
+		data=GetProperty(LF_LABEL_ID_EAN13)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN13P2")
+	{
+		data=GetProperty(LF_LABEL_ID_EAN13_P2)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN13P5")
+	{
+		data=GetProperty(LF_LABEL_ID_EAN13_P5)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN13P8")
+	{
+		data=GetProperty(LF_LABEL_ID_EAN13_P8)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}	
+	if(OUT1.DataType == "GTIN")
+	{
+		data=GetProperty(LF_LABEL_ID_GTIN)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "GTINP2")
+	{
+		data=GetProperty(LF_LABEL_ID_GTIN_P2)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "GTINP5")
+	{
+		data=GetProperty(LF_LABEL_ID_GTIN_P5)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "GTINP8")
+	{
+		data=GetProperty(LF_LABEL_ID_GTIN_P8)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}	
+	if(OUT1.DataType == "CODE39")
+	{
+		data=GetProperty(LF_LABEL_ID_CODE39)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Code39_CIP")
+	{
+		data=GetProperty(LF_LABEL_ID_CODE39_CIP)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}	
+	if(OUT1.DataType == "I2of5")
+	{
+		data=GetProperty(LF_LABEL_ID_I2OF5)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "I2OF5_CIP")
+	{
+		data=GetProperty(LF_LABEL_ID_I2OF5_CIP)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}		
+	if(OUT1.DataType == "Codabar")
+	{
+		data=GetProperty(LF_LABEL_ID_CODABAR)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "ABC_Codabar")
+	{
+		data=GetProperty(LF_LABEL_ID_ABC_CODABAR)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}	
+	if(OUT1.DataType == "CODE93")
+	{
+		data=GetProperty(LF_LABEL_ID_CODE93)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "CODE128")
+	{
+		data=GetProperty(LF_LABEL_ID_CODE128)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "MSIPlessey")
+	{
+		data=GetProperty(LF_LABEL_ID_MSI_PLESSY)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "CODE11")
+	{
+		data=GetProperty(LF_LABEL_ID_CODE11)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "PharmaC39")
+	{
+		data=GetProperty(LF_LABEL_ID_PHARMACODE39)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "IATA")
+	{
+		data=GetProperty(LF_LABEL_ID_IATA)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "MicroPDF")
+	{
+		data=GetProperty(LF_LABEL_ID_MICRO_PDF)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN128")
+	{
+		data=GetProperty(LF_LABEL_ID_EAN128)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "ISBN")
+	{
+		data=GetProperty(LF_LABEL_ID_ISBN)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "S2of5")
+	{
+		data=GetProperty(LF_LABEL_ID_S2OF5)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "RSS14")
+	{
+		data=GetProperty(LF_LABEL_ID_RSS_14)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "RSSExp")
+	{
+		data=GetProperty(LF_LABEL_ID_RSS_EXPANDED)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "RSSLim")
+	{
+		data=GetProperty(LF_LABEL_ID_RSS_LIMITED)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "RSS14Comp")
+	{
+		data=GetProperty(LF_LABEL_ID_RSS_14_COMPOSITE)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "RSSExpComp")
+	{
+		data=GetProperty(LF_LABEL_ID_RSS_EXPANDED_COMPOSITE)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "RSSLimComp")
+	{
+		data=GetProperty(LF_LABEL_ID_RSS_LIMITED_COMPOSITE)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "PDF417")
+	{
+		data=GetProperty(LF_LABEL_ID_PDF417)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Datamatrix")
+	{
+		data=GetProperty(LF_LABEL_ID_DATAMATRIX)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Maxicode")
+	{
+		data=GetProperty(LF_LABEL_ID_MAXICODE)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "QRCode")
+	{
+		data=GetProperty(LF_LABEL_ID_QRCODE)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "CodablockA")
+	{
+		data=GetProperty(LF_LABEL_ID_CODABLOCK_A)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "CodablockF")
+	{
+		data=GetProperty(LF_LABEL_ID_CODABLOCK_F)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Code49")
+	{
+		data=GetProperty(LF_LABEL_ID_CODE49)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Code16K")
+	{
+		data=GetProperty(LF_LABEL_ID_CODE16K)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "M2of5")
+	{
+		data=GetProperty(LF_LABEL_ID_M2OF5)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "D2of5")
+	{
+		data=GetProperty(LF_LABEL_ID_D2OF5)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "C2of5")
+	{
+		data=GetProperty(LF_LABEL_ID_C2OF5)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "IND2of5")
+	{
+		data=GetProperty(LF_LABEL_ID_IND2OF5)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Plessey")
+	{
+		data=GetProperty(LF_LABEL_ID_PLESSEY)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Anker")
+	{
+		data=GetProperty(LF_LABEL_ID_ANKER)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "ISSN")
+	{
+		data=GetProperty(LF_LABEL_ID_ISSN)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "ISBT")
+	{
+		data=GetProperty(LF_LABEL_ID_ISBT)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Follett2of5")
+	{
+		data=GetProperty(LF_LABEL_ID_FOLLETT_2OF5)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Code4")
+	{
+		data=GetProperty(LF_LABEL_ID_CODE4)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Code5")
+	{
+		data=GetProperty(LF_LABEL_ID_CODE5)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Aztec")
+	{
+		data=GetProperty(LF_LABEL_ID_AZTEC)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCE_COMP")
+	{
+		data=GetProperty(LF_LABEL_ID_UPCE_COMP)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCA_COMP")
+	{
+		data=GetProperty(LF_LABEL_ID_UPCA_COMP)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN8_COMP")
+	{
+		data=GetProperty(LF_LABEL_ID_EAN8_COMP)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN13_COMP")
+	{
+		data=GetProperty(LF_LABEL_ID_EAN13_COMP)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN128_COMP")
+	{
+		data=GetProperty(LF_LABEL_ID_EAN128_COMP)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "China_Sensible")
+	{
+		data=GetProperty(LF_LABEL_ID_CHINA_SENSIBLE)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Postal_Australian")
+	{
+		data=GetProperty(LF_LABEL_ID_POSTAL_AUSTRALIAN)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Postal_Kix")
+	{
+		data=GetProperty(LF_LABEL_ID_POSTAL_KIX)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Postal_Japanese")
+	{
+		data=GetProperty(LF_LABEL_ID_POSTAL_JAPANESE)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Postal_RM")
+	{
+		data=GetProperty(LF_LABEL_ID_POSTAL_RM)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Postal_Postnet")
+	{
+		data=GetProperty(LF_LABEL_ID_POSTAL_POSTNET)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Postal_Planet")
+	{
+		data=GetProperty(LF_LABEL_ID_POSTAL_PLANET)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Postal_IM")
+	{
+		data=GetProperty(LF_LABEL_ID_POSTAL_IM)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Postal_Swedish")
+	{
+		data=GetProperty(LF_LABEL_ID_POSTAL_SWEDISH)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Postal_Portugal")
+	{
+		data=GetProperty(LF_LABEL_ID_POSTAL_PORTUGAL)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Trioptics")
+	{
+		data=GetProperty(LF_LABEL_ID_TRIOPTICS)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "")
+	{
+		data=GetProperty(LF_LABEL_ID_GS1_DATAMATRIX)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "")
+	{
+		data=GetProperty(LF_LABEL_ID_GS1_QRCODE)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "")
+	{
+		data=GetProperty(LF_LABEL_ID_DIGIMARC_NATIVE)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "")
+	{
+		data=GetProperty(LF_LABEL_ID_CODE39_DANISH_PPT)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "")
+	{
+		data=GetProperty(LF_LABEL_ID_CODE39_LAPOSTE)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "")
+	{
+		data=GetProperty(LF_LABEL_ID_CODE39_LAPOSTE)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "")
+	{
+		data=GetProperty(LF_LABEL_ID_CODE39_PZN)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "")
+	{
+		data=GetProperty(LF_LABEL_ID_OCR_A)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "")
+	{
+		data=GetProperty(LF_LABEL_ID_OCR_B)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "")
+	{
+		data=GetProperty(LF_LABEL_ID_DOTCODE)
+		OUT1.Data= "ID = " + data + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+}
+
+

@@ -1,0 +1,15 @@
+EnterSP
+Send $CQREN01
+Send $CSPSE64
+Send $Ar
+Read image003.jpg
+Read image005.jpg
+Read image007.jpg
+Read image008.jpg
+Read image009.jpg
+Read $P,CSPSE01,P.jpg
+Read image003.jpg
+Read image005.jpg
+Read image007.jpg
+Read image008.jpg
+Read image009.jpg

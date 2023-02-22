@@ -1,0 +1,36 @@
+{
+	if(IsInMemory("LabelData")==0)
+	{
+		FreeMemory()
+		SaveStr(OUT1.Data,"LabelData")
+		SpecialBeep(1,2,2,10,10)
+		SetNextLabel()
+		exit
+	}
+	else
+	{
+		if(OUT1.Data=="erasedata")
+		{
+			FreeMemory()
+			DestroyStructs()
+			SetNextLabel()
+			SpecialBeep(3,2,2,10,10)
+		}
+		else
+		{
+			LA=RestoreStr("LabelData")
+			if(OUT1.Data==LA)
+			{
+				DoSLF(OUT1)
+				exit
+			}
+			else
+			{
+				SetNextLabel()
+				SpecialBeep(5,2,0,10,10)
+				exit
+			}
+		}
+	}
+}
+

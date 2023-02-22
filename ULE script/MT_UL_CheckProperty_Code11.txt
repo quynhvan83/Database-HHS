@@ -1,0 +1,9 @@
+#<Start the script>
+{
+             if(OUT1.DataType == "Code11")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE11)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+}#<End the script>

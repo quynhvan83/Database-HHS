@@ -1,0 +1,12 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_2D_LF_MICROPDF_128_EMULATE.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CMIU800
+Send $CIDCO00
+Send $Ar
+Read Code128_ABCabc
+Read $P,CMIU801,P
+Read Code128_ABCabc

@@ -1,0 +1,20 @@
+3/21
+
+Completed SPR002780
+
+
+# Objective to see if we can right a rule to scan an ISBT C128 and match the Dontation ID to the Datamatrix
+# and concatenate. There is not spec but the looking to do this and complete or improve on the ISBT Specifications.
+#
+# Config setting required:
+#   ISBT Enbale  Dynamic
+# 	Multiple labels per Frame - Enable
+#   ULE enable
+#   Farious ISBT Chains slelected. ONly need the Left ID's.
+
+ULE found some problems with the ISBT an how it was delieved to the ULE module.
+
+Programming codes sent to hte customer.
+Contract needs to be singed by Garry Teer.
+SPR closed.
+

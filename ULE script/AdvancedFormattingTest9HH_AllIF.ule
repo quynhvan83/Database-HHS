@@ -1,0 +1,286 @@
+
+
+{
+
+
+	match=0
+
+
+	CNtx=0
+	CNsave=0
+	if(OUT1.DataType=="TimerExpired")
+	{
+		if(IsInMemory("CNld1")==1)
+		{
+			OUT1.Data=RestoreStr("CNld1")
+			CNtx=1
+		}
+		elseif(IsInMemory("CNld2")==1)
+		{
+			OUT1.Data=RestoreStr("CNld2")
+			CNtx=1
+		}
+		else
+		{
+			match=1
+			FreeMemory()
+			SetNextLabel()
+			exit
+		}
+	}
+	else
+	{
+		if((OUT1.DataType=="Code128")&&(OUT1.DataLen==10))
+		{
+			if(IsInMemory("CNld2")==1)
+			{
+				OUT1.Data=OUT1.Data+RestoreStr("CNld2")
+				CNtx=1
+			}
+			else
+			{
+				FreeMemory()
+				SaveStr(OUT1.Data,"CNld1")
+				CNsave=1
+			}
+		}
+		elseif((OUT1.DataType=="Code128")&&(OUT1.DataLen==11))
+		{
+			if(IsInMemory("CNld1")==1)
+			{
+				OUT1.Data=RestoreStr("CNld1")+OUT1.Data
+				CNtx=1
+			}
+			else
+			{
+				FreeMemory()
+				SaveStr(OUT1.Data,"CNld2")
+				CNsave=1
+			}
+		}
+	}
+
+	if(CNsave==1)
+	{
+		ULEBeep(2,1,0,2,2,3)
+		StartTimer(OUT1,50)
+		SetNextLabel()
+		exit
+	}
+	elseif(CNtx==1)
+	{
+		OUT1.DataType="I2of5"
+		OUT1.DataLen=StrLen(OUT1.Data)
+		OUT1.BaseLen=OUT1.DataLen
+
+		DoSLF(OUT1)
+		FreeMemory()
+		match=1
+	}
+	else
+	{
+	}
+
+	origData=OUT1.Data
+
+
+	if((OUT1.DataType=="Code128")&&(OUT1.DataLen==15)&&(3==FindSubStr(OUT1.Data,"0",3)))
+	{
+		match=1
+
+		Fstart=1
+
+
+		F1str=""
+		while("5"==Mid(OUT1.Data,Fstart,1))
+		{
+			F1str=F1str+"5"
+			Fstart=Fstart+1
+		}
+		F1str=F1str+"a"
+
+
+		Findex=FindSubStr(OUT1.Data,"3",Fstart)
+		if(Findex!=0)
+		{
+			F2str=Mid(OUT1.Data,Fstart,(Findex-Fstart)+1)+"b"
+			Fstart=Findex+1
+		}
+		else
+		{
+			F2str="b"
+		}
+
+
+		F3str=Mid(OUT1.Data,Fstart,2)
+		Fstart=Fstart+StrLen(F3str)
+		F3str=F3str+"c"
+
+
+		F4str=Mid(OUT1.Data,Fstart,2)
+		Fstart=Fstart+StrLen(F4str)
+		F4str=F4str+"d"
+
+
+		F5str=Mid(OUT1.Data,Fstart,(StrLen(OUT1.Data)-Fstart)+1)
+		F5str=F5str+"e"
+		Fstart=StrLen(OUT1.Data)+1
+
+
+		AF1str="+++"
+		AF2str="******"
+		OUT1.Data=""+F1str+AF1str+F2str+AF2str+F3str
+		OUT1.DataLen=StrLen(OUT1.Data)
+		OUT1.BaseLen=OUT1.DataLen
+
+		NoSLF(OUT1)
+	}
+
+
+	if((OUT1.DataType=="Code128")&&(OUT1.DataLen==15)&&(3==FindSubStr(OUT1.Data,"5",3)))
+	{
+		match=1
+
+		Fstart=1
+
+
+		F1str=""
+		while("5"==Mid(OUT1.Data,Fstart,1))
+		{
+			F1str=F1str+"5"
+			Fstart=Fstart+1
+		}
+		F1str=F1str+"g"
+
+
+		Findex=FindSubStr(OUT1.Data,"1",Fstart)
+		if(Findex!=0)
+		{
+			F2str=Mid(OUT1.Data,Fstart,(Findex-Fstart)+1)+"h"
+			Fstart=Findex+1
+		}
+		else
+		{
+			F2str="h"
+		}
+
+
+		F3str=Mid(OUT1.Data,Fstart,1)
+		Fstart=Fstart+StrLen(F3str)
+		F3str=F3str+"i"
+
+
+		F4str=Mid(OUT1.Data,Fstart,1)
+		Fstart=Fstart+StrLen(F4str)
+		F4str=F4str+"j"
+
+
+		F5str=Mid(OUT1.Data,Fstart,(StrLen(OUT1.Data)-Fstart)+1)
+		F5str=F5str+"k"
+		Fstart=StrLen(OUT1.Data)+1
+
+
+		AF1str="!!!!!!"
+		AF2str="####"
+		OUT1.Data=""+F1str+AF1str+F2str+AF2str+F5str
+		OUT1.DataLen=StrLen(OUT1.Data)
+		OUT1.BaseLen=OUT1.DataLen
+
+		DoSLF(OUT1)
+	}
+
+
+	if((OUT1.DataType=="Code128")&&(OUT1.DataLen==7)&&(3==FindSubStr(OUT1.Data,"2",3)))
+	{
+		match=1
+
+		Fstart=1
+
+
+		F1str=Mid(OUT1.Data,Fstart,1)
+		Fstart=Fstart+StrLen(F1str)
+		F1str=F1str+"k"
+
+
+		F2str=Mid(OUT1.Data,Fstart,1)
+		Fstart=Fstart+StrLen(F2str)
+		F2str=F2str+"l"
+
+
+		F3str=Mid(OUT1.Data,Fstart,1)
+		Fstart=Fstart+StrLen(F3str)
+		F3str=F3str+"m"
+
+
+		F4str=Mid(OUT1.Data,Fstart,1)
+		Fstart=Fstart+StrLen(F4str)
+		F4str=F4str+"n"
+
+
+		F5str=Mid(OUT1.Data,Fstart,1)
+		Fstart=Fstart+StrLen(F5str)
+		F5str=F5str+"p"
+
+
+		AF1str="$$"
+		AF2str="%%%"
+		OUT1.Data=""+F1str+AF1str+F4str+AF2str+F5str
+		OUT1.DataLen=StrLen(OUT1.Data)
+		OUT1.BaseLen=OUT1.DataLen
+
+		NoSLF(OUT1)
+	}
+
+
+	if((OUT1.DataType=="Code128")&&(OUT1.DataLen==6)&&(3==FindSubStr(OUT1.Data,"3",3)))
+	{
+		match=1
+
+		Fstart=1
+
+
+		F1str=""
+		while("1"==Mid(OUT1.Data,Fstart,1))
+		{
+			F1str=F1str+"1"
+			Fstart=Fstart+1
+		}
+		F1str=F1str+"q"
+
+
+		F2str=Mid(OUT1.Data,Fstart,1)
+		Fstart=Fstart+StrLen(F2str)
+		F2str=F2str+"r"
+
+
+		F3str=Mid(OUT1.Data,Fstart,1)
+		Fstart=Fstart+StrLen(F3str)
+		F3str=F3str+"s"
+
+
+		F4str=Mid(OUT1.Data,Fstart,1)
+		Fstart=Fstart+StrLen(F4str)
+		F4str=F4str+"t"
+
+
+		F5str=Mid(OUT1.Data,Fstart,(StrLen(OUT1.Data)-Fstart)+1)
+		Fstart=StrLen(OUT1.Data)+1
+
+
+		AF1str=","
+		OUT1.Data=""+F1str+AF1str+F2str+F3str+F4str
+		OUT1.DataLen=StrLen(OUT1.Data)
+		OUT1.BaseLen=OUT1.DataLen
+
+		DoSLF(OUT1)
+	}
+
+
+	if(match==0)
+	{
+		FreeMemory()
+	}
+}
+
+
+

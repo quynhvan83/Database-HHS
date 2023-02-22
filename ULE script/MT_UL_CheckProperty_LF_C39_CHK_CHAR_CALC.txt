@@ -1,0 +1,29 @@
+#<Start the script>
+{
+
+	# <If Data Type = Code39: Start>
+	if (OUT1.DataType == "Code39")
+	{
+
+	# Get Property of Code39 Check Character Calculation:
+	c39_cc = GetProperty(LF_C39_CHK_CHAR_CALC)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO CODE39 CHECK CHAR CALCULATION – Label Data
+		if (c39_cc == 0)
+		{
+			# Data will displays with NO CODE39 CHECK CHAR CALCULATION:
+			OUT1.Data = "NO CODE39 CHECK CHAR CALCULATION - " + OUT1.Data + "\n"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# CODE39 CHECK CHAR CALCULATION – Label Data
+		else if (c39_cc == 1)
+		{
+			# Data will displays: CODE39 CHECK CHAR CALCULATION
+			OUT1.Data = "CODE39 CHECK CHAR CALCULATION - " + OUT1.Data + "\n"
+		}
+	}
+	# <If Data Type = Code39: End>
+}
+#<End the script>

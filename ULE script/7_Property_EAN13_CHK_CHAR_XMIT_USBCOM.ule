@@ -1,0 +1,31 @@
+
+{
+
+
+	if(OUT1.DataType=="EAN13")
+	{
+
+
+		ean13_CT=GetProperty(LF_EAN13_CHK_CHAR_XMIT)
+
+
+
+		if(ean13_CT==0)
+		{
+
+			StripBeginEndChars(OUT1,0,1)
+
+			OUT1.Data="NO CHECK CHARACTER TRANSMISSION - "+OUT1.Data+"\r\n"
+		}
+
+
+
+		elseif(ean13_CT==1)
+		{
+			OUT1.Data="EAN13 CHECK CHARACTER TRANSMISSION - "+OUT1.Data+"\r\n"
+		}
+
+	}
+     DoSLF(OUT1)
+}
+

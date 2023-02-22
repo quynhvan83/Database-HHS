@@ -1,0 +1,26 @@
+#<Start the script>
+{
+	tmp = GetProperty(LF_LABEL_ID_CONTROL)
+
+	# If the scanner property of Control for appending label ids= No label id, the returned value will be:
+	# NO LABEL ID – Label Data
+	if (tmp == 0)
+	{
+		OUT1.Data = "NO LABEL ID - " + OUT1.Data + "\r\n"
+	}
+
+	# If the scanner property of Control for appending label ids=Label id appended to beginning of label data, the returned value will be:
+	#APPEND AT BEGGIN- Label Data
+	else if (tmp == 1)
+	{
+		OUT1.Data = "APPEND AT BEGGIN - " + OUT1.Data + "\r\n"
+	}
+      #if the scanner property Control for appending label ids= Label id appended to end of label data, the returned value will be:
+     #APPEND AT THE END – Label Data
+      else if (tmp == 2)
+	{
+		OUT1.Data = "APPEND AT THE END - " + OUT1.Data
+	}
+       DoSLF(OUT1)
+}
+#<End the script>

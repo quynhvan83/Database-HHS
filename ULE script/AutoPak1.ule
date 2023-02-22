@@ -1,0 +1,69 @@
+#  
+#  05_SLR_31030_U_Autopak_GD4400_Editing with delays
+#
+#  Ule was generated to create some delay between some keyboard sequences
+#  		Interface USB Keybaord
+#		Criteria: 1. code 39 format    2. barcode length 10 characters.   3. first character is a "1".
+# 
+#		1. send first 2 characters, then ":" , then remaining 8 characters then by a CR.
+#		2. wait for 300 milisecond
+#		3. send "right arrow key" and  "Enter key"
+#		4. wait for 400 milisecond
+#		5. send "ALT+R"
+#		6. wait for 300 milisecond
+#		7. send "F5 key"
+#		8. wait 150 millisecond
+#		9. send "ABcde" (5 characters) follow by CR and "Escape key"
+#
+#
+#
+{
+	# extract the leading character from Data for criteria
+	lead = Left(OUT1.Data,2)
+	
+	# confirm if code 39, length 12 including S/S and first two characters start with 1
+	if(( OUT1.DataType =="Code39")&& (OUT1.DataLen == 12)&&(lead =="*1"))
+	{
+		
+		# Strip the Code 39 S/S
+		StripBeginEndChars(OUT1,1,1)
+		
+		#Generate additional structure for added key seqences
+		OUT2 = OUT1
+		OUT3 = OUT2
+		OUT4 = OUT3
+		OUT5 = OUT4
+		
+		#Edit the code 39 into two feilds
+		l1 = Left(OUT1.Data,2)
+		l2 = Right(OUT1.Data,8)
+		
+		#Send two strings seperated by colon and terminated with carriage Return followed by a Delay 
+		OUT1.Data = l1 + ":" + l2 +"\r"
+		Delay(OUT1,300)
+		
+		# Send a Right Arrow and Enter followed by a delay
+		OUT2.Data = "\x98\r"
+		Delay(OUT2,400)
+		
+		#Set up  Alt +r key sequence followed by a delay
+		OUT3.Data = "\x9Br\x9C"
+		Delay(OUT3,300)
+		
+		#Set up a F5 key sequence followed by a delay
+		OUT4.Data = "\x89"
+		Delay(OUT4,150)
+		
+		#send last string no delay.
+		OUT5.Data = ("ABcde\r\x1b")
+		
+		#Do not add any standard formatting to any output structures.
+		NoSLF(OUT1)
+		NoSLF(OUT2)
+		NoSLF(OUT3)
+		NoSLF(OUT4)	
+		NoSLF(OUT5)
+	}
+
+}
+

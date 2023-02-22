@@ -1,0 +1,15 @@
+{
+if(OUT1.DataType=="M2of5")
+{
+m2of5_ct=GetProperty(LF_M25_CHK_CHAR_TXMIT)
+if(m2of5_ct==0)
+{
+StripBeginEndChars(OUT1,0,1)
+OUT1.Data="NO M2OF5 CHECK CHAR TRANSMISSION - "+OUT1.Data+"\r\n"
+}
+elseif(m2of5_ct==1)
+{
+OUT1.Data="M2OF5 CHECK CHAR TRANSMISSION - "+OUT1.Data+"\r\n"
+}
+}
+}

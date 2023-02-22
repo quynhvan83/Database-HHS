@@ -1,0 +1,309 @@
+EnterSP
+Send $CIDCO01
+Send $CABEN01
+Send $CEBEN01
+Send $CCBEN01
+Send $CCBSS00
+Send $CC3EN01
+Send $CC3FA01
+Send $CI2EN01
+Send $CU2EN01
+Send $C4BEN01
+Send $C4B2D01
+Send $CLBEN01
+Send $CLB2D01
+Send $CXBEN01
+Send $CXB2D01
+Send $CC8EN01
+Send $CU8EN01
+Send $CU8AI00
+Send $CU82D01
+Send $CABEN01
+Send $CDMEN01
+Send $CP4EN01
+Send $CMIEN01
+Send $CQREN01
+Send $CMQEN01
+Send $CIPNR02
+Send $CLFPR0000000000000000000000000000000000000000
+Send $CAIEN01
+Send $CIDCO01
+Send $CLFCH1D7CFFFFFFFFFFFF
+Send $CLFCA02
+Send $CLFSU090D000000000000000000000000000000000000
+Send $CI8CE01
+Send $CI8CM01
+Send $CI8L00102
+Send $CI8L11D0D
+Send $CI8L1190A
+Send $Ar
+Read QT_UPCA
+Read QT_UPCE
+Read Codabar_C23049$B
+Read QT_Code 39-No CheckDefault
+Read QT_Code 39-Full ASCII-No CheckDefault
+Read QT_Interleaved2of5_No Check
+Read Code2of5Standard_12345678
+Read QT_DataBar 14
+Read GS1DataBar14_Composite_011234567890123112345678901231234567890123
+Read QT_DataBar Limited
+Read QT_Limited_Composite
+Read QT_DataBar Expanded
+Read GS1DataBarExpanded_Composite
+Read QT_DataBar Trunc
+Read GS1DataBarTruncated_Composite_011234567890123112345678901231234567890123
+Read QT_DataBar Stacked
+Read QT_DataBar-Stacked_Composite
+Read QT_DataBar Stacked Omni
+Read QT_Stacked-Omni_Composite
+Read QT_DataBar Expanded Stacked
+Read GS1DataBarExpandedStacked_Composite
+Read QT_Code 128
+Read QT_Code  128_GS1
+Read QT_DATAMATRIX
+Read QT_DATAMATRIX_GS1
+Read QT_Binary_PDF417
+Read QT_Binary_MicroPDF417
+Read QT_QR CODE
+Read QT_MICRO QR CODE
+Read ISBT-128-Concatenation Pair 1- Donation ID - Blood Group
+Read ISBT-128-Concatenation Pair 2- Patient ID - Nat Testing
+EnterSP
+Send $CLFPR0900000000000000000000000000000000000000
+Send $CAIEN00
+Send $CIDCO02
+Send $CLFCHFFFFFFFFFFFFFFFF
+Send $CLFCA01
+Send $CLFSU1F00000000000000000000000000000000000000
+Send $CI8CE01
+Send $CI8CM01
+Send $CI8L00304
+Send $CI8L11308
+Send $CIPNR02
+Send $CIPLR02
+Send $Ar
+Read QT_UPCA_INVERSE
+Read QT_UPCE_INVERSE
+Read Codabar_INVERSE_C23049$B
+Read QT_Code 39-No CheckDefault_INVERSE
+Read QT_Code 39-Full ASCII-No CheckDefault_INVERSE
+Read QT_Interleaved2of5_No Check_INVERSE
+Read Code2of5Standard_INVERSE_12345678
+Read QT_DataBar 14_INVERSE
+Read GS1DataBar14_Composite_INVERSE_011234567890123112345678901231234567890123
+Read QT_DataBar Limited_INVERSE
+Read QT_Limited_Composite_INVERSE
+Read QT_DataBar Expanded_INVERSE
+Read GS1DataBarExpanded_Composite_INVERSE
+Read QT_DataBar Trunc
+Read GS1DataBarTruncated_Composite_INVERSE_011234567890123112345678901231234567890123
+Read QT_DataBar Stacked_INVERSE
+Read QT_DataBar-Stacked_Composite_INVERSE
+Read QT_DataBar Stacked Omni_INVERSE
+Read QT_Stacked-Omni_Composite_INVERSE
+Read QT_DataBar Expanded Stacked_INVERSE
+Read QT_Expanded-Stacked_Composite_INVERSE
+Read QT_Code128_INVERSE
+Read QT_Code  128_GS1_INVERSE
+Read QT_DATAMATRIX_INVERSE
+Read QT_DATAMATRIX_GS1_INVERSE
+Read QT_Binary_PDF417_INVERSE
+Read QT_Binary_MicroPDF417_INVERSE
+Read QT_QR CODE_INVERSE
+Read QT_MICRO QR CODE_INVERSE
+Read ISBT-128-Concatenation Pair 1- Donation ID - Blood Group_INVERSE
+Read ISBT-128-Concatenation Pair 2- Patient ID - Nat Testing_INVERSE
+EnterSP
+Send $CLFPR9B5B9C0000000000000000000000000000000000
+Send $CAIEN01
+Send $CIDCO00
+Send $CLFCH41403242FFFFFFFF
+Send $CLFCA00
+Send $CLFSU1A0000000000000000000000000000000000000D
+Send $CI8CE01
+Send $CI8CM01
+Send $Ar
+Read Febraban_Interleaved 2of5_03391595900000008009557354800014314892950102
+Read Code397mil
+Read CodeI257mil
+Read Code1287mil
+Read Aztec 5 blocks of the linear dimension of 10 mil 
+Read PDF4178mil
+Read symbols_QR Code_line size_10 mil_color_black_Encoding_UTF_8
+Read symbols_QR Code_line size_12 mil_color_black_Encoding_UTF_8
+Read image112
+Read image114
+Read image116
+Read image118
+Read image119
+Read image121
+Read image122
+Read image124
+Read image125
+Read image127
+Read image130
+Read image132
+Read image134
+Read image136
+Read image138
+Read image140
+Read image142
+Read image144
+Read image146
+Read image148
+Read image150
+Read image152
+Read image154
+Read image156
+Read image158
+Read image159
+Read image161
+Read image163
+Read image165
+Read image166
+Read image167
+Read image168
+Read image170
+Read image172
+Read image173
+Read image175
+Read image177
+Read image179
+Read image181
+Read image183
+Read image184
+Read image185
+Read image187
+Read image189
+Read image190
+Read image191
+Read image192
+Read image193
+Read image194
+Read image195
+Read image196
+Read image197
+Read image198
+Read image199
+Read image201
+Read image203
+Read image205
+Read image206
+Read image207
+Read image208
+Read image209
+Read image210
+Read image211
+Read image212
+Read image213
+Read image214
+Read image215
+Read image216
+Read image218
+Read image219
+Read image221
+Read image223
+Read image224
+Read image225
+Read image227
+Read image228
+Read image229
+Read image230
+Read image234
+Read image236
+Read image238
+Read image240
+Read image242
+Read image244
+Read image246
+Read image248
+Read image250
+Read image252
+Read image254
+Read image256
+Read image258
+Read image260
+Read image262
+Read image264
+Read image266
+Read image268
+Read image270
+Read image272
+Read image274
+Read image276
+Read image278
+Read image280
+Read image282
+Read image284
+Read image286
+Read image288
+Read image290
+Read image292
+Read image294
+Read image296
+Read image298
+Read image300
+Read image302
+Read image304
+Read image306
+Read image308
+Read image310
+Read image312
+Read image314
+Read image316
+Read image318
+Read image320
+Read image322
+Read image324
+Read image326
+Read image328
+Read image330
+Read image332
+Read image334
+Read image336
+Read image338
+Read image340
+Read image342
+Read image344
+Read image346
+Read image348
+Read image350
+Read image352
+Read image354
+Read image356
+Read image358
+Read image360
+Read image362
+Read image364
+Read image366
+Read image368
+Read image370
+Read image372
+Read image374
+Read image376
+Read image378
+Read image380
+Read image382
+Read image384
+Read image386
+Read image388
+Read image390
+Read image392
+Read image394
+Read image395
+Read image397
+Read image398
+Read image399
+Read image400
+Read image401
+Read image402
+Read image403
+Read image404
+Read image405
+Read image406
+Read image407
+Read image408
+Read image410
+Read image412
+Read image413
+Read image414

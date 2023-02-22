@@ -1,0 +1,12 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE AutoPak1.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CBTAB00
+Send $Ar
+Read Code128_1234567891
+Read Code39_1234567891
+Read Code128_1234567891
+Read Code39_1234567891

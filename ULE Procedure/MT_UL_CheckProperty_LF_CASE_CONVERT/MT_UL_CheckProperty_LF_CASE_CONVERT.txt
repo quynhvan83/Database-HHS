@@ -1,0 +1,14 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_CASE_CONVERT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CLFCA00
+Send $CIDCO00
+Send $Ar
+Read Code128_ABCabc
+Read $P,CLFCA01,P
+Read Code128_ABCabc
+Read $P,CLFCA02,P
+Read Code128_ABCabc

@@ -1,0 +1,95 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_LABEL_ID_CODABAR.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CCBEN01
+Send $CIDCO01
+Send $Ar
+Read Codabar_2widths_C23049$B
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_LABEL_ID_ABC_CODABAR.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CCBEN01
+Send $CCBAB01
+Send $CCBCM00
+Send $CIDCO01
+Send $Ar
+Read Codabar 2 Widths_C1234DD4333C
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_CBAR_CHK_CHAR_CALC.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CCBEN01
+Send $CCBSC01
+Send $CIDCO00
+Send $Ar
+Read Codabar 2 Widths_A123456A
+Read $P,CCBCC01,P
+Read Codabar 2 Widths_A123456A
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_CBAR_CHK_CHAR_TXMIT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $CCBEN01,CCBCC01
+Send $Ar
+Read Codabar 2 Widths_A123456A
+Read $P,CCBCT00,P
+Read Codabar 2 Widths_A123456A
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_CBAR_SS_CHAR_TXMIT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $CCBEN01
+Send $Ar
+Read Codabar 2 Widths_A123456A
+Read $P,CCBSS00,P
+Read Codabar 2 Widths_A123456A
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_CBAR_SS_CHAR_CONVERT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $CCBEN01
+Send $Ar
+Read Codabar 2 Widths_Default_A123456A
+Read $P,CCBSC00,P
+Read Codabar 2 Widths_Default_A123456A
+Read $P,CCBSC01,P
+Read Codabar 2 Widths_Default_A123456A
+Read $P,CCBSC02,P
+Read Codabar 2 Widths_Default_A123456A

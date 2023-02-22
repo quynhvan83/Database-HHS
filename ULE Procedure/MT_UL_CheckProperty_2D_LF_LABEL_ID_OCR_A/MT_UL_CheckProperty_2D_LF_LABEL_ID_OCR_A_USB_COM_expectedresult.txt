@@ -1,0 +1,10 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>,>
+$>
+$>
+$oLabelID = $o data = 12345<> type = OCR_A

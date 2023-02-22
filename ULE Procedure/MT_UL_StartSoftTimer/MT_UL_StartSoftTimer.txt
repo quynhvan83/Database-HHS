@@ -1,0 +1,15 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE StartSoftTimer.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CBTAB01
+Send $Ar
+Read Code128_ABCabc
+Read Code39_ABCDEF
+Wait_second 2000
+Send D
+Wait_second 2200
+Send E
+Wait_second 3000

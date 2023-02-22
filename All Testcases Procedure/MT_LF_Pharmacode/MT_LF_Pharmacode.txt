@@ -1,0 +1,53 @@
+EnterSP
+Send $CP1EN01
+Send $CIDCO01
+Send $CP1ID5E7000
+Send $CP1AI01
+Send $CP1L102
+Send $CP1L206
+Send $CP1LC00
+Send $Ar
+Read PharmacodeOneTrack_14
+Read PharmacodeOneTrack_15
+Read PharmacodeOneTrack_16
+Read PharmacodeOneTrack_100
+Read PharmacodeOneTrack_1310
+Read PharmacodeOneTrack_13107
+Read PharmacodeOneTrack_131069
+Read PharmacodeOneTrack_131070
+Read PharmacodeOneTrack_131071
+Read flower.bmp
+EnterSP
+Send $CP1LC01
+Send $Ar
+Read PharmacodeOneTrack_14
+Read PharmacodeOneTrack_15
+Read PharmacodeOneTrack_16
+Read PharmacodeOneTrack_100
+Read PharmacodeOneTrack_1310
+Read PharmacodeOneTrack_13107
+Read PharmacodeOneTrack_131069
+Read PharmacodeOneTrack_131070
+Read PharmacodeOneTrack_131071
+Read flower.bmp
+EnterSP
+Send $CP1DI00
+Send $Ar
+Read PharmacodeOneTrack_20
+Read flower.bmp
+EnterSP
+Send $CP1DI01
+Send $Ar
+Read PharmacodeOneTrack_20
+Read PharmacodeOneTrack_25
+Read flower.bmp
+EnterSP
+Send $CP1DI02
+Send $Ar
+Read PharmacodeOneTrack_VerticalTopDown_131060
+Read flower.bmp
+EnterSP
+Send $CP1DI03
+Send $Ar
+Read flower.bmp
+Read PharmacodeOneTrack_VerticalBottomUp_131060

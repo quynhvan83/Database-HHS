@@ -1,0 +1,43 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+sLabelID = s Data = 24689753 Type = D2of5
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+NO D2OF5 CHECK CHAR CALCULATION - 1234565
+
+D2OF5 CHECK CHAR CALCULATION - 1234565
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+D2OF5 CHECK CHAR TRANSMISSION - 1234565
+
+NO D2OF5 CHECK CHAR TRANSMISSION - 123456

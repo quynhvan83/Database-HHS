@@ -1,0 +1,31 @@
+#<Start the script>
+{
+
+	# <If Data Type = Matrix 2 of 5: Start>
+	if (OUT1.DataType == "M2of5")
+	{
+
+	# Get Property of Matrix 2 of 5 Check Character Calculation:
+	m2of5_cc = GetProperty(LF_M25_CHK_CHAR_CALC)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO M2OF5 CHECK CHAR CALCULATION – Label Data
+		if (m2of5_cc == 0)
+		{
+			# Data will displays with NO M2OF5 CHECK CHAR CALCULATION:
+			OUT1.Data = "NO M2OF5 CHECK CHAR CALCULATION - " + OUT1.Data + "\r\n"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# M2OF5 CHECK CHAR CALCULATION – Label Data
+		else if (m2of5_cc == 1)
+		{
+			# Data will displays: M2OF5 CHECK CHAR CALCULATION
+			OUT1.Data = "M2OF5 CHECK CHAR CALCULATION - " + OUT1.Data + "\r\n"
+		}
+	DoSLF(OUT1)
+	}
+	# <If Data Type = Matrix 2 of 5: End>
+
+}
+#<End the script>

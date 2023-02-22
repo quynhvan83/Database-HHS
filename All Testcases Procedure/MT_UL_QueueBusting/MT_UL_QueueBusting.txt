@@ -1,0 +1,14 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_QueueBusting.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO01
+Send $Ar
+Read QRCode_JOYA QUEUE BUSTING_10item
+Read QRCode_JOYA QUEUE BUSTING_5item
+Read QRCode_JOYA QUEUE BUSTING_30row
+Read QRCode_JOYA QUEUE BUSTING_30row
+Send D
+Send E

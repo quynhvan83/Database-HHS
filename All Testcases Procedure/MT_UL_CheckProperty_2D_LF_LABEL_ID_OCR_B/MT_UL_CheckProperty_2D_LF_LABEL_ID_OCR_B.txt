@@ -1,0 +1,10 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_2D_LF_LABEL_ID_OCR_B.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $COCEN10000000,G0141414141414141414141414141410D0D
+Send $CIDCO01
+Send $Ar
+Read OCR-B label

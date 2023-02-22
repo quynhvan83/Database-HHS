@@ -1,0 +1,84 @@
+{
+	# ULE Revision   
+	VERSION = "0002"
+	COMMENT = "15_99_SLR_PK_00092811_U_HD3400GD4400_QBusting-QR"
+
+if((OUT1.DataType=="GS1_QRCode")||(OUT1.DataType=="QRCode")||(OUT1.DataType=="Code128"))
+	{
+		if(IsInMemory("QR")==1)
+		{
+			StartSoftTimer(OUT1,1)
+			SetNextLabel()
+		}
+		else
+		{
+			char1=Left(OUT1.Data,1)
+			Char2=Right(OUT1.Data,1)
+			if((char1=="\x58")&&(Char2=="\x5A"))
+			{
+				SaveStr(OUT1.Data,"QR")
+				SaveInt(1,"LI")
+				StartTimer(OUT1,1)
+				SetNextLabel()
+			}
+			else
+			{
+			}
+		}
+	}
+	elseif(OUT1.DataType=="TimerExpired")
+	{
+		data=RestoreStr("QR")
+		li=RestoreInt("LI")
+
+
+		end=Mid(data,li+1,1)
+		if(end=="\x5A"||end=="\0")
+		{
+			FreeMemory()
+			SetNextLabel()
+		}
+		else
+		{
+			lb = FindSubStr(data,"\x58",li+1)
+			str = Mid(data, li+1, lb - li-1)
+			
+			len=StrLen(str)+1
+			ReplaceInt(li+len,"LI")
+			
+			OUT1.Data=str
+			id=Left(OUT1.Data,1)
+			if(id=="E")
+			{
+				OUT1.DataType="EAN13"
+				StripBeginEndChars(OUT1,1,0)
+			}
+			elseif(id=="8")
+			{
+				OUT1.DataType="EAN8"
+				StripBeginEndChars(OUT1,1,0)
+			}
+			elseif(id=="U")
+			{
+				OUT1.DataType="UPCA"
+				StripBeginEndChars(OUT1,1,0)
+			}
+			elseif(id=="9")
+			{
+				OUT1.DataType="UPCE"
+				StripBeginEndChars(OUT1,1,0)
+			}
+			else
+			{
+				OUT1.DataType="GenericData"
+			}
+			StartSoftTimer(OUT1,1)
+			ULEBeep(1,1,2,2,8,1)
+		}
+	}
+	else
+	{
+		ULEBeep(1,1,2,2,8,1)
+	}
+	DoSLF(OUT1)
+}

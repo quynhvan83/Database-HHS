@@ -1,0 +1,117 @@
+
+
+Strt1:PO BOX 1234
+Strt2:##
+City:BARROW
+State:AK
+PCode:99723
+Cntry:##
+
+
+
+Strt1:12345 S 40TH PL
+Strt2:##
+City:PHOENIX
+State:AZ
+PCode:85044-6749
+Cntry:##
+
+
+
+Strt1:1234 S REED WAY APT #1728
+Strt2:##
+City:LITTLETON
+State:CO
+PCode:80123
+Cntry:##
+
+
+
+Strt1:123 ABCDEF DRIVE
+Strt2:APT. 00
+City:ANYTOWN
+State:NV
+PCode:123450000
+Cntry:USA
+
+
+
+Strt1:123 MEADOW RIDGE
+Strt2:LANE
+City:TWIN FALLS
+State:ID
+PCode:83301
+Cntry:##
+
+
+
+Strt1:1234 ARAPAHOE AVE
+Strt2:##
+City:JACKSONVILLE
+State:FL
+PCode:32210-0000
+Cntry:##
+
+
+
+Strt1:1234 ALMAHURST TRL APT A
+Strt2:##
+City:FLORENCE
+State:KY
+PCode:41042
+Cntry:##
+
+
+
+Strt1:1234 HUNT DR
+Strt2:##
+City:BALTIMORE
+State:MD
+PCode:21209
+Cntry:##
+
+
+
+Strt1:1234 FOX RD
+Strt2:##
+City:RALEIGH
+State:NC
+PCode:27616-6357
+Cntry:##
+
+
+
+Strt1:1234 VINEYARD TRAIL
+Strt2:##
+City:GARLAND
+State:TX
+PCode:750440000
+Cntry:USA
+
+
+
+Strt1:118 WEST CAPITOL AVENUE XYXYXYXYXYX
+Strt2:##
+City:PIERRE XYXYXYXYXYXYX
+State:SD
+PCode:575010000
+Cntry:USA
+
+
+
+Strt1:C405 CO RD 15
+Strt2:##
+City:NEW EUGENE
+State:OH
+PCode:##
+Cntry:USA
+
+
+
+Strt1:1234 TULLAMORE ROAD
+Strt2:##
+City:UNIVERSITY HT
+State:OH
+PCode:##
+Cntry:USA
+

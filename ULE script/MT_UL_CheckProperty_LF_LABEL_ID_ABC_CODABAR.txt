@@ -1,0 +1,9 @@
+#<Start the script>
+{
+             if(OUT1.DataType == "ABC_Codabar")
+	{
+		labelID=GetProperty(LF_LABEL_ID_ABC_CODABAR)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " +    OUT1.DataType
+
+	}
+}#<End the script>

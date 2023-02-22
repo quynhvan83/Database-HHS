@@ -1,0 +1,54 @@
+#<Start the script>
+{
+
+	# <If Data Type = Codabar: Start>
+	if (OUT1.DataType == "Codabar")
+	{
+
+	# Get Property of Codabar Start Stop Character Transmission:
+	cdb_ssc = GetProperty(LF_CBAR_SS_CHAR_CONVERT)
+
+		# If the scanner property = 0, the returned value will be:
+		# CODABAR START STOP CHAR CONVERT = ABCD/TN*E – Label Data	
+		if (cdb_ssc == 0)
+		{		
+			# Convert Start Stop Character = ABCD/TN*E
+			FMTCbarSSConvert(OUT1,0)
+			# Data will displays with CODABAR START STOP CHAR CONVERT = ABCD/TN*E – Label Data:
+			OUT1.Data = "CODABAR START STOP CHAR CONVERT = ABCD/TN*E - " + OUT1.Data + "\r\n"
+		}	
+		
+		# If the scanner property = 1, the returned value will be:
+		# CODABAR START STOP CHAR CONVERT = ABCD/ABCD – Label Data	
+		else if (cdb_ssc == 1)
+		{	
+			# Convert Start Stop Character = ABCD/ABCD	
+			FMTCbarSSConvert(OUT1,1)
+			# Data will displays with CODABAR START STOP CHAR CONVERT = ABCD/ABCD – Label Data:
+			OUT1.Data = "CODABAR START STOP CHAR CONVERT = ABCD/ABCD - " + OUT1.Data + "\r\n"
+		}	
+		
+		# If the scanner property = 2, the returned value will be:
+		# CODABAR START STOP CHAR CONVERT = abcd/tn*e – Label Data	
+		else if (cdb_ssc == 2)
+		{	
+			# Convert Start Stop Character = abcd/tn*e	
+			FMTCbarSSConvert(OUT1,2)
+			# Data will displays with CODABAR START STOP CHAR CONVERT = abcd/tn*e – Label Data:
+			OUT1.Data = "CODABAR START STOP CHAR CONVERT = abcd/tn*e - " + OUT1.Data + "\r\n"
+		}		
+		
+		# If the scanner property = 3, the returned value will be:
+		# CODABAR START STOP CHAR CONVERT = abcd/abcd – Label Data	
+		else if (cdb_ssc == 3)
+		{	
+			# Convert Start Stop Character = abcd/abcd	
+			FMTCbarSSConvert(OUT1,3)
+			# Data will displays with CODABAR START STOP CHAR CONVERT = abcd/abcd – Label Data:
+			OUT1.Data = "CODABAR START STOP CHAR CONVERT = abcd/abcd - " + OUT1.Data + "\r\n"
+		}	
+	}
+	# <If Data Type = Codabar: End>
+
+}
+#<End the script>

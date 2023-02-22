@@ -1,0 +1,33 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE ULE_DoubleRead_No_BMW.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO01
+Send $Ar
+Read UPCA_123456789012
+Read EAN8_12345670
+Read EAN8_12345670
+Read UPCA_123456789012
+Read UPCA_123456789012
+Read Code128_123456789012
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE No_double_read_DoSLF.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO01
+Send $Ar
+Wait_second 500
+Read UPCA_123456789012
+Read EAN8_12345670
+Read EAN8_12345670
+Read UPCA_123456789012
+Read UPCA_123456789012
+Read Code128_123456789012

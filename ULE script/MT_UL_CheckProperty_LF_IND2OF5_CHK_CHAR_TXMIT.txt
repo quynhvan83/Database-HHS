@@ -1,0 +1,33 @@
+#<Start the script>
+{
+
+	# <If Data Type = Industrial 2 of 5: Start>
+	if (OUT1.DataType == "IND2of5")
+	{
+
+	# Get Property of Industrial 2 of 5 Check Character Calculation:
+	ind2of5_ct = GetProperty(LF_IND2OF5_CHK_CHAR_TXMIT)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO IND2OF5 CHECK CHAR TRANSMISSION – Label Data
+		if (ind2of5_ct == 0)
+		{
+			# Strip Check Character
+			StripBeginEndChars(OUT1,0,1)
+			# Data will displays with NO D2OF5 CHECK CHAR TRANSMISSION:
+			OUT1.Data = "NO IND2OF5 CHECK CHAR TRANSMISSION - " + OUT1.Data + "\r\n"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# IND2OF5 CHECK CHAR TRANSMISSION – Label Data
+		else if (ind2of5_ct == 1)
+		{
+			# Data will displays: IND2OF5 CHECK CHAR TRANSMISSION
+			OUT1.Data = "IND2OF5 CHECK CHAR TRANSMISSION - " + OUT1.Data + "\r\n"
+		}
+	DoSLF(OUT1)
+	}
+	# <If Data Type = Industrial 2 of 5: End>
+
+}
+#<End the script>

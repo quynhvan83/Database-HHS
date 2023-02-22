@@ -1,0 +1,38 @@
+EnterSP
+Send $HA47
+Send $CSNRM03
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, OLD_Gun.dfw
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cSNRM
+Send $s
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, NEW_Gun.dfw
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cSNRM
+Send $s
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, FAKE_Gun.dfw
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cSNRM
+Send $s
+Read flower.bmp

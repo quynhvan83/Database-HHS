@@ -1,0 +1,33 @@
+#<Start the script>
+{
+
+	# <If Data Type = Codabar: Start>
+	if (OUT1.DataType == "Codabar")
+	{
+
+	# Get Property of Codabar Start Stop Character Transmission:
+	cdb_ss = GetProperty(LF_CBAR_SS_CHAR_TXMIT)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO CODABAR START STOP CHAR TRANSMISSION – Label Data
+		if (cdb_ss == 0)
+		{
+			# -- Strip Start – Stop Characters:
+			StripBeginEndChars(OUT1,1,1)	
+			
+			# Data will displays with NO CODABAR START STOP CHAR TRANSMISSION:
+			OUT1.Data = "NO CODABAR START STOP CHAR TRANSMISSION - " + OUT1.Data + "\r\n"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# CODABAR START STOP CHAR TRANSMISSION – Label Data
+		else if (cdb_ss == 1)
+		{
+			# Data will displays: CODABAR START STOP CHAR TRANSMISSION
+			OUT1.Data = "CODABAR START STOP CHAR TRANSMISSION - " + OUT1.Data + "\r\n"
+		}
+	}
+	# <If Data Type = Codabar: End>
+
+}
+#<End the script>

@@ -1,0 +1,31 @@
+{
+	if (OUT1.DataType == "TimerExpired")
+	{
+		FreeMemory()
+	}
+	else
+	{
+		if (IsInMemory("LS1") == 1)
+		{
+			OUT2 = OUT1
+			RestoreIOStruct(OUT2, "LS1")
+			if ((OUT1.DataType == OUT2.DataType) && (OUT1.Data == OUT2.Data))
+			{
+				SetNextLabel()
+			} 
+			else
+			{
+				FreeMemory()
+				SaveIOStruct(OUT1,"LS1")
+			}
+			DestroyStructs()
+		} 
+		else
+		{
+			SaveIOStruct(OUT1,"LS1")
+		}
+		StartTimer(OUT1, 6)
+		DoSLF(OUT1)
+	}
+}
+

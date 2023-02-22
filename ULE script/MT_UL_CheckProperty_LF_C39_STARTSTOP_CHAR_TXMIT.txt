@@ -1,0 +1,35 @@
+#<Start the script>
+{
+
+	# <If Data Type = Code39: Start>
+	if (OUT1.DataType == "Code39")
+	{
+
+	# Get Property of Code39 Start Stop Character Transmission:
+	c39_ss = GetProperty(LF_C39_STARTSTOP_CHAR_TXMIT)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO CODE39 START STOP CHAR TRANSMISSION – Label Data
+		if (c39_ss == 0)
+		{
+			# -- Strip Start – Stop Characters:
+			StripBeginEndChars(OUT1,1,1)	
+			
+			# Data will displays with NO CODE39 START STOP CHAR TRANSMISSION:
+			OUT1.Data = "NO CODE39 START STOP CHAR TRANSMISSION - " + OUT1.Data + "\r\n"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# CODE39 START STOP CHAR TRANSMISSION – Label Data
+		else if (c39_ss == 1)
+		{
+			# Data will displays: CODE39 START STOP CHAR TRANSMISSION
+			OUT1.Data = "CODE39 START STOP CHAR TRANSMISSION - " + OUT1.Data + "\r\n"
+		}
+	
+
+	}
+	# <If Data Type = Code39: End>
+
+}
+#<End the script>

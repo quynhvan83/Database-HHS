@@ -1,0 +1,15 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE teco.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CGBEN01
+Send $CIDCO01
+Send $Ar
+Read Label 1_Code 128_ 2288888888.png
+Read Label 2_Code 128_ 555557777777.png
+Read Label 3_Code128_ 666666999999999.png
+Read Label 3_Code128_ 666666999999999.png
+Read Label 1_Code 128_ 2288888888.png
+Read Label 2_Code 128_ 555557777777.png

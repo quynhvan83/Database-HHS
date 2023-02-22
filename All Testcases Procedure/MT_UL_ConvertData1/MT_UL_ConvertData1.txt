@@ -1,0 +1,13 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE Convert Data.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CDMEN01
+Send $CC8EN01
+Send $CQREN01
+Send $Ar
+Read Datamatrix_0A1b2Cx003d4E5f
+Read Code128_0A1b2Cx1673d4E5f
+Read QRCode_0A1b2Cx1673d4E5f

@@ -1,0 +1,14 @@
+{
+                if(OUT1.DataType=="Code39")
+                {
+                                OUT1.Data="Start Timer 5s\n"
+                                StartSoftTimer(OUT1,50)
+                }
+                if(OUT1.DataType=="TimerExpired")
+                {
+
+                                OUT1.Data="5s Expired"
+                                OUT1.DataType="Code128"
+                }
+
+}

@@ -1,0 +1,38 @@
+EnterSP
+Send $CKF1102
+Send $CPWEP53310000000000000000000000000000
+Send $CPWSA01
+Send $CDIST06
+Send $Ar
+Read Check Sub Mode 1
+Read Check Sub Mode 2
+Send $S,CDISM01,Ar
+Read Check Sub Mode 3
+Send $S,CPWEH01,Ar
+Read Check Sub Mode 4
+Send $S,CPWEH02,Ar
+Send $S,AR,Er,s
+Read Check Sub Mode 5
+Wait_second 15000
+Get_data
+Read Check Sub Mode 6
+Wait_second 9999000
+Get_data
+Read Check Sub Mode 7
+CheckReset
+Send $S,CPWEH00,Ar
+Read Check Sub Mode 8
+Read Check Sub Mode 9
+Send $S,CDIFS02,Ar
+Read Check Sub Mode 10
+Read Check Sub Mode 11
+Send $S,CDIFS00,Ar
+Read Check Sub Mode 10
+Read Check Sub Mode 11
+Send $S,CDIFS01,Ar
+Read Check Sub Mode 10
+Read Check Sub Mode 11
+Send $S,CDISM00,Ar
+Read Check Sub Mode 1
+Read Check Sub Mode 2
+Read Check Sub Mode 12

@@ -1,0 +1,28 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_CODE5_CHK_CHAR_TXMIT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CC5CT00
+Send $CIDCO00
+Send $Ar
+Read Code128_ABCabc
+EnterSP
+Send $S,CC5CT01,Ar
+Read Code128_ABCabc
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_CODE5_CONVERSION.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CC5HD00
+Send $CIDCO00
+Send $Ar
+Read Code128_ABCabc
+Send $S,C5HD01,Ar
+Read Code128_ABCabc

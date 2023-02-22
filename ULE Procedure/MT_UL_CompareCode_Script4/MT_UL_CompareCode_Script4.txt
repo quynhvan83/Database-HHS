@@ -1,0 +1,13 @@
+Read $P,CLEEN01,P
+Read $P,CLFSU0D00,P
+Read ULE script 4
+Read Erase Data Code to set a New Reference Code
+Read Code 128_0123456789
+Read Label 2_Datamatrix_0123456789
+Read Label 3_PDF417_123456789
+Read Code 128_0123456789
+Read Code 128_0123456789
+Read Erase Data Code to set a New Reference Code
+Read Label 2_Datamatrix_0123456789
+Read Label 3_PDF417_123456789
+Read Code 128_0123456789

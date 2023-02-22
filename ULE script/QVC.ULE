@@ -1,0 +1,81 @@
+#   Case 00026569  Customer QVC
+#
+#	Need to read two different symbology with the same character length and data string
+#	to emit a good match beep and Green spot. Otherwise, emit error beep and not green dot.
+#
+#	SLR 12/20/12
+{
+	
+	# Check to see if timer has expired and there is a label in persistent memory
+	if((OUT1.DataType == "TimerExpired") && (IsInMemory("LabelData")))				
+	{
+		#ULEBeep(2,1, 1, 2, 25, 10)					#Med Beep followed by lower long tone
+		ULEBeep(2,1, 1, 0, 40, 10)
+		FreeMemory()									#clear memory and set next label
+		SetNextLabel()
+	}
+
+	# Determine if symbology is Code  39 or Code 128
+	if(( OUT1.DataType =="Code39")|| (OUT1.DataType =="Code128"))
+	{
+
+		# If data is in memory, compare code in persistent memory with the new scanned label.
+		if (IsInMemory("LabelData") == 1) 
+		{
+			
+			
+			OUT2 = OUT1									#Create second structure 
+			RestoreIOStruct(OUT1,"LabelData")			#restore First label
+			
+			
+			if(OUT2.DataType  == "Code39")				# If statement must strip the C39 S/S and to adjust label length
+			{
+				StripBeginEndChars(OUT2,1,1)			# striping off the S/S from Code 39 data string from OUT2
+			}
+			else
+			{
+				StripBeginEndChars(OUT1,1,1)	 		#striping off the S/S from Code 39 data string from OUT1
+			}
+			
+			#Compare two labels
+			if(((OUT1.DataType != OUT2.DataType)) && ((OUT1.Data == OUT2.Data)) && ((OUT1.DataLen == OUT2.DataLen)))
+			{	
+				#SpecialBeep(1, 1, 2, 5, 5)				# use normal beep, which will also allow the green spot to emit
+				
+				if(00 == GetProperty(LF_ULE_GENERIC))	# ***Figure Use, Might want to see the batch data output***
+				{
+					OUT1.Data = "\0"					# Set OUT1 to a Null character, Emulate a no data string to host
+				}
+				else
+				{
+					#OUT1.Data = "Match"				# Match is for Testing purposes, but ULE Gen = 1, send data as is
+					if(OUT1.DataType =="Code39")
+					{
+						OUT1.Data = "*" + OUT1.Data + "*"	#Need to add the start and Stop character for Code 39 STD formatting
+					}
+					DoSLF(OUT1)
+				}
+			}
+			else
+			{
+				ULEBeep(2,3, 2, 0, 10, 10)			# if condition not met, emit error beep 
+				SetNextLabel()
+				#OUT1.Data = "No Match"					# Testing purposes
+			}					
+			
+			FreeMemory()								#Free Memory		
+			DestroyStructs()							#Destroy Strurcts			
+		}
+		else
+		{
+			SaveIOStruct(OUT1, "LabelData")				#Save first label to persistent memory		
+			StartTimer(OUT1,300)							# Start the timer
+			ULEBeep(2,1, 0, 2, 3, 5)					# Acknowledge beep for first label
+			SetNextLabel()
+		}	
+	}	
+	else
+	{
+		SetNextLabel()									# this is set so that no other labels read, no Beeps/green spot will emit
+	}
+}

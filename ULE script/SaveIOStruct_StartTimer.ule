@@ -1,0 +1,14 @@
+{
+  if(OUT1.DataType == "Code128")
+  {
+       SaveIOStruct(OUT1, "LabelData")			#Save first label to persistant memory		
+	   StartTimer(OUT1,50)						# Start the timer
+	   ULEBeep(2,2, 0, 2, 30, 50)					# Acknoledge beep for first label
+ 	   SetNextLabel()
+  }
+  if ((IsInMemory("LabelData") == 1) && (OUT1.DataType == "TimerExpired")) 
+  {
+      RestoreIOStruct(OUT1,"LabelData")			#restore First label
+  }
+  
+}

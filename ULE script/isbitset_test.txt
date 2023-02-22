@@ -1,0 +1,281 @@
+;START OF HEADER
+;Datalogic ADC Scanner Configuration File
+;Config File Format: 0001
+;Master Config File: none;Copyright 2014 by Datalogic ADC Scanning Inc.
+;Creation Date: 12 30 2014 7:33
+;File created by Datalogic Aladdin 1.7.0.0.0 [build:141210.1408]
+;
+;START OF COMMANDS
+;-------< Initialize >-----------------------------
+$AE                 ; Erase Config Flash
+;
+;-------< System Configuration >-------------------------------
+$YF00000000000000000000; CONFIGURATION ID
+;
+;------<USB-COM-STD>------
+$M47               ; Load Master defaults and set to USB-COM-STD
+$CSNOG02  ;	Object Gone Time (1-20 x 500 msec.): 02
+$CLEEN01  ;	Advanced Formatting/ Label Edit Script Enable: Enabled
+$CLAGL03  ;	Good Read LED Duration (0-255 x 100 msec.): 03
+$As                 ; Commit Interface Class to user
+$AS                 ; Commit Interface Class to factory
+;
+;------<RS232-STD>------
+$M05               ; Load Master defaults and set to RS232-STD
+$CSNOG02  ;	Object Gone Time (1-20 x 500 msec.): 02
+$CIDCO01  ;	Transmission Label ID Code: Prefix
+$CLEEN01  ;	Advanced Formatting/ Label Edit Script Enable: Enabled
+$CU8AI00  ;	GS1-128 AIM ID: Disable
+$C4BEN01  ;	GS1 DataBar Omnidirectional Enable/Disable: Enable
+$C4BU801  ;	GS1 DataBar Omnidirectional GS1-128 Emulation: Enable
+$CLAGL03  ;	Good Read LED Duration (0-255 x 100 msec.): 03
+$As                 ; Commit Interface Class to user
+;
+;------<USB-OEM>------
+$M45               ; Load Master defaults and set to USB-OEM
+$CSNOG02  ;	Object Gone Time (1-20 x 500 msec.): 02
+$CLEEN01  ;	Advanced Formatting/ Label Edit Script Enable: Enabled
+$CIFO102  ;	Interface Options 1: Ignore Scanner Configuration Host Commands
+$CLAGL03  ;	Good Read LED Duration (0-255 x 100 msec.): 03
+$CLFSU0000000000000000000000000000000000000000  ;	Global Suffix: 
+$AS                 ; Commit Interface Class to factory
+;
+;------<USB-KBD>------
+$M35               ; Load Master defaults and set to USB-KBD
+$CSNOG02  ;	Object Gone Time (1-20 x 500 msec.): 02
+$CLEEN01  ;	Advanced Formatting/ Label Edit Script Enable: Enabled
+$CLAGL03  ;	Good Read LED Duration (0-255 x 100 msec.): 03
+$AS                 ; Commit Interface Class to factory
+;
+;------<RS232-WN>------
+$M12               ; Load Master defaults and set to RS232-WN
+$CSNOG02  ;	Object Gone Time (1-20 x 500 msec.): 02
+$CLEEN01  ;	Advanced Formatting/ Label Edit Script Enable: Enabled
+$CAB3B01  ;	Expand UPC-A to EAN-13: Enable
+$CEBCT00  ;	UPC-E Check Character Transmission: Disable
+$CR2PA02  ;	Parity: Odd Parity
+$CR2HC01  ;	Handshaking Control: RTS/CTS
+$CIDCO01  ;	Transmission Label ID Code: Prefix
+$CU8AI00  ;	GS1-128 AIM ID: Disable
+$CLAGL03  ;	Good Read LED Duration (0-255 x 100 msec.): 03
+$CEBID430000  ;	Set UPCE Label ID Character(s): C
+$C8BID420000  ;	Set EAN 8 Label ID Character(s): B
+$C3BID410000  ;	Set EAN 13 Label ID Character(s): A
+$CISID410000  ;	Set ISBN Label ID Character(s): A
+$CC3ID4D0000  ;	Set Code 39 Label ID Character(s): M
+$CDPID4D0000  ;	Set Danish PPT Label ID Character(s): M
+$CLPID4D0000  ;	Set La Poste 39 Label ID Character(s): M
+$CPZID4D0000  ;	Set PZN Label ID Character(s): M
+$CI2ID490000  ;	Set Interelaved 2of5 Label ID Character(s): I
+$CS2ID480000  ;	Set Code Standard 2/5 Label ID Character(s): H
+$CIAID490000  ;	Set Code IATA Label ID Character(s): I
+$CCBID4E0000  ;	Set Codabar Label ID Character(s): N
+$CC7ID4E0000  ;	Set NW7 Label ID Character(s): N
+$CACID4E0000  ;	Set ABC Codabar Label ID Character(s): N
+$CHRID490000  ;	Set I2of5 CIP HR label ID character(s): I
+$CC9ID4C0000  ;	Set Code 93 Label ID Character(s): L
+$CP4ID510000  ;	Set PDF 417 Label ID Character(s): Q
+$CMIID530000  ;	Set Micro PDF 417 Label ID Character(s): S
+$CC8ID4B0000  ;	Set Code 128 Label ID Character(s): K
+$CU8ID500000  ;	Set GS1-128 Label ID Character(s): P
+$CMSID4F0000  ;	Set MSI Label ID Character(s): O
+$CI8ID4B0000  ;	Set Concatenated ISBT 128 Label ID Character(s)): K
+$CM2ID480000  ;	Set Matrix 2 of 5  Label ID Character(s): H
+$CCCID4D0000  ;	Set Code 39 CIP Label ID Character(s): M
+$CPLID4F0000  ;	Set Plessey Label ID Character(s): O
+$CE2ID430000  ;	Set UPCE P2 Label ID Character(s): C
+$CE5ID430000  ;	Set UPCE/P5 Label ID Character(s): C
+$C82ID420000  ;	Set EAN 8/P2 Label ID Character(s): B
+$C85ID420000  ;	Set EAN 8/P5 Label ID Character(s): B
+$C32ID410000  ;	Set EAN 13/P2 Label ID Character(s): A
+$C35ID410000  ;	Set EAN 13/P5 Label ID Character(s): A
+$CUMID500000  ;	Set GS1-128 Composite Label ID Character(s): P
+$C3MID410000  ;	Set EAN 13 Composite Label ID Character(s): A
+$C8MID420000  ;	Set EAN8 Composite Label ID Character(s): B
+$CEMID430000  ;	Set UPC-E Composite Label ID Character(s): C
+$C4BID450000  ;	Set GS1 DataBar 14 (Omnidirectional) Label ID Character(s): E
+$CXBID450000  ;	Set GS1 DataBar Expanded Label ID Character(s): E
+$CLBID450000  ;	Set GS1 DataBar Limited Label ID Character(s): E
+$C4CID450000  ;	Set GS1 DataBar Omnidirectional Composite Label ID Character(s): E
+$CXCID450000  ;	Set GS1 DataBar Expanded Composite Label ID Character(s): E
+$CLCID450000  ;	Set GS1 DataBar Limited Composite Label ID Character(s): E
+$CDMID520000  ;	Set Datamatrix label ID character(s): R
+$CGDID520000
+$CQRID550000  ;	Set QR code label ID Character(s): U
+$CGQID550000
+$CMQID550000  ;	Set MicroQR Label ID Character(s): U
+$CAZID560000  ;	Set Aztec label ID character(s): V
+$CMXID540000  ;	Set Maxicode Label ID Character(s): T
+$CLFCH0D60FFFFFFFFFFFF  ;	Character Conversion: [0D CR] `
+$AS                 ; Commit Interface Class to factory
+;
+;------<RS232-OPOS>------
+$M13               ; Load Master defaults and set to RS232-OPOS
+$CLEEN01  ;	Advanced Formatting/ Label Edit Script Enable: Enabled
+$CSNOG02  ;	Object Gone Time (1-20 x 500 msec.): 02
+$CR2BA07  ;	Baud Rate: 115200 Baud
+$CIDCO01  ;	Transmission Label ID Code: Prefix
+$CU8AI00  ;	GS1-128 AIM ID: Disable
+$CLAGL03  ;	Good Read LED Duration (0-255 x 100 msec.): 03
+$CABID430000  ;	Set UPCA Label ID Character(s): C
+$CEBID440000  ;	Set UPCE Label ID Character(s): D
+$C8BID410000  ;	Set EAN 8 Label ID Character(s): A
+$C3BID420000  ;	Set EAN 13 Label ID Character(s): B
+$CISID400000  ;	Set ISBN Label ID Character(s): @
+$CC3ID560000  ;	Set Code 39 Label ID Character(s): V
+$CP3ID580000  ;	Set Code 32 Label ID Character(s): X
+$CI2ID4E0000  ;	Set Interelaved 2of5 Label ID Character(s): N
+$CS2ID500000  ;	Set Code Standard 2/5 Label ID Character(s): P
+$CIAID260000  ;	Set Code IATA Label ID Character(s): &
+$CCBID520000  ;	Set Codabar Label ID Character(s): R
+$CC9ID550000  ;	Set Code 93 Label ID Character(s): U
+$CC1ID620000  ;	Set Code 11 Label ID Character(s): b
+$CP4ID720000  ;	Set PDF 417 Label ID Character(s): r
+$CMIID380000  ;	Set Micro PDF 417 Label ID Character(s): 8
+$CC8ID540000  ;	Set Code 128 Label ID Character(s): T
+$CU8ID6B0000  ;	Set GS1-128 Label ID Character(s): k
+$CMSID5A0000  ;	Set MSI Label ID Character(s): Z
+$CA2ID460000  ;	Set UPCA/P2 Label ID Character(s): F
+$CA5ID470000  ;	Set UPCA/P5 Label ID Character(s): G
+$CE2ID480000  ;	Set UPCE P2 Label ID Character(s): H
+$CE5ID490000  ;	Set UPCE/P5 Label ID Character(s): I
+$C82ID4A0000  ;	Set EAN 8/P2 Label ID Character(s): J
+$C85ID4B0000  ;	Set EAN 8/P5 Label ID Character(s): K
+$C32ID4C0000  ;	Set EAN 13/P2 Label ID Character(s): L
+$C35ID4D0000  ;	Set EAN 13/P5 Label ID Character(s): M
+$CUMID244500  ;	Set GS1-128 Composite Label ID Character(s): $ E
+$C3MID244600  ;	Set EAN 13 Composite Label ID Character(s): $ F
+$C8MID244700  ;	Set EAN8 Composite Label ID Character(s): $ G
+$CAMID244800  ;	Set UPC-A Composite Label ID Character(s): $ H
+$CEMID244A00  ;	Set UPC-E Composite Label ID Character(s): $ J
+$C4BID750000  ;	Set GS1 DataBar 14 (Omnidirectional) Label ID Character(s): u
+$CXBID740000  ;	Set GS1 DataBar Expanded Label ID Character(s): t
+$CLBID760000  ;	Set GS1 DataBar Limited Label ID Character(s): v
+$C4CID430000  ;	Set GS1 DataBar Omnidirectional Composite Label ID Character(s): C
+$CXCID640000  ;	Set GS1 DataBar Expanded Composite Label ID Character(s): d
+$CDMID770000  ;	Set Datamatrix label ID character(s): w
+$CQRID790000  ;	Set QR code label ID Character(s): y
+$CAZID210000  ;	Set Aztec label ID character(s): !
+$CMXID780000  ;	Set Maxicode Label ID Character(s): x
+$CGBID244100  ;	Set GTIN W/o Add on Label ID Character(s): $ A
+$CG2ID244200  ;	Set GTIN Addon 2 Label ID Character(s): $ B
+$CG5ID244300  ;	Set GTIN Add on 5 Label ID Character(s): $ C
+$AS                 ; Commit Interface Class to factory
+;
+;------<USB-POS>------
+$M44               ; Load Master defaults and set to USB-POS
+$CLEEN01  ;	Advanced Formatting/ Label Edit Script Enable: Enabled
+$CSNOG02  ;	Object Gone Time (1-20 x 500 msec.): 02
+$CC9LO00  ;	Code 93 Quiet Zones: Quiet zones on two sides
+$CC8LO00  ;	Code 128 Quiet Zones: Quiet zones on two sides
+$CIDCO01  ;	Transmission Label ID Code: Prefix
+$CAIEN01  ;	Transmission AIM ID Code: Enable
+$CU8AI00  ;	GS1-128 AIM ID: Disable
+$CLAGL03  ;	Good Read LED Duration (0-255 x 100 msec.): 03
+$CABID412000  ;	Set UPCA Label ID Character(s): A [20 SPACE]
+$CEBID452000  ;	Set UPCE Label ID Character(s): E [20 SPACE]
+$C3BID462000  ;	Set EAN 13 Label ID Character(s): F [20 SPACE]
+$CISID492000  ;	Set ISBN Label ID Character(s): I [20 SPACE]
+$CC3ID2A2000  ;	Set Code 39 Label ID Character(s): * [20 SPACE]
+$CP3ID412000  ;	Set Code 32 Label ID Character(s): A [20 SPACE]
+$CI2ID692000  ;	Set Interelaved 2of5 Label ID Character(s): i [20 SPACE]
+$CS2ID732000  ;	Set Code Standard 2/5 Label ID Character(s): s [20 SPACE]
+$CCBID252000  ;	Set Codabar Label ID Character(s): % [20 SPACE]
+$CC9ID262000  ;	Set Code 93 Label ID Character(s): & [20 SPACE]
+$CP4ID502000  ;	Set PDF 417 Label ID Character(s): P [20 SPACE]
+$CC8ID232000  ;	Set Code 128 Label ID Character(s): # [20 SPACE]
+$CU8ID462300  ;	Set GS1-128 Label ID Character(s): F #
+$CMSID402000  ;	Set MSI Label ID Character(s): @ [20 SPACE]
+$CI8ID662000  ;	Set Concatenated ISBT 128 Label ID Character(s)): f [20 SPACE]
+$CM2ID672000  ;	Set Matrix 2 of 5  Label ID Character(s): g [20 SPACE]
+$CCCID592000  ;	Set Code 39 CIP Label ID Character(s): Y [20 SPACE]
+$CPLID612000  ;	Set Plessey Label ID Character(s): a [20 SPACE]
+$CA2ID412000  ;	Set UPCA/P2 Label ID Character(s): A [20 SPACE]
+$CA5ID412000  ;	Set UPCA/P5 Label ID Character(s): A [20 SPACE]
+$CE2ID452000  ;	Set UPCE P2 Label ID Character(s): E [20 SPACE]
+$CE5ID452000  ;	Set UPCE/P5 Label ID Character(s): E [20 SPACE]
+$C32ID462000  ;	Set EAN 13/P2 Label ID Character(s): F [20 SPACE]
+$C35ID462000  ;	Set EAN 13/P5 Label ID Character(s): F [20 SPACE]
+$CLFSU0000000000000000000000000000000000000000  ;	Global Suffix: 
+$CGBID472000  ;	Set GTIN W/o Add on Label ID Character(s): G [20 SPACE]
+$AS                 ; Commit Interface Class to factory
+;
+;------<WAND>------
+$M24               ; Load Master defaults and set to WAND
+$CLEEN01  ;	Advanced Formatting/ Label Edit Script Enable: Enabled
+$CSNOG02  ;	Object Gone Time (1-20 x 500 msec.): 02
+$CCBSC01  ;	Codabar Start/Stop Characters Set: ABCD/ABCD
+$CLAGL03  ;	Good Read LED Duration (0-255 x 100 msec.): 03
+$AS                 ; Commit Interface Class to factory
+;
+;-------< Set Default Host Interface >----
+$HA05               ; Set not active default intreface to RS232-STD
+$HA47               ; Set active default intreface to USB-COM-STD
+;-------< User Label Edit Script >----
+$U00000008554C4532040A0A0A
+$U000800100A7B0A76616C75653D537472546F496E
+$U0018001074284F5554312E44617461290A4F5554
+$U00280010312E446174613D225465737420666F72
+$U00380010206275696C742D696E2066756E637469
+$U004800106F6E2049734269745365742E54686520
+$U00580010666F6C6C6F77696E6720626974732061
+$U006800107265207365743A220A69662849734269
+$U00780010745365742876616C75652C30293D3D31
+$U00880010290A7B0A4F5554312E446174613D4F55
+$U0098001054312E446174612B224269743020220A
+$U00A800107D0A6966284973426974536574287661
+$U00B800106C75652C31293D3D31290A7B0A4F5554
+$U00C80010312E446174613D4F5554312E44617461
+$U00D800102B224269743120220A7D0A6966284973
+$U00E800104269745365742876616C75652C32293D
+$U00F800103D31290A7B0A4F5554312E446174613D
+$U010800104F5554312E446174612B224269743220
+$U01180010220A7D0A696628497342697453657428
+$U0128001076616C75652C33293D3D31290A7B0A4F
+$U013800105554312E446174613D4F5554312E4461
+$U0148001074612B224269743320220A7D0A696628
+$U0158001049734269745365742876616C75652C34
+$U01680010293D3D31290A7B0A4F5554312E446174
+$U01780010613D4F5554312E446174612B22426974
+$U018800103420220A7D0A69662849734269745365
+$U01980010742876616C75652C35293D3D31290A7B
+$U01A800100A4F5554312E446174613D4F5554312E
+$U01B80010446174612B224269743520220A7D0A69
+$U01C80010662849734269745365742876616C7565
+$U01D800102C36293D3D31290A7B0A4F5554312E44
+$U01E800106174613D4F5554312E446174612B2242
+$U01F8001069743620220A7D0A6966284973426974
+$U020800105365742876616C75652C37293D3D3129
+$U021800100A7B0A4F5554312E446174613D4F5554
+$U02280010312E446174612B224269743720220A7D
+$U023800100A69662849734269745365742876616C
+$U0248001075652C38293D3D31290A7B0A4F555431
+$U025800102E446174613D4F5554312E446174612B
+$U02680010224269743820220A7D0A696628497342
+$U0278001069745365742876616C75652C39293D3D
+$U0288001031290A7B0A4F5554312E446174613D4F
+$U029800105554312E446174612B22426974392022
+$U02A800100A7D0A69662849734269745365742876
+$U02B80010616C75652C3130293D3D31290A7B0A4F
+$U02C800105554312E446174613D4F5554312E4461
+$U02D8001074612B22426974313020220A7D0A6966
+$U02E800102849734269745365742876616C75652C
+$U02F800103131293D3D31290A7B0A4F5554312E44
+$U030800106174613D4F5554312E446174612B2242
+$U031800106974313120220A7D0A69662849734269
+$U03280010745365742876616C75652C3132293D3D
+$U0338001031290A7B0A4F5554312E446174613D4F
+$U034800105554312E446174612B22426974313220
+$U03580010220A7D0A696628497342697453657428
+$U0368001076616C75652C3133293D3D31290A7B0A
+$U037800104F5554312E446174613D4F5554312E44
+$U038800106174612B22426974313320220A7D0A69
+$U03980010662849734269745365742876616C7565
+$U03A800102C3134293D3D31290A7B0A4F5554312E
+$U03B80010446174613D4F5554312E446174612B22
+$U03C80010426974313420220A7D0A696628497342
+$U03D8001069745365742876616C75652C3135293D
+$U03E800103D31290A7B0A4F5554312E446174613D
+$U03F800104F5554312E446174612B224269743135
+$U0408000820220A7D0A7D0A0A
+;------< End >-----------------------

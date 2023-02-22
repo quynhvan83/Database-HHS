@@ -1,0 +1,10 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_2D_LF_LABEL_ID_DOTCODE.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CDCEN01
+Send $CIDCO01
+Send $Ar
+Read DotCode_Label Dot Code Standard

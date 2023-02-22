@@ -1,0 +1,12 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+OUT1\r\nOUT2\r\nOUT3\r\nOUT4\r\nOUT5
+3000
+$>,>,>
+OUT1\r\nOUT2\r\nOUT3\r\nOUT4\r\nOUT5
+3000

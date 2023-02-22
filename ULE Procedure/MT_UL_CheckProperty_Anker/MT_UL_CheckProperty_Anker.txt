@@ -1,0 +1,26 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_LABEL_ID_ANKER.txt
+ChangeToWindow Serviceport - 1 running window
+Read $P,CLEEN01,P
+Read $P,CIDCO01,P
+Read $P,CPLEN01,P
+Read $P,CPLCC02,P
+Read Anker label (Plessey Bidrectional_0123456789ABCDEF6F)
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_ANKER_CHK_CHAR_CALC.txt
+ChangeToWindow Serviceport - 1 running window
+Read $P,CIDCO00,P
+Read $P,CPLCC00,P
+Read Anker label (Plessey Bidrectional_0123456789ABCDEF6F)
+Read $P,CPLCC02,P
+Read Anker label (Plessey Bidrectional_0123456789ABCDEF6F)
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_ANKER_CHK_CHAR_TXMIT.txt
+ChangeToWindow Serviceport - 1 running window
+Read $P,CPLCT00,P
+Read Anker label (Plessey Bidrectional_0123456789ABCDEF6F)
+Read $P,CPLCT01,P
+Read Anker label (Plessey Bidrectional_0123456789ABCDEF6F)

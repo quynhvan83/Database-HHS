@@ -1,0 +1,20 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE ULE_DoubleRead_5sec.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CD2EN01
+Send $CM2EN01
+Send $Ar
+Read UPCA_123456789012
+Read UPCA_123456789012
+Wait_second 6000
+Read UPCA_123456789012
+Read UPCA_123456789012
+Read UPCA_523567890124
+Read Datamatrix_123456789012
+Read Datamatrix_523567890124
+Read PDF 417_PDF 417 Sample
+Read UPCA_123456789012
+Read Datamatrix_123456789012

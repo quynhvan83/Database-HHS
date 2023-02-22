@@ -1,0 +1,44 @@
+
+
+{
+	Version = "19_01_SLR_CS-290810_U_Booker_Fix ULE for Cris_UK"
+	
+	x=GetProperty(LF_ULE_GENERIC)
+	y=Left(OUT1.Data,2)
+	if(OUT1.DataType=="TimerExpired")
+	{
+		if(IsInMemory("S1")!=0)
+		{
+			OUT1.Data=RestoreStr("S1")
+			OUT1.DataType="EAN13"
+			FreeMemory()
+			Delay(OUT1,800)
+		}
+		else
+		{
+			FreeMemory()
+			SetNextLabel()
+		}
+	}
+	elseif(OUT1.DataType=="EAN13")
+	{
+		if(IsInMemory("S1")==0)
+		{
+			SaveStr(OUT1.Data,"S1")
+			StartTimer(OUT1,x)
+			SetNextLabel()
+		}
+		else
+		{
+			SetNextLabel()
+		}
+	}
+	else
+	{
+		FreeMemory()
+		Delay(OUT1,500)
+	}
+	DoSLF(OUT1)
+}
+
+

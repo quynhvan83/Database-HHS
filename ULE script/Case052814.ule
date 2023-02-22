@@ -1,0 +1,7 @@
+{
+	if(OUT1.DataType == "Datamatrix")
+	{
+		StripBeginEndChars(OUT1, 26, 0)
+		DoSLF(OUT1)
+	}
+}

@@ -1,0 +1,178 @@
+{
+if (OUT1.DataType == "Datamatrix" && OUT1.DataLen == 1)
+{
+# F1
+	O = OUT1.Data
+        D = O
+        while (D != "")
+        {                
+		O = D
+		D = StrSubstitute(D, "\x85", "Q")
+        }
+# F2
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x86", "W")
+        }
+# F3
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x87", "E")
+        }
+# F4
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x88", "R")
+        }
+# F5
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x89", "T")
+        }
+# F6
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x8A", "U")
+        }
+# F7
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x8B", "I")
+        }
+# F8
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x8C", "O")
+        }
+# F9
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x8D", "P")
+        }
+# F10
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x8E", "A")
+        }
+# F11
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x8F", "S")
+        }
+# F12
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x90", "D")
+        }
+# ENTER
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x0D", "F")
+        }
+# ENTER (Keypad)
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x84", "H")
+        }
+# TAB
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x09", "J")
+        }
+# PgUP
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x93", "K")
+        }
+# PgDOWN
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x94", "L")
+        }
+# Insert
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x83", "X")
+        }
+# Cursor UP
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x95", "C")
+        }
+# Cursor DOWN
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x96", "V")
+        }
+# Cursor LEFT
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x97", "B")
+        }
+# CURSOR RIGHT
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x98", "N")
+        }
+# Backspace
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x08", "M")
+        }
+# ALT-TAB
+        D = O
+        while (D != "")
+        {                
+		O = D
+                D = StrSubstitute(D, "\x99\x09\x9A", "#")
+        }
+	OUT1.Data = O
+	OUT1.DataLen = StrLen(OUT1.Data)
+	OUT1.BaseLen = OUT1.DataLen		
+	NoSLF(OUT1)
+}
+}

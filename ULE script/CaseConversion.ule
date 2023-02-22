@@ -1,0 +1,24 @@
+#The label Code 128 have data: AbCdEfUvWxYz
+#We try to convert Lower Case --> Upper Case
+	#ABCDEFUVWXYZ
+#The label Code 39 have data: AbCdEfUvWxYz
+#We try to convert Upper Case --> Lower Case
+	#abcdefuvwxyz
+
+#<Start the script>
+{
+	#If label matches Code128 symbology and begin "A", scanner can edit label as script does
+	if(OUT1.DataType=="Code128" && Left(OUT1.Data,1) == "A")
+	{
+	#Find Lower Case character in the label and convert into Upper Case
+		OUT1.Data=ToUpper(OUT1.Data)
+	}
+	#If label matches Code128 symbology and begin "a", scanner can edit label as script does
+	else if (OUT1.DataType =="Code128" && Left(OUT1.Data,1) == "a")
+	{
+		#Find Upper Case character in the label and convert into Lower Case
+		OUT1.Data=ToLower(OUT1.Data)
+	}
+}
+#<End the script>
+

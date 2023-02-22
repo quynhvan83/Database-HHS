@@ -1,0 +1,23 @@
+{
+        if (OUT1.DataType == "QRCode" || OUT1.DataType == "Code128")
+        {
+		X = FindSubStr(OUT1.Data, "$M", 1)
+                if(X != 0)
+                {
+			L = 1
+			while(L == 1)
+			{
+				i = FindSubStr(OUT1.Data, "$M", 0)
+				if(i != 0)
+				{
+					OUT1.Data = StrSubstitute(OUT1.Data, "\r", "$M")
+				}
+				else
+				{
+					L = 0
+				}
+			}
+                }
+		DoSLF(OUT1)
+        }
+}

@@ -1,0 +1,20 @@
+{
+	if (OUT1.DataType == "I2of5")
+	{
+		left = Left(OUT1.Data, 1) 
+		if (left == "1")
+		{
+			len_string = IntToStr(OUT1.DataLen)
+			OUT1.Data = "I" + len_string + OUT1.Data
+		}
+		elseif (left == "2")
+		{
+			OUT1.Data = FixLen(OUT1.Data, 20, "0", 0)		
+		}
+		else
+		{
+			OUT1.Data = FixLen(OUT1.Data, 15, "0", 1)
+		}
+		OUT1.Data = OUT1.Data + "\r"
+	}
+}

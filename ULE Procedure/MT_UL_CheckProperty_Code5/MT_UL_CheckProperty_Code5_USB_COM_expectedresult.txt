@@ -1,0 +1,28 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+NO TRANSMIT CHECK CHAR - ABCabc
+$>
+$>,>,>
+TRANSMIT CHECK CHAR - ABCabc
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+NO PERFORM CODE5 CONVERSION - ABCabc
+$>,>,>
+PERFORM CODE5 CONVERSION - ABCabc

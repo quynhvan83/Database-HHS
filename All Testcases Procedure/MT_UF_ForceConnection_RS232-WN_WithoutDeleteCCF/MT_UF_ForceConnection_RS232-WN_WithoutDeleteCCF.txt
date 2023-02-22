@@ -1,0 +1,38 @@
+EnterSP
+Send $HA12
+Send $CSNRM03
+Send $CSNFN50
+Send $CSNFF50
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+ForceConnection
+Wait_second 400
+ClickElement  Interface Selection
+CheckElementValue RS232 WN
+ClickElement //Button[@Name='TERMINAL'][1]
+Wait_second 400
+ClickElement terminalCommand
+Type terminalCommand, $cSNRM
+CheckElementValue $>03
+CloseAppWindow Aladdin - Developer Mode
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

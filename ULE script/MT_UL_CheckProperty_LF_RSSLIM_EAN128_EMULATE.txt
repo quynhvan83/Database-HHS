@@ -1,0 +1,20 @@
+#<Start the script>
+{
+	tmp = GetProperty(LF_RSSLIM_EAN128_EMULATE)
+
+	# If the scanner property of Convert RSS Limited to EAN128 = No conversion , the returned value will be:
+	# NO COVERT TO EAN128 – Label Data
+	if (tmp == 0)
+	{
+		OUT1.Data = "NO CONVERT TO EAN128 - " + OUT1.Data + "\r\n"
+	}
+
+	# If the scanner property of Convert RSS Limited to EAN128 = Do conversion, the returned value will be:
+	# COVERT TO EAN128- Label Data
+	else if (tmp == 1)
+	{
+		OUT1.Data="CONVERT TO EAN128  - "+OUT1.Data+"\r\n"
+	}
+DoSLF(OUT1)
+}
+#<End the script>

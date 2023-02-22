@@ -1,0 +1,27 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+WLabelID = W Data = 0986275650 Type = IND2of5
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+IND2OF5 CHECK CHAR TRANSMISSION - 1234565
+
+NO IND2OF5 CHECK CHAR TRANSMISSION - 123456

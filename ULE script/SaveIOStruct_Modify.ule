@@ -1,0 +1,20 @@
+{
+	if((OUT1.DataType=="Code39")||(OUT1.DataType=="Code128"))
+	{
+		if(IsInMemory("LabelData")==1)
+		{
+			RestoreIOStruct(OUT1,"LabelData")
+			DoSLF(OUT1)
+			FreeMemory()
+			DestroyStructs()
+		}
+		else
+		{
+			OUT1.Data = OUT1.Data + "ABCdef"
+			SaveIOStruct(OUT1,"LabelData")
+			SetNextLabel()
+		}
+	}
+
+}
+

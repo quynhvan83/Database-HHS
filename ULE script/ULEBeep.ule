@@ -1,0 +1,49 @@
+{	
+	#change good read beep in RAM to 1,10,2,2,30,30 (10 beeps) after reading EAN13.
+	if(OUT1.DataType=="EAN13")
+	{
+		ULEBeep(1,10,2,2,30,30)
+	}
+	#change good read beep in RAM to 1,3,1,1,50,50 (3 beeps) after reading UPCA.
+	# also save the previous beeper to persistent memory (1,10,2,2,30,30).
+	if(OUT1.DataType=="UPCA")
+	{
+
+		GoodReadBeep=ULEBeep(1,3,1,1,50,50)
+		SaveStr(GoodReadBeep,"STR1")
+	}
+	if(OUT1.DataType=="Code39")
+	{
+		#executing restore beeper in RAM with parameter = 1,10,2,2,30,30.
+		if(IsInMemory("STR1")==1)
+		{
+
+			str=RestoreStr("STR1")
+
+			OUT1.Data=str+"\n"
+
+			RestoreBeep(str)
+			FreeMemory()
+		}
+		#If not, do the special beep ( 5 beeps) when reading code 39.
+		else
+		{
+
+			ULEBeep(2,5,2,2,8,4)
+			SetNextLabel()
+		}
+	}
+	# If the error events happen, scanner will change error beep in RAM to 3 beeps after reading code 128.
+	if(OUT1.DataType=="Code128")
+	{
+		ULEBeep(3,3,0,0,10,5)
+	}
+	#do the special beep (8 beeps) when reading code UPCE.
+	if(OUT1.DataType=="UPCE")
+	{
+		ULEBeep(2,8,1,1,10,5)
+		SetNextLabel()
+	}
+}
+
+

@@ -1,0 +1,23 @@
+{
+	if(OUT1.DataType=="ISBT")
+	{
+		OUT1.Data=OUT1.Data+" ISBT"
+	}
+	if(OUT1.DataType=="Code128")
+	{
+		OUT1.Data=OUT1.Data+" Code128"
+	}
+	if(OUT1.LabelSeq=="SL")
+	{
+		OUT1.Data=OUT1.Data+" SL"
+	}
+	if(OUT1.LabelSeq=="FL")
+	{
+		OUT1.Data=OUT1.Data+" FL"
+	}
+	if(OUT1.LabelSeq=="LL")
+	{
+		OUT1.Data=OUT1.Data+" LL"
+	}
+	OUT1.Data=OUT1.Data+GetProperty(LF_GLOBAL_PREFIX)+GetProperty(LF_GLOBAL_SUFFIX)
+}

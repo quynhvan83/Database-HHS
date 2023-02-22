@@ -1,0 +1,14 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE DTE_v3.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $Ar
+Read Code39_J4041004647GJ
+Read Code39_4030800090
+Read Code39_4021012608
+Read Code39_2491085378
+Read Code39_100250017
+Read Code39_100255750
+Read Code39_1NF  9998950 1128

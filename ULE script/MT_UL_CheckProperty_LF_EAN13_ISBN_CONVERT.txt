@@ -1,0 +1,31 @@
+#<Start the script>
+{
+
+	# <If Data Type = EAN13: Start>
+	if (OUT1.DataType == "EAN13") #-> can modify to if (OUT1.DataType == “ISBN” || OUT1.DataType == “EAN13”) to overcome the issue of bug 67058
+	{	
+	# Get Property of EAN13 to ISBN Conversion:
+	ean13_isbn = GetProperty(LF_EAN13_ISBN_CONVERT)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO EAN13 TO ISBN CONVERSION – Label Data
+		if (ean13_isbn == 0)
+		{
+			# Data will displays with no EAN13 to ISBN Conversion:
+			OUT1.Data = "NO EAN13 TO ISBN CONVERSION - " + OUT1.Data + "\r\n"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# EAN13 TO ISBN CONVERSION – Label Data (without 978 at beginning of label)
+		else if (ean13_isbn == 1)
+		{
+			# Convert EAN13 to ISBN:
+			FMTEAN13ToISBN(OUT1)
+			# Data will displays: EAN13 TO ISBN CONVERSION – Label Data (without 978 at beginning of label)
+			OUT1.Data = "EAN13 TO ISBN CONVERSION - "+ OUT1.Data + "\r\n"
+		}
+	DoSLF(OUT1)
+	}
+	# <If Data Type = EAN13: End>
+}
+#<End the script>

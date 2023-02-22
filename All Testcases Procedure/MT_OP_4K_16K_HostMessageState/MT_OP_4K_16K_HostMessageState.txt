@@ -1,0 +1,42 @@
+EnterSP
+Send $CBTAS01,CBTAD21,CR2AE00,CSTTX02,CIFIH01,CSTPT07,CDIST06
+Send $CDICM01
+Send $CDMAS01
+Send $Ar
+GetAddressStampingGun
+Read Code128_ABCabc123%&^
+Send <Add Stamping>!22CharactersofHostMessage
+Read CheckHostMessageState_1
+Read CheckHostMessageState_2
+Send <Add Stamping>!\x1222CharactersofHostMessage
+Read CheckHostMessageState_3
+EnterSP
+Send $CDICM01
+Send $CDMAS00
+Send $Ar
+Read Code128_ABCabc123%&^
+Send <Add Stamping>!22CharactersofHostMessage
+Read CheckHostMessageState_3
+Read CheckHostMessageState_2
+Send <Add Stamping>!\x1222CharactersofHostMessage
+Read CheckHostMessageState_3
+EnterSP
+Send $CDICM00
+Send $CDMAS00
+Send $Ar
+Read Code128_ABCabc123%&^
+Send <Add Stamping>!22CharactersofHostMessage
+Read CheckHostMessageState_4
+Read CheckHostMessageState_2
+Send <Add Stamping>!\x1222CharactersofHostMessage
+Read CheckHostMessageState_3
+EnterSP
+Send $CDICM00
+Send $CDMAS01
+Send $Ar
+Read Code128_ABCabc123%&^
+Send <Add Stamping>!22CharactersofHostMessage
+Read CheckHostMessageState_5
+Read CheckHostMessageState_2
+Send <Add Stamping>!\x1222CharactersofHostMessage
+Read CheckHostMessageState_4

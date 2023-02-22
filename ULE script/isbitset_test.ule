@@ -1,0 +1,69 @@
+# This script tests the built-in function IsBitSet for testing bits in an integer. 
+{
+        value = StrToInt(OUT1.Data)
+        OUT1.Data = "Test for built-in function IsBitSet.The following bits are set:"
+        if (IsBitSet(value, 0) == 1)
+        {
+                OUT1.Data = OUT1.Data + "Bit0 "
+        }
+        if (IsBitSet(value, 1) == 1)
+        {
+                OUT1.Data = OUT1.Data + "Bit1 "
+        }
+        if (IsBitSet(value, 2) == 1)
+        {
+                OUT1.Data = OUT1.Data + "Bit2 "
+        }
+        if (IsBitSet(value, 3) == 1)
+        {
+                OUT1.Data = OUT1.Data + "Bit3 "
+        }
+        if (IsBitSet(value, 4) == 1)
+        {
+                OUT1.Data = OUT1.Data + "Bit4 "
+        }
+        if (IsBitSet(value, 5) == 1)
+        {
+                OUT1.Data = OUT1.Data + "Bit5 "
+        }
+        if (IsBitSet(value, 6) == 1)
+        {
+                OUT1.Data = OUT1.Data + "Bit6 "
+        }
+        if (IsBitSet(value, 7) == 1)
+        {
+                OUT1.Data = OUT1.Data + "Bit7 "
+        }
+        if (IsBitSet(value, 8) == 1)
+        {
+                OUT1.Data = OUT1.Data + "Bit8 "
+        }
+        if (IsBitSet(value, 9) == 1)
+        {
+                OUT1.Data = OUT1.Data + "Bit9 "
+        }
+        if (IsBitSet(value, 10) == 1)
+        {
+                OUT1.Data = OUT1.Data + "Bit10 "
+        }
+        if (IsBitSet(value, 11) == 1)
+        {
+                OUT1.Data = OUT1.Data + "Bit11 "
+        }
+        if (IsBitSet(value, 12) == 1)
+        {
+                OUT1.Data = OUT1.Data + "Bit12 "
+        }
+        if (IsBitSet(value, 13) == 1)
+        {
+                OUT1.Data = OUT1.Data + "Bit13 "
+        }
+        if (IsBitSet(value, 14) == 1)
+        {
+                OUT1.Data = OUT1.Data + "Bit14 "
+        }
+        if (IsBitSet(value, 15) == 1)
+        {
+                OUT1.Data = OUT1.Data + "Bit15 "
+        }
+}

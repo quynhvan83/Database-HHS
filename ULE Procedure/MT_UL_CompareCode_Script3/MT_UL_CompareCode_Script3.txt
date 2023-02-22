@@ -1,0 +1,15 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE Museo2D_ULE_CompareCode_NoOutput-v1.2e.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CLFSU0D00000000000000000000000000000000000000
+Send $Ar
+Read Code 128_0123456789
+Read Label 2_Datamatrix_0123456789
+Read Label 3_PDF417_123456789
+Read Code 128_0123456789
+Read Label 3_PDF417_123456789
+Read Label 3_PDF417_123456789
+Read Code 128_0123456789

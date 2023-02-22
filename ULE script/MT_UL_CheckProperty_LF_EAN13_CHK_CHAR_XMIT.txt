@@ -1,0 +1,30 @@
+#<Start the script>
+{
+
+	# <If Data Type = EAN13: Start>
+	if (OUT1.DataType == "EAN13")
+	{
+	
+	# Get Property of EAN13 Check Character Transmission:
+	ean13_CT = GetProperty(LF_EAN13_CHK_CHAR_XMIT)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO EAN13 CHECK CHARACTER TRANSMISSION – Label Data
+		if (ean13_CT == 0)
+		{
+			# Strip Check Character
+			StripBeginEndChars(OUT1,0,1)
+			# Data will displays with no Check Characters Transmission
+			OUT1.Data = "NO CHECK CHARACTER TRANSMISSION - " + OUT1.Data + "\r"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# EAN13 CHECK CHARACTER TRANSMISSION – Label Data
+		else if (ean13_CT == 1)
+		{
+			OUT1.Data = "EAN13 CHECK CHARACTER TRANSMISSION - " + OUT1.Data + "\r"
+		}
+	}
+	# <If Data Type = EAN13: End>
+}
+#<End the script>

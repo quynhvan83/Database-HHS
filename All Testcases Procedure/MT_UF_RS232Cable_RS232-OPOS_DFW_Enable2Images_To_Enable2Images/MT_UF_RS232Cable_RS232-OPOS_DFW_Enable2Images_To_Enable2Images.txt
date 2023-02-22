@@ -1,0 +1,47 @@
+EnterSP
+Send $HA13
+Send $CSNRM03
+Send $Ar
+ChangeInterfaceTo RS232-OPOS
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\OLD_Gun.dfw
+ChangeToWindow Serviceport - 1 running window
+OpenComPort
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cR2AT
+Send $cC3EN
+ExitSP
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\NEW_Gun.dfw
+ChangeToWindow Serviceport - 1 running window
+OpenComPort
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cR2AT
+Send $cC3EN
+ExitSP
+Read UPCA
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\FAKE_Gun.dfw
+ChangeToWindow Serviceport - 1 running window
+OpenComPort
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cR2AT
+Send $cC3EN
+ExitSP
+Send $S,HA05,Ar
+ChangeInterfaceTo RS232-STD

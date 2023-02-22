@@ -1,0 +1,58 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty LF_LABEL_ID_EAN13.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CADO201
+Send $CADO501
+Send $CIDCO01
+Send $Ar
+Read EAN13_1234567890128
+Read EAN13_Addon2_12345678901212
+Read EAN13_Addon5_123456789012812345
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_EAN13_CHK_CHAR_XMIT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $Ar
+Read EAN13_1234567890128
+Send $S,C3BCT00,Ar
+Read EAN13_1234567890128
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_EAN13_FLAG1_CHAR_XMIT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $Ar
+Read EAN13_1234567890128
+Send $S,C3BF100,Ar
+Read EAN13_1234567890128
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_EAN13_ISBN_CONVERT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $Ar
+Read EAN13_9784567890120
+Send $S,C3BIS01,Ar
+Read EAN13_9784567890120

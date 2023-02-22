@@ -1,0 +1,75 @@
+
+
+
+
+{
+	if(OUT1.DataType=="Code39"&&OUT1.DataLen==7)
+	{
+
+		OUT1.Data="Data changed to a string literal."
+	}
+	elseif(OUT1.DataType=="Code39"&&OUT1.DataLen==8)
+	{
+
+		OUT1.Data=Left(OUT1.Data,5)
+	}
+	elseif(OUT1.DataType=="Code39"&&OUT1.DataLen==9)
+	{
+
+		OUT1.Data=OUT1.Data+Mid(OUT1.Data,3,5)
+	}
+	elseif(OUT1.DataType=="Code128"&&OUT1.DataLen==7)
+	{
+
+		var=OUT1.Data
+		OUT1.Data=var
+	}
+	elseif(OUT1.DataType=="Code128"&&OUT1.DataLen==8)
+	{
+
+		var=OUT1.Data
+		var=Right(var,5)
+		OUT1.Data=var
+	}
+	elseif(OUT1.DataType=="Code128"&&OUT1.DataLen==9)
+	{
+
+		var=OUT1.Data
+		var=var+Right(var,5)
+		OUT1.Data=var
+	}
+	elseif(OUT1.DataType=="Code128"&&OUT1.DataLen==10)
+	{
+
+		var="Used a variable set to a string literal for the data."
+		OUT1.Data=var
+	}
+	elseif(OUT1.DataType=="Code128"&&OUT1.DataLen==11)
+	{
+
+		OUT2=OUT1
+		OUT2.Data="Data for OUT1: "+OUT1.Data+"\nData for OUT2: "+OUT2.Data
+		OUT1.Data=OUT2.Data
+		DestroyStructs()
+	}
+	elseif(OUT1.DataType=="Code128"&&OUT1.DataLen>11)
+	{
+
+
+
+		Output="\r"
+		newStr=OUT1.Data
+		while(newStr!="")
+		{
+			OUT1.Data=newStr
+			newStr=StrSubstitute(newStr,"\r","\n")
+			Output=Output+newStr
+		}
+		OUT1.Data=Output+"\r"
+		exit
+	}
+
+	OUT1.Data="\r"+OUT1.Data+"\r"
+}
+
+

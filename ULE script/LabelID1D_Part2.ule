@@ -1,0 +1,155 @@
+{
+	if(OUT1.DataType == "MSIPlessey")
+	{
+		labelID=GetProperty(LF_LABEL_ID_MSI_PLESSY)
+		OUT1.Data= "LabelID = " + labelID + "Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Code11")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE11)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "PharmaC39")
+	{
+		labelID=GetProperty(LF_LABEL_ID_PHARMACODE39)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		OUT1.DataType = "Code128"
+		DoSLF(OUT1)
+		
+	}
+	if(OUT1.DataType == "IATA")
+	{
+		labelID=GetProperty(LF_LABEL_ID_IATA)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN128")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN128)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "ISBN")
+	{
+		labelID=GetProperty(LF_LABEL_ID_ISBN)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "S2of5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_S2OF5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "RSS14")
+	{
+		labelID=GetProperty(LF_LABEL_ID_RSS_14)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "RSSExp")
+	{
+		labelID=GetProperty(LF_LABEL_ID_RSS_EXPANDED)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "RSSLim")
+	{
+		labelID=GetProperty(LF_LABEL_ID_RSS_LIMITED)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "CodablockA")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODABLOCK_A)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "CodablockF")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODABLOCK_F)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Code49")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE49)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Code16K")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE16K)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "M2of5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_M2OF5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "D2of5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_D2OF5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "C2of5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_C2OF5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "IND2of5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_IND2OF5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Plessey")
+	{
+		labelID=GetProperty(LF_LABEL_ID_PLESSEY)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Anker")
+	{
+		labelID=GetProperty(LF_LABEL_ID_ANKER)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "ISSN")
+	{
+		labelID=GetProperty(LF_LABEL_ID_ISSN)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "ISBT")
+	{
+		labelID=GetProperty(LF_LABEL_ID_ISBT)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Follett2of5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_FOLLETT_2OF5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Code4")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE4)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Code5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CODE5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	
+}

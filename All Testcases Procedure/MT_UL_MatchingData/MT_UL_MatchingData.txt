@@ -1,0 +1,40 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE QVC.ULE
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CBTAB00
+Send $Ar
+Read C128 data = 6 Digits
+Read C39 data = 6 Digits
+Read C39 data = 6 Digits
+Read C128 data = 6 Digits
+Send $S,CC3SS01,CLEGC000A,Ar
+Read C39 data = 6 Digits
+Read C39 data = 6 Digits
+Read C39 data = 6 Digits
+Read C128 data = 6 Digits
+Read C128 data = 6 Digits
+Read C39 data = 6 Digits
+Read C128 data = 6 Digits
+Read C39 data = 6 Digits
+Read C39 data = 6 Digits
+Wait_second 5000
+Read C39 data = 6 Digits
+Read C39 data = 13 Digits
+Read C39 data = 13 Digits
+Read C39 data = 13 Digits
+Read C128 data = 13 Digits
+Read C128 data = 13 Digits
+Read C39 data = 13 Digits
+Read C128 data = 13 Digits
+Read C128 data = 13 Digits
+Read C39 data = 14 Digits
+Read C39 data = 14 Digits
+Read C39 data = 14 Digits
+Read C128 data = 14 Digits
+Read C128 data = 14 Digits
+Read C39 data = 14 Digits
+Read C128 data = 14 Digits
+Read C128 data = 14 Digits

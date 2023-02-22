@@ -1,0 +1,16 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE OUT1DataHH_ALLIF.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $Ar
+Read Label 1_[CODE39]12345
+Read Label 2_[CODE39]ABCDEF
+Read Label 3_[CODE39]1234567
+Read Label 4_[CODE128]1234567
+Read Label 5_[CODE128]abcdefgh
+Read Label 6_[CODE128]ABCDEFGHI
+Read Label 7_[CODE128]A1B2C3D4E5
+Read Label 8_[CODE128]a1b2c3d4e5f
+Read Label 9_[CODE128]1234x0a56789ABCDEFG

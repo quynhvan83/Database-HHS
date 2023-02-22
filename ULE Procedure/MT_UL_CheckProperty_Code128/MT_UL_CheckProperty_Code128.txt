@@ -1,0 +1,58 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_LABEL_ID_CODE128.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CC8EN01
+Send $CIDCO01
+Send $Ar
+Read Code128_SEGH#%SG23h
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_C128_TO_C39_CONVERT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CC8EN01
+Send $CC3SS01
+Send $CIDCO00
+Send $Ar
+Read Code128_ABCabc
+Read $P,CC8C301,P
+Read Code128_ABCabc
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_C128_CHK_CHAR_XMIT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $Ar
+Read Code128_ABCabc
+Read $P,CC8CT01,P
+Read Code128_ABCabc
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_C128_XMIT_FNC_CHARS.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $CC8TF00
+Send $Ar
+Read Code128_ABCabc
+Read $P,CC8TF01,P
+Read Code128_ABCabc

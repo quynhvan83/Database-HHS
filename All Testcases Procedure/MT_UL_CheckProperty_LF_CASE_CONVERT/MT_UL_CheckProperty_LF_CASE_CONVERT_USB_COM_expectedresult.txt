@@ -1,0 +1,14 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+NO CONVERSION - ABCabc
+
+ONE CHECK CHARACTER - ABCABC
+
+two check characters - abcabc

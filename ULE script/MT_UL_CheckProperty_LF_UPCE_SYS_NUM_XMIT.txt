@@ -1,0 +1,29 @@
+#<Start the script>
+{
+	# <If Data Type = UPCE: Start>
+	if (OUT1.DataType == "UPCE")
+	{
+	
+	# Get Property of UPCE System Number Transmission:
+	upce_SN = GetProperty(LF_UPCE_SYS_NUM_XMIT)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO UPCE SYS NUM TRANSMISSION – Label Data
+		if (upce_SN == 0)
+		{
+			# Strip Check Character
+			StripBeginEndChars(OUT1,1,0)
+			# Data will displays with no Check Characters Transmission
+			OUT1.Data = "NO UPCE SYS NUM TRANSMISSION - "+ OUT1.Data + "\r"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# UPCE SYS NUM TRANSMISSION – Label Data
+		else if (upce_SN == 1)
+		{
+			OUT1.Data = "UPCE SYS NUM TRANSMISSION - " + OUT1.Data + "\r"
+		}
+	}
+	# <If Data Type = UPCE: End>
+}
+#<End the script>

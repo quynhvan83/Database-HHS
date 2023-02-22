@@ -1,0 +1,12 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE I2of5.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CI2EN01
+Send $CIDCO01
+Send $Ar
+Read Interleaved_2of5_123456
+Read Interleaved_2of5_223456
+Read Interleaved_2of5_323456

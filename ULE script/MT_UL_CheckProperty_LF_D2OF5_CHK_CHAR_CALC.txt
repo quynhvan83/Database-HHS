@@ -1,0 +1,31 @@
+#<Start the script>
+{
+
+	# <If Data Type = Datalogic 2 of 5: Start>
+	if (OUT1.DataType == "D2of5")
+	{
+
+	# Get Property of Datalogic 2 of 5 Check Character Calculation:
+	d2of5_cc = GetProperty(LF_D25_CHK_CHAR_CALC)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO D2OF5 CHECK CHAR CALCULATION – Label Data
+		if (d2of5_cc == 0)
+		{
+			# Data will displays with NO M2OF5 CHECK CHAR CALCULATION:
+			OUT1.Data = "NO D2OF5 CHECK CHAR CALCULATION - " + OUT1.Data + "\r\n"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# D2OF5 CHECK CHAR CALCULATION – Label Data
+		else if (d2of5_cc == 1)
+		{
+			# Data will displays: D2OF5 CHECK CHAR CALCULATION
+			OUT1.Data = "D2OF5 CHECK CHAR CALCULATION - " + OUT1.Data + "\r\n"
+		}
+	DoSLF(OUT1)
+	}
+	# <If Data Type = Datalogic 2 of 5: End>
+
+}
+#<End the script>

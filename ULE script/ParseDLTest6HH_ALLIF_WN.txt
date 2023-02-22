@@ -1,0 +1,9 @@
+Q``EDescr:123 MAIN STREET`InvC:##`LimDur:##`LAlias:##`FAlias:##`SAlias:##`{CR}
+Q``EDescr:##`InvC:XY1XY1XY1XY1XY1XY1XY1XY1X`LimDur:1`LAlias:##`FAlias:##`SAlias:##`{CR}
+Q``EDescr:##`InvC:1234567890000000000000000`LimDur:1`LAlias:##`FAlias:##`SAlias:##`{CR}
+Q``EDescr:##`InvC:1234567890000000000000000`LimDur:1`LAlias:SAMPLE CUSTOMER FAMILY NAME 40 CHARACTER`FAlias:##`SAlias:##`{CR}
+Q``EDescr:##`InvC:##`LimDur:##`LAlias:DOE`FAlias:##`SAlias:##`{CR}
+Q``EDescr:##`InvC:0673466801700401`LimDur:##`LAlias:##`FAlias:LAURA J`SAlias:##`{CR}
+Q``EDescr:##`InvC:##`LimDur:##`LAlias:##`FAlias:JOHN`SAlias:##`{CR}
+Q``EDescr:##`InvC:##`LimDur:##`LAlias:##`FAlias:##`SAlias:3RD`{CR}
+Q``EDescr:##`InvC:XY1XY1XY1XY1XY1XY1XY1XY1X`LimDur:1`LAlias:##`FAlias:##`SAlias:SUFIX`{CR}

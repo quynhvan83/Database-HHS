@@ -1,0 +1,40 @@
+#<Start the script>
+{
+
+	# <If Data Type = Codabar: Start>
+	if (OUT1.DataType == "Codabar")
+	{
+
+	# Get Property of Code39 Check Character Transmission:
+	cdb_ct = GetProperty(LF_CBAR_CHK_CHAR_TXMIT)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO CODABAR CHECK CHAR TRANSMISSION – Label Data
+		if (cdb_ct == 0)
+		{
+
+			# -- Get Start Character:
+			start_char = Left(OUT1.Data,1)
+			# -- Get Stop Character:
+			stop_char = Right(OUT1.Data,1)			
+			# -- Strip Start – Stop Characters:
+			StripBeginEndChars(OUT1,1,1)	
+			# -- Strip Check Characters:
+			StripBeginEndChars(OUT1,0,1)						
+			
+			# Data will displays with NO CODABAR CHECK CHAR TRANSMISSION:
+			OUT1.Data = "NO CODABAR CHECK CHAR TRANSMISSION - " + start_char + OUT1.Data + stop_char + "\r\n"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# CODABAR CHECK CHAR TRANSMISSION – Label Data
+		else if (cdb_ct == 1)
+		{
+			# Data will displays: CODABAR CHECK CHAR TRANSMISSION
+			OUT1.Data = "CODABAR CHECK CHAR TRANSMISSION - " + OUT1.Data + "\r\n"
+		}
+	}
+	# <If Data Type = Codabar: End>
+
+}
+#<End the script>

@@ -1,0 +1,11 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE  QRParseGD4400B.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $Ar
+Read Label 1_QR code_ A$MB$MC.png
+Read Label 2_QR code_A$MB$MC$M.png
+Read Label 3_Code128_ A$MB$MC$M.png
+Read Label 3_Code128_A$MB$MC.png

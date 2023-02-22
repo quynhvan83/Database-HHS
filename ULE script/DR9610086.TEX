@@ -1,0 +1,129 @@
+CFO1 0066
+Copyright 2009 by Datalogic Scanning, Inc.
+ID CONFIG,Marks & Spencer,Prefix C128 Length,Magellan 8400/8300,MR4_6
+FC Aug 22, 2011 at 13:16
+# File created by MglOSP (dsm)
+&
+# Master file: MglFxdLaser_MR4_6_30005_1003171420.mcf
+#
+#-------< Null Interface >-------------------------------
+7FFB4640            # INTERFACE TYPE: Null
+0060445239363130303836207C # CONFIGURATION ID: DR9610086.tex
+7FFE0182            # Commit interface to factory
+#
+#-------< RS232-STD >-------------------------------
+7FFB0581            # Interface Type: RS232-STD
+001402EA            # Good Read Beep Frequency: High
+001F01E0            # Rs232 Parity: Even
+00394C0000007B      # Label Id Code128: 4C000000 ("L")
+0065019A            # Ean8 Minimum Read: 1 (Label Reads)
+033601C6            # Label Edit Script Enable: Enable
+044F00AD            # Scale Enable: disabled
+04D0012B            # Rss 14 Enable: Enable
+04D1012A            # Rss Expanded Enable: Enable
+050901F1            # Auxiliary Port Mode: Serial Handheld Enabled
+7FFE0182            # Save interface to factory area
+#
+#-------< RS232-WN >-------------------------------
+7FFB1274            # Interface Type: RS232-WN
+001F02DF            # Rs232 Parity: Odd
+00254300000098      # Label Id Upce: 43000000 ("C")
+00264200000098      # Label Id Ean8: 42000000 ("B")
+00274100000098      # Label Id Ean13: 41000000 ("A")
+002F430000008E      # Label Id Upce P2: 43000000 ("C")
+0030430000008D      # Label Id Upce P5: 43000000 ("C")
+0031410000008E      # Label Id Ean13 P2: 41000000 ("A")
+0032410000008D      # Label Id Ean13 P5: 41000000 ("A")
+0033420000008B      # Label Id Ean8 P2: 42000000 ("B")
+0034420000008A      # Label Id Ean8 P5: 42000000 ("B")
+00354D0000007E      # Label Id Code39: 4D000000 ("M")
+00364900000081      # Label Id I2of5: 49000000 ("I")
+00374E0000007B      # Label Id Codabar: 4E000000 ("N")
+00384C0000007C      # Label Id Code93: 4C000000 ("L")
+00394C0000007B      # Label Id Code128: 4C000000 ("L")
+004301BC            # Expand Upca To Ean13: Enable
+004B00B5            # Num Host Tx Buffers: One buffer
+0065019A            # Ean8 Minimum Read: 1 (Label Reads)
+008E0072            # Code39 Enable: Disable
+0092006E            # Code128 Enable: Disable
+0093016C            # Codabar Start Stop Character Transmission: Enable
+00BD4F000000F4      # Label Id Msi Plessey: 4F000000 ("O")
+020F01EE            # Rs232 Hardware Control: Enable CTS flow control
+04195000000093      # Label Id Ean128: 50000000 ("P")
+044F00AD            # Scale Enable: disabled
+04694300000050      # Label Id Upce P8: 43000000 ("C")
+046A4100000051      # Label Id Isbn: 41000000 ("A")
+046C420000004E      # Label Id Ean8 P8: 42000000 ("B")
+046F410000004C      # Label Id Ean13 P8: 41000000 ("A")
+049C4800000018      # Label Id S25: 48000000 ("H")
+04D0012B            # Rss 14 Enable: Enable
+04D1012A            # Rss Expanded Enable: Enable
+04DA45000000DD      # Label Id Rss 14: 45000000 ("E")
+04DB45000000DC      # Label Id Rss Expanded: 45000000 ("E")
+050901F1            # Auxiliary Port Mode: Serial Handheld Enabled
+7FFE0182            # Save interface to factory area
+#
+#-------< RS232-SC >-------------------------------
+7FFB2066            # Interface Type: RS232 Single Cable
+001F02DF            # Rs232 Parity: Odd
+00354231000058      # Label Id Code39: 42310000 ("B1")
+00364232000056      # Label Id I2of5: 42320000 ("B2")
+00394C0000007B      # Label Id Code128: 4C000000 ("L")
+0065019A            # Ean8 Minimum Read: 1 (Label Reads)
+009B0065            # Rs232 Number Of Data Bits: Seven data bits
+00B70049            # Upca Check Character Transmission: Disable
+00B80048            # Ean8 Check Character Transmission: Disable
+00B90047            # Ean13 Check Character Transmission: Disable
+031E0000000000000000000000000000000000000000DF  # Global Suffix: 0000000000000000000000000000000000000000
+040800F4            # Scale Enforced Zero Return Enable: Disable
+044F00AD            # Scale Enable: disabled
+04D0012B            # Rss 14 Enable: Enable
+04D1012A            # Rss Expanded Enable: Enable
+050901F1            # Auxiliary Port Mode: Serial Handheld Enabled
+0550109B            # Interface Options: 16
+7FFE0182            # Save interface to factory area
+#
+#-------< RS232-Debug >-------------------------------
+7FFB0185            # Interface Type: RS232-Debug
+00394C0000007B      # Label Id Code128: 4C000000 ("L")
+0065019A            # Ean8 Minimum Read: 1 (Label Reads)
+044F00AD            # Scale Enable: disabled
+04D0012B            # Rss 14 Enable: Enable
+04D1012A            # Rss Expanded Enable: Enable
+050901F1            # Auxiliary Port Mode: Serial Handheld Enabled
+7FFE0182            # Save interface to factory area
+#
+#-------< Keyboard >-------------------------------
+7FFB3551            # Interface Type: USB Keyboard
+00394C0000007B      # Label Id Code128: 4C000000 ("L")
+0065019A            # Ean8 Minimum Read: 1 (Label Reads)
+04D0012B            # Rss 14 Enable: Enable
+04D1012A            # Rss Expanded Enable: Enable
+050901F1            # Auxiliary Port Mode: Serial Handheld Enabled
+7FFE0182            # Save interface to factory area
+#
+#-------< IBM >-------------------------------
+7FFB0482            # Interface Type: IBM-4683 Port 17
+004001BF            # Upce Check Character Transmission: Enable
+004B00B5            # Num Host Tx Buffers: One buffer
+0065019A            # Ean8 Minimum Read: 1 (Label Reads)
+041601E5            # Scale Warmup Time: 1 (5 sec)
+044F00AD            # Scale Enable: disabled
+04D0012B            # Rss 14 Enable: Enable
+04D1012A            # Rss Expanded Enable: Enable
+050901F1            # Auxiliary Port Mode: Serial Handheld Enabled
+7FFE0182            # Save interface to factory area
+#
+#-------< Set active interface to RS232-STD and copy to user area >----
+00010005FA          # Set the active interface
+7FFC0184            # Copy active interface config block to user and current areas
+7FF800000008554C453200FA0A0A5B
+7FF8000800202373746172746F667363726970740A7B0A6966284F5554312E4461746154797012
+7FF800280020653D3D22436F646531323822290A7B0A0A6966284F5554312E446174614C656E5F
+7FF8004800203C3130290A7B0A4F5554312E446174613D2230222B496E74546F537472284F552C
+7FF80068002054312E446174614C656E292B4F5554312E446174610A7D0A656C73650A7B0A4F78
+7FF8008800205554312E446174613D496E74546F537472284F5554312E446174614C656E292B8F
+7FF800A800204F5554312E446174610A7D0A446F534C46284F555431290A234A757374746F6235
+7FF800C8002065736166652E2E2E0A467265654D656D6F727928290A44657374726F7953747290
+7FF800E800187563747328290A7D0A7D0A23656E646F667363726970740A93
+$

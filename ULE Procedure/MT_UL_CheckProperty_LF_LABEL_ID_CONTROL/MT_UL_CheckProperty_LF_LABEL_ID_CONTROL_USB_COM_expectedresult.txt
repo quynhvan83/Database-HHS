@@ -1,0 +1,13 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+NO LABEL ID - ABCabc
+$>,>,>
+#APPEND AT BEGGIN - ABCabc
+$>,>,>
+APPEND AT THE END - ABCabc#

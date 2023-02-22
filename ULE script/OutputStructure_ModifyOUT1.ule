@@ -1,0 +1,17 @@
+{
+	OUT2=OUT1
+	OUT3=OUT1
+	OUT4=OUT1
+	OUT5=OUT1
+	OUT1.Data="OUT1\n"
+	Delay(OUT1,100)
+	OUT2.Data="OUT2\n"
+	Delay(OUT2,100)
+	OUT3.Data="OUT3\n"
+	Delay(OUT3,100)
+	OUT4.Data="OUT4\n"
+	Delay(OUT4,100)
+	OUT5.Data="OUT5\n"
+    Delay(OUT5,100) 
+
+}

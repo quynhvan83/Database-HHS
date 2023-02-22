@@ -1,0 +1,24 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+$>
+$>
+$>
+$>
+$>
+$>
+$>
+PLabelID = P Data = BP&#*09k2h4 Type = PDF417
+mPLabelID = mP Data = 09*$%)djkl Type = MicroPDF
+DmLabelID = Dm Data = #%Js@%mkASFJ37h3f9JsKS Type = Datamatrix
+QRLabelID = QR Data = @#JasfkBSK14umjkfJHAn12478nasf Type = QRCode
+AzLabelID = Az Data = Akd3^%$3NOLd Type = Aztec
+MCLabelID = MC Data = #%ake3f9JsLHAN Type = Maxicode
+$SLabelID = $S Data = {\xba}{\xba}{\xd0}{\xc5}{\xc2}{\xeb}{\xb1}{\xea}{\xd7}{\xbc} Type = China_Sensible

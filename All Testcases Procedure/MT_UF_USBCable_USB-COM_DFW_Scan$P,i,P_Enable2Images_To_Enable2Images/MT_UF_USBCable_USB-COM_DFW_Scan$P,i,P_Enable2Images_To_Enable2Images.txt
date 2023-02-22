@@ -1,0 +1,59 @@
+Read $P,HA47,P
+Read flower.bmp
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\OLD_Gun.dfw
+ChangeToWindow Serviceport - 1 running window
+Read $P,HA47,P
+Read flower.bmp
+Wait_second 10000
+EnterSP
+Send $ER3B
+Send $S
+Send $!
+Send $yA
+Send $yB
+Send $s
+Send $ER0
+Send $CIDCO01
+ExitSP
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\NEW_Gun.dfw
+ChangeToWindow Serviceport - 1 running window
+Read $P,HA47,P
+Read flower.bmp
+Wait_second 10000
+EnterSP
+Send $ER3B
+Send $S
+Send $!
+Send $yA
+Send $yB
+Send $cIDCO
+Send $s
+Send $ER0
+Send $cIDCO01
+ExitSP
+Read UPCA
+Read flower.bmp
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\FAKE_Gun.dfw
+ChangeToWindow Serviceport - 1 running window
+Read $P,HA47,P
+Read flower.bmp
+Wait_second 10000
+EnterSP
+Send $ER3B
+Send $S
+Send $!
+Send $yA
+Send $yB
+Send $cIDCO
+Send $s
+Send $ER0
+Send $cIDCO01
+ExitSP
+Read UPCA
+Read flower.bmp

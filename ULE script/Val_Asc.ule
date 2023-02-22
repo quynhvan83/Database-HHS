@@ -1,0 +1,46 @@
+{
+        OUT2 = OUT1
+        # create the integer values to build the string they represent
+        a = 66
+        b = 114
+        c = 105
+        d = 97
+        e = 110
+        f = 32
+        g = 87
+        h = 111
+        i = 111
+        j = 100
+        # create the string represented by the integer values above
+        OUT1.Data = Asc(a) + Asc(b) + Asc(c) + Asc(d) + Asc(e) + Asc(f) + Asc(g) + Asc(h) + Asc(i) + Asc(j) + "\n"
+        OUT1.DataLen = StrLen(OUT1.Data)
+        OUT1.BaseLen = OUT1.DataLen
+
+        # create the characters of the string
+        k = "B" 
+        l = "r" 
+        m = "i" 
+        n = "a" 
+        o = "n" 
+        p = " " 
+        q = "W" 
+        r = "o" 
+        s = "o" 
+        t = "d"
+        # get the integer values of the characters
+        a = Val(k)
+        b = Val(l)
+        c = Val(m)
+        d = Val(n) 
+        e = Val(o)
+        f = Val(p) 
+        g = Val(q) 
+        h = Val(r)
+        i = Val(s)
+        j = Val(t)
+        # turn the integer values back into characters to create the string
+	OUT2.Data = Asc(a) + Asc(b) + Asc(c) + Asc(d) + Asc(e) + Asc(f) + Asc(g) + Asc(h) + Asc(i) + Asc(j) + "\n"
+        OUT2.DataLen = StrLen(OUT2.Data)
+        OUT2.BaseLen = OUT2.DataLen
+         
+} # end of script

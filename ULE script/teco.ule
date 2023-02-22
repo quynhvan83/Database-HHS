@@ -1,0 +1,52 @@
+{
+    if(OUT1.DataType=="TimerExpired")
+    {
+        if (IsInMemory("leaddata")==1 || IsInMemory("lastdata")==1 || IsInMemory("middata")==1)
+        {
+            FreeMemory()
+            ULEBeep(2,3,0,2,100,15)
+            SetNextLabel()
+            exit
+        }
+    }
+
+    if(OUT1.DataType=="Code128")
+    {
+        data=OUT1.Data
+        if(StrLen(data)==10)
+        {
+            SaveStr(data,"leaddata")
+        }
+        elseif(StrLen(data)==12)
+        {
+            SaveStr(data,"middata")
+        }
+        elseif(StrLen(data)==15)
+        {
+            SaveStr(data,"lastdata")
+        }
+
+        SpecialBeep(1,1,2,10,15)
+    }
+    else
+    {
+        FreeMemory()
+    }
+
+    if((1==IsInMemory("leaddata"))&&(1==IsInMemory("middata"))&&(1==IsInMemory("lastdata")))
+    {
+        first=RestoreStr("leaddata")
+        second=RestoreStr("middata")
+        third=RestoreStr("lastdata")
+
+        OUT1.Data=""+first+second+third
+
+        FreeMemory()
+        DoSLF(OUT1)
+    }
+    else
+    {
+        StartTimer(OUT1,50)
+        SetNextLabel()
+    }
+}

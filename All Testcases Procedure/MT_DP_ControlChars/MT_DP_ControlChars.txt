@@ -1,0 +1,20 @@
+EnterSP
+Send $CBTBM02
+Send $Ar
+Read Code 128_ABCabc
+Read LabelBatchSend
+Send $S,CDISW01,Ar
+Read Code 128_ABCabc_1
+Read LabelBatchSend
+Read Check Control Character
+Send $S,CBTBM00,Ar
+Read Code 128_ControlChar1
+Read Code 128_ControlChar2
+Send $S,CDISW00,Ar
+Read Code 128_ControlChar3
+Read Code 128_ControlChar4
+Send $S,CBTAS01,CBTAD21,CR2AE00,CSTTX02,CIFIH01,CSTPT07,Ar
+Send $S,CDISW01,Ar
+GetAddressStampingGun
+Send <AddressStampingGun>!\x12\x1b\x00\x01\x02\x03\x04\x05\x06\x07\x08\x09\x10\x11\x12\x13\x14\x15\x0d
+Send <AddressStampingGun>!\x12\x1b\x16\x17\x18\x19\x20\x21\x22\x23\x24\x25\x26\x27\x28\x29\x30\x31\x0d

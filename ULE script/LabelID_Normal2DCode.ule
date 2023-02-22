@@ -1,0 +1,44 @@
+{
+	if(OUT1.DataType == "PDF417")
+	{
+		labelID=GetProperty(LF_LABEL_ID_PDF417)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "MicroPDF")
+	{
+		labelID=GetProperty(LF_LABEL_ID_MICRO_PDF)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Datamatrix")
+	{
+		labelID=GetProperty(LF_LABEL_ID_DATAMATRIX)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Maxicode")
+	{
+		labelID=GetProperty(LF_LABEL_ID_MAXICODE)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "QRCode")
+	{
+		labelID=GetProperty(LF_LABEL_ID_QRCODE)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "Aztec")
+	{
+		labelID=GetProperty(LF_LABEL_ID_AZTEC)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "China_Sensible")
+	{
+		labelID=GetProperty(LF_LABEL_ID_CHINA_SENSIBLE)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+}

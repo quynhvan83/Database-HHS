@@ -1,0 +1,43 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_LABEL_ID_S2OF5.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CS2EN01
+Send $CIDCO01
+Send $Ar
+Read Code20f5_Industry_12345678
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_S25_CHK_CHAR_CALC.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CS2EN01
+Send $CIDCO00
+Send $Ar
+Read Code20f5_Industry_Modul10_123456784
+Read $P,CS2CC01,P
+Read Code20f5_Industry_Modul10_123456784
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_S25_CHK_CHAR_TXMIT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CS2EN01
+Send $CS2CC01
+Send $CIDCO00
+Send $Ar
+Read Code20f5_Industry_Modul10_123456784
+Read $P,CS2CT00,P
+Read Code20f5_Industry_Modul10_123456784

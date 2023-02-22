@@ -1,0 +1,20 @@
+{
+	if(OUT1.DataType == "RSS14Comp")
+	{
+		labelID=GetProperty(LF_LABEL_ID_RSS_14_COMPOSITE)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "RSSExpComp")
+	{
+		labelID=GetProperty(LF_LABEL_ID_RSS_EXPANDED_COMPOSITE)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "RSSLimComp")
+	{
+		labelID=GetProperty(LF_LABEL_ID_RSS_LIMITED_COMPOSITE)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+}

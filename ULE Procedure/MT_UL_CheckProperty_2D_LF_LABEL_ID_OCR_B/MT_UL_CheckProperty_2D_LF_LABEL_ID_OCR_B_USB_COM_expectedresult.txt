@@ -1,0 +1,10 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>,>
+$>
+$>
+$pLabelID = $p data = ABCDEFGHIJKLMN type = OCR_B

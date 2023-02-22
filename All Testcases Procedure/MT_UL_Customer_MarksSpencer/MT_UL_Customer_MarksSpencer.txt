@@ -1,0 +1,15 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE M+S.ule
+ChangeToWindow Serviceport - 1 running window
+Read $P,CLEEN01,P
+Read Label 1_[CODE128] ABCDEFGHIGK
+Read Label 2_[CODE128] 123
+Read Label 3_[CODE128]2101234567
+Read Label 4_[CODE128]21012345678
+Read Label 5_[EANUCC128] 1234567210
+Read Label 6_[EANUCC128] 12345678210
+Read Label 7_[CODE128]2111234567
+Read Label 8_[CODE128]21112345678
+Read Label 9_[CODE128] 1234567211
+Read Label 10_[CODE128] 12345678211

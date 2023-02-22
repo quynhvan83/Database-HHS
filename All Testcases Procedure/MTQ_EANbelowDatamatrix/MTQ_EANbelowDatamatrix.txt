@@ -1,0 +1,5 @@
+EnterSP
+Send $CIDCO01,CAIEN01,CDMEN01,CSNPM01,Ar
+Read EANbelowDatamatrix_1
+Read EANbelowDatamatrix_2
+Read EANbelowDatamatrix_3

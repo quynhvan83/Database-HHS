@@ -1,0 +1,9 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_2D_LF_LABEL_ID_DIGIMARC_NATIVE.txt
+ChangeToWindow Serviceport - 1 running window
+Read $P,CLEEN01,P
+Read $P,CIDCO00,P
+Read Code128_ABCabc
+Read $P,CDWID000000,P
+Read Code128_ABCabc

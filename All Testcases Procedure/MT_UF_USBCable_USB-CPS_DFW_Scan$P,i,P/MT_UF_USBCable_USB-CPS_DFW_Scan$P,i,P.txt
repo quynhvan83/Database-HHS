@@ -1,0 +1,60 @@
+Read $P,HA4D,CSNRM03,P
+Read flower.bmp
+ChangeInterfaceTo USB-Composite
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\OLD_Base.dfw
+ChangeToWindow Serviceport - 1 running window
+Read $P,HA47,CSNRM03,P
+Read flower.bmp
+Wait_second 10000
+ChangeInterfaceTo USB-COM
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $CIDCO01
+Send $CC3EN01
+ExitSP
+Read $P,HA4D,CSNRM03,P
+Read flower.bmp
+ChangeInterfaceTo USB-Composite
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\NEW_Base.dfw
+ChangeToWindow Serviceport - 1 running window
+Read $P,HA47,CSNRM03,P
+Read flower.bmp
+Wait_second 10000
+ChangeInterfaceTo USB-COM
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cIDCO
+Send $cC3EN
+ExitSP
+Read UPCA
+Read $P,HA4D,CSNRM03,P
+Read flower.bmp
+ChangeInterfaceTo USB-Composite
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\FAKE_Base.dfw
+ChangeToWindow Serviceport - 1 running window
+Read $P,HA47,CSNRM03,P
+Read flower.bmp
+Wait_second 10000
+ChangeInterfaceTo USB-COM
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cIDCO
+Send $cC3EN
+ExitSP
+Read UPCA
+Read flower.bmp

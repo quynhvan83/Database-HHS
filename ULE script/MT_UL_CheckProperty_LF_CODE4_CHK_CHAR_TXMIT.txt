@@ -1,0 +1,20 @@
+#<Start the script>
+{
+	tmp = GetProperty(LF_CODE4_CHK_CHAR_TXMIT)
+
+	# If the scanner property of Transmit Code 4 check character = Don’t transmit check character , the returned value will be:
+	# NO TRANSMIT CHECK CHAR – Label Data
+	if (tmp == 0)
+	{
+		OUT1.Data = "NO TRANSMIT CHECK CHAR - " + OUT1.Data + "\r\n"
+	}
+
+	# If the scanner property of Transmit Code 4 check character = Transmit check character, the returned value will be:
+	# TRANSMIT CHECK CHAR- Label Data
+	else if (tmp == 1)
+	{
+		OUT1.Data = "TRANSMIT CHECK CHAR - " + OUT1.Data + "\r\n"
+	}
+DoSLF(OUT1)
+}
+#<End the script>

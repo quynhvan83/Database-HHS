@@ -1,0 +1,69 @@
+{
+	l=Left(OUT1.Data,2)
+	if(OUT1.DataType=="Code39")
+	{
+		StripBeginEndChars(OUT1,1,1)
+		OUT1.Data="*B1"+OUT1.Data+"*"
+	}
+	if(OUT1.DataType=="Code128"&&l!="\\\x80")
+	{
+		OUT1.Data="B3"+OUT1.Data
+	}
+	if(OUT1.DataType=="EAN13"||OUT1.DataType=="EAN13P2"||OUT1.DataType=="EAN13P5")
+	{
+		OUT1.Data="F"+OUT1.Data
+		OUT1.DataType="Generic Data"
+	}
+	if(OUT1.DataType=="UPCA"||OUT1.DataType=="UPCAP2"||OUT1.DataType=="UPCAP5")
+	{
+		OUT1.Data="A"+OUT1.Data
+		OUT1.DataType="Generic Data"
+	}
+	if(OUT1.DataType=="UPCE")
+	{
+		OUT1.Data="E"+OUT1.Data
+		OUT1.DataType="Generic Data"
+		StripBeginEndChars(OUT1,0,1)
+	}
+	if(OUT1.DataType=="EAN8")
+	{
+		OUT1.Data="FF"+OUT1.Data
+		OUT1.DataType="Generic Data"
+		StripBeginEndChars(OUT1,0,1)
+	}
+	if(OUT1.DataType=="Code128"&&l=="\\\x80")
+	{
+		OUT1.Data="]C1"+OUT1.Data
+	}
+	if(OUT1.DataType=="PDF417")
+	{
+		OUT1.Data="P"+OUT1.Data
+	}
+	if(OUT1.DataType=="QRCode")
+	{
+		OUT1.Data="QR"+OUT1.Data
+	}
+	if(OUT1.DataType=="Aztec")
+	{
+		OUT1.Data="Az"+OUT1.Data
+	}
+	if(OUT1.DataType=="Datamatrix")
+	{
+		OUT1.Data="Dm"+OUT1.Data
+	}
+	if(OUT1.DataType=="I2of5")
+	{
+		OUT1.Data="i"+OUT1.Data
+	}
+	if(OUT1.DataType=="RSSExp")
+	{
+		OUT1.Data="K"+OUT1.Data
+	}
+	if(OUT1.DataType=="RSS14")
+	{
+		OUT1.Data="]e0"+OUT1.Data
+	}
+	DoSLF(OUT1)
+}
+
+

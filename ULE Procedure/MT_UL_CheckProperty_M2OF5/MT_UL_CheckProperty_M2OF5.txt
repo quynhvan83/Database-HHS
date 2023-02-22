@@ -1,0 +1,43 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_LABEL_ID_M2OF5.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CM2EN01
+Send $CIDCO01
+Send $Ar
+Read Code2of5_Matrix_08312865
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_M25_CHK_CHAR_CALC.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CM2EN01
+Send $CIDCO00
+Send $Ar
+Read Code2of5_Matrix_Module10_1234565
+Send $S,CM2CC01,Ar
+Read Code2of5_Matrix_Module10_1234565
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_M25_CHK_CHAR_TXMIT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CM2EN01
+Send $CM2CC01
+Send $CIDCO00
+Send $Ar
+Read Code2of5_Matrix_Module10_1234565
+Send $S,CM2CT00,Ar
+Read Code2of5_Matrix_Module10_1234565

@@ -1,0 +1,7 @@
+{
+	if(OUT1.DataType == "Datamatrix")
+	{
+		OUT1.Data = Mid(OUT1.Data, 3, 14)
+		DoSLF(OUT1)
+	}
+}

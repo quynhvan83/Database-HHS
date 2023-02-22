@@ -1,0 +1,24 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE LabelID_Normal2DCode.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO01
+Send $CAZEN01
+Send $CDMEN01
+Send $CQREN01
+Send $CMQEN01
+Send $CMXEN01
+Send $CP4EN01
+Send $CMIEN01
+Send $CDESA01
+Send $CCSEN01
+Send $Ar
+Read PDF417
+Read MicroPDF417
+Read Datamatrix
+Read QRCode
+Read AztecCode
+Read Maxicode
+Read China_Sensible

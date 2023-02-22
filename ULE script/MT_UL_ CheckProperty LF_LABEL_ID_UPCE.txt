@@ -1,0 +1,24 @@
+#<Start the script>
+{
+if(OUT1.DataType == "UPCE")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCE)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType + "\r"
+		
+	}
+	if(OUT1.DataType == "UPCEP2")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCE_P2)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType + "\r"
+	}
+	if(OUT1.DataType == "UPCEP5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCE_P5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType + "\r"
+	}
+	if(OUT1.DataType == "UPCE8")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCE8)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType + "\r"
+        }
+}#<End the script>

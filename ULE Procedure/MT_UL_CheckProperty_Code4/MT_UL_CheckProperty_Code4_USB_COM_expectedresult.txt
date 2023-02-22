@@ -1,0 +1,28 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+NO TRANSMIT CHECK CHAR  - ABCabc
+$>,>,>
+TRANSMIT CHECK CHAR - ]A0*ABCabc**
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+NO PERFORM CODE4 CONVERSION - ABCabc
+$>,>,>
+PERFORM CODE4 CONVERSION - ABCabc

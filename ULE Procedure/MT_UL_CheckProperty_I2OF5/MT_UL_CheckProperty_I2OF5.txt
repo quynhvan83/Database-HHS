@@ -1,0 +1,57 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_LABEL_ID_I2OF5.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CI2EN01
+Send $CIDCO01
+Send $Ar
+Read Code 2 of 5 Interleaved_123457
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_LABEL_ID_I2OF5_CIP.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CCHEN01
+Send $CADO201
+Send $CIDCO01
+Send $Ar
+Read Interleave2of5
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_I2OF5_CHK_CHAR_CALC.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CI2EN01
+Send $CIDCO00
+Send $Ar
+Read Interleaved 2 of 5 - Modulo 10_01234565
+Send $S,CI2CC01,Ar
+Read Interleaved 2 of 5 - Modulo 10_01234565
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_I2OF5_CHK_CHAR_TXMIT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CIDCO00
+Send $CI2EN01,CI2CC01
+Send $Ar
+Read Interleaved 2 of 5 - Modulo 10_01234565
+Send $S,CI2CT01,Ar
+Read Interleaved 2 of 5 - Modulo 10_01234565

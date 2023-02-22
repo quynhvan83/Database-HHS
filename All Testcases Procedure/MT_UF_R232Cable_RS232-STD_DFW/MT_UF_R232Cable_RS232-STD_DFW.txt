@@ -1,0 +1,41 @@
+Read $P,HA05,P
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\OLD_Base.dfw
+ChangeToWindow Serviceport - 1 running window
+OpenComPort
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cR2AT
+Send $cC3EN
+ExitSP
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\NEW_Base.dfw
+ChangeToWindow Serviceport - 1 running window
+OpenComPort
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cR2AT
+Send $cC3EN
+ExitSP
+Read UPCA
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\FAKE_Base.dfw
+ChangeToWindow Serviceport - 1 running window
+OpenComPort
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cR2AT
+Send $cC3EN
+ExitSP

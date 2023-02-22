@@ -1,0 +1,713 @@
+EnterSP
+Send $HA35
+Send $CLEEN01
+Send $CLFSU0D00000000000000000000000000000000000000
+Send $CSNRM04
+Send $CSNDR50
+Send $CSNFF33
+Send $AS
+Send $As
+Send $HA47
+Send $Ar
+SetKeyBoardLanguage German (Germany)
+SetKeyBoardLanguage Spanish (Spain)
+SetKeyBoardLanguage French (France)
+SetKeyBoardLanguage Slovak
+SetKeyBoardLanguage Czech
+SetKeyBoardLanguage Polish
+SetKeyBoardLanguage Italian (Italy)
+SetKeyBoardLanguage English (United States)
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+DetectedDeviceOnCOM
+InterfaceSelection USB KBD
+ULE Museo2D_ULE_FunctionKeys2-USB-KBD-v1.3e_1D.ule, yes
+ChangeToWindow Serviceport - 1 running window
+ChangeInterfaceTo USB-KBD
+OpenByPath D:\GIT\Automation_tool\bin\Debug\KeyboardTest-Portable.exe
+OpenAppWindow PassMark KeyboardTest
+SetKeyBoardLanguage English (United States)
+Read F1
+CheckPortableKeyboard
+ClickElement Clear
+Read F2
+CheckPortableKeyboard
+ClickElement Clear
+Read F3
+CheckPortableKeyboard
+ClickElement Clear
+Read F4
+CheckPortableKeyboard
+ClickElement Clear
+Read F5
+CheckPortableKeyboard
+ClickElement Clear
+Read F6
+CheckPortableKeyboard
+ClickElement Clear
+Read F7
+CheckPortableKeyboard
+ClickElement Clear
+Read F8
+CheckPortableKeyboard
+ClickElement Clear
+Read F9
+CheckPortableKeyboard
+ClickElement Clear
+Read F10
+CheckPortableKeyboard
+ClickElement Clear
+Read F11
+CheckPortableKeyboard
+ClickElement Clear
+Read F12
+CheckPortableKeyboard
+ClickElement Clear
+Read ENTER
+CheckPortableKeyboard
+ClickElement Clear
+Read ENTER(KEYPAD)
+CheckPortableKeyboard
+ClickElement Clear
+Read Tab
+CheckPortableKeyboard
+ClickElement Clear
+Read Backspace
+CheckPortableKeyboard
+ClickElement Clear
+Read Insert
+CheckPortableKeyboard
+ClickElement Clear
+Read Delete
+CheckPortableKeyboard
+ClickElement Clear
+Read Home
+CheckPortableKeyboard
+ClickElement Clear
+Read End
+CheckPortableKeyboard
+ClickElement Clear
+Read PageUp
+CheckPortableKeyboard
+ClickElement Clear
+Read PageDown
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorUp
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorDown
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorLeft
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorRight
+CheckPortableKeyboard
+ClickElement Clear
+Read ATLT-TAB
+CheckPortableKeyboard
+ClickElement Clear
+Read STRG-S
+CheckPortableKeyboard
+ClickElement Clear
+SetKeyBoardLanguage German (Germany)
+Read F1
+CheckPortableKeyboard
+ClickElement Clear
+Read F2
+CheckPortableKeyboard
+ClickElement Clear
+Read F3
+CheckPortableKeyboard
+ClickElement Clear
+Read F4
+CheckPortableKeyboard
+ClickElement Clear
+Read F5
+CheckPortableKeyboard
+ClickElement Clear
+Read F6
+CheckPortableKeyboard
+ClickElement Clear
+Read F7
+CheckPortableKeyboard
+ClickElement Clear
+Read F8
+CheckPortableKeyboard
+ClickElement Clear
+Read F9
+CheckPortableKeyboard
+ClickElement Clear
+Read F10
+CheckPortableKeyboard
+ClickElement Clear
+Read F11
+CheckPortableKeyboard
+ClickElement Clear
+Read F12
+CheckPortableKeyboard
+ClickElement Clear
+Read ENTER
+CheckPortableKeyboard
+ClickElement Clear
+Read ENTER(KEYPAD)
+CheckPortableKeyboard
+ClickElement Clear
+Read Tab
+CheckPortableKeyboard
+ClickElement Clear
+Read Backspace
+CheckPortableKeyboard
+ClickElement Clear
+Read Insert
+CheckPortableKeyboard
+ClickElement Clear
+Read Delete
+CheckPortableKeyboard
+ClickElement Clear
+Read Home
+CheckPortableKeyboard
+ClickElement Clear
+Read End
+CheckPortableKeyboard
+ClickElement Clear
+Read PageUp
+CheckPortableKeyboard
+ClickElement Clear
+Read PageDown
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorUp
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorDown
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorLeft
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorRight
+CheckPortableKeyboard
+ClickElement Clear
+Read ATLT-TAB
+CheckPortableKeyboard
+ClickElement Clear
+Read STRG-S
+CheckPortableKeyboard
+ClickElement Clear
+SetKeyBoardLanguage Italian (Italy)
+Read F1
+CheckPortableKeyboard
+ClickElement Clear
+Read F2
+CheckPortableKeyboard
+ClickElement Clear
+Read F3
+CheckPortableKeyboard
+ClickElement Clear
+Read F4
+CheckPortableKeyboard
+ClickElement Clear
+Read F5
+CheckPortableKeyboard
+ClickElement Clear
+Read F6
+CheckPortableKeyboard
+ClickElement Clear
+Read F7
+CheckPortableKeyboard
+ClickElement Clear
+Read F8
+CheckPortableKeyboard
+ClickElement Clear
+Read F9
+CheckPortableKeyboard
+ClickElement Clear
+Read F10
+CheckPortableKeyboard
+ClickElement Clear
+Read F11
+CheckPortableKeyboard
+ClickElement Clear
+Read F12
+CheckPortableKeyboard
+ClickElement Clear
+Read ENTER
+CheckPortableKeyboard
+ClickElement Clear
+Read ENTER(KEYPAD)
+CheckPortableKeyboard
+ClickElement Clear
+Read Tab
+CheckPortableKeyboard
+ClickElement Clear
+Read Backspace
+CheckPortableKeyboard
+ClickElement Clear
+Read Insert
+CheckPortableKeyboard
+ClickElement Clear
+Read Delete
+CheckPortableKeyboard
+ClickElement Clear
+Read Home
+CheckPortableKeyboard
+ClickElement Clear
+Read End
+CheckPortableKeyboard
+ClickElement Clear
+Read PageUp
+CheckPortableKeyboard
+ClickElement Clear
+Read PageDown
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorUp
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorDown
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorLeft
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorRight
+CheckPortableKeyboard
+ClickElement Clear
+Read ATLT-TAB
+CheckPortableKeyboard
+ClickElement Clear
+Read STRG-S
+CheckPortableKeyboard
+ClickElement Clear
+SetKeyBoardLanguage French (France)
+Read F1
+CheckPortableKeyboard
+ClickElement Clear
+Read F2
+CheckPortableKeyboard
+ClickElement Clear
+Read F3
+CheckPortableKeyboard
+ClickElement Clear
+Read F4
+CheckPortableKeyboard
+ClickElement Clear
+Read F5
+CheckPortableKeyboard
+ClickElement Clear
+Read F6
+CheckPortableKeyboard
+ClickElement Clear
+Read F7
+CheckPortableKeyboard
+ClickElement Clear
+Read F8
+CheckPortableKeyboard
+ClickElement Clear
+Read F9
+CheckPortableKeyboard
+ClickElement Clear
+Read F10
+CheckPortableKeyboard
+ClickElement Clear
+Read F11
+CheckPortableKeyboard
+ClickElement Clear
+Read F12
+CheckPortableKeyboard
+ClickElement Clear
+Read ENTER
+CheckPortableKeyboard
+ClickElement Clear
+Read ENTER(KEYPAD)
+CheckPortableKeyboard
+ClickElement Clear
+Read Tab
+CheckPortableKeyboard
+ClickElement Clear
+Read Backspace
+CheckPortableKeyboard
+ClickElement Clear
+Read Insert
+CheckPortableKeyboard
+ClickElement Clear
+Read Delete
+CheckPortableKeyboard
+ClickElement Clear
+Read Home
+CheckPortableKeyboard
+ClickElement Clear
+Read End
+CheckPortableKeyboard
+ClickElement Clear
+Read PageUp
+CheckPortableKeyboard
+ClickElement Clear
+Read PageDown
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorUp
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorDown
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorLeft
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorRight
+CheckPortableKeyboard
+ClickElement Clear
+Read ATLT-TAB
+CheckPortableKeyboard
+ClickElement Clear
+Read STRG-S
+CheckPortableKeyboard
+ClickElement Clear
+SetKeyBoardLanguage Spanish (Spain)
+Read F1
+CheckPortableKeyboard
+ClickElement Clear
+Read F2
+CheckPortableKeyboard
+ClickElement Clear
+Read F3
+CheckPortableKeyboard
+ClickElement Clear
+Read F4
+CheckPortableKeyboard
+ClickElement Clear
+Read F5
+CheckPortableKeyboard
+ClickElement Clear
+Read F6
+CheckPortableKeyboard
+ClickElement Clear
+Read F7
+CheckPortableKeyboard
+ClickElement Clear
+Read F8
+CheckPortableKeyboard
+ClickElement Clear
+Read F9
+CheckPortableKeyboard
+ClickElement Clear
+Read F10
+CheckPortableKeyboard
+ClickElement Clear
+Read F11
+CheckPortableKeyboard
+ClickElement Clear
+Read F12
+CheckPortableKeyboard
+ClickElement Clear
+Read ENTER
+CheckPortableKeyboard
+ClickElement Clear
+Read ENTER(KEYPAD)
+CheckPortableKeyboard
+ClickElement Clear
+Read Tab
+CheckPortableKeyboard
+ClickElement Clear
+Read Backspace
+CheckPortableKeyboard
+ClickElement Clear
+Read Insert
+CheckPortableKeyboard
+ClickElement Clear
+Read Delete
+CheckPortableKeyboard
+ClickElement Clear
+Read Home
+CheckPortableKeyboard
+ClickElement Clear
+Read End
+CheckPortableKeyboard
+ClickElement Clear
+Read PageUp
+CheckPortableKeyboard
+ClickElement Clear
+Read PageDown
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorUp
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorDown
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorLeft
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorRight
+CheckPortableKeyboard
+ClickElement Clear
+Read ATLT-TAB
+CheckPortableKeyboard
+ClickElement Clear
+Read STRG-S
+CheckPortableKeyboard
+ClickElement Clear
+SetKeyBoardLanguage Polish
+Read F1
+CheckPortableKeyboard
+ClickElement Clear
+Read F2
+CheckPortableKeyboard
+ClickElement Clear
+Read F3
+CheckPortableKeyboard
+ClickElement Clear
+Read F4
+CheckPortableKeyboard
+ClickElement Clear
+Read F5
+CheckPortableKeyboard
+ClickElement Clear
+Read F6
+CheckPortableKeyboard
+ClickElement Clear
+Read F7
+CheckPortableKeyboard
+ClickElement Clear
+Read F8
+CheckPortableKeyboard
+ClickElement Clear
+Read F9
+CheckPortableKeyboard
+ClickElement Clear
+Read F10
+CheckPortableKeyboard
+ClickElement Clear
+Read F11
+CheckPortableKeyboard
+ClickElement Clear
+Read F12
+CheckPortableKeyboard
+ClickElement Clear
+Read ENTER
+CheckPortableKeyboard
+ClickElement Clear
+Read ENTER(KEYPAD)
+CheckPortableKeyboard
+ClickElement Clear
+Read Tab
+CheckPortableKeyboard
+ClickElement Clear
+Read Backspace
+CheckPortableKeyboard
+ClickElement Clear
+Read Insert
+CheckPortableKeyboard
+ClickElement Clear
+Read Delete
+CheckPortableKeyboard
+ClickElement Clear
+Read Home
+CheckPortableKeyboard
+ClickElement Clear
+Read End
+CheckPortableKeyboard
+ClickElement Clear
+Read PageUp
+CheckPortableKeyboard
+ClickElement Clear
+Read PageDown
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorUp
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorDown
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorLeft
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorRight
+CheckPortableKeyboard
+ClickElement Clear
+Read ATLT-TAB
+CheckPortableKeyboard
+ClickElement Clear
+Read STRG-S
+CheckPortableKeyboard
+ClickElement Clear
+SetKeyBoardLanguage Czech
+Read F1
+CheckPortableKeyboard
+ClickElement Clear
+Read F2
+CheckPortableKeyboard
+ClickElement Clear
+Read F3
+CheckPortableKeyboard
+ClickElement Clear
+Read F4
+CheckPortableKeyboard
+ClickElement Clear
+Read F5
+CheckPortableKeyboard
+ClickElement Clear
+Read F6
+CheckPortableKeyboard
+ClickElement Clear
+Read F7
+CheckPortableKeyboard
+ClickElement Clear
+Read F8
+CheckPortableKeyboard
+ClickElement Clear
+Read F9
+CheckPortableKeyboard
+ClickElement Clear
+Read F10
+CheckPortableKeyboard
+ClickElement Clear
+Read F11
+CheckPortableKeyboard
+ClickElement Clear
+Read F12
+CheckPortableKeyboard
+ClickElement Clear
+Read ENTER
+CheckPortableKeyboard
+ClickElement Clear
+Read ENTER(KEYPAD)
+CheckPortableKeyboard
+ClickElement Clear
+Read Tab
+CheckPortableKeyboard
+ClickElement Clear
+Read Backspace
+CheckPortableKeyboard
+ClickElement Clear
+Read Insert
+CheckPortableKeyboard
+ClickElement Clear
+Read Delete
+CheckPortableKeyboard
+ClickElement Clear
+Read Home
+CheckPortableKeyboard
+ClickElement Clear
+Read End
+CheckPortableKeyboard
+ClickElement Clear
+Read PageUp
+CheckPortableKeyboard
+ClickElement Clear
+Read PageDown
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorUp
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorDown
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorLeft
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorRight
+CheckPortableKeyboard
+ClickElement Clear
+Read ATLT-TAB
+CheckPortableKeyboard
+ClickElement Clear
+Read STRG-S
+CheckPortableKeyboard
+ClickElement Clear
+SetKeyBoardLanguage Slovak
+Read F1
+CheckPortableKeyboard
+ClickElement Clear
+Read F2
+CheckPortableKeyboard
+ClickElement Clear
+Read F3
+CheckPortableKeyboard
+ClickElement Clear
+Read F4
+CheckPortableKeyboard
+ClickElement Clear
+Read F5
+CheckPortableKeyboard
+ClickElement Clear
+Read F6
+CheckPortableKeyboard
+ClickElement Clear
+Read F7
+CheckPortableKeyboard
+ClickElement Clear
+Read F8
+CheckPortableKeyboard
+ClickElement Clear
+Read F9
+CheckPortableKeyboard
+ClickElement Clear
+Read F10
+CheckPortableKeyboard
+ClickElement Clear
+Read F11
+CheckPortableKeyboard
+ClickElement Clear
+Read F12
+CheckPortableKeyboard
+ClickElement Clear
+Read ENTER
+CheckPortableKeyboard
+ClickElement Clear
+Read ENTER(KEYPAD)
+CheckPortableKeyboard
+ClickElement Clear
+Read Tab
+CheckPortableKeyboard
+ClickElement Clear
+Read Backspace
+CheckPortableKeyboard
+ClickElement Clear
+Read Insert
+CheckPortableKeyboard
+ClickElement Clear
+Read Delete
+CheckPortableKeyboard
+ClickElement Clear
+Read Home
+CheckPortableKeyboard
+ClickElement Clear
+Read End
+CheckPortableKeyboard
+ClickElement Clear
+Read PageUp
+CheckPortableKeyboard
+ClickElement Clear
+Read PageDown
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorUp
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorDown
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorLeft
+CheckPortableKeyboard
+ClickElement Clear
+Read CursorRight
+CheckPortableKeyboard
+ClickElement Clear
+Read ATLT-TAB
+CheckPortableKeyboard
+ClickElement Clear
+Read STRG-S
+CheckPortableKeyboard
+ClickElement Clear
+SetKeyBoardLanguage English (United States)
+CloseAppWindow PassMark KeyboardTest
+Read $P,HA47,P
+ChangeInterfaceTo USB-COM
+OpenComPort

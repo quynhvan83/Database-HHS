@@ -1,0 +1,15 @@
+{
+	if(OUT1.DataType=="EAN128")
+	{
+		if(OUT1.DataLen==8)
+		{
+			OUT1.Data=OUT1.Data+"\t"
+			
+		}
+		elseif(OUT1.DataLen==6)
+		{
+			OUT1.Data=OUT1.Data+"\r"
+		}
+	}
+}
+

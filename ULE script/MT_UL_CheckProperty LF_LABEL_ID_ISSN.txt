@@ -1,0 +1,8 @@
+{
+       if(OUT1.DataType == "ISSN")
+      {
+	labelID =GetProperty(LF_LABEL_ID_ISSN)
+	OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " +    OUT1.DataType 
+                DoSLF(OUT1)
+       }
+}

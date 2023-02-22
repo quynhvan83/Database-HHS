@@ -1,0 +1,20 @@
+#<Start the script>
+{
+	tmp = GetProperty(LF_PLESSEY_CHK_CHAR_CALC)
+
+	# If the scanner property of Perform Plessey check character check = No check character check , the returned value will be:
+	# NO PERFORM CHECK CHAR – Label Data
+	if (tmp == 0)
+	{
+		OUT1.Data = "NO PERFORM CHECK CHAR - " + OUT1.Data 
+	}
+
+	# If the scanner property of Perform Plessey check character check = Do check character check, the returned value will be:
+	# PERFORM CHECK CHAR- Label Data
+	else if (tmp == 1)
+	{
+		OUT1.Data = "PERFORM CHECK CHAR - " + OUT1.Data 
+	}
+DoSLF(OUT1)
+}
+#<End the script>

@@ -1,0 +1,117 @@
+{CR}
+{CR}
+Strt1:PO BOX 1234{CR}
+Strt2:##{CR}
+City:BARROW{CR}
+State:AK{CR}
+PCode:99723{CR}
+Cntry:##{CR}
+{CR}
+{CR}
+{CR}
+Strt1:12345 S 40TH PL{CR}
+Strt2:##{CR}
+City:PHOENIX{CR}
+State:AZ{CR}
+PCode:85044-6749{CR}
+Cntry:##{CR}
+{CR}
+{CR}
+{CR}
+Strt1:1234 S REED WAY APT #1728{CR}
+Strt2:##{CR}
+City:LITTLETON{CR}
+State:CO{CR}
+PCode:80123{CR}
+Cntry:##{CR}
+{CR}
+{CR}
+{CR}
+Strt1:123 ABCDEF DRIVE{CR}
+Strt2:APT. 00{CR}
+City:ANYTOWN{CR}
+State:NV{CR}
+PCode:123450000{CR}
+Cntry:USA{CR}
+{CR}
+{CR}
+{CR}
+Strt1:123 MEADOW RIDGE{CR}
+Strt2:LANE{CR}
+City:TWIN FALLS{CR}
+State:ID{CR}
+PCode:83301{CR}
+Cntry:##{CR}
+{CR}
+{CR}
+{CR}
+Strt1:1234 ARAPAHOE AVE{CR}
+Strt2:##{CR}
+City:JACKSONVILLE{CR}
+State:FL{CR}
+PCode:32210-0000{CR}
+Cntry:##{CR}
+{CR}
+{CR}
+{CR}
+Strt1:1234 ALMAHURST TRL APT A{CR}
+Strt2:##{CR}
+City:FLORENCE{CR}
+State:KY{CR}
+PCode:41042{CR}
+Cntry:##{CR}
+{CR}
+{CR}
+{CR}
+Strt1:1234 HUNT DR{CR}
+Strt2:##{CR}
+City:BALTIMORE{CR}
+State:MD{CR}
+PCode:21209{CR}
+Cntry:##{CR}
+{CR}
+{CR}
+{CR}
+Strt1:1234 FOX RD{CR}
+Strt2:##{CR}
+City:RALEIGH{CR}
+State:NC{CR}
+PCode:27616-6357{CR}
+Cntry:##{CR}
+{CR}
+{CR}
+{CR}
+Strt1:1234 VINEYARD TRAIL{CR}
+Strt2:##{CR}
+City:GARLAND{CR}
+State:TX{CR}
+PCode:750440000{CR}
+Cntry:USA{CR}
+{CR}
+{CR}
+{CR}
+Strt1:118 WEST CAPITOL AVENUE XYXYXYXYXYX{CR}
+Strt2:##{CR}
+City:PIERRE XYXYXYXYXYXYX{CR}
+State:SD{CR}
+PCode:575010000{CR}
+Cntry:USA{CR}
+{CR}
+{CR}
+{CR}
+Strt1:C405 CO RD 15{CR}
+Strt2:##{CR}
+City:NEW EUGENE{CR}
+State:OH{CR}
+PCode:##{CR}
+Cntry:USA{CR}
+{CR}
+{CR}
+{CR}
+Strt1:1234 TULLAMORE ROAD{CR}
+Strt2:##{CR}
+City:UNIVERSITY HT{CR}
+State:OH{CR}
+PCode:##{CR}
+Cntry:USA{CR}
+{CR}

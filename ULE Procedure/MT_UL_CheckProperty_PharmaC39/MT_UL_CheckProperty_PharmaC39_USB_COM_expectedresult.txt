@@ -1,0 +1,13 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+$>
+ALabelID = A Data = *345678902* Type = PharmaC39
+ALabelID = A Data = *345678902* Type = PharmaC39

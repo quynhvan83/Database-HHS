@@ -1,0 +1,11 @@
+{
+	OUT3 = OUT1
+	if (StructExist(OUT3))
+	{
+		OUT1.Data = "OUT3 exist\n"
+	}
+	else
+	{
+		OUT1.Data = "OUT4 does NOT exist\n"
+	}
+}

@@ -1,0 +1,31 @@
+#<Start the script>
+{
+
+	# <If Data Type = EAN8: Start>
+	if (OUT1.DataType == "EAN8")
+	{
+	
+	# Get Property of UPCA to EAN13 Conversion:
+	ean8_ean13 = GetProperty(LF_EAN8_TO_EAN13_EXPND)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO EAN8 TO EAN13 CONVERSION – Label Data
+		if (ean8_ean13 == 0)
+		{
+			# Data will displays with no EAN8 to EAN13 Conversion:
+			OUT1.Data = "NO EAN8 TO EAN13 CONVERSION - " + OUT1.Data + "\r"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# EAN8 TO EAN13 CONVERSION – Label Data
+		else if (ean8_ean13 == 1)
+		{
+			# Convert EAN8 to EAN13:
+			FMTEAN8ToEAN13(OUT1)
+			# Data will displays: EAN8 TO EAN13 CONVERSION – Label Data
+			OUT1.Data = "EAN8 TO EAN13 CONVERSION - " + OUT1.Data + "\r"
+		}
+	}
+	# <If Data Type = EAN8: End>
+}
+#<End the script>

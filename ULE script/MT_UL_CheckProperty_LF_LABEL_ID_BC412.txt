@@ -1,0 +1,14 @@
+#<Start the script>
+{
+	
+       labelid=GetProperty(LF_LABEL_ID_BC412)
+     	if(labelid=="")
+	{
+		OUT1.Data="NO LABEL ID "+labelid+OUT1.Data+"\r\n"
+	}
+	else
+	{
+		OUT1.Data="LABEL ID "+labelid+OUT1.Data+"\r\n"
+	}
+
+}#<End the script>

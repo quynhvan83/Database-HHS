@@ -1,0 +1,91 @@
+CFO1 0042
+Copyright 2009 by Datalogic Scanning, Inc.
+ID CONFIG,C&U Group,ULE,Magellan 800i,MR1
+FC Apr 30, 2014 at 8:38
+# File created by MglOSP (AQH)
+&
+# Master file: Mgl800i_MR1_30011_1108101336.mcf
+#
+#-------< Null Interface >-------------------------------
+7FFB4640            # INTERFACE TYPE: Null
+0060535052303032383133205D # CONFIGURATION ID: SPR002813.tex
+7FFE0182            # Commit interface to factory
+#
+#-------< RS232-STD >-------------------------------
+7FFB0581            # Interface Type: RS232-STD
+033601C6            # Label Edit Script Enable: Enable
+7FFE0182            # Save interface to factory area
+#
+#-------< RS232-WN >-------------------------------
+7FFB1274            # Interface Type: RS232-WN
+001F02DF            # Rs232 Parity: Odd
+00254300000098      # Label Id Upce: 43000000 ("C")
+00264200000098      # Label Id Ean8: 42000000 ("B")
+00274100000098      # Label Id Ean13: 41000000 ("A")
+002F430000008E      # Label Id Upce P2: 43000000 ("C")
+0030430000008D      # Label Id Upce P5: 43000000 ("C")
+0031410000008E      # Label Id Ean13 P2: 41000000 ("A")
+0032410000008D      # Label Id Ean13 P5: 41000000 ("A")
+0033420000008B      # Label Id Ean8 P2: 42000000 ("B")
+0034420000008A      # Label Id Ean8 P5: 42000000 ("B")
+00354D0000007E      # Label Id Code39: 4D000000 ("M")
+00364900000081      # Label Id I2of5: 49000000 ("I")
+00374E0000007B      # Label Id Codabar: 4E000000 ("N")
+00384C0000007C      # Label Id Code93: 4C000000 ("L")
+00394B0000007C      # Label Id Code128: 4B000000 ("K")
+004301BC            # Expand Upca To Ean13: Enable
+004B00B5            # Num Host Tx Buffers: One buffer
+008E0072            # Code39 Enable: Disable
+0092006E            # Code128 Enable: Disable
+00BD4F000000F4      # Label Id Msi Plessey: 4F000000 ("O")
+010552000000A8      # Label Id Datamatrix: 52000000 ("R")
+020F01EE            # Rs232 Hardware Control: Enable CTS flow control
+033601C6            # Label Edit Script Enable: Enable
+03535100000059      # Label Id Micro Pdf: 51000000 ("Q")
+03574500000061      # Label Id Rss Limited: 45000000 ("E")
+03654500000053      # Label Id Rss Limited Composite: 45000000 ("E")
+03664500000052      # Label Id Rss 14 Composite: 45000000 ("E")
+03674500000051      # Label Id Rss Expanded Composite: 45000000 ("E")
+04195000000093      # Label Id Ean128: 50000000 ("P")
+04694300000050      # Label Id Upce P8: 43000000 ("C")
+046A4100000051      # Label Id Isbn: 41000000 ("A")
+046C420000004E      # Label Id Ean8 P8: 42000000 ("B")
+046F410000004C      # Label Id Ean13 P8: 41000000 ("A")
+04DA45000000DD      # Label Id Rss 14: 45000000 ("E")
+04DB45000000DC      # Label Id Rss Expanded: 45000000 ("E")
+05A95100000001      # Label Id Pdf417: 51000000 ("Q")
+7FFE0182            # Save interface to factory area
+#
+#-------< RS232-Debug >-------------------------------
+7FFB0185            # Interface Type: RS232_USB-Debug
+033601C6            # Label Edit Script Enable: Enable
+7FFE0182            # Save interface to factory area
+#
+#-------< Keyboard >-------------------------------
+7FFB3551            # Interface Type: USB Keyboard
+020500F9            # Label Id Control: Disable
+033601C6            # Label Edit Script Enable: Enable
+04990063            # S25 Length 2: Ignore this length. (Characters)
+7FFE0182            # Save interface to factory area
+#
+#-------< IBM >-------------------------------
+7FFB4541            # Interface Type: USB OEM
+004B00B5            # Num Host Tx Buffers: One buffer
+033601C6            # Label Edit Script Enable: Enable
+04990063            # S25 Length 2: Ignore this length. (Characters)
+7FFE0182            # Save interface to factory area
+#
+#-------< Set active interface to RS232-STD and copy to user area >----
+00010005FA          # Set the active interface
+7FFC0184            # Copy active interface config block to user and current areas
+7FF800000008554C453201060A0A4E
+7FF8000800207B0A6C3D4C656674284F5554312E446174612C32290A6966284F5554312E44612B
+7FF8002800207461547970653D3D22436F64653132382226266C3D3D225C5C5C78383022290A59
+7FF8004800207B0A6966284F5554312E446174614C656E3D3D3130290A7B0A5374726970426569
+7FF80068002067696E456E644368617273284F5554312C322C30290A4F5554312E446174613D6F
+7FF8008800204F5554312E446174612B225C74220A4E6F534C46284F555431290A7D0A656C73D6
+7FF800A80020656966284F5554312E446174614C656E3D3D38290A7B0A53747269704265676982
+7FF800C800206E456E644368617273284F5554312C322C30290A4F5554312E446174613D4F553B
+7FF800E8002054312E446174612B225C72220A4E6F534C46284F555431290A7D0A7D0A7D0A0A48
+7FF8010800040A0A0A0A54
+$

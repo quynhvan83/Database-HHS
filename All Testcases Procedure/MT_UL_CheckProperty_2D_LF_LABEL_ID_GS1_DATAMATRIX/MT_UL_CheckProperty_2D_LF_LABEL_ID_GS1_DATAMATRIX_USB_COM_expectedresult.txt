@@ -1,0 +1,9 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+DgLabelID = Dg data = 123456789 type = GS1_Datamatrix

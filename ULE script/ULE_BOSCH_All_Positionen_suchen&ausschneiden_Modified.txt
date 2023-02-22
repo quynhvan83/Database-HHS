@@ -1,0 +1,44 @@
+{
+	if (OUT1.DataType == "PDF417")     
+    	{       
+		get_data = OUT1.Data
+		start_string1 = "\x1D" + "P"
+		end_string1 = "\x1D"
+		length_start1 = StrLen(start_string1)
+		
+		nPosStart = FindSubStr(get_data,start_string1,1)
+		if (nPosStart > 0)
+		{
+			nPosEnd = FindSubStr(get_data,end_string1,nPosStart + length_start1)            
+			if ( nPosEnd > 0 )                                              
+			{
+				nLen = nPosEnd - nPosStart - length_start1
+				OUT1.Data = ":." + Mid(get_data,nPosStart + length_start1 ,nLen) + ".;"
+				OUT1.DataLen = StrLen(OUT1.Data)                          
+				OUT1.BaseLen = OUT1.DataLen                               
+				DoSLF(OUT1)                                             
+			}
+		}
+	}
+	if (OUT1.DataType == "Datamatrix")     
+    	{       
+		get_data = OUT1.Data
+		start_string1 = "@" + "P"
+		end_string1 = "@"
+		length_start1 = StrLen(start_string1)
+		
+		nPosStart = FindSubStr(get_data,start_string1,1)
+		if (nPosStart > 0)
+		{
+			nPosEnd = FindSubStr(get_data,end_string1,nPosStart + length_start1)            
+			if ( nPosEnd > 0 )                                              
+			{
+				nLen = nPosEnd - nPosStart - length_start1
+				OUT1.Data = ":." + Mid(get_data,nPosStart + length_start1 ,nLen) + ".;"
+				OUT1.DataLen = StrLen(OUT1.Data)                          
+				OUT1.BaseLen = OUT1.DataLen                               
+				DoSLF(OUT1)                                             
+			}
+		}
+	}
+}

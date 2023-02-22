@@ -1,0 +1,12 @@
+{
+	convertF25=GetProperty(LF_F25_CONVERSION)
+	labelID=GetProperty(LF_LABEL_ID_FOLLETT_2OF5)
+	if(convertF25==1)
+	{
+		if(OUT1.DataType=="Follett2of5")
+		{
+			OUT1.Data="LabelID = "+labelID+" Data = "+OUT1.Data+" Type = "+OUT1.DataType+"\r\n"
+			DoSLF(OUT1)
+		}
+	}
+}

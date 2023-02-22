@@ -1,0 +1,45 @@
+;START OF HEADER
+;DataLogic Scanner Configuration File
+;Config File Format: 0001
+;Master Config File: none
+;Copyright 2010 by Datalogic Scanning Inc.
+;Creation Date: 01 21 2011
+;File created by Hoa Nguyen (11-May-2015)
+;This file is prepared for MTQ_LF_1DSyms in QuickTest procedure.
+;
+;START OF COMMANDS
+;-------< Initialize >-----------------------------
+$AE                 ; Erase Config Flash
+;
+;-------< System Configuration >-------------------------------
+;$YF4B425431313031323100; CONFIGURATION ID - KBT110121
+;
+;------<RS232-STD>------
+$M47						;		Load Master defaults and set to RS232
+$CIDCO01					;		Enable label ID as prefix
+$CGBEN01                      ;		Enable GTIN
+$CC3EN01					;     	Enable Code 39
+$CCCEN01					; 		Enable Code 39 CIP
+$CC3CT01					;		Enable transmission of optional Code39 check character
+$CC3FA01					;		Enable Code 39 Full ASCII
+$CCTEN01					;		Enable Code 39 Trioptic
+;$CLPEN01					;		Enable Code 39 Check Digit LasPoste
+;$CPZEN01					;		Enable Code 39 Check Digit PZN
+$CC3SS01                      ;         Enable start stop transmission
+$CC9EN01					;     	Enable Code 93
+$CC8EN01					;		Enable Code 128
+$CU8EN01					;		Enable GS1/EAN 128
+$CI2EN01					;     	Enable Interleaved 2/5
+$CCHEN01					;		Enable CIP 2 of 5
+$CCBEN01					;     	Enable Codabar
+$CCBAB01					;     	Enable ABC Codabar
+$CADO201					;		Enable P2 Add ons
+$CADO501					;		Enable P5 Add ons
+;$CADO801					;		Enable P8 Add ons
+$As
+$AS               			; 		Commit Interface Class to factory
+;
+;------<Set Default Host Interface>------
+$HA05						;     Set Interface = RS232-STD
+$HA47						;     Set Interface = USB COM
+;------< End >-----------------------

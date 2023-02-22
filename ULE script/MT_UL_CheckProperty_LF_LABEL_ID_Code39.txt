@@ -1,0 +1,39 @@
+#<Start the script>
+{
+if(OUT1.DataType == "Code39")
+{
+	labelID=GetProperty(LF_LABEL_ID_CODE39)
+	OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType 
+	DoSLF(OUT1)
+       }
+      if(OUT1.DataType == "Code39_CIP")
+      {
+	labelID=GetProperty(LF_LABEL_ID_CODE39_CIP)
+	OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+	DoSLF(OUT1)
+      }	
+      if(OUT1.DataType == "Trioptics")
+      {
+	labelID=GetProperty(LF_LABEL_ID_TRIOPTICS)
+	OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+	DoSLF(OUT1)
+     }
+     if(OUT1.DataType == "Code39_DanishPPT")
+     {
+	labelID=GetProperty(LF_LABEL_ID_CODE39_DANISH_PPT)
+	OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+	DoSLF(OUT1)
+     }
+     if(OUT1.DataType == "Code39_LaPoste")
+    {
+	labelID=GetProperty(LF_LABEL_ID_CODE39_LAPOSTE)
+	OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+	DoSLF(OUT1)
+     }
+     if(OUT1.DataType == "Code39_PZN")
+     {
+	labelID=GetProperty(LF_LABEL_ID_CODE39_PZN)
+	OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+	DoSLF(OUT1)
+     }
+}#<End the script>

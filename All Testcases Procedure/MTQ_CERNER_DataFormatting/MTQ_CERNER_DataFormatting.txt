@@ -1,0 +1,5 @@
+Read $P,CC8TF01,CLFCH1D7CFFFFFFFFFFFF,P_Datamatrix
+Read ISBT128_label1
+Read ISBT128_label2
+Read ISBT128_label3
+Read ISBT128_label4

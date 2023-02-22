@@ -1,0 +1,30 @@
+#<Start the script>
+{
+
+	# <If Data Type = UPCE/UPCA/EAN8/EAN13: Start>
+	if (OUT1.DataType == "UPCE" || OUT1.DataType == "UPCA" || OUT1.DataType == "EAN8" || OUT1.DataType == "EAN13")
+	{
+
+	# Get Property of UPC/EAN to GTIN Expansion:
+	upcean_gtin = GetProperty(LF_UPC_EAN_TO_GTIN_EXPND)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO UPC/EAN to GTIN EXPANSION – Label Data
+		if (upcean_gtin == 0)
+		{
+			# Data will displays with no UPC/EAN to GTIN Expansion:
+			OUT1.Data = "NO UPC/EAN to GTIN EXPANSION - " + OUT1.Data + "\r"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# UPC/EAN to GTIN EXPANSION – Label Data
+		else if (upcean_gtin == 1)
+		{
+			# Data will displays: UPC/EAN to GTIN EXPANSION
+			OUT1.Data = "UPC/EAN to GTIN EXPANSION - " + OUT1.Data + "\r"
+		}
+		}
+	# <If Data Type = UPCE/UPCA/EAN8/EAN13: End>
+
+}
+#<End the script>

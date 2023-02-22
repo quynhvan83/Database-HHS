@@ -1,0 +1,20 @@
+{
+	if(OUT1.DataType=="I2of5")
+	{
+		i2of5_ct=GetProperty(LF_I25_CHK_CHAR_TXMIT)
+
+		if(i2of5_ct==0)
+		{
+			OUT1.Data="I2OF5 CHECK CHAR STRIPPED BY DECLIB - "+OUT1.Data+"\r\n"
+		}
+		elseif(i2of5_ct==1)
+		{
+			StripBeginEndChars(OUT1,0,1)
+			
+			OUT1.Data="I2OF5 CHECK CHAR STRIPPED BY ULE - "+OUT1.Data+"\r\n"
+		}
+
+	}
+
+
+}

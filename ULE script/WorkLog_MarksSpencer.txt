@@ -1,0 +1,19 @@
+spr 002805
+
+Config file to encompass a ule from a Magellan Config file
+
+Magellan - 84132400-013
+Config - DR9610086
+
+1. Exctract Config Done
+2. Issue Config file number  Done
+      DR960468 - CONFIG,GD4400,MARKS & SPENCER,WNRS232
+3. Config generated and sent to Don W. for CV.
+
+_
+
+2/28 slr
+Don W specification have changed. 
+ULE is no longer required and interface has changed.
+This product is continued under C:\TPD\Gryphon_4000\M&S_DonW\SPR_002805_GD4400
+

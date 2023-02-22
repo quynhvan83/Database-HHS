@@ -1,0 +1,91 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+*LabelID = * Data = *SW7472* Type = Code39
+$>
+$>
+$>
+$>
+$>
+$>
+YLabelID = Y Data = 1234562 Type = Code39_CIP
+$TLabelID = $T Data = 456123 Type = Trioptics
+$YLabelID = $Y Data = *MK066475143DK* Type = Code39_DanishPPT
+$ZLabelID = $Z Data = *-1234562* Type = Code39_PZN
+$>,>,>
+$aLabelID = $a Data = *RA123456785FR* Type = Code39_LaPoste
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+NO CODE39 CHECK CHAR CALCULATION - *ABCDEFW*
+$>,>,>
+CODE39 CHECK CHAR CALCULATION - *ABCDEFW*
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+$>
+CODE39 CHECK CHAR STRIPPED BY ULE - *ABCDEFW
+$>,>,>
+CODE39 CHECK CHAR STRIPPED BY DECLIB - *ABCDEFW*
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+NO CODE39 START STOP CHAR TRANSMISSION - ABCDEF
+$>,>,>
+CODE39 START STOP CHAR TRANSMISSION - *ABCDEF*
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+NO CODE39 FULL ASCII CONVERSION - *ABC+A+B+C*
+$>,>,>
+CODE39 FULL ASCII CONVERSION - *ABCabc*

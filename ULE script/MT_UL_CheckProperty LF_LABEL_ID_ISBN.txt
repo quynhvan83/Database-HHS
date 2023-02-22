@@ -1,0 +1,14 @@
+{
+	if(OUT1.DataType == "EAN13")
+	{
+		left = Left(OUT1.Data,3)
+		if (left == "978" || left =="979")
+		{
+		   FMTEAN13ToISBN(OUT1)
+                                   labelID =GetProperty(LF_LABEL_ID_ISBN)	        
+                                } 
+                                OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " +    OUT1.DataType 
+                                DoSLF(OUT1)
+                }
+
+}

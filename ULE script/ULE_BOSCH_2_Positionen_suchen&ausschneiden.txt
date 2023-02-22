@@ -1,0 +1,39 @@
+{
+	if (OUT1.DataType == "PDF417")     
+    {       
+		la = OUT1.Data 
+		nPosStart = FindSubStr ( la , "\x1D" + "P" , 1 )
+		if ( nPosStart > 0 )
+		{
+			nPosEnd = FindSubStr ( la , "\x1D" , nPosStart + 1 )            
+			if ( nPosEnd > 0 )                                              
+			{
+				nLen = nPosEnd - nPosStart - 2
+				OUT1.Data = Mid(la,nPosStart + 2 ,nLen)
+				OUT1.DataLen = StrLen(OUT1.Data)                          
+				OUT1.BaseLen = OUT1.DataLen                               
+				DoSLF(OUT1)                                             
+			}
+		}
+		
+		
+		nPosStart = FindSubStr ( la , "@" + "P" , 1 )
+		if ( nPosStart > 0 )
+		{
+			nPosEnd = FindSubStr ( la , "@" , nPosStart + 1 )            
+			if ( nPosEnd > 0 )                                              
+			{
+				nLen = nPosEnd - nPosStart - 2
+				OUT1.Data = Mid(la,nPosStart + 2 ,nLen)
+				OUT1.DataLen = StrLen(OUT1.Data)                          
+				OUT1.BaseLen = OUT1.DataLen                               
+				DoSLF(OUT1)                                             
+			}
+		}
+	}
+	else
+	{
+		DoSLF(OUT1)                                             
+	}
+
+}

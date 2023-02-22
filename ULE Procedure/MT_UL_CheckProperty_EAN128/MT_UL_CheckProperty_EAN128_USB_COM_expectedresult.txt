@@ -1,0 +1,12 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+A]C1LabelID = A Data = ABCabc Type = EAN128
+A]C1LabelID = A Data = ABCabc Type = EAN128

@@ -1,0 +1,23 @@
+#<Start the script>
+{
+if(OUT1.DataType == "UPCA")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCA)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType + "\r"
+	}
+	if(OUT1.DataType == "UPCAP2")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCA_P2)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType + "\r"
+	}
+	if(OUT1.DataType == "UPCAP5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCA_P5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType + "\r"
+	}
+	if(OUT1.DataType == "UPCA8")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCA8)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType + "\r"
+       }
+}#<End the script>

@@ -1,0 +1,71 @@
+# Programming for DTE
+# 50088974  Barcode with leading /J (full ascii = *) must be removed.
+# 
+# Programming for DTE
+# 10167 1/11/2012, Added new requirement, If code starts with 12 and is 12 or 14 characters long(including C39 s/s)
+#
+# Case 36990
+# Programming for DTE
+# New requirement: Add dial and data formatting.
+# Prefix 3 digits determines dial input
+#     Prefix of 402 or 403, Dial = 4 and Index = 0000
+#     Prefix of 404 or value between 200 and 299, Dial = 5 and Index 00000
+#	Barcode structure: *4041004647*
+#	Output: 1004647 (tab) 404 (tab) (tab) <Dial> (tab) < Index> (tab) (tab)
+
+{
+	if(OUT1.DataType =="Code39")
+	{
+		x = 0
+		f=Mid(OUT1.Data,2,2)
+		if((f=="/J")&& (x != 1))
+		{
+			StripBeginEndChars(OUT1,3,4)
+			OUT1.Data="*"+OUT1.Data+"*"
+		}
+		dial = Mid(OUT1.Data,2,3)
+		dialInt = StrToInt(dial)
+		if((dial == "402") || (dial == "403"))
+		{
+			indexNum = "0000"
+			x = 1
+			dialValue = 4
+		}
+		elseif((dial == "404") || ((dialInt <= 299) && (dialInt >= 200)))
+		{
+			indexNum = "00000"
+			x =1
+			dialValue = 5
+		}
+	
+		
+		if((f == "12" )&& (x != 1))
+		{
+			StripBeginEndChars(OUT1,2,0)
+			DoSLF(OUT1)
+		}
+		elseif((OUT1.DataLen==12)&& (x != 1))
+		{
+			t=Mid(OUT1.Data,2,3)
+			s=Mid(OUT1.Data,5,7)
+			OUT1.Data=s+"\t"+t+"\t"
+			NoSLF(OUT1)
+		}
+		if((OUT1.DataLen ==19)&& (x != 1))
+		{
+			OUT1.Data=Mid(OUT1.Data,6,9)
+			DoSLF(OUT1)
+		}
+		if ( x == 1 )
+		{
+			dialStrg = IntToStr(dialValue)
+			OUT1.Data = "*" + Mid(OUT1.Data,5,7) + "\t" + dial + "\t\t" + dialStrg + "\t" + indexNum + "\t\t*"
+			DoSLF(OUT1)
+		}
+		else
+		{
+		}
+	}
+}
+
+		

@@ -1,0 +1,8 @@
+{
+	OUT1.Data = "Test"
+	OUT2=IN1
+	OUT3=IN1
+	OUT4=IN1
+	OUT5=IN1
+}
+

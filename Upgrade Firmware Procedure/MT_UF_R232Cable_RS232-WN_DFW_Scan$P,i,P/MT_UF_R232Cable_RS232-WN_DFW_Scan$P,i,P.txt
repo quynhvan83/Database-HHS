@@ -1,0 +1,48 @@
+EnterSP
+Send $HA12,CSNRM03,CBCHP00,Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\task\build\BETA_BLR_PEGASUS_STAR_CRADLE_MERGE_27\610159027.dfw
+ChangeToWindow Serviceport - 1 running window
+ChangeBaud 9600
+ChangeParity Odd
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cR2AT
+Send $cC3EN
+ExitSP
+Send $S,HA12,CSRNM03,CBCHP00,Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\task\build\BETA_BLR_PEGASUS_STAR_CRADLE_MERGE_29\610159029.dfw
+ChangeToWindow Serviceport - 1 running window
+ChangeBaud 9600
+ChangeParity Odd
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cR2AT
+Send $cC3EN
+ExitSP
+Read UPCA
+Send $S,HA12,CSRNM03,CBCHP00,Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\task\build\BETA_BLR_PEGASUS_STAR_CRADLE_MERGE_29\610159099.dfw
+ChangeToWindow Serviceport - 1 running window
+ChangeBaud 9600
+ChangeParity Odd
+EnterSP
+Send $!
+Send $yA
+Send $yB
+Send $yD
+Send $cR2AT
+Send $cC3EN
+ExitSP
+Read UPCA

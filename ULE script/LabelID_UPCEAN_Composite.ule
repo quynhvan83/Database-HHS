@@ -1,0 +1,36 @@
+{
+	if(OUT1.DataType == "UPCE_COMP")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCE_COMP)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCA_COMP")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCA_COMP)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN8_COMP")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN8_COMP)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN13_COMP")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN13_COMP)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN128_COMP")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN128_COMP)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+     
+}
+	
+
+

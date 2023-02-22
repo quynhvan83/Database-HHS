@@ -1,0 +1,18 @@
+EnterSP
+Send $CIDCO01
+Send $CAIEN01
+Send $CC3FA01
+Send $CC3CC01
+Send $Ar
+Read Code39_Mod43_ABCDEFW
+Read Code39_FullASCII_Mod43_ABCabcH
+EnterSP
+Send $CLPEN01
+Send $Ar
+Read Code39_LaPoste_CK1
+Read Code39_PZN_CK1
+EnterSP
+Send $CPZEN01
+Send $Ar
+Read Code39_LaPoste_CK1
+Read Code39_PZN_CK1

@@ -1,0 +1,10 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+nLabelID = n Data = 12345679 Type = ISSN

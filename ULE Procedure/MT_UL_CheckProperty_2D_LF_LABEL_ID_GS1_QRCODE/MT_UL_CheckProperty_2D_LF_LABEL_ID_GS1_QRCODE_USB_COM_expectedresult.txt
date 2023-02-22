@@ -1,0 +1,10 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+QGLabelID = QG data = 123456789 type = GS1_QRCode

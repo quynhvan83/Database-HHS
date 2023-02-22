@@ -1,0 +1,246 @@
+EnterSP
+Send $AE
+Send $HA47
+Send $CSNRM03
+Send $CSLPS00
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\NEWFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\FAKEFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\OLDFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+EnterSP
+Send $HA4D
+Send $CSNRM03
+Send $CSLPS00
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\NEWFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\FAKEFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\OLDFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+EnterSP
+Send $HA41
+Send $CSNRM03
+Send $CSLPS00
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\NEWFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\FAKEFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\OLDFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+EnterSP
+Send $HA45
+Send $CSNRM03
+Send $CSLPS00
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\NEWFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\FAKEFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\OLDFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+EnterSP
+Send $HA35
+Send $CSNRM03
+Send $CSLPS00
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\NEWFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\FAKEFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\OLDFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+EnterSP
+Send $HA2B
+Send $CSNRM03
+Send $CSLPS00
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\NEWFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\FAKEFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\OLDFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+EnterSP
+Send $HA44
+Send $CSNRM03
+Send $CSLPS00
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\NEWFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\FAKEFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+UpgradeFirmware_Aladdin FIRMWARE UPGRADE, No, D:\Van\Datalogic_automation\HHS_project_Automation\HHS_project\bin\Debug\Upgrade Firmware Files\OLDFW_GUN.dfw
+Wait_second 3000
+EnterSP
+Send $!
+Send $hA
+Send $yA
+Send $yB
+Send $s

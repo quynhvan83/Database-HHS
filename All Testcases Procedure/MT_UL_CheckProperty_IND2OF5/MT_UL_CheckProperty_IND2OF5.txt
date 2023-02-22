@@ -1,0 +1,27 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_IND2OF5.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CU2EN01
+Send $CIDCO01
+Send $Ar
+Read Code2of5_IATA_0986275650
+EnterSP
+Send $AE
+Send Interface
+Send $Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_CheckProperty_LF_IND2OF5_CHK_CHAR_TXMIT.txt
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CU2EN01
+Send $CU2CC01
+Send $CIDCO00
+Send $Ar
+Read Code2of5_IATA_Modul10_1234565
+Read $P,CU2CT00,P
+Read Code2of5_IATA_Modul10_1234565

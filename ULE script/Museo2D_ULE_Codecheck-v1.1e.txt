@@ -1,0 +1,8 @@
+{
+	cLength=IntToStr(OUT1.DataLen)
+	cType=OUT1.DataType
+	cData=OUT1.Data
+	OUT1.Data="Length = "+cLength+"\x0D"+"Type = "+cType+"\x0D"+"Data = "+cData+"\x0D\x0D"
+	OUT1.DataLen=StrLen(OUT1.Data)
+	OUT1.BaseLen=OUT1.DataLen
+}

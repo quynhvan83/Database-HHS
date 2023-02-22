@@ -1,0 +1,9 @@
+#<Start the script>
+{
+      if(OUT1.DataType == "OCR_A")
+	{
+		labelID=GetProperty(LF_LABEL_ID_OCR_A)
+		OUT1.Data= "LabelID = " + labelID + " data = " + OUT1.Data + " type = " + OUT1.DataType
+		DoSLF(OUT1)
+	}
+}#<End the script>

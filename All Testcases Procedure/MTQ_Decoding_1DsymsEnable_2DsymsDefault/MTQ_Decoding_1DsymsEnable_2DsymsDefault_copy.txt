@@ -1,0 +1,120 @@
+EnterSP
+Send $CIDCO01
+Send $CABEN01
+Send $CEBEN01
+Send $C8BEN01
+Send $C3BEN01
+Send $C3BIN01
+Send $C3BIS01
+Send $C4BEN01
+Send $CLBEN01
+Send $CXBEN01
+Send $CC3EN01
+Send $CCCEN01
+Send $CC3CT01
+Send $CC3FA01
+Send $CCTEN01
+Send $CI8CE01
+Send $CI8L00102
+Send $CC9EN01
+Send $CC8EN01
+Send $CU8EN01
+Send $CI2EN01
+Send $CU2EN01
+Send $CS2EN01
+Send $CIAEN01
+Send $CF2EN01
+Send $CM2EN01
+Send $CCHEN01
+Send $CPLEN01
+Send $CMSEN01
+Send $CCBEN01
+Send $CCBAB01
+Send $CC1EN01
+Send $CP3EN01
+Send $C4B2D01
+Send $CLB2D01
+Send $CXB2D01
+Send $CU82D01
+Send $CEB2D01
+Send $CAB2D01
+Send $C8B2D01
+Send $C3B2D01
+Send $CADO201
+Send $CADO501
+Send $CCPCL00
+Send $Ar
+Read QT_UPCA
+Read QT_UPCA_Addon 2
+Read QT_UPCA_Addon 5
+Read QT_UPCA_Coupon
+Read QT_UPCE
+Read QT_UPCE_Addon 2
+Read QT_UPCE_Addon 5
+Read QT_EAN8
+Read QT_EAN8_Addon 2
+Read QT_EAN8_Addon 5
+Read QT_EAN13
+Read QT_EAN13_Addon 2
+Read QT_EAN13_Addon 5
+Read QT_ISBN_Prefix 978
+Read QT_ISBN_Prefix 979
+Read QT_ISBN13 5 Digit
+Read QT_ISSN
+Read QT_ISSN 2 Digit
+Read QT_Code 39-No CheckDefault
+Read QT_Code 39-Full ASCII-No CheckDefault
+Read QT_Code 39 CIP (French Pharmacode 39)
+Read QT_Code 39 Tri_Optic
+Read QT_DataBar 14
+Read QT_DataBar Trunc
+Read QT_DataBar Stacked
+Read QT_DataBar Stacked Omni
+Read QT_DataBar Limited
+Read QT_DataBar Expanded
+Read QT_DataBar Expanded Stacked
+Read QT_Code 128
+Read QT_EANUCC 128
+Read QT_ISBT 128
+Read QT_Code 93
+Read QT_Code 93 Full ASCII
+Read QT_Code 11 (2 Characters + 2 Check Digit)
+Read QT_Code 32 (Italian Pharmacode 39)
+Read QT_MSI_No Check Digit
+Read QT_MSI_1 Check Digit
+Read QT_MSI_2 Check Digit
+Read QT_Codabar_No Check
+Read QT_ABC Codabar (2 Labels)
+Read QT_Interleaved2of5_No Check
+Read QT_Standard 2of5 (Barcode Studio Code 2 of 5 Industry)
+Read QT_Discrete 2of5
+Read QT_IATA 2 of 5 (IAEN)
+Read QT_Follett 2 of 5
+Read QT_Matrix 2 of 5
+Read QT_Interleaved 2 of 5 CIP HR
+Read QT_Industrial 2 of 5(U2EN)
+Read QT_Plessey Bidirectional
+Read QT_DataBar-14_Composite
+Read QT_DataBar-Trunc_Composite
+Read QT_DataBar-Stacked_Composite
+Read QT_Stacked-Omni_Composite
+Read QT_Limited_Composite
+Read QT_Expanded_Composite
+Read QT_Expanded-Stacked_Composite
+Read QT_EAN128_CC-A_Composite
+Read QT_EAN8_Composite
+Read QT_EAN13_Composite
+Read QT_UPCA_Composite
+Read QT_UPCE_Composite
+Read QT_CODE EAN128 CC-A
+Read QT_Binary_PDF417
+Read QT_Binary_Micro PDF417
+Read QT_Macro PDF417
+Read QT_AZTEC CODE
+Read QT_DATAMATRIX
+Read QT_Chinese Ver 1
+Read QT_Chinese Ver 4
+Read QT_Chinese Ver 24
+Read QT_MAXICODE
+Read QT_QR CODE
+Read QT_MICRO QR CODE

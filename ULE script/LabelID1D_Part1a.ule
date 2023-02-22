@@ -1,0 +1,86 @@
+{
+	if(OUT1.DataType == "UPCA")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCA)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		OUT1.DataType = "Code128"
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCAP2")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCA_P2)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		OUT1.DataType = "Code128"
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCAP5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCA_P5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		OUT1.DataType = "Code128"
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCE")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCE)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		OUT1.DataType = "Code128"
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCEP2")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCE_P2)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		OUT1.DataType = "Code128"
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "UPCEP5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_UPCE_P5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		OUT1.DataType = "Code128"
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN8")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN8)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		OUT1.DataType = "Code128"
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN8P2")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN8_P2)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		OUT1.DataType = "Code128"
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN8P5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN8_P5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		OUT1.DataType = "Code128"
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN13")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN13)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		OUT1.DataType = "Code128"
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN13P2")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN13_P2)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		OUT1.DataType = "Code128"
+		DoSLF(OUT1)
+	}
+	if(OUT1.DataType == "EAN13P5")
+	{
+		labelID=GetProperty(LF_LABEL_ID_EAN13_P5)
+		OUT1.Data= "LabelID = " + labelID + " Data = " + OUT1.Data + " Type = " + OUT1.DataType
+		OUT1.DataType = "Code128"
+		DoSLF(OUT1)
+	}
+}	

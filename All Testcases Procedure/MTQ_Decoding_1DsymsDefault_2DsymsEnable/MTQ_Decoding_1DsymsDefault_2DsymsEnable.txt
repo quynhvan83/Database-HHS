@@ -1,0 +1,88 @@
+EnterSP
+Send $CIDCO01
+Send $CAZEN01
+Send $CDMEN01
+Send $CQREN01
+Send $CMQEN01
+Send $CMXEN01
+Send $CP4EN01
+Send $CMIEN01
+Send $CDESA01
+Send $CCSEN01
+Send $Ar
+Read QT_UPCA
+Read QT_UPCA_Addon 2
+Read QT_UPCA_Addon 5
+Read QT_UPCA_Coupon
+Read QT_UPCE
+Read QT_UPCE_Addon 2
+Read QT_UPCE_Addon 5
+Read QT_EAN8
+Read QT_EAN8_Addon 2
+Read QT_EAN8_Addon 5
+Read QT_EAN13
+Read QT_EAN13_Addon 2
+Read QT_EAN13_Addon 5
+Read QT_ISBN_Prefix 978
+Read QT_ISBN_Prefix 979
+Read QT_ISBN13 5 Digit
+Read QT_ISSN
+Read QT_ISSN 2 Digit
+Read QT_Code 39-No CheckDefault
+Read QT_Code 39-Full ASCII-No CheckDefault
+Read QT_Code 39 CIP (French Pharmacode 39)
+Read QT_Code 39 Tri_Optic
+Read QT_DataBar 14
+Read QT_DataBar Trunc
+Read QT_DataBar Stacked
+Read QT_DataBar Stacked Omni
+Read QT_DataBar Limited
+Read QT_DataBar Expanded
+Read QT_DataBar Expanded Stacked
+Read QT_Code 128
+Read QT_EANUCC 128
+Read QT_ISBT 128
+Read QT_Code 93
+Read QT_Code 93 Full ASCII
+Read QT_Code 11 (2 Characters + 2 Check Digit)
+Read QT_Code 32 (Italian Pharmacode 39)
+Read QT_MSI_No Check Digit
+Read QT_MSI_1 Check Digit
+Read QT_MSI_2 Check Digit
+Read QT_Codabar_No Check
+Read QT_ABC Codabar (2 Labels)
+Read QT_Interleaved2of5_No Check
+Read QT_Standard 2of5 (Barcode Studio Code 2 of 5 Industry)
+Read QT_Discrete 2of5
+Read QT_IATA 2 of 5 (IAEN)
+Read QT_Follett 2 of 5
+Read QT_Matrix 2 of 5
+Read QT_Interleaved 2 of 5 CIP HR
+Read QT_Datalogic 2 of 5
+Read QT_Industrial 2 of 5(U2EN)
+Read QT_Plessey Bidirectional
+Read QT_DataBar-14_Composite
+Read QT_DataBar-Trunc_Composite
+Read QT_DataBar-Stacked_Composite
+Read QT_Stacked-Omni_Composite
+Read QT_Limited_Composite
+Read QT_Expanded_Composite
+Read QT_Expanded-Stacked_Composite
+Read QT_EAN128_CC-A_Composite
+Read QT_EAN8_Composite
+Read QT_EAN13_Composite
+Read QT_UPCA_Composite
+Read QT_UPCE_Composite
+Read QT_CODE EAN128 CC-A
+Read QT_Telepen
+Read QT_Binary_PDF417
+Read QT_Binary_Micro PDF417
+Read QT_Macro PDF417
+Read QT_AZTEC CODE
+Read QT_DATAMATRIX
+Read QT_Chinese Ver 1
+Read QT_Chinese Ver 4
+Read QT_Chinese Ver 24
+Read QT_MAXICODE
+Read QT_QR CODE
+Read QT_MICRO QR CODE

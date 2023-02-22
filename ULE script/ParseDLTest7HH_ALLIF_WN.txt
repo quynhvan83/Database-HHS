@@ -1,0 +1,8 @@
+Q``RCodeJ:1`VClassJ:D`Aud:##`BirthP:##`Compl:##`{CR}
+Q``RCodeJ:B`VClassJ:R`Aud:##`BirthP:##`Compl:##`{CR}
+Q``RCodeJ:A`VClassJ:C`Aud:##`BirthP:##`Compl:##`{CR}
+Q``RCodeJ:##`VClassJ:D`Aud:##`BirthP:##`Compl:##`{CR}
+Q``RCodeJ:A`VClassJ:NONE`Aud:##`BirthP:##`Compl:##`{CR}
+Q``RCodeJ:none`VClassJ:C`Aud:34084632`BirthP:##`Compl:##`{CR}
+Q``RCodeJ:##`VClassJ:D`Aud:##`BirthP:JERICHO`Compl:##`{CR}
+Q``RCodeJ:158X9`VClassJ:NONE`Aud:##`BirthP:##`Compl:N`{CR}

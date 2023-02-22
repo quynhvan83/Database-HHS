@@ -1,0 +1,38 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE ULEBeep.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CBTAB00
+Send $Ar
+Read Label 1_Code 39 ABCDEF.png
+Read Label 2_Read EAN 13.png
+Read Label 3_UPCA_123456789012.png
+Read Label 4_CODE39_ 013456 ABC.png
+Read Label 5_CODE128_NETdatalogic.png
+Read UPCE_02345673.png
+Read Code 128_ABCabc.png
+Send $S,CC9EN01,Ar
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_ULE Beep_1.txt
+ChangeToWindow Serviceport - 1 running window
+Read EAN8_02345673
+Read Code93_ABCDEF
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_ULE Beep_2.txt
+ChangeToWindow Serviceport - 1 running window
+Read UPCE_02345673.png
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_ULE Beep_3.txt
+ChangeToWindow Serviceport - 1 running window
+Read UPCE_02345673.png
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE MT_UL_ULE Beep_4.txt
+ChangeToWindow Serviceport - 1 running window
+Read Label 1_Code 39 ABCDEF.png
+Read UPCE_02345673.png

@@ -1,0 +1,47 @@
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+$>
+LabelID = & Data = ABCDEFA1 Type = Code93
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+NO TRANSMIT CHECK CHAR - ABCDEF
+$>,>,>
+TRANSMIT CHECK CHAR - ABCDEFA1
+$>
+$>
+$>
+$>
+OK
+OK
+OK
+OK
+$>
+$>
+$>
+$>
+$>
+NO CHECK CHARACTER - ABCabc
+$>,>,>
+ONE CHECK CHARACTER - ABCabc
+$>,>,>
+ONE CHECK CHARACTER - ABCabc
+$>,>,>
+TWO CHECK CHARACTERS - ABCabc

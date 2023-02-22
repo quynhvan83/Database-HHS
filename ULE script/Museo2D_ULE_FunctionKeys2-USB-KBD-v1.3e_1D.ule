@@ -1,0 +1,208 @@
+{
+	if(OUT1.DataType=="Code128"&&OUT1.DataLen==1)
+	{
+
+		O=OUT1.Data
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x85","Q")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x86","W")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x87","E")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x88","R")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x89","T")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x8A","U")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x8B","I")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x8C","O")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x8D","P")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x8E","A")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x8F","S")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x90","D")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x0D","F")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x84","H")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x09","J")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x93","K")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x94","L")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x83","X")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x95","C")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x96","V")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x97","B")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x98","N")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x08","M")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x7F","Y")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x91",",")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x92",".")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x9Ds\x9E","Z")
+		}
+
+		D=O
+		while(D!="")
+		{
+			O=D
+			D=StrSubstitute(D,"\x99\x09\x9A","#")
+		}
+		OUT1.Data=O
+		OUT1.DataLen=StrLen(OUT1.Data)
+		OUT1.BaseLen=OUT1.DataLen
+		NoSLF(OUT1)
+	}
+}
+
+

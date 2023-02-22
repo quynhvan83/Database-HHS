@@ -1,0 +1,20 @@
+#<Start the script>
+{
+	tmp = GetProperty(LF_C128_XMIT_FNC_CHARS)
+
+	# If the scanner property of Transmit Code 128 function characters  = Don’t transmit function characters , the returned value will be:
+	# NO TRANSMIT FUNC CHAR – Label Data
+	if (tmp == 0)
+	{
+		OUT1.Data = "NO TRANSMIT FUNC CHAR - " + OUT1.Data + "\r\n"
+	}
+
+	# If the scanner property of Transmit Code 128 function characters = Transmit function characters , the returned value will be:
+	# TRANSMIT FUNC CHAR – Label Data
+	else if (tmp == 1)
+	{
+		OUT1.Data = "TRANSMIT FUNC CHAR - " + OUT1.Data + "\r\n"
+	}
+DoSLF(OUT1)
+}
+#<End the script>

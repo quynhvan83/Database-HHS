@@ -1,0 +1,57 @@
+Read $P,CDMEN01,P
+Read $P,CAIEN01,P
+Read $P,DMAI01,P
+Read $P,CGDAI00,P
+Read $P,CIDCO00,P
+Read $P,CDESA00,P
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2
+Read $P,CGDAI01,P
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2
+Read $P,CDMAI01,P
+Read $P,CGDAI00,P
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2
+Read $P,CGDAI01,P
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2
+Read $P,CAIEN00,P
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2
+Read $P,CGDAI00,P
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2
+Read $P,CDMAI00,P
+Read $P,CGDAI01,P
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2
+Read $P,CGDAI00,P
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2
+Read $P,CGDID475331,P
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2
+Read $P,CDMEN00,P
+Read FNC1 in second position_no ECI_Industry
+Read ECC 200_FNC1 in first position
+Read ECC 200_FNC1 in fifth position_1
+Read ECC 200_FNC1 in fifth position_2

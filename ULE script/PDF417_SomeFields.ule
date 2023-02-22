@@ -1,0 +1,18 @@
+
+
+{
+	if(2!=ParseDL(OUT1.Data,OUT1.DataType,"",""))
+	{
+
+		OUT1.Data=""+BirthMn+"/"+BirthDy+"/"+BirthY2+"\r"+Gen+"\r"+IDn+"\r"
+
+		DoSLF(OUT1)
+	}
+}
+
+
+$CDLEN01
+$CDLFS0207012F0206012F0208010D0211010D0213010D0000
+
+
+

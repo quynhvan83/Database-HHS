@@ -1,0 +1,310 @@
+;START OF HEADER
+;DataLogic Scanner Configuration File
+;Config File Format: 0001
+;Master Config File: none
+;Copyright 2010 by Datalogic Scanning Inc.
+;Creation Date: 01 21 2011
+;File created by Hoa Nguyen (11-May-2015)
+;This file is prepared for MTQ_LF_1DSyms in QuickTest procedure.
+;
+;START OF COMMANDS
+;-------< Initialize >-----------------------------
+$AE                 ; Erase Config Flash
+;
+;-------< System Configuration >-------------------------------
+;$YF4B425431313031323100; CONFIGURATION ID - KBT110121
+;
+;------<RS232-STD>------
+$M05						;		Load Master defaults and set to RS232
+$CR2BA03					;   	9600
+$CR2DA01					;   	8
+$CR2PA00					;     	None
+$CR2ST00					;     	1
+$CLEEN01                    ;       Enable ULE
+$CIDCO01					;		Enable label ID as prefix
+$C4BEN01					;     	Enable Databar 14
+$CLBEN01					;     	Enable Databar Limited
+$CXBEN01					;     	Enable Databar Expanded
+$C4B2D01					;		Enable Databar 14 Composite
+$CLB2D01					;		Enable Databar Limited Composite
+$CXB2D01					; 		Enable Databar Expanded Composte
+$CU82D01					;		Enables GS1/EAN 128 Composite 
+$CEB2D01					;		Enable UPCE Composite 
+$CAB2D01					;		Enable UPCA Composite
+$C8B2D01					;		Enable EAN/JAN 8 Composite 
+$C3B2D01					;		Enable EAN/JAN 13 Composite 
+$CAZEN01					;	    Enable Aztec
+$CDMEN01					;	    Enable Datamatrix
+$CQREN01					;	    Enable QR Code
+$CMQEN01					; 	    Enable Micro QR
+$CMXEN01					;	    Enable MaxiCode
+$CP4EN01					;	    Enable PDF417
+$CMIEN01					;	    Enable Micro PDF417
+$CCSEN01					;	    Enable Chinese Sensible Code
+$As
+$AS               			; 		Commit Interface Class to factory
+;
+;------<RS232-WN>------
+$M12              			;		Load Master defaults and set to RS232-WN
+$CR2BA03					;     	9600
+$CR2DA01					;     	8
+$CR2PA02					;     	Odd
+$CR2ST00					;     	1
+$CLEEN01                    ;       Enable ULE
+$CIDCO01					;		Enable label ID as prefix
+$C4BEN01					;     	Enable Databar 14
+$CLBEN01					;     	Enable Databar Limited
+$CXBEN01					;     	Enable Databar Expanded
+$C4B2D01					;		Enable Databar 14 Composite
+$CLB2D01					;		Enable Databar Limited Composite
+$CXB2D01					; 		Enable Databar Expanded Composte
+$CU82D01					;		Enables GS1/EAN 128 Composite 
+$CEB2D01					;		Enable UPCE Composite 
+$CAB2D01					;		Enable UPCA Composite
+$C8B2D01					;		Enable EAN/JAN 8 Composite 
+$C3B2D01					;		Enable EAN/JAN 13 Composite 
+$CAZEN01					;	    Enable Aztec
+$CDMEN01					;	    Enable Datamatrix
+$CQREN01					;	    Enable QR Code
+$CMQEN01					; 	    Enable Micro QR
+$CMXEN01					;	    Enable MaxiCode
+$CP4EN01					;	    Enable PDF417
+$CMIEN01					;	    Enable Micro PDF417
+$CCSEN01					;	    Enable Chinese Sensible Code
+$AS               				; 	Commit Interface Class to factory
+;
+;------<RS232-OPOS>------
+$M13              				;	Load Master defaults and set to RS232-OPOS
+$CR2BA07					;     	115200
+$CR2DA01					;     	8
+$CR2PA00					;     	None
+$CR2ST00					;     	1
+$CLEEN01                    ;       Enable ULE
+$CIDCO01					;		Enable label ID as prefix
+$C4BEN01					;     	Enable Databar 14
+$CLBEN01					;     	Enable Databar Limited
+$CXBEN01					;     	Enable Databar Expanded
+$C4B2D01					;		Enable Databar 14 Composite
+$CLB2D01					;		Enable Databar Limited Composite
+$CXB2D01					; 		Enable Databar Expanded Composte
+$CU82D01					;		Enables GS1/EAN 128 Composite 
+$CEB2D01					;		Enable UPCE Composite 
+$CAB2D01					;		Enable UPCA Composite
+$C8B2D01					;		Enable EAN/JAN 8 Composite 
+$C3B2D01					;		Enable EAN/JAN 13 Composite 
+$CAZEN01					;	    Enable Aztec
+$CDMEN01					;	    Enable Datamatrix
+$CQREN01					;	    Enable QR Code
+$CMQEN01					; 	    Enable Micro QR
+$CMXEN01					;	    Enable MaxiCode
+$CP4EN01					;	    Enable PDF417
+$CMIEN01					;	    Enable Micro PDF417
+$CCSEN01					;	    Enable Chinese Sensible Code
+;$As
+$AS               			; 	Commit Interface Class to factory
+;
+;------<KBD-AT>------
+$M29              			;	Load Master defaults and set to KBD-AT
+$CIDCO01					;		Enable label ID as prefix
+$CLEEN01                    ;       Enable ULE
+$C4BEN01					;     	Enable Databar 14
+$CLBEN01					;     	Enable Databar Limited
+$CXBEN01					;     	Enable Databar Expanded
+$C4B2D01					;		Enable Databar 14 Composite
+$CLB2D01					;		Enable Databar Limited Composite
+$CXB2D01					; 		Enable Databar Expanded Composte
+$CU82D01					;		Enables GS1/EAN 128 Composite 
+$CEB2D01					;		Enable UPCE Composite 
+$CAB2D01					;		Enable UPCA Composite
+$C8B2D01					;		Enable EAN/JAN 8 Composite 
+$C3B2D01					;		Enable EAN/JAN 13 Composite 
+$CAZEN01					;	    Enable Aztec
+$CDMEN01					;	    Enable Datamatrix
+$CQREN01					;	    Enable QR Code
+$CMQEN01					; 	    Enable Micro QR
+$CMXEN01					;	    Enable MaxiCode
+$CP4EN01					;	    Enable PDF417
+$CMIEN01					;	    Enable Micro PDF417
+$CCSEN01					;	    Enable Chinese Sensible Code
+$AS               				;	Commit Interface Class to factory
+;
+;------<KBD-AT-NK>------
+$M11              				;	Load Master defaults and set to KBD-AT-NK
+$CIDCO01					;		Enable label ID as prefix
+$CLEEN01                    ;       Enable ULE
+$C4BEN01					;     	Enable Databar 14
+$CLBEN01					;     	Enable Databar Limited
+$CXBEN01					;     	Enable Databar Expanded
+$C4B2D01					;		Enable Databar 14 Composite
+$CLB2D01					;		Enable Databar Limited Composite
+$CXB2D01					; 		Enable Databar Expanded Composte
+$CU82D01					;		Enables GS1/EAN 128 Composite 
+$CEB2D01					;		Enable UPCE Composite 
+$CAB2D01					;		Enable UPCA Composite
+$C8B2D01					;		Enable EAN/JAN 8 Composite 
+$C3B2D01					;		Enable EAN/JAN 13 Composite 
+$CAZEN01					;	    Enable Aztec
+$CDMEN01					;	    Enable Datamatrix
+$CQREN01					;	    Enable QR Code
+$CMQEN01					; 	    Enable Micro QR
+$CMXEN01					;	    Enable MaxiCode
+$CP4EN01					;	    Enable PDF417
+$CMIEN01					;	    Enable Micro PDF417
+$CCSEN01					;	    Enable Chinese Sensible Code
+$AS               				; 	Commit Interface Class to factory
+;
+;------<KBD-AT-ALT>------
+$M26              				;	Load Master defaults and set to KBD-AT-ALT
+$CIDCO01					;		Enable label ID as prefix
+$CLEEN01                    ;       Enable ULE
+$C4BEN01					;     	Enable Databar 14
+$CLBEN01					;     	Enable Databar Limited
+$CXBEN01					;     	Enable Databar Expanded
+$C4B2D01					;		Enable Databar 14 Composite
+$CLB2D01					;		Enable Databar Limited Composite
+$CXB2D01					; 		Enable Databar Expanded Composte
+$CU82D01					;		Enables GS1/EAN 128 Composite 
+$CEB2D01					;		Enable UPCE Composite 
+$CAB2D01					;		Enable UPCA Composite
+$C8B2D01					;		Enable EAN/JAN 8 Composite 
+$C3B2D01					;		Enable EAN/JAN 13 Composite 
+$CAZEN01					;	    Enable Aztec
+$CDMEN01					;	    Enable Datamatrix
+$CQREN01					;	    Enable QR Code
+$CMQEN01					; 	    Enable Micro QR
+$CMXEN01					;	    Enable MaxiCode
+$CP4EN01					;	    Enable PDF417
+$CMIEN01					;	    Enable Micro PDF417
+$CCSEN01					;	    Enable Chinese Sensible Code
+$AS               				; 	Commit Interface Class to factory
+;
+;------<KBD-AT-ALT-NK>------
+$M10              				;	Load Master defaults and set to KBD-AT-ALT-NK
+$CIDCO01					;		Enable label ID as prefix
+$CLEEN01                    ;       Enable ULE
+$C4BEN01					;     	Enable Databar 14
+$CLBEN01					;     	Enable Databar Limited
+$CXBEN01					;     	Enable Databar Expanded
+$C4B2D01					;		Enable Databar 14 Composite
+$CLB2D01					;		Enable Databar Limited Composite
+$CXB2D01					; 		Enable Databar Expanded Composte
+$CU82D01					;		Enables GS1/EAN 128 Composite 
+$CEB2D01					;		Enable UPCE Composite 
+$CAB2D01					;		Enable UPCA Composite
+$C8B2D01					;		Enable EAN/JAN 8 Composite 
+$C3B2D01					;		Enable EAN/JAN 13 Composite 
+$CAZEN01					;	    Enable Aztec
+$CDMEN01					;	    Enable Datamatrix
+$CQREN01					;	    Enable QR Code
+$CMQEN01					; 	    Enable Micro QR
+$CMXEN01					;	    Enable MaxiCode
+$CP4EN01					;	    Enable PDF417
+$CMIEN01					;	    Enable Micro PDF417
+$CCSEN01					;	    Enable Chinese Sensible Code
+$AS               				; 	Commit Interface Class to factory
+;
+;------<USB-COM>------
+$M47              				;	Load Master defaults and set to USBCOM
+$CIDCO01					;		Enable label ID as prefix
+$CLEEN01                    ;       Enable ULE
+$C4BEN01					;     	Enable Databar 14
+$CLBEN01					;     	Enable Databar Limited
+$CXBEN01					;     	Enable Databar Expanded
+$C4B2D01					;		Enable Databar 14 Composite
+$CLB2D01					;		Enable Databar Limited Composite
+$CXB2D01					; 		Enable Databar Expanded Composte
+$CU82D01					;		Enables GS1/EAN 128 Composite 
+$CEB2D01					;		Enable UPCE Composite 
+$CAB2D01					;		Enable UPCA Composite
+$C8B2D01					;		Enable EAN/JAN 8 Composite 
+$C3B2D01					;		Enable EAN/JAN 13 Composite 
+$CAZEN01					;	    Enable Aztec
+$CDMEN01					;	    Enable Datamatrix
+$CQREN01					;	    Enable QR Code
+$CMQEN01					; 	    Enable Micro QR
+$CMXEN01					;	    Enable MaxiCode
+$CP4EN01					;	    Enable PDF417
+$CMIEN01					;	    Enable Micro PDF417
+$CCSEN01					;	    Enable Chinese Sensible Code
+$As
+$AS               				; 	Commit Interface Class to factory
+;
+;------<USB-OEM >------
+$M45              				;	Load Master defaults and set to USBOEM
+;$CIDCO01					;		Enable label ID as prefix
+$CLEEN01                    ;       Enable ULE
+$C4BEN01					;     	Enable Databar 14
+$CLBEN01					;     	Enable Databar Limited
+$CXBEN01					;     	Enable Databar Expanded
+$C4B2D01					;		Enable Databar 14 Composite
+$CLB2D01					;		Enable Databar Limited Composite
+$CXB2D01					; 		Enable Databar Expanded Composte
+$CU82D01					;		Enables GS1/EAN 128 Composite 
+$CEB2D01					;		Enable UPCE Composite 
+$CAB2D01					;		Enable UPCA Composite
+$C8B2D01					;		Enable EAN/JAN 8 Composite 
+$C3B2D01					;		Enable EAN/JAN 13 Composite 
+$CAZEN01					;	    Enable Aztec
+$CDMEN01					;	    Enable Datamatrix
+$CQREN01					;	    Enable QR Code
+$CMQEN01					; 	    Enable Micro QR
+$CMXEN01					;	    Enable MaxiCode
+$CP4EN01					;	    Enable PDF417
+$CMIEN01					;	    Enable Micro PDF417
+$CCSEN01					;	    Enable Chinese Sensible Code
+$AS               				; 	Commit Interface Class to factory
+;
+;------<USB-KBD>------
+$M35              				;	Load Master defaults and set to USBKBD
+$CLEEN01                    ;       Enable ULE
+$CIDCO01					;		Enable label ID as prefix
+$C4BEN01					;     	Enable Databar 14
+$CLBEN01					;     	Enable Databar Limited
+$CXBEN01					;     	Enable Databar Expanded
+$C4B2D01					;		Enable Databar 14 Composite
+$CLB2D01					;		Enable Databar Limited Composite
+$CXB2D01					; 		Enable Databar Expanded Composte
+$CU82D01					;		Enables GS1/EAN 128 Composite 
+$CEB2D01					;		Enable UPCE Composite 
+$CAB2D01					;		Enable UPCA Composite
+$C8B2D01					;		Enable EAN/JAN 8 Composite 
+$C3B2D01					;		Enable EAN/JAN 13 Composite 
+$CAZEN01					;	    Enable Aztec
+$CDMEN01					;	    Enable Datamatrix
+$CQREN01					;	    Enable QR Code
+$CMQEN01					; 	    Enable Micro QR
+$CMXEN01					;	    Enable MaxiCode
+$CP4EN01					;	    Enable PDF417
+$CMIEN01					;	    Enable Micro PDF417
+$CCSEN01					;	    Enable Chinese Sensible Code
+$AS              				; 	Commit Interface Class to factory
+;
+;------<USB-KBD-ALT>--------
+$M2B              				;	Load Master defaults and set to USBKBD-ALT
+$CLEEN01                    ;       Enable ULE
+$CIDCO01					;		Enable label ID as prefix
+$C4BEN01					;     	Enable Databar 14
+$CLBEN01					;     	Enable Databar Limited
+$CXBEN01					;     	Enable Databar Expanded
+$C4B2D01					;		Enable Databar 14 Composite
+$CLB2D01					;		Enable Databar Limited Composite
+$CXB2D01					; 		Enable Databar Expanded Composte
+$CU82D01					;		Enables GS1/EAN 128 Composite 
+$CEB2D01					;		Enable UPCE Composite 
+$CAB2D01					;		Enable UPCA Composite
+$C8B2D01					;		Enable EAN/JAN 8 Composite 
+$C3B2D01					;		Enable EAN/JAN 13 Composite 
+$CAZEN01					;	    Enable Aztec
+$CDMEN01					;	    Enable Datamatrix
+$CQREN01					;	    Enable QR Code
+$CMQEN01					; 	    Enable Micro QR
+$CMXEN01					;	    Enable MaxiCode
+$CP4EN01					;	    Enable PDF417
+$CMIEN01					;	    Enable Micro PDF417
+$CCSEN01					;	    Enable Chinese Sensible Code
+$AS               				; 	Commit Interface Class to factory
+;
+;------<Set Default Host Interface>------
+$HA05						;     Set Interface = RS232-STD
+$HA47						;     Set Interface = USB COM
+;------< End >-----------------------

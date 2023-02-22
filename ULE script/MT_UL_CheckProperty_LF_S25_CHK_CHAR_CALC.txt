@@ -1,0 +1,31 @@
+#<Start the script>
+{
+
+	# <If Data Type = Standard 2 of 5: Start>
+	if (OUT1.DataType == "S2of5")
+	{
+
+	# Get Property of Standard 2 of 5 Check Character Calculation:
+	s2of5_cc = GetProperty(LF_S25_CHK_CHAR_CALC)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO S2OF5 CHECK CHAR CALCULATION – Label Data
+		if (s2of5_cc == 0)
+		{
+			# Data will displays with NO S2OF5 CHECK CHAR CALCULATION:
+			OUT1.Data = "NO S2OF5 CHECK CHAR CALCULATION - " + OUT1.Data + "\r\n"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# S2OF5 CHECK CHAR CALCULATION – Label Data
+		else if (s2of5_cc == 1)
+		{
+			# Data will displays: S2OF5 CHECK CHAR CALCULATION
+			OUT1.Data = "S2OF5 CHECK CHAR CALCULATION - " + OUT1.Data + "\r\n"
+		}
+	DoSLF(OUT1)
+	}
+	# <If Data Type = Standard 2 of 5: End>
+
+}
+#<End the script>

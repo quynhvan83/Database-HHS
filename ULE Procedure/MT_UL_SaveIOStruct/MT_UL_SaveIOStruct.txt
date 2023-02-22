@@ -1,0 +1,27 @@
+OpenFromDesktop Aladdin
+FocusAppWindow Aladdin - Developer Mode
+Run_ULE SaveIOStruct_Modify.ule
+ChangeToWindow Serviceport - 1 running window
+EnterSP
+Send $CLEEN01
+Send $CBTAB00
+Send $CC3SS00
+Send $CSNRM00
+Send $Ar
+Read Label 1_[CODE39] ABC
+Read Label 2_[CODE39] 123
+Read Label 2_[CODE39] 123
+Read Label 1_[CODE39] ABC
+Read Label 3_[CODE128]DEF
+Read Label 4_[CODE128]456
+Read Label 4_[CODE128]456
+Read Label 3_[CODE128]DEF
+Read Label 5_[CODE39] ABC
+Read Label 6_[CODE128]DEF
+Read Label 6_[CODE128]DEF
+Read Label 5_[CODE39] ABC
+Read Label 7_[UPCA] 123456789012
+Read Lable 8_[UPCE] 02345673
+Read Label 5_[CODE39] ABC
+Read Label 7_[UPCA] 123456789012
+Read Label 6_[CODE128]DEF

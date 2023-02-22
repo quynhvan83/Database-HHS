@@ -1,0 +1,31 @@
+#<Start the script>
+{
+
+	# <If Data Type = Interleaved 2 of 5: Start>
+	if (OUT1.DataType == "I2of5")
+	{
+
+	# Get Property of Interleaved 2 of 5 Check Character Calculation:
+	i2of5_cc = GetProperty(LF_I25_CHK_CHAR_CALC)
+
+		# If the scanner property = 0, the returned value will be:
+		# NO I2OF5 CHECK CHAR CALCULATION – Label Data
+		if (i2of5_cc == 0)
+		{
+			# Data will displays with NO I2OF5 CHECK CHAR CALCULATION:
+			OUT1.Data = "NO I2OF5 CHECK CHAR CALCULATION - " + OUT1.Data + "\r\n"
+		}
+
+		# If the scanner property = 1, the returned value will be:
+		# I2OF5 CHECK CHAR CALCULATION – Label Data
+		else if (i2of5_cc == 1)
+		{
+			# Data will displays: I2OF5 CHECK CHAR CALCULATION
+			OUT1.Data = "I2OF5 CHECK CHAR CALCULATION - " + OUT1.Data + "\r\n"
+		}
+	DoSLF(OUT1)
+	}
+	# <If Data Type = Interleaved 2 of 5: End>
+
+}
+#<End the script>
